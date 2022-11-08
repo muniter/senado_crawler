@@ -1,4 +1,27 @@
-import { Config, Estado, NumeroIdentificador } from "./senado";
+import { load, Cheerio, CheerioAPI, Element } from "cheerio";
+import { Config } from "./senado";
+
+const numeroIdentificadorRegex = /(?<numero>\d+)\/(?<year>\d+)?/
+
+type CElement = Cheerio<Element>
+type Comision = string;
+interface Estado {
+  estado: string,
+  anotacion?: string,
+}
+
+interface NumeroIdentificador { numero: number, year: number }
+export type ProyectoBasicData = {
+  comision: string;
+  estado: Estado;
+  titulo: string;
+  autores?: string[];
+  numeroSenado: NumeroIdentificador;
+  proyectosAcumulados: NumeroIdentificador[];
+  numeroCamara?: NumeroIdentificador;
+  fechaRadicado: Date;
+  url: string;
+};
 
 const meses = new Map<string, number>([
   ["enero", 1],
@@ -15,42 +38,27 @@ const meses = new Map<string, number>([
   ["diciembre", 12],
 ]);
 
-
-
-function getComision(comision: string) {
-  return comision.trim()
-}
-
-function getEstado(estado: string) {
-  return estado.trim()
-}
-
-function getEstadoAnotaciones(anotacion: string) {
-  return anotacion.trim()
-}
-
-function getTitulo(raw: string) {
-  let result: string = raw.trim().replace(/^("|')/, "").replace(/("|')$/, "")
-  return result
-}
-
-function getFechaRadicado(raw: string): Date {
-  // It's found in this format F Radicado: {fecha} |
-  const match = raw.match(/F Radicado: (?<fecha>\d.*?\d) \|/)
-  if (match && match.groups?.fecha) {
-    let fecha: Date
-    const fullFecha = match.groups.fecha.trim()
-    const [day, month, year] = fullFecha.split(" ")
-    const monthNumber = meses.get(month.toLowerCase())
-    if (monthNumber) {
-      fecha = new Date(parseInt(year), monthNumber, parseInt(day))
-      return fecha
-    }
+function parseTextualDate(raw: string): Date {
+  let fecha: Date
+  const [day, month, year] = raw.split(" ")
+  const monthNumber = meses.get(month.toLowerCase())
+  if (monthNumber) {
+    fecha = new Date(parseInt(year), monthNumber, parseInt(day))
+    return fecha
   }
-  throw new Error("No se pudo encontrar la fecha de radicado: " + raw)
+  throw new Error("No se pudo encontrar la fecha en el texto: " + raw)
 }
 
-function parseNumeroIdentificador(match: RegExpMatchArray, defaultYear?: number): NumeroIdentificador {
+function getFechaRadicado($: CheerioAPI, cell: CElement): Date {
+  // First bold iside the first div
+  const textDate = $(cell).find('div > b').eq(0).text().trim()
+  return parseTextualDate(textDate)
+}
+
+function parseNumeroIdentificador(match: RegExpMatchArray | null, defaultYear?: number): NumeroIdentificador {
+  if (match === null) {
+    throw new Error("No se pudo encontrar el numero de identificador")
+  }
   if (match.groups) {
     if (!match.groups.numero) {
       throw new Error("No se encontró el número del número identificador")
@@ -65,91 +73,141 @@ function parseNumeroIdentificador(match: RegExpMatchArray, defaultYear?: number)
   throw new Error("No se encontró el número identificador")
 }
 
-function getNumeroSenado(raw: string): { numero: NumeroIdentificador, acumulados: NumeroIdentificador[] } {
-  let numero: NumeroIdentificador
-  let acumulados: NumeroIdentificador[] = []
-  const numIdRegex = /(?<numero>\d+)\/(?<year>\d+)?/
-  // It's found in this format Senado: {numero} |
-  const match = raw.match(/Senado: (?<contenido>.*?) \|/)
-  if (match && match.groups?.contenido) {
-    let contenido = match.groups.contenido.trim().toLowerCase()
-    let res = contenido.match(numIdRegex)
-    // The first match is always the main one
-    if (!res) {
-      throw new Error("No se encontró el número de senado" + raw)
-    }
-    numero = parseNumeroIdentificador(res)
-    if (contenido.includes("acu")) {
-      // Subsrting the rest
-      contenido = contenido.substring(res.index! + res[0].length)
-      // Find the rest of the numbers
-      const rest = contenido.matchAll(new RegExp(numIdRegex, "g"))
-      for (const match of rest) {
-        try {
-          acumulados.push(parseNumeroIdentificador(match, numero.year))
-        } catch (e: any) {
-          // Add the fact the error was parsing the acumulados
-          throw new Error(`Error al parsear los acumulados match: (${match.groups}): ` + e.message)
-        }
+/**
+* @description Parsea el número de senado, y los proyectos acumulados
+*/
+function getNumSenado($: CheerioAPI, cell: CElement): { numero: NumeroIdentificador, acumulados: NumeroIdentificador[] } {
+  // El contenido
+  const raw = $(cell).find('div > b').eq(1).text().trim().toLowerCase()
+  // Primero se extrae el número identificador del proyecto
+  const numeroMatch = raw.match(numeroIdentificadorRegex)
+  const numeroSenado = parseNumeroIdentificador(numeroMatch)
+
+  // TODO; La lógica de la acumulación de los proyectos no es clara.
+  // Es decir el proyecto acumula, o es acumulado.
+  // Podría implementarse una heuristica como:
+  // Si se encuentra más de un acumulado, la lógica diría que es acumulador
+  // Si se encuentra la palabra acumulado se entiente que el fue acumulado
+  // Lo mejor sería quizás decir que los proyectos son relacionados.
+
+
+  // Luego se procede a extraer los acumulados si existen
+  const acumulados: NumeroIdentificador[] = []
+  if (numeroMatch && numeroMatch.index && raw.includes("acum")) {
+    let substring = raw.substring(numeroMatch.index + numeroMatch.reduce((acc, val) => acc + val.length, 0))
+    const rest = substring.matchAll(new RegExp(numeroIdentificadorRegex, "g"))
+    for (const match of rest) {
+      try {
+        acumulados.push(parseNumeroIdentificador(match, numeroSenado.year))
+      } catch (e: any) {
+        // Add the fact the error was parsing the acumulados
+        throw new Error(`Error al parsear los acumulados match: (${match.groups}): ` + e.message)
       }
     }
-    return { numero, acumulados }
   }
-  throw new Error("No se encontró el número de senado" + raw)
+  return { numero: numeroSenado, acumulados }
 }
 
-function getNumeroCamara(raw: string) {
+function getNumeroCamara($: CheerioAPI, cell: CElement): NumeroIdentificador | undefined {
   // It's found in this format Cámara: {numero} |
-  const match = raw.match(/C(á|a)mara: (?<numero>\d+\\\d+) \|/)
+  const raw = $(cell).find('div .small > b').eq(2).text().trim().toLowerCase()
+  const match = raw.match(numeroIdentificadorRegex)
   if (match) {
     return parseNumeroIdentificador(match)
   }
 }
 
-function getAutores(raw: string) {
+function getAutores($: CheerioAPI, cell: CElement): string[] | undefined {
   // It's found in this format Autores: {autores} |
-  const match = raw.match(/Autores: (?<autores>.*)/)
-  if (match && match.groups?.autores) {
-    let autores = match.groups.autores.trim().replace(/("|')/g, "").replace(/\n/g, "").split(",")
-    autores = autores.map((autor) => autor.trim())
-    return autores
-  }
+  const raw = $(cell).find('p > b').first().text().trim()
+  let autores = raw.replace(/("|')/g, "").replace(/\n/g, "").split(",")
+  autores = autores.map((autor) => autor.trim())
+  return autores
 }
 
-export function processComision(raw: string): string {
-  console.log("Processing comision: " + raw)
-  const comision = getComision(raw)
+function getTitulo($: CheerioAPI, cell: CElement): string {
+  const text = $(cell).find("h3 > a").first().text()
+  // Remove trailing and leading spaces and quotes
+  return text.replace("\n", "").replace(/^\s+['"]?/, "").replace(/['"]?\s+$/, "").replace(/\s\s+/, " ")
+}
+
+const getUrl = ($: CheerioAPI, cell: CElement): string => {
+  // h3 that has an a with an href
+  const url = $(cell).find("h3 > a").attr("href")
+  if (!url) {
+    throw new Error("No se encontró la url del proyecto")
+  }
+  return Config.URLS.baseURL + url
+}
+
+function processComisionCell($: CheerioAPI, table: CElement): Comision {
+  const comision = $(table).find("td").eq(0).text().trim()
+  if (comision == "-") {
+    return "NO ASIGNADA"
+  }
   return comision
 }
 
-export function processTitle(header: string, raw: string) {
-  const titulo = getTitulo(header)
-  const fechaRadicado = getFechaRadicado(raw)
-  const numeroSenado = getNumeroSenado(raw)
-  const numeroCamara = getNumeroCamara(raw)
-  const autores = getAutores(raw)
-
-  return {
-    titulo,
-    autores,
-    fechaRadicado,
-    numeroSenado: numeroSenado.numero,
-    proyectosAcumulados: numeroSenado.acumulados,
-    numeroCamara,
-  }
-}
-
-export function processEstado(estado: string, anotacion?: string): Estado {
-  estado = getEstado(estado)
-  if (anotacion && anotacion !== "") {
-    anotacion = getEstadoAnotaciones(anotacion)
-  }
+function processEstadoCell($: CheerioAPI, table: CElement): Estado {
+  const cell = $(table).find("td").eq(1)
+  // Get only the text of the partent (the state is there), the annotation is
+  // in a <p></p> tag inside the cell
+  const estado = cell.clone().children().remove().end().text().replace("\n", "").trim()
+  const anotacion = cell.find("p").text().replace("\n", "").trim()
   return { estado, anotacion }
 }
 
-export function processPagina(raw?: string) {
-  if (!raw) {
-    throw new Error("No se encontró el link")
+function proccessTitleCell($: CheerioAPI, table: CElement) {
+  const cell = $(table).find("td").eq(2)
+  const titulo = getTitulo($, cell)
+  const url = getUrl($, cell)
+  const fechaRadicado = getFechaRadicado($, cell)
+  const datosNumeroSenado = getNumSenado($, cell)
+  const numeroCamara = getNumeroCamara($, cell)
+  const autores = getAutores($, cell)
+  return {
+    titulo,
+    url,
+    autores,
+    numeroSenado: datosNumeroSenado.numero,
+    proyectosAcumulados: datosNumeroSenado.acumulados,
+    numeroCamara,
+    fechaRadicado,
   }
-  return Config.URLS.baseURL + raw
+}
+
+
+export function processRow($: CheerioAPI, table: CElement): ProyectoBasicData {
+  const comision = processComisionCell($, table)
+  const estado = processEstadoCell($, table)
+  const titleExtractedData = proccessTitleCell($, table)
+  return {
+    comision,
+    estado,
+    ...titleExtractedData,
+  }
+}
+
+export function processSenadoList(raw: string): ProyectoBasicData[] {
+  const $ = load(raw)
+  const result: ProyectoBasicData[] = []
+  const tables = $("table");
+  for (let i = 0; i < tables.length; i++) {
+    const el = tables.eq(i)
+    if (!isValidRow($, el)) {
+      continue
+    }
+    try {
+      result.push(processRow($, el))
+    } catch (e: any) {
+      console.error(`Error al procesar la fila ${i}: ${e.message}`)
+      throw e
+    }
+  }
+  return result
+}
+
+function isValidRow($: CheerioAPI, table: CElement) {
+  // TODO: This heuristic could be improved
+  return $(table).find("td").length === 3 && $(table).find(".even, .odd").length === 1;
 }

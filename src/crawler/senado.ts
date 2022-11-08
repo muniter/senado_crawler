@@ -1,7 +1,5 @@
 import { Axios } from "axios";
-import * as cheerio from "cheerio";
-import { Element } from "cheerio";
-import { processComision, processEstado, processPagina, processTitle } from "./formatters";
+import { processSenadoList, ProyectoBasicData } from "./formatters";
 
 
 export const Config = {
@@ -23,24 +21,6 @@ const Senado = new Axios({
 });
 
 type CuaternioKey = keyof typeof Config.Proyectos.cuaternios;
-
-export interface NumeroIdentificador { numero: number, year: number }
-export interface Estado {
-  estado: string,
-  anotacion?: string,
-}
-
-type ProyectoBasicData = {
-  comision: string;
-  estado: Estado;
-  titulo: string;
-  autores?: string[];
-  numeroSenado: NumeroIdentificador;
-  proyectosAcumulados: NumeroIdentificador[];
-  numeroCamara?: NumeroIdentificador;
-  fechaRadicado: Date;
-  pagina: string;
-};
 
 interface PeriodoUrl { periodo: string, url: string }
 function cuaternioURLs({ start, end, subperiodos, }: {
@@ -75,39 +55,8 @@ async function getPeriodoData(cuaternio: CuaternioKey, periodo: string) {
 
 async function getPeriodoProyects(cuaternio: CuaternioKey, periodo: string): Promise<ProyectoBasicData[]> {
   // Get the url data
-  const $ = cheerio.load(await getPeriodoData(cuaternio, periodo));
-  function isProyectRow(_index: number, table: Element) {
-    // TODO: This heuristic could be improved
-    return $(table).find("td").length === 3 && $(table).find(".even, .odd").length === 1;
-  }
-
-  // Each table is a row of data
-  const tables = $("table").filter(isProyectRow);
-  console.log("Proyect number: ", tables.length);
-
-  function processProyect(table: Element) {
-    const columns = $(table).find('td');
-    if (columns.length !== 3) {
-      throw new Error("Columns length is not 3, it is " + columns.length);
-    }
-    try {
-      // The text on the element without children is the state
-      const estado = columns.eq(1);
-      const title = columns.eq(2);
-      const header = title.find("h3").text();
-      const pagina = title.find("a").attr("href");
-      return {
-        comision: processComision(columns.eq(0).text()),
-        estado: processEstado(estado.contents().not(estado.children()).text(), estado.find("p").text()),
-        pagina: processPagina(pagina),
-        ...processTitle(header, columns.eq(2).text()),
-      }
-    } catch (error) {
-      console.error(error);
-      throw error;
-    }
-  }
-  return tables.map((_, table) => processProyect(table)).toArray();
+  const rawData = await getPeriodoData(cuaternio, periodo);
+  return processSenadoList(rawData);
 }
 
 export async function getAPeriod() {
@@ -119,5 +68,3 @@ export async function getAPeriod() {
     })
   })
 }
-
-getAPeriod();
