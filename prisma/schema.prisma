@@ -1,0 +1,85 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Cuaternio {
+  id           Int           @id @default(autoincrement())
+  inicio       Int
+  fin          Int
+  title        String
+  legislaturas Legislatura[]
+
+  @@unique([inicio, fin])
+  @@unique([title])
+  @@index([inicio, fin])
+}
+
+model Legislatura {
+  id          Int              @id @default(autoincrement())
+  inicio      Int
+  fin         Int
+  title       String
+  cuaternio   Cuaternio        @relation(fields: [cuaternioId], references: [id])
+  cuaternioId Int
+  proyectos   ProyectoSenado[]
+
+  @@unique([inicio, fin])
+  @@unique([title])
+  @@index([inicio, fin])
+}
+
+model ProyectoSenado {
+  id            Int                     @id @default(autoincrement())
+  numero        String
+  titulo        String
+  comision      Comision                @relation(fields: [comisionId], references: [id])
+  comisionId    Int
+  estado        String
+  fechaRadicado DateTime
+  legislatura   Legislatura             @relation(fields: [legislaturaId], references: [id])
+  legislaturaId Int
+  detalles      ProyectoSenadoDetalles?
+  relacionados  ProyectosRelacionados[] @relation("Relacionados")
+
+  @@unique([numero])
+  @@unique([comisionId])
+  @@index([numero])
+  @@index([comisionId])
+  @@index([estado])
+}
+
+model ProyectoSenadoDetalles {
+  id         Int            @id
+  proyectoId Int
+  proyecto   ProyectoSenado @relation(fields: [proyectoId], references: [id])
+  pagina     String
+  autor      String
+
+  @@unique([proyectoId])
+}
+
+model ProyectosRelacionados {
+  id            Int            @id @default(autoincrement())
+  proyectoId    Int
+  proyecto      ProyectoSenado @relation(name: "Relacionados", fields: [proyectoId], references: [id])
+  relacionadoId Int
+
+  @@unique([proyectoId, relacionadoId])
+}
+
+model Comision {
+  id        Int              @id @default(autoincrement())
+  nombre    String
+  proyectos ProyectoSenado[]
+
+  @@unique([nombre])
+  @@index([nombre])
+}
