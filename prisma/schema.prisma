@@ -10,7 +10,7 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Cuaternio {
+model Cuatrenio {
   id           Int           @id @default(autoincrement())
   inicio       Int
   fin          Int
@@ -19,6 +19,7 @@ model Cuaternio {
 
   @@unique([inicio, fin])
   @@unique([title])
+  @@index([title])
   @@index([inicio, fin])
 }
 
@@ -27,52 +28,62 @@ model Legislatura {
   inicio      Int
   fin         Int
   title       String
-  cuaternio   Cuaternio        @relation(fields: [cuaternioId], references: [id])
-  cuaternioId Int
+  cuatrenio   Cuatrenio        @relation(fields: [cuatrenioId], references: [id])
+  cuatrenioId Int
   proyectos   ProyectoSenado[]
 
   @@unique([inicio, fin])
   @@unique([title])
   @@index([inicio, fin])
+  @@index([title])
 }
 
 model ProyectoSenado {
-  id            Int                     @id @default(autoincrement())
-  numero        String
-  titulo        String
-  comision      Comision                @relation(fields: [comisionId], references: [id])
-  comisionId    Int
-  estado        String
-  fechaRadicado DateTime
-  legislatura   Legislatura             @relation(fields: [legislaturaId], references: [id])
-  legislaturaId Int
-  detalles      ProyectoSenadoDetalles?
-  relacionados  ProyectosRelacionados[] @relation("Relacionados")
+  id              Int                     @id @default(autoincrement())
+  numero          String
+  titulo          String
+  comision        Comision                @relation(fields: [comisionId], references: [id])
+  comisionId      Int
+  estado          String?
+  estadoAnotacion String?
+  fechaRadicado   DateTime
+  legislatura     Legislatura             @relation(fields: [legislaturaId], references: [id])
+  legislaturaId   Int
+  url             String
+  detalles        ProyectoSenadoDetalles?
+  relacionados    ProyectosRelacionados[] @relation("Relacionados")
+  autores         AutorProyectos[]
+  ponentes        PonenteDebate[]
 
   @@unique([numero])
-  @@unique([comisionId])
   @@index([numero])
   @@index([comisionId])
   @@index([estado])
 }
 
 model ProyectoSenadoDetalles {
-  id         Int            @id
-  proyectoId Int
-  proyecto   ProyectoSenado @relation(fields: [proyectoId], references: [id])
-  pagina     String
-  autor      String
+  id                      Int             @id @default(autoincrement())
+  proyectoId              Int
+  proyecto                ProyectoSenado  @relation(fields: [proyectoId], references: [id])
+  origen                  String?
+  tipoLey                 String?
+  // TODO: Cambiar a tipo de dato Date
+  fechaEnvioComision      String?
+  ponentes                PonenteDebate[]
+  aprobacionPrimerDebate  DateTime?
+  aprobacionSegundoDebate DateTime?
+  conciliacion            DateTime?
 
   @@unique([proyectoId])
 }
 
 model ProyectosRelacionados {
-  id            Int            @id @default(autoincrement())
-  proyectoId    Int
-  proyecto      ProyectoSenado @relation(name: "Relacionados", fields: [proyectoId], references: [id])
-  relacionadoId Int
+  id                Int            @id @default(autoincrement())
+  proyectoId        Int
+  proyecto          ProyectoSenado @relation(name: "Relacionados", fields: [proyectoId], references: [id])
+  relacionadoNumero String
 
-  @@unique([proyectoId, relacionadoId])
+  @@unique([proyectoId, relacionadoNumero])
 }
 
 model Comision {
@@ -82,4 +93,36 @@ model Comision {
 
   @@unique([nombre])
   @@index([nombre])
+}
+
+model Autor {
+  id            Int              @id @default(autoincrement())
+  nombre        String
+  proyectos     AutorProyectos[]
+  PonenteDebate PonenteDebate[]
+
+  @@unique([nombre])
+}
+
+model AutorProyectos {
+  id         Int            @id @default(autoincrement())
+  autorId    Int
+  autor      Autor          @relation(fields: [autorId], references: [id])
+  proyectoId Int
+  proyecto   ProyectoSenado @relation(fields: [proyectoId], references: [id])
+
+  @@unique([autorId, proyectoId])
+}
+
+model PonenteDebate {
+  id                       Int                     @id @default(autoincrement())
+  autorId                  Int
+  autor                    Autor                   @relation(fields: [autorId], references: [id])
+  proyectoId               Int
+  proyecto                 ProyectoSenado          @relation(fields: [proyectoId], references: [id])
+  debate                   Int
+  ProyectoSenadoDetalles   ProyectoSenadoDetalles? @relation(fields: [proyectoSenadoDetallesId], references: [id])
+  proyectoSenadoDetallesId Int?
+
+  @@unique([autorId, proyectoId, debate])
 }

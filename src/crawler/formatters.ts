@@ -18,13 +18,25 @@ export type ProyectoBasicData = {
   comision: string;
   estado: Estado;
   titulo: string;
-  autores?: string[];
+  autores: string[];
   numeroSenado: NumeroIdentificador;
   proyectosAcumulados: NumeroIdentificador[];
   numeroCamara?: NumeroIdentificador;
   fechaRadicado: Date;
   url: string;
 };
+
+export type ProyectoDetailData = {
+  origen: string;
+  tipoLey: string;
+  fechaEnvioComision: string;
+  ponentes: {
+    debate: number;
+    ponente: string;
+  }[];
+  conciliadores: string[];
+}
+
 
 const meses = new Map<string, number>([
   ["enero", 1],
@@ -135,14 +147,20 @@ function getNumeroCamara(
   }
 }
 
-function getAutores($: CheerioAPI, cell: CElement): string[] | undefined {
+function getAutores($: CheerioAPI, cell: CElement): string[] {
   // It's found in this format Autores: {autores} |
   const raw = $(cell).find("p > b").first().text().trim();
+  return processListOfPersons(raw);
+}
+
+function processListOfPersons(raw: string): string[] {
   let autores = raw.replace(/("|')/g, "").split(/,|;|\n/);
   autores = autores
     .map((autor) => autor.trim())
-    .filter((autor) => autor.match(/\w{5,}/));
-  return autores;
+    .filter((autor) => autor.match(/\w{5,}/))
+
+  const unique = new Set(autores);
+  return [...unique];
 }
 
 function getTitulo($: CheerioAPI, cell: CElement): string {
@@ -233,7 +251,7 @@ export function processSenadoList(raw: string): ProyectoBasicData[] {
       result.push(processRow($, el));
     } catch (e: any) {
       console.error(`Error al procesar la fila ${i}: ${e.message}`);
-      throw e;
+      console.debug(`Failed processing row data: ${el.html()}`);
     }
   }
   return result;
@@ -245,4 +263,46 @@ function isValidRow($: CheerioAPI, table: CElement) {
     $(table).find("td").length === 3 &&
     $(table).find(".even, .odd").length === 1
   );
+}
+
+export function processSenadoDetail(raw: string) {
+  const $ = load(raw);
+  return {
+    origen: getOrigen($),
+    tipoLey: getTipoDeLey($),
+    fechaEnvioComision: getFechaEnvioComision($),
+    ponentes: [...getPonentesPrimerDebate($), ...getPonentesSegundoDebate($)],
+    conciliadores: getConciliadoresSenado($),
+  }
+}
+
+export function getOrigen($: CheerioAPI): string {
+  // TODO; Se puede dejar el origen solo en dos, cuales son los valores posibles?
+  const raw = $("td:contains('Origen:')").next('td').text().trim();
+  return raw;
+}
+
+export function getTipoDeLey($: CheerioAPI): string {
+  const raw = $("td:contains('Tipo de Ley:')").next('td').text().trim();
+  return raw;
+}
+
+export function getFechaEnvioComision($: CheerioAPI): string {
+  const raw = $("td:contains('Fecha de Envio a Comisión:')").next('td').text().trim();
+  return raw;
+}
+
+export function getPonentesPrimerDebate($: CheerioAPI) {
+  const raw = $("td:contains('Ponente Primer Debate:')").next('td').text().trim();
+  return processListOfPersons(raw).map((p) => ({ debate: 1, ponente: p }));
+}
+
+export function getPonentesSegundoDebate($: CheerioAPI) {
+  const raw = $("td:contains('Ponente Segundo Debate:')").next('td').text().trim();
+  return processListOfPersons(raw).map((p) => ({ debate: 2, ponente: p }));
+}
+
+export function getConciliadoresSenado($: CheerioAPI) {
+  const raw = $("td:contains('Conciliador senado:')").next('td').text().trim();
+  return processListOfPersons(raw);
 }
