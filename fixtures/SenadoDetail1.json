@@ -1,0 +1,28 @@
+{
+  "numero": {
+    "numero": 290,
+    "year": 19
+  },
+  "numeroCamara": {
+    "numero": 93,
+    "year": 18
+  },
+  "comision": "SEGUNDA",
+  "origen": "CÁMARA DE REPRESENTANTES",
+  "tipoLey": "ORDINARIA",
+  "ponentes": [
+    {
+      "debate": "primer",
+      "ponente": "H.S. FELICIANO VALENCIA MEDINA"
+    }
+  ],
+  "conciliadores": [],
+  "fechaEnvioComision": "2019-06-27T05:00:00.000Z",
+  "fechaPresentacion": "2018-08-16T05:00:00.000Z",
+  "fechaAprobacionPrimerDebate": "2020-06-09T05:00:00.000Z",
+  "publicaciones": {
+    "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2019/gaceta_1176.pdf",
+    "conciliacion": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2019/gaceta_1176.pdf",
+    "textoRehecho": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2019/gaceta_1176.pdf"
+  }
+}

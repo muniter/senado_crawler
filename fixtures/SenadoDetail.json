@@ -1,0 +1,71 @@
+{
+  "numero": {
+    "numero": 510,
+    "year": 21
+  },
+  "numeroCamara": {
+    "numero": 440,
+    "year": 20
+  },
+  "comision": "QUINTA",
+  "origen": "CÁMARA DE REPRESENTANTES",
+  "tipoLey": "ORDINARIA",
+  "ponentes": [
+    {
+      "debate": "primer",
+      "ponente": "HS. DAIRA DE JESÚS GALVIS MÉNDEZ (COORDINADORA)"
+    },
+    {
+      "debate": "primer",
+      "ponente": "SANDRA LILIANA ORTIZ NOVA"
+    },
+    {
+      "debate": "primer",
+      "ponente": "NORA MARÍA GARCÍA BURGOS"
+    },
+    {
+      "debate": "primer",
+      "ponente": "MARITZA MARTÍNEZ ARISTIZÁBAL Y JOSÉ OBDULIO"
+    },
+    {
+      "debate": "primer",
+      "ponente": "GAVIRIA VÉLEZ"
+    },
+    {
+      "debate": "segundo",
+      "ponente": "HS. DAIRA DE JESÚS GALVIS MÉNDEZ (COORDINADORA)"
+    },
+    {
+      "debate": "segundo",
+      "ponente": "SANDRA LILIANA ORTIZ NOVA"
+    },
+    {
+      "debate": "segundo",
+      "ponente": "NORA MARÍA GARCÍA BURGOS"
+    },
+    {
+      "debate": "segundo",
+      "ponente": "MARITZA MARTÍNEZ ARISTIZÁBAL Y JOSÉ OBDULIO"
+    },
+    {
+      "debate": "segundo",
+      "ponente": "GAVIRIA VÉLEZ"
+    }
+  ],
+  "conciliadores": [
+    "HS. DAIRA DE JESÚS GALVIS MÉNDEZ",
+    "SANDRA LILIANA ORTIZ NOVA"
+  ],
+  "fechaPresentacion": "2020-10-07T05:00:00.000Z",
+  "fechaAprobacionPrimerDebate": "2021-11-25T05:00:00.000Z",
+  "fechaAprobacionSegundoDebate": "2021-12-15T05:00:00.000Z",
+  "fechaConciliacion": "2021-12-16T05:00:00.000Z",
+  "publicaciones": {
+    "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2021/gaceta_1274.pdf",
+    "segundaPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2021/gaceta_1765.pdf",
+    "conciliacion": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2021/gaceta_1274.pdf",
+    "objeciones": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2021/gaceta_1765.pdf",
+    "textoRehecho": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2021/gaceta_1274.pdf",
+    "sentenciaCorte": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2021/gaceta_1765.pdf"
+  }
+}

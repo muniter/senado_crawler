@@ -1,8 +1,141 @@
 [
   {
-    "comision": "NO ASIGNADA",
+    "comision": "SEXTA",
     "estado": {
       "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+      "anotacion": ""
+    },
+    "titulo": "POR MEDIO DEL CUAL SE FORTALECEN LAS ESTACIONES DE PEAJES EN SU OPERACIÓN, TARIFAS Y SE IMPARTEN OTRAS DIRECTRICES",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/264-por-medio-del-cual-se-fortalecen-las-estaciones-de-peajes-en-su-operacion-tarifas-y-se-imparten-otras-directrices",
+    "autores": ["Honorable Senador: ANTONIO JOSE CORREA JIMENEZ"],
+    "numeroSenado": {
+      "numero": 249,
+      "year": 22
+    },
+    "proyectosAcumulados": [],
+    "fechaRadicado": "2022-12-23T05:00:00.000Z"
+  },
+  {
+    "comision": "QUINTA",
+    "estado": {
+      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+      "anotacion": ""
+    },
+    "titulo": "POR MEDIO DE LA CUAL SE PROMUEVE LA GANADERÍA SOSTENIBLE EN COLOMBIA Y SE DICTAN OTRAS DISPOSICIONES",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/263-por-medio-de-la-cual-se-promueve-la-ganaderia-sostenible-en-colombia-y-se-dictan-otras-disposiciones",
+    "autores": [
+      "Honorables Senadores: MIGUEL ANGEL BARRETO CASTILLO",
+      "JOSE ALFREDO MARIN",
+      "NICOLAS ALBEIRO ECHEVERRY ALBARAN",
+      "LILIANA ESTHER BITAR",
+      "CARLOS ANDRES TRUJILLO",
+      "OSCAR MAURICIO GIRALDO",
+      "JUAN CARLOS GARCIA GOMEZ",
+      "y otras firmas no legibles.",
+      "Honorables Representantes:",
+      "HECTOR MAURICIO CUELLAR PINZON",
+      "JULIO ROBERTO SALAZAR",
+      "NICOLAS ANTONIO BARGUIL"
+    ],
+    "numeroSenado": {
+      "numero": 248,
+      "year": 22
+    },
+    "proyectosAcumulados": [],
+    "fechaRadicado": "2022-12-23T05:00:00.000Z"
+  },
+  {
+    "comision": "SEPTIMA",
+    "estado": {
+      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "anotacion": ""
+    },
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA LA LEY 1821 DE 2016, EN RELACIÓN CON LA EDAD DE RETIRO DE LOS ALTOS FUNCIONARIOS DEL ESTADO",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/262-por-medio-del-cual-se-modifica-la-ley-1821-de-2016-en-relacion-con-la-edad-de-retiro-de-los-altos-funcionarios-del-estado",
+    "autores": [
+      "Honorables Senadores ROY LEONARDO BARRERAS MONTEALEGRE",
+      "JULIAN GALLO CUBILLOS."
+    ],
+    "numeroSenado": {
+      "numero": 247,
+      "year": 22
+    },
+    "proyectosAcumulados": [],
+    "fechaRadicado": "2022-12-16T05:00:00.000Z"
+  },
+  {
+    "comision": "TERCERA",
+    "estado": {
+      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+      "anotacion": ""
+    },
+    "titulo": "POR MEDIO DE LA CUAL SE ESTABLECE AMNISTÍA DE INTERESES Y ALIVIOS ECONÓMICOS A LOS DEUDORES DEL INSTITUTO COLOMBIANO DE CRÉDITO EDUCATIVO Y ESTUDIOS TÉCNICOS EN EL EXTERIOR \"MARIANO OSPINA PÉREZ\" ICETEX, Y SE POSIBILITA LA SUSCRIPCIÓN DE ACUERDOS DE PAGOS Y SE DICTAN OTRAS DISPOSICIONES SOBRE LOS FONDOS PROPIOS DE LAS ENTIDADES NACIONALES Y TERRITORIALES DE NATURALEZA PÚBLICA",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/261-por-medio-de-la-cual-se-establece-amnistia-de-intereses-y-alivios-economicos-a-los-deudores-del-instituto-colombiano-de-credito-educativo-y-estudios-tecnicos-en-el-exterior-mariano-ospina-perez-icetex-y-se-posibilita-la-suscripcion-de-acuerdos-de-pagos-y-se-dictan-otras-disposiciones-sobre-los-fondos-propios-de-las-entidades-nacionales-y-territoriales-de-naturaleza-publica",
+    "autores": ["H.S JOSE ALIRIO BARRERA RODRIGUEZ"],
+    "numeroSenado": {
+      "numero": 246,
+      "year": 22
+    },
+    "proyectosAcumulados": [],
+    "fechaRadicado": "2022-12-15T05:00:00.000Z"
+  },
+  {
+    "comision": "TERCERA",
+    "estado": {
+      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+      "anotacion": ""
+    },
+    "titulo": "POR MEDIO DE LA CUAL SE GARANTIZAN LOS RECURSOS PARA LA INVERSIÓN, EL FUNCIONAMIENTO, EL MANTENIMIENTO, LA PROMOCIÓN, PLANIFICACIÓN Y FOMENTO DE PROGRAMAS, CICLOS DE FORMACIÓN, ORGANISMOS DEL SISTEMA NACIONAL DEL DEPORTE, ESCUELAS E INFRAESTRUCTURA DEPORTIVA DEL FUTBOL FEMENINO, SE MODIFICA LA LEY 2023 DE 2020 Y SE DICTAN OTRAS DISPOSICIONES",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/260-por-medio-de-la-cual-se-garantizan-los-recursos-para-la-inversion-el-funcionamiento-el-mantenimiento-la-promocion-planificacion-y-fomento-de-programas-ciclos-de-formacion-organismos-del-sistema-nacional-del-deporte-escuelas-e-infraestructura-deportiva-del-futbol-femenino-se-modifica-la-ley-2023-de-2020-y-se-dictan-otras-disposiciones",
+    "autores": [
+      "Honorables Senadores ROY LEONARDO BARRERAS MONTEALEGRE",
+      "MIGUEL ANGEL PINTO HERNANDEZ",
+      "MARÍA JOSÉ PIZARRO RODRÍGUEZ",
+      "CESAR AUGUSTO PACHÓN",
+      "NORMA HURTADO",
+      "CARLOS MEISEL VERGARA",
+      "CARLOS GUEVARA VILLABÓN",
+      "CLARA LOPEZ OBREGÓN",
+      "MANUEL VIRGUEZ",
+      "ENRIQUE CABRALES BAQUERO",
+      "HONORIO HENRIQUEZ PINEDO",
+      "IVAN CEPEDA CASTRO",
+      "LOREAN RIOS CUELLAR",
+      "GERMAN BLANCO ÁLVAREZ",
+      "MARCOS DANIEL PINEDA GARCÍA",
+      "ANA PAOLA AGUDELO",
+      "PEDRO FLOREZ PORRAS",
+      "LILIANA BENAVIDES SOLARTE",
+      "JAIME DURAN BARRERA",
+      "JOSÉ ALFREDO MARÍN LOZANO y otras firmas ilegibles."
+    ],
+    "numeroSenado": {
+      "numero": 245,
+      "year": 22
+    },
+    "proyectosAcumulados": [],
+    "fechaRadicado": "2022-12-15T05:00:00.000Z"
+  },
+  {
+    "comision": "SEGUNDA",
+    "estado": {
+      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "anotacion": ""
+    },
+    "titulo": "POR MEDIO DE LA CUAL LA NACIÓN Y EL CONGRESO DE LA REPÚBLICA RINDEN HOMENAJE Y SE VINCULAN A LA CELEBRACIÓN DE LOS 200 AÑOS DE FUNDACIÓN DEL MUNICIPIO DE SALAMINA, EN EL DEPARTAMENTO DE CALDAS Y SE DICTAN OTRAS DISPOSICIONES\":",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/259-por-medio-de-la-cual-la-nacion-y-el-congreso-de-la-republica-rinden-homenaje-y-se-vinculan-a-la-celebracion-de-los-200-anos-de-fundacion-del-municipio-de-salamina-en-el-departamento-de-caldas-y-se-dictan-otras-disposiciones",
+    "autores": [],
+    "numeroSenado": {
+      "numero": 244,
+      "year": 22
+    },
+    "proyectosAcumulados": [],
+    "fechaRadicado": "2022-12-15T05:00:00.000Z"
+  },
+  {
+    "comision": "SEPTIMA",
+    "estado": {
+      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE CREA UN MARCO LEGAL PARA EL DESARROLLO DE LAS POLÍTICAS DE REDUCCIÓN DE RIESGOS Y DAÑOS EN EL CONSUMO DE SUSTANCIAS PSICOACTIVAS LEGALES E ILEGALES Y SE DICTAN OTRAS DISPOSICIONES",
@@ -24,16 +157,14 @@
     "fechaRadicado": "2022-12-11T05:00:00.000Z"
   },
   {
-    "comision": "NO ASIGNADA",
+    "comision": "SEPTIMA",
     "estado": {
-      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
-      "anotacion": ""
+      "estado": "ARCHIVADO POR RETIRO DEL AUTOR",
+      "anotacion": "Noviembre 24 de 2022"
     },
     "titulo": "POR MEDIO DE LA CUAL SE REGULAN LOS PRODUCTOS DE TABACO CALENTADO, ADMINISTRACIÓN DE NICOTINA Y SIN NICOTINA Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/257-por-medio-de-la-cual-se-regulan-los-productos-de-tabaco-calentado-administracion-de-nicotina-y-sin-nicotina-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "Honorable Senador JORGE ENRIQUE BENEDETTI MARTELO."
-    ],
+    "autores": ["Honorable Senador JORGE ENRIQUE BENEDETTI MARTELO."],
     "numeroSenado": {
       "numero": 242,
       "year": 22
@@ -44,14 +175,12 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA EL CÓDIGO PENAL Y DE PROCEDIMIENTO PENAL, SE CREA EL CAPÍTULO “DE LA VIOLACIÓN A LA INTIMIDAD PERSONAL MEDIANTE EL USO DE LAS TECNOLOGÍAS DE LA INFORMACIÓN Y LAS COMUNICACIONES”, SE TIPIFICA EL DELITO DE VIOLENCIA DIGITAL DE GÉNERO Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/256-por-medio-de-la-cual-se-modifica-el-codigo-penal-y-de-procedimiento-penal-se-crea-el-capitulo-de-la-violacion-a-la-intimidad-personal-mediante-el-uso-de-las-tecnologias-de-la-informacion-y-las-comunicaciones-se-tipifica-el-delito-de-violencia-digital-de-genero-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "Honorable Senadora ANA MARÍA CASTAÑEDA GÓMEZ."
-    ],
+    "autores": ["Honorable Senadora ANA MARÍA CASTAÑEDA GÓMEZ."],
     "numeroSenado": {
       "numero": 241,
       "year": 22
@@ -132,7 +261,7 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE GARANTIZA, COMO · TRÁNSITO A LA UNIVERSALIDAD, EL ACCESO EFECTIVO A TODOS LOS ESTUDIANTES DE ESTRATO 1, 2 Y 3 A LA POLÍTICA DE ESTADO MATRÍCULA CERO, SE CREA UN AUXILIO DE TRANSPORTE Y ALIMENTACIÓN Y SE DICTAN OTRAS DISPOSICIONES",
@@ -157,7 +286,7 @@
   {
     "comision": "QUINTA",
     "estado": {
-      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE GARANTIZA LA SOBERANÍA Y AUTOSUFICIENCIA ENERGÉTICA DEL PAÍS, Y SE DICTAN OTRAS DISPOSICIONES",
@@ -190,7 +319,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE APRUEBA LA «CONVENCIÓN INTERAMERICANA CONTRA EL RACISMO, LA DISCRIMINACIÓN RACIAL Y FORMAS CONEXAS DE INTOLERANCIA», ADOPTADA EN LA ANTIGUA, GUATEMALA, EL 5 DE JUNIO DE 2013",
@@ -209,7 +338,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE APRUEBA LA «CONVENCIÓN INTERAMERICANA CONTRA TODA FORMA DE DISCRIMINACIÓN E INTOLERANCIA», ADOPTADA EN LA ANTIGUA, GUATEMALA, EL 5 DE JUNIO DE 2013 ",
@@ -254,9 +383,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICAN LOS ARTÍCULOS 297, 310 Y 449 DE LA LEY 906 DE 2004 “POR LA CUAL SE EXPIDE EL CÓDIGO DE PROCEDIMIENTO PENAL” Y SE ADOPTAN MEDIDAS PARA PROPENDER POR LA EFICACIA DE LA JUSTICIA EN MATERIA PENAL –JUSTICIA EFICAZ-",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/247-por-medio-de-la-cual-se-modifican-los-articulos-297-310-y-449-de-la-ley-906-de-2004-por-la-cual-se-expide-el-codigo-de-procedimiento-penal-y-se-adoptan-medidas-para-propender-por-la-eficacia-de-la-justicia-en-materia-penal-justicia-eficaz",
-    "autores": [
-      "Honorable Senador DAVID LUNA SÁNCHEZ."
-    ],
+    "autores": ["Honorable Senador DAVID LUNA SÁNCHEZ."],
     "numeroSenado": {
       "numero": 232,
       "year": 22
@@ -267,7 +394,7 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE GARANTIZA EL ACCESO AL SERVICIO PÚBLICO DOMICILIARIO ESENCIAL DE GAS NATURAL EN NUEVAS VIVIENDAS DE INTERÉS SOCIAL, VIS, Y VIVIENDAS DE INTERÉS PRIORITARIO, VIP",
@@ -303,7 +430,7 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR EL CUAL SE ESTABLECEN DISPOSICIONES PARA DAR CONTINUIDAD A LA FUNCIÓN PÚBLICA DE CONTROL FISCAL AL SISTEMA GENERAL DE REGALÍAS",
@@ -317,6 +444,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 212,
+      "year": 22
+    },
     "fechaRadicado": "2022-10-27T05:00:00.000Z"
   },
   {
@@ -342,7 +473,7 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR EL CUAL SE FORTALECE EL PROGRAMA DE ALIMENTACION ESCOLAR - PAE",
@@ -372,14 +503,12 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE INCREMENTA EL SUBSIDIO SOBRE EL CONSUMO BASICO DE SUBSISTENCIA DE LOS SERVICIOS PUBLICOS DOMICILIARIOS DE ENERGIA ELECTRICA Y GAS PARA ESTRATOS 1 Y 2 Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/242-por-medio-de-la-cual-se-incrementa-el-subsidio-sobre-el-consumo-basico-de-subsistencia-de-los-servicios-publicos-domiciliarios-de-energia-electrica-y-gas-para-estratos-1-y-2-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: MIGUEL ANGEL BARRETO CASTILLO"
-    ],
+    "autores": ["H.S: MIGUEL ANGEL BARRETO CASTILLO"],
     "numeroSenado": {
       "numero": 227,
       "year": 22
@@ -409,6 +538,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 117,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-22T05:00:00.000Z"
   },
   {
@@ -437,6 +570,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 29,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-20T05:00:00.000Z"
   },
   {
@@ -461,6 +598,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 46,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-02T05:00:00.000Z"
   },
   {
@@ -497,12 +638,16 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 64,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-20T05:00:00.000Z"
   },
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE CREA EL MINISTERIO DE IGUALDAD Y EQUIDAD Y SE DICTAN OTRAS DISPOSICIONES”-MENSAJE DE URGENCIA-",
@@ -559,12 +704,16 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 261,
+      "year": 22
+    },
     "fechaRadicado": "2022-11-18T05:00:00.000Z"
   },
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE DICTAN MEDIDAS PARA LA PREVENCIÓN Y SANCIÓN DE LOS ABUSOS EN LA ACTIVIDAD DE POLICÍA; Y EL USO DESPROPORCIONADO DE LA FUERZA EN CONTEXTOS DE MANIFESTACIONES PÚBLICAS",
@@ -584,7 +733,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL QUE SE ESTABLECE EL 12 DE OCTUBRE DE CADA AÑO COMO EL DÍA DE LA DIVERSIDAD ÉTNICA Y CULTURAL DE LA NACIÓN COLOMBIANA",
@@ -672,19 +821,21 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE MODIFICAN LAS LEYES 1801 DE 2016 Y 1672 DE 2013; Y SE DICTAN OTRAS DISPOSICIONES” O “LEY DE RECUPERACIÓN DE TECNOLOGÍA PARA LA NIÑEZ",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/232-por-medio-del-cual-se-modifican-las-leyes-1801-de-2016-y-1672-de-2013-y-se-dictan-otras-disposiciones-o-ley-de-recuperacion-de-tecnologia-para-la-ninez",
-    "autores": [
-      "H.R.RODRIGO ARTURO ROJAS LARA"
-    ],
+    "autores": ["H.R.RODRIGO ARTURO ROJAS LARA"],
     "numeroSenado": {
       "numero": 217,
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 438,
+      "year": 22
+    },
     "fechaRadicado": "2022-04-28T05:00:00.000Z"
   },
   {
@@ -695,14 +846,16 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE DECLARA A LOS JUEGOS TRADICIONALES DEL TROMPO, EL YO-YO Y LA COCA O BALERO COMO PATRIMONIO CULTURAL INMATERIAL DE LA NACIÓN",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/231-por-medio-del-cual-se-declara-a-los-juegos-tradicionales-del-trompo-el-yo-yo-y-la-coca-o-balero-como-patrimonio-cultural-inmaterial-de-la-nacion",
-    "autores": [
-      "H.R.WILMER LEAL PÉREZ"
-    ],
+    "autores": ["H.R.WILMER LEAL PÉREZ"],
     "numeroSenado": {
       "numero": 216,
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 419,
+      "year": 21
+    },
     "fechaRadicado": "2022-01-15T05:00:00.000Z"
   },
   {
@@ -729,6 +882,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 38,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-20T05:00:00.000Z"
   },
   {
@@ -769,9 +926,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE ESTABLECE QUE LA REGIONAL DE LA AEROCIVIL CON JURISDICCIÓN ADMINISTRATIVA DE LOS AEROPUERTOS DE LA REGIÓN ADMINISTRATIVA Y DE PLANIFICACIÓN DE LOS LLANOS SE ESTABLEZCA EN LA CIUDAD DE YOPAL CASANARE Y SE DICTAN OTRAS DISPOSICIONES SOBRE EL AEROPUERTO EL YOPAL (EYP) TAMBIÉN DENOMINADO AEROPUERTO EL ALCARAVAN",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/228-por-medio-de-la-cual-se-establece-que-la-regional-de-la-aerocivil-con-jurisdiccion-administrativa-de-los-aeropuertos-de-la-region-administrativa-y-de-planificacion-de-los-llanos-se-establezca-en-la-ciudad-de-yopal-casanare-y-se-dictan-otras-disposiciones-sobre-el-aeropuerto-el-yopal-eyp-tambien-denominado-aeropuerto-el-alcaravan",
-    "autores": [
-      "H.S. JOSUE ALIRIO BARRERA RODRIGUEZ."
-    ],
+    "autores": ["H.S. JOSUE ALIRIO BARRERA RODRIGUEZ."],
     "numeroSenado": {
       "numero": 213,
       "year": 22
@@ -925,7 +1080,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE APRUEBA EL «ACUERDO ENTRE LA REPÚBLICA DE COLOMBIA Y LA REPÚBLICA BOLIVARIANA DE VENEZUELA SOBRE EL TRANSPORTE INTERNACIONAL DE CARGA Y PASAJEROS POR CARRETERA», SUSCRITO EN CARTAGENA DE INDIAS, REPÚBLICA DE COLOMBIA, EL 1° DE AGOSTO DE 2014”,",
@@ -992,7 +1147,7 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE PERMITE EL DIVORCIO Y LA CESACIÓN DE EFECTOS CIVILES DEL MATRIMONIO RELIGIOSO POR LA SOLA VOLUNTAD DE CUALQUIERA DE LOS CÓNYUGES Y SE DICTAN OTRAS DISPOSICIONES",
@@ -1045,16 +1200,20 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 50,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-20T05:00:00.000Z"
   },
   {
     "comision": "ECONOMICAS",
     "estado": {
-      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DE ENVIAR A CÁMARA",
       "anotacion": ""
     },
-    "titulo": "POR LA CUAL SE DECRETA EL PRESUPUESTO DEL SISTMA GENERAL DE REGALIAS PARA EL BIENIO 1° DE ENERO DE 2023 AL 31 DE DICIEMBRE DE 2024\" -MENSAJE DE URGENCIA-",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/220-por-la-cual-se-decreta-el-presupuesto-del-sistma-general-de-regalias-para-el-bienio-1-de-enero-de-2023-al-31-de-diciembre-de-2024-br-mensaje-de-urgencia",
+    "titulo": "POR LA CUAL SE DECRETA EL PRESUPUESTO DEL SISTEMA GENERAL DE REGALÍAS PARA EL BIENIO 1° DE ENERO DE 2023 AL 31 DE DICIEMBRE DE 2024\" -MENSAJE DE URGENCIA-",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/220-por-la-cual-se-decreta-el-presupuesto-del-sistema-general-de-regalias-para-el-bienio-1-de-enero-de-2023-al-31-de-diciembre-de-2024-br-mensaje-de-urgencia",
     "autores": [
       "Ministro de Hacienda y Credito Publico Doctor: Jose Antonio Ocampo Gaviria.",
       "Ministra de Minas y Energias Doctora: Irene Velez Torres"
@@ -1064,6 +1223,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 222,
+      "year": 22
+    },
     "fechaRadicado": "2022-11-03T05:00:00.000Z"
   },
   {
@@ -1165,9 +1328,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE GARANTIZA EL ACCESO EXPEDITO A TECNOLOGÍAS EN SALUD E INSUMOS DE HIGIENE Y ASEO PARA LA SALUD REQUERIDOS POR NECESIDAD Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/216-por-medio-de-la-cual-se-garantiza-el-acceso-expedito-a-tecnologias-en-salud-e-insumos-de-higiene-y-aseo-para-la-salud-requeridos-por-necesidad-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "Honorable Senador PEDRO HERNANDO FLÓREZ PORRAS."
-    ],
+    "autores": ["Honorable Senador PEDRO HERNANDO FLÓREZ PORRAS."],
     "numeroSenado": {
       "numero": 201,
       "year": 22
@@ -1199,6 +1360,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 331,
+      "year": 21
+    },
     "fechaRadicado": "2021-10-21T05:00:00.000Z"
   },
   {
@@ -1224,6 +1389,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 40,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-20T05:00:00.000Z"
   },
   {
@@ -1248,6 +1417,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 362,
+      "year": 21
+    },
     "fechaRadicado": "2021-11-27T05:00:00.000Z"
   },
   {
@@ -1420,7 +1593,7 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR LA CUAL SECREA EL BONO ESCOLAR EN COLOMBIA Y SE DICTAN OTRAS DISPOSICIONES",
@@ -1489,20 +1662,22 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE DICTAN NORMAS ORIENTADAS A FORTALECER LAS GARANTÍAS DE ATENCIÓN EN SALUD EN EL SISTEMA GENERAL DE SEGURIDAD SOCIAL INTEGRAL.",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/205-por-medio-del-cual-se-dictan-normas-orientadas-a-fortalecer-las-garantias-de-atencion-en-salud-en-el-sistema-general-de-seguridad-social-integral",
-    "autores": [
-      "H.R.Ricardo Alfonso Ferro Lozano"
-    ],
+    "autores": ["H.R.Ricardo Alfonso Ferro Lozano"],
     "numeroSenado": {
       "numero": 190,
       "year": 21
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 337,
+      "year": 21
+    },
     "fechaRadicado": "2021-10-29T05:00:00.000Z"
   },
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR LA CUAL SE RINDE HOMENAJE Y SE PRESERVA LA MEMORIA DEL GENERAL JOSÉ MARÍA DIONISIO MELO Y ORTIZ (1800-1860), PRIMER Y ÚNICO PRESIDENTE INDÍGENA DE LA NACIÓN Y SE DICTAN OTRAS DISPOSICIONES",
@@ -1523,6 +1698,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 200,
+      "year": 21
+    },
     "fechaRadicado": "2021-09-04T05:00:00.000Z"
   },
   {
@@ -1548,6 +1727,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 167,
+      "year": 21
+    },
     "fechaRadicado": "2021-09-03T05:00:00.000Z"
   },
   {
@@ -1558,9 +1741,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE ESTABLECE DE FORMA PERMANENTE LA DISPENSACIÓN A DOMICILIO DE MEDICAMENTOS Y FÁRMACOS PARA ADULTOS MAYORES DE 60 AÑOS, CON ESPECIAL ÉNFASIS EN AQUELLOS QUE SUFRAN CONDICIONES CRÓNICAS DE BASE O INMUNOSUPRESIÓN POR ENFERMEDAD O TRATAMIENTO Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/202-por-medio-del-cual-se-establece-de-forma-permanente-la-dispensacion-a-domicilio-de-medicamentos-y-farmacos-para-adultos-mayores-de-60-anos-con-especial-enfasis-en-aquellos-que-sufran-condiciones-cronicas-de-base-o-inmunosupresion-por-enfermedad-o-tratamiento-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "Honorable Senador JUAN PABLO GALLO MAYA."
-    ],
+    "autores": ["Honorable Senador JUAN PABLO GALLO MAYA."],
     "numeroSenado": {
       "numero": 187,
       "year": 22
@@ -1571,14 +1752,12 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE MODIFICA LA LEY 769 DE 2000, SE INCLUYEN LOS ANIMALES DOMÉSTICOS Y SILVESTRES VICTIMAS DE ACCIDENTES DE TRÁNSITO Y SE GARANTIZA SU ATENCIÓN POR PARTE DEL SOAT",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/201-por-medio-del-cual-se-modifica-la-ley-769-de-2000-se-incluyen-los-animales-domesticos-y-silvestres-victimas-de-accidentes-de-transito-y-se-garantiza-su-atencion-por-parte-del-soat",
-    "autores": [
-      "Honorable Senador JUAN PABLO GALLO MAYA."
-    ],
+    "autores": ["Honorable Senador JUAN PABLO GALLO MAYA."],
     "numeroSenado": {
       "numero": 186,
       "year": 22
@@ -1646,7 +1825,7 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE PROHÍBE EL USO DE ANIMALES PARA LA TRACCIÓN DE VEHÍCULOS CON FINES TURÍSTICOS",
@@ -1748,12 +1927,16 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 160,
+      "year": 22
+    },
     "fechaRadicado": "2022-09-30T05:00:00.000Z"
   },
   {
     "comision": "TERCERA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR LA CUAL SE MODIFICA EL RÉGIMEN DE FINANCIACIÓN DE VIVIENDA INDIVIDUAL Y FAMILIAR DE LARGO PLAZO EN LO RELATIVO AL PAGO DE COSTOS DE AVALÚOS TÉCNICOS Y DE ESTUDIO DE TÍTULOS",
@@ -1776,6 +1959,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 373,
+      "year": 21
+    },
     "fechaRadicado": "2021-12-10T05:00:00.000Z"
   },
   {
@@ -1797,12 +1984,16 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 413,
+      "year": 22
+    },
     "fechaRadicado": "2022-01-06T05:00:00.000Z"
   },
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE ESTABLECE EL DÍA NACIONAL DEL HÉROE DE LA SALUD Y EN HOMENAJE A LAS VÍCTIMAS DEL COVID-19 Y SUS FAMILIAS, Y SE DICTAN OTRAS DISPOSICIONES",
@@ -1815,6 +2006,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 142,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-27T05:00:00.000Z"
   },
   {
@@ -1825,28 +2020,27 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE AUTORIZA A LA ASAMBLEA DEL DEPARTAMENTO DE ARAUCA PARA EMITIR LA ESTAMPILLA PRO-HOSPITALES PÚBLICOS, CENTROS DE SALUD PÚBLICOS Y PUESTOS DE SALUD PÚBLICOS DEL DEPARTAMENTO DE ARAUCA",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/192-por-medio-de-la-cual-se-autoriza-a-la-asamblea-del-departamento-de-arauca-para-emitir-la-estampilla-pro-hospitales-publicos-centros-de-salud-publicos-y-puestos-de-salud-publicos-del-departamento-de-arauca",
-    "autores": [
-      "H.R.José Vicente Carreño Castro"
-    ],
+    "autores": ["H.R.José Vicente Carreño Castro"],
     "numeroSenado": {
       "numero": 177,
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 385,
+      "year": 21
+    },
     "fechaRadicado": "2021-12-17T05:00:00.000Z"
   },
   {
     "comision": "TERCERA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE PROMOCIONA EL MICROFONOFINANCIAMIENTO PARA LAS MIPYMES, LA CREACION DE OPORTUNIDADES PARA EL AGRO, CON EL FIN DE COMBATIR LOS PRESTAMOS INFORMALES Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/191-por-medio-de-la-cual-se-promociona-el-microfonofinanciamiento-para-las-mipymes-la-creacion-de-oportunidades-para-el-agro-con-el-fin-de-combatir-los-prestamos-informales-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: MAURICIO GOMEZ AMIN.",
-      "H.S: JUAN CARLOS GARCES ROJAS."
-    ],
+    "autores": ["H.S: MAURICIO GOMEZ AMIN.", "H.S: JUAN CARLOS GARCES ROJAS."],
     "numeroSenado": {
       "numero": 176,
       "year": 22
@@ -1933,9 +2127,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA LA LEY 1622 DE 2013 Y SE ESTABLECEN NUEVOS INCENTIVOS PARA LOS CONSEJEROS DE JUVENTUD",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/187-por-medio-de-la-cual-se-modifica-la-ley-1622-de-2013-y-se-establecen-nuevos-incentivos-para-los-consejeros-de-juventud",
-    "autores": [
-      "H.S: JOSE ALFREDO GNECCO ZULETA."
-    ],
+    "autores": ["H.S: JOSE ALFREDO GNECCO ZULETA."],
     "numeroSenado": {
       "numero": 172,
       "year": 22
@@ -2010,7 +2202,7 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE ESTABLECE UNA TARIFA DIFERENCIAL PARA LOS SISTEMAS DE TRANSPORTE MASIVO Y SE DICTAN OTRAS DISPOSICIONES",
@@ -2124,9 +2316,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE ESTABLECE EL PROGRAMA DE PROTECCION SOCIAL AL ADULTO MAYOR -\"COLOMBIA MAYOR",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/180-por-medio-de-la-cual-se-establece-el-programa-de-proteccion-social-al-adulto-mayor-colombia-mayor",
-    "autores": [
-      "Honorable Senador ENRIQUE CABRALES BAQUERO."
-    ],
+    "autores": ["Honorable Senador ENRIQUE CABRALES BAQUERO."],
     "numeroSenado": {
       "numero": 165,
       "year": 22
@@ -2137,14 +2327,12 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL DECRETO LEY 1790 DE 2000 PARA PERMITIR LA VINCULACION DE PERSONAL CON CARRERAS TECNICAS Y TECNOLOGICAS COMO SUBOFICIALES DE RESERVA DE LAS FUERZAS MILITARES Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/179-por-medio-del-cual-se-modifica-el-decreto-ley-1790-de-2000-para-permitir-la-vinculacion-de-personal-con-carreras-tecnicas-y-tecnologicas-como-suboficiales-de-reserva-de-las-fuerzas-militares-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "Honorable Senador ENRIQUE CABRALES BAQUERO"
-    ],
+    "autores": ["Honorable Senador ENRIQUE CABRALES BAQUERO"],
     "numeroSenado": {
       "numero": 164,
       "year": 22
@@ -2155,14 +2343,12 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE ADICIONA DOS PARÁGRAFOS AL ARTÍCULO 91 DE LA LEY 1708 DE 2014 \"CÓDIGO DE EXTINCIÓN DE DOMINIO\" EN BENEFICIO DE LA PRIMERA INFANCIA Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/178-por-medio-de-la-cual-se-adiciona-dos-paragrafos-al-articulo-91-de-la-ley-1708-de-2014-codigo-de-extincion-de-dominio-en-beneficio-de-la-primera-infancia-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "Honorable Senador ENRIQUE CABRALES BAQUERO."
-    ],
+    "autores": ["Honorable Senador ENRIQUE CABRALES BAQUERO."],
     "numeroSenado": {
       "numero": 163,
       "year": 22
@@ -2173,19 +2359,21 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL EL ESTADO COLOMBIANO SE ASOCIA A LA CONMEMORACIÓN DEL BICENTENARIO DE LA BATALLA DE AYACUCHO, DESIGNA EL MUNICIPIO DE RIONEGRO, ANTIOQUIA, COMO SEDE PRINCIPAL DE LA CELEBRACIÓN Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/177-por-medio-del-cual-el-estado-colombiano-se-asocia-a-la-conmemoracion-del-bicentenario-de-la-batalla-de-ayacucho-designa-el-municipio-de-rionegro-antioquia-como-sede-principal-de-la-celebracion-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.R.Esteban Quintero Cardona"
-    ],
+    "autores": ["H.R.Esteban Quintero Cardona"],
     "numeroSenado": {
       "numero": 162,
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 404,
+      "year": 21
+    },
     "fechaRadicado": "2022-01-02T05:00:00.000Z"
   },
   {
@@ -2204,6 +2392,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 71,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-21T05:00:00.000Z"
   },
   {
@@ -2214,9 +2406,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE ORDENA LA DELIMITACIÓN DE ZONAS DE TRANSICIÓN BOSQUE AL TO ANDINO-PÁRAMO EN EL TERRITORIO NACIONAL, SE EXCLUYEN ESTAS ZONAS PARA LA REALIZACIÓN DE ACTIVIDADES DE GRAN IMPACTO AMBIENTAL Y SE DICTAN OTRAS DISPOSICIONES\",",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/175-por-medio-de-la-cual-se-ordena-la-delimitacion-de-zonas-de-transicion-bosque-al-to-andino-paramo-en-el-territorio-nacional-se-excluyen-estas-zonas-para-la-realizacion-de-actividades-de-gran-impacto-ambiental-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "Honorable Senador FABIÁN DÍAZ PLATA."
-    ],
+    "autores": ["Honorable Senador FABIÁN DÍAZ PLATA."],
     "numeroSenado": {
       "numero": 160,
       "year": 22
@@ -2247,7 +2437,7 @@
   {
     "comision": "SEPTIMA",
     "estado": {
-      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE RECONOCE Y GARANTIZA LA ENTREGA DEL KIT 'MAMÁ CUENTAS CONMIGO' A LAS MUJERES EMBARAZADAS Y SE DICTAN OTRAS DISPOSICIONES\" - LEY MAMÁ CUENTAS CONMIGO",
@@ -2325,14 +2515,12 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE ESTABLECEN DIRECTRICES PARA LA OPERACIÓN DEL PROGRAMA DE ALIMENTACIÓN ESCOLAR - PAE",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/170-por-medio-del-cual-se-establecen-directrices-para-la-operacion-del-programa-de-alimentacion-escolar-pae",
-    "autores": [
-      "Honorable Senador: ANTONIO JOSÉ CORREA JIMENEZ"
-    ],
+    "autores": ["Honorable Senador: ANTONIO JOSÉ CORREA JIMENEZ"],
     "numeroSenado": {
       "numero": 155,
       "year": 22
@@ -2343,7 +2531,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR LA CUAL SE REGULA EL EJERCICIO DEL BUCEO, SE FORTALECE LA CAPACIDAD DE RESPUESTA INSTITUCIONAL PARA LA GARANTIA DE RESPETO DE LOS DERECHOS FUNDAMENTALES DE LAS PERSONAS QUE DESARROLLAN LA ACTIVIDAD, SE ESTABLECEN MEDIDAS PARA LA PROTECCIÓN DE ECOSISTEMAS ACUATICOS Y SE DICTAN OTRAS DISPOSICIONES",
@@ -2368,7 +2556,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR LA CUAL SE ESTABLECE EL RÉGIMEN DE BIENES DE USO PUBLICO MARITIMOS Y COSTEROS, DE CONCESIONES MARÍTIMAS PARA USOS NO PORTUARIOS, SE DICTAN MEDIDAS PARA MITIGAR LA EROSIÓN COSTERA Y SE ESTABLECEN OTRAS DISPOSICIONES",
@@ -2452,7 +2640,7 @@
   {
     "comision": "SEPTIMA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": "Oficio Adhesión Coautora H.S. KARINA ESPINOSA Gaceta 1079/22"
     },
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA EL RÉGIMEN DE ACCESO Y ASCENSO EN LA CARRERA ADMINISTRATIVA, SE CREAN LOS CONCURSOS INDEPENDIENTES PARA PERSONAS CON DISCAPACIDAD, SE ESTABLECE LA GRATUIDAD DE LA INCRIPCION PARA ESTE SEGMENTO POBLACIONAL Y SE DICTAN OTRAS DISPOSICIONES\" O \"LEY DE CONCURSOS INDEPENDIENTES PARA PERSONAS CON DISCAPACIDAD",
@@ -2511,14 +2699,16 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE ADOPTAN INCENTIVOS PARA EL APOYO A INICIATIVAS LOCALES Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/163-por-medio-de-la-cual-se-adoptan-incentivos-para-el-apoyo-a-iniciativas-locales-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.R: Fabian Diaz Plata"
-    ],
+    "autores": ["H.R: Fabian Diaz Plata"],
     "numeroSenado": {
       "numero": 148,
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 179,
+      "year": 21
+    },
     "fechaRadicado": "2021-09-03T05:00:00.000Z"
   },
   {
@@ -2679,9 +2869,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL CÓDIGO SUSTANTIVO DEL TRABAJO Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/158-por-medio-del-cual-se-modifica-el-codigo-sustantivo-del-trabajo-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 143,
       "year": 22
@@ -2720,8 +2908,8 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
-      "anotacion": ""
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "anotacion": "Sesion conjunta PL. 277/2022 Camara. Retiro Firma H.S. Pedro José Suarez Vacca"
     },
     "titulo": "POR MEDIO DE LA CUAL SE REFORMAN PROCEDIMIENTOS ELECTORALES Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/156-por-medio-de-la-cual-se-reforman-procedimientos-electorales-y-se-dictan-otras-disposiciones",
@@ -2741,7 +2929,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE ESTABLECEN DISPOSICIONES ESPECIALES PARA RESOLVER LA SITUACIÓN MILITAR DE MAYORES DE 24 AÑOS Y SE DICTAN OTRAS DISPOSICIONES",
@@ -2819,7 +3007,7 @@
   {
     "comision": "TERCERA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE ORDENA A LOS ESTABLECIMIENTOS BANCARIOS FACILITAR EL ACCESO A LOS SERVICIOS DE MICROCRÉDITO A LAS POBLACIONES DE ESCASOS RECURSOS QUE NO HAN TENIDO ACCESO A LOS MISMOS CON EL DEBIDO ACOMPAÑAMIENTO EN MATERIA DE EDUCACIÓN FINANCIERA",
@@ -2852,14 +3040,12 @@
   {
     "comision": "SEPTIMA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR LA CUAL SE REDUCE LA COTIZACIÓN MENSUAL AL RÉGIMEN CONTRIBUTIVO DE SALUD DE LOS PENSIONADOS.",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/151-por-la-cual-se-reduce-la-cotizacion-mensual-al-regimen-contributivo-de-salud-de-los-pensionados",
-    "autores": [
-      "H.S: ALEXANDER LOPEZ MAYA"
-    ],
+    "autores": ["H.S: ALEXANDER LOPEZ MAYA"],
     "numeroSenado": {
       "numero": 136,
       "year": 22
@@ -2870,14 +3056,12 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE ESTABLECEN CRITERIOS SOBRE EL REAJUSTEDE LA PRIMA DE ACTIVIDAD PARA LOS AGENTES DE LA POLICIA NACIONAL",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/150-por-medio-de-la-cual-se-establecen-criterios-sobre-el-reajustede-la-prima-de-actividad-para-los-agentes-de-la-policia-nacional",
-    "autores": [
-      "JOSE VICENTE CARREÑO CASTRO"
-    ],
+    "autores": ["JOSE VICENTE CARREÑO CASTRO"],
     "numeroSenado": {
       "numero": 135,
       "year": 22
@@ -2893,32 +3077,36 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE PROHÍBE EL USO DE ANIMALES PARA DISUADIR MANIFESTACIONES, MOTINES, ASONADAS O CUALQUIER OTRA AFECTACIÓN DEL ORDEN PÚBLICO Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/149-por-medio-de-la-cual-se-prohibe-el-uso-de-animales-para-disuadir-manifestaciones-motines-asonadas-o-cualquier-otra-afectacion-del-orden-publico-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.R.Juan Carlos Lozada Vargas"
-    ],
+    "autores": ["H.R.Juan Carlos Lozada Vargas"],
     "numeroSenado": {
       "numero": 134,
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 260,
+      "year": 21
+    },
     "fechaRadicado": "2021-09-23T05:00:00.000Z"
   },
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL LA NACIÓN SE VINCULA A LA CONMEMORACIÓN Y RINDE PÚBLICO HOMENAJE AL MUNICIPIO DE ITUANGO, DEL DEPARTAMENTO DE ANTIOQUIA, CON MOTIVO DE SUS 175 AÑOS DE SER ERIGIDO MUNICIPIO EN 1847 Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/148-por-medio-de-la-cual-la-nacion-se-vincula-a-la-conmemoracion-y-rinde-publico-homenaje-al-municipio-de-ituango-del-departamento-de-antioquia-con-motivo-de-sus-175-anos-de-ser-erigido-municipio-en-1847-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.R.León Fredy Muñoz Lopera"
-    ],
+    "autores": ["H.R.León Fredy Muñoz Lopera"],
     "numeroSenado": {
       "numero": 133,
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 28,
+      "year": 21
+    },
     "fechaRadicado": "2021-08-20T05:00:00.000Z"
   },
   {
@@ -2929,9 +3117,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA EL ARTÍCULO 2 DE LA LEY 403 DE 1997, - POR LA CUAL SE ESTABLECEN ESTÍMULOS PARA LOS SUFRAGANTES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/147-por-medio-de-la-cual-se-modifica-el-articulo-2-de-la-ley-403-de-1997-por-la-cual-se-establecen-estimulos-para-los-sufragantes",
-    "autores": [
-      "H.S: JOSÉ ALFREDO GNECCO ZULETA"
-    ],
+    "autores": ["H.S: JOSÉ ALFREDO GNECCO ZULETA"],
     "numeroSenado": {
       "numero": 132,
       "year": 22
@@ -2942,7 +3128,7 @@
   {
     "comision": "TERCERA",
     "estado": {
-      "estado": "CONCILIACIÓN",
+      "estado": "PENDIENTE ENVIAR A SANCIÓN",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE ADOPTA UNA REFORMA TRIBUTARIA PARA LA IGUALDAD Y LA JUSTICIA SOCIAL Y SE DICTAN OTRAS DISPOSICIONES\" - MENSAJE DE URGENCIA -",
@@ -2955,6 +3141,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 118,
+      "year": 22
+    },
     "fechaRadicado": "2022-09-08T05:00:00.000Z"
   },
   {
@@ -3157,9 +3347,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE DECLARA ZONA DE INTERÉS AMBIENTAL, TURÍSTICO Y ECOLÓGICO DEL SISTEMA CENAGOSO DE LA ZAPATOSA EN LOS DEPARTAMENTOS DEL CESAR Y EL MAGDALENA, SE RECONOCE SU POTENCIAL PESQUERO Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/139-por-medio-del-cual-se-declara-zona-de-interes-ambiental-turistico-y-ecologico-del-sistema-cenagoso-de-la-zapatosa-en-los-departamentos-del-cesar-y-el-magdalena-se-reconoce-su-potencial-pesquero-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: DIDIER LOBO CHINCHILLA."
-    ],
+    "autores": ["H.S: DIDIER LOBO CHINCHILLA."],
     "numeroSenado": {
       "numero": 124,
       "year": 22
@@ -3194,32 +3382,32 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA LA LEY 1861 DE 2017, SE REGULA LA SITUACIÓN MILITAR DE HOMBRES TRANSGÉNERO; Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/137-por-medio-de-la-cual-se-modifica-la-ley-1861-de-2017-se-regula-la-situacion-militar-de-hombres-transgenero-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.R.Luvi Katherine Miranda Peña"
-    ],
+    "autores": ["H.R.Luvi Katherine Miranda Peña"],
     "numeroSenado": {
       "numero": 122,
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 317,
+      "year": 21
+    },
     "fechaRadicado": "2021-10-09T05:00:00.000Z"
   },
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR EL CUAL SE DECLARA DE UTILIDAD PÚBLICA E INTERÉS SOCIAL EL TENDIDO, CONSTRUCCIÓN Y OPERACIÓN DE REDES PARA EL SUMINISTRO DE SERVICIOS PÚBLICOS DE TELECOMUNICACIONES Y TIC'S",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/136-por-el-cual-se-declara-de-utilidad-publica-e-interes-social-el-tendido-construccion-y-operacion-de-redes-para-el-suministro-de-servicios-publicos-de-telecomunicaciones-y-tic-s",
-    "autores": [
-      "H.S: ALFREDO DELUQUE ZULETA"
-    ],
+    "autores": ["H.S: ALFREDO DELUQUE ZULETA"],
     "numeroSenado": {
       "numero": 121,
       "year": 22
@@ -3230,14 +3418,12 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR LA CUAL SE REGULA EL EJERCICIO DE CABILDEO Y SE GARANTIZA EL PRINCIPIO DE TRANSPARENCIA EN EL PROCESO DE TOMA DE DECISIONES EN EL SECTOR PÚBLICO",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/135-por-la-cual-se-regula-el-ejercicio-de-cabildeo-y-se-garantiza-el-principio-de-transparencia-en-el-proceso-de-toma-de-decisiones-en-el-sector-publico",
-    "autores": [
-      "H.S: ALFREDO DELUQUE ZULETA"
-    ],
+    "autores": ["H.S: ALFREDO DELUQUE ZULETA"],
     "numeroSenado": {
       "numero": 120,
       "year": 22
@@ -3275,12 +3461,16 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 332,
+      "year": 21
+    },
     "fechaRadicado": "2021-10-22T05:00:00.000Z"
   },
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL MODIFICA EL ESTATUTO DE CIUDADANIA JUVENIL, SE FORTALECE EL PROCESO ELECTORAL DE LOS CONSEJOS DE JUVENTUD, EL FUNCIONAMIENTO DEL SISTEMA NACIONAL DE JUVENTUD Y SE DICTAN OTRAS DISPOSICIONES",
@@ -3320,9 +3510,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE ESTABLECE EL INGRESO BASE DE COTIZACIÓN DE LOS INDEPENDIENTES AL SISTEMA GENERAL DE SEGURIDAD SOCIAL Y SE DICTAN OTRAS DISPOSICIONES TENDIENTES A GARANTIZAR LAS SITUACIONES MÍNIMAS DE LOS CONTRATISTAS",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/132-por-medio-del-cual-se-establece-el-ingreso-base-de-cotizacion-de-los-independientes-al-sistema-general-de-seguridad-social-y-se-dictan-otras-disposiciones-tendientes-a-garantizar-las-situaciones-minimas-de-los-contratistas",
-    "autores": [
-      "H.S: ENRIQUE CABRALES BAQUERO"
-    ],
+    "autores": ["H.S: ENRIQUE CABRALES BAQUERO"],
     "numeroSenado": {
       "numero": 117,
       "year": 22
@@ -3338,9 +3526,7 @@
     },
     "titulo": "POR EL CUAL SE PROHÍBE LA REALIZACIÓN DE CABALGATAS EN TODO EL TERRITORIO NACIONAL Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/131-por-el-cual-se-prohibe-la-realizacion-de-cabalgatas-en-todo-el-territorio-nacional-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 116,
       "year": 22
@@ -3457,7 +3643,7 @@
       "JUAN CAMILO LONDOÑO y otras firmas ilegibles"
     ],
     "numeroSenado": {
-      "numero": 114,
+      "numero": 196,
       "year": 22
     },
     "proyectosAcumulados": [],
@@ -3522,10 +3708,10 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
-      "anotacion": ""
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "anotacion": "Retiro Firma H.S. Pedro José Suarez Vacca"
     },
-    "titulo": "POR LA CUAL SE EXPIDE EL CODIGO DEL REGISTRO CIVIL,IDENTIFICACIÓN DE LAS PERSONAS Y EL PROCESO ELECTORAL COLOMBIANO",
+    "titulo": "POR LA CUAL SE EXPIDE EL CÓDIGO DEL REGISTRO CIVIL,IDENTIFICACIÓN DE LAS PERSONAS Y EL PROCESO ELECTORAL COLOMBIANO",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/123-por-la-cual-se-expide-el-codigo-del-registro-civil-br-identificacion-de-las-personas-y-el-proceso-electoral-colombiano",
     "autores": [
       "REGISTRADOR NACIONAL DEL ESTADO CIVIL: ALEXANDER VEGAS ROCHA",
@@ -3542,6 +3728,10 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 277,
+      "year": 22
+    },
     "fechaRadicado": "2022-09-08T05:00:00.000Z"
   },
   {
@@ -3588,7 +3778,7 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE CREAN MECANISMOS PARA PREVENIR, SANCIONAR Y ERRADICAR LA VIOLENCIA Y EL ACOSO POLITICO CONTRA LAS MUJERES",
@@ -3703,9 +3893,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE CREA EL FONDO DE PREVENCIÓN, PROTECCIÓN Y ASISTENCIA DE MUJERES PERIODISTAS VÍCTIMAS DE VIOLENCIA DE GÉNERO",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/118-por-medio-de-la-cual-se-crea-el-fondo-de-prevencion-proteccion-y-asistencia-de-mujeres-periodistas-victimas-de-violencia-de-genero",
-    "autores": [
-      "MINISTRO DEL INTERIOR: DANIEL PALACIOS MARTINEZ"
-    ],
+    "autores": ["MINISTRO DEL INTERIOR: DANIEL PALACIOS MARTINEZ"],
     "numeroSenado": {
       "numero": 106,
       "year": 22
@@ -3738,7 +3926,7 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE DICTAN MEDIDAS PARA REDUCIR EL COSTO EDUCATIVO DEL DERECHO DE GRADO Y SE DICTAN OTRAS DISPOSICIONES. ",
@@ -3798,7 +3986,7 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR EL CUAL SE MODIFICA LA LEY 84 DE 1989, LA LEY 599 DE 2000, LA LEY 1774 DE 2016, LA LEY 1801 DE 2016 Y SE DICTAN OTRAS DISPOSICIONES",
@@ -3985,9 +4173,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL CREAN DISPOSICIONES PARA GARANTIZAR EL ACCESO Y FORMALIZACION DE TIERRAS PARA LAS MUJERES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/108-por-medio-de-la-cual-crean-disposiciones-para-garantizar-el-acceso-y-formalizacion-de-tierras-para-las-mujeres",
-    "autores": [
-      "H.S: PIEDAD ESNEDA CORDOBA RUIZ"
-    ],
+    "autores": ["H.S: PIEDAD ESNEDA CORDOBA RUIZ"],
     "numeroSenado": {
       "numero": 96,
       "year": 22
@@ -3998,14 +4184,12 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE DICTAN NORMAS PARA EL CONTROL, VIGILANCIA Y SANCION DE LA VIOLENCIA POLITICA CONTRA LA MUJER Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/107-por-medio-de-la-cual-se-dictan-normas-para-el-control-vigilancia-y-sancion-de-la-violencia-politica-contra-la-mujer-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: PIEDAD CORDOBA RUIZ"
-    ],
+    "autores": ["H.S: PIEDAD CORDOBA RUIZ"],
     "numeroSenado": {
       "numero": 95,
       "year": 22
@@ -4016,14 +4200,12 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE CREA EL SISTEMA UNICO DE REGISTRO DE PROFESIONES, TECNICOS O TECNOLOGOS Y SE ELIMINA EL REQUISITO DE TARJETAS PROFESIONALES PARA EJERCER DIVERSAS PROFESIONES EN EL PAIS",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/106-por-medio-de-la-cual-se-crea-el-sistema-unico-de-registro-de-profesiones-tecnicos-o-tecnologos-y-se-elimina-el-requisito-de-tarjetas-profesionales-para-ejercer-diversas-profesiones-en-el-pais",
-    "autores": [
-      "H.S. PIEDAD ESNEDA CORDOBA RUIZ"
-    ],
+    "autores": ["H.S. PIEDAD ESNEDA CORDOBA RUIZ"],
     "numeroSenado": {
       "numero": 94,
       "year": 22
@@ -4087,14 +4269,12 @@
   {
     "comision": "SEPTIMA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": "Nota Aclaratoria Gaceta 920/22"
     },
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA PARCIALMENTE LA LEY 1355 DE 2009, SE ADICIONAN ARTICULOS NUEVOS Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/103-por-medio-de-la-cual-se-modifica-parcialmente-la-ley-1355-de-2009-se-adicionan-articulos-nuevos-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: PEDRO HERNANDO FLOREZ PORRAS"
-    ],
+    "autores": ["H.S: PEDRO HERNANDO FLOREZ PORRAS"],
     "numeroSenado": {
       "numero": 91,
       "year": 22
@@ -4179,12 +4359,16 @@
       "year": 22
     },
     "proyectosAcumulados": [],
+    "numeroCamara": {
+      "numero": 88,
+      "year": 22
+    },
     "fechaRadicado": "2022-08-29T05:00:00.000Z"
   },
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE REGULA EL EJERCICIO DEL CABILDEO Y SE CREA EL REGISTRO PÚBLICO DE CABILDEROS",
@@ -4276,7 +4460,7 @@
       "ELKIN RODOLFO OSPINA OSPINA",
       "JAIME RAÚL SALAMANCA TORRES",
       "JUAN CAMILO LONDOÑO BARRERA",
-      "ALEJANDRO GARCÍA RIOS",
+      "ALEJANDRO GARC��A RIOS",
       "JULIA MIRANDA LONDOÑO",
       "CATHERINE JUVINAO CLAVIJO",
       "CRISTIAN DANILO AVENDAÑO FINO",
@@ -4298,7 +4482,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE APRUEBA EL « PROTOCOLO DE ENMIENDA DEL ACUERDO DE MARRAKECH POR EL QUE SE ESTABLECE LA OMC, MEDIANTE EL CUAL SE INSERTA EL TEXTO DEL ACUERDO SOBRE SUBVENCIONES A LA PESCA », ADOPTADO POR EL CONSEJO GENERAL DE LA ORGANIZACION MUNDIAL DEL COMERCIO EN GINEBRA, SUIZA, EL 17 DE JUNIO DE 2022",
@@ -4318,7 +4502,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE APRUEBA EL « CONVENIO REGIONAL DE RECONOCIMIENTO DE ESTUDIOS, TITULOS Y DIPLOMAS DE EDUCACION SUPERIOR EN AMERICA LATINA Y EL CARIBE », HECHO EN BUENOS AIRES, REPUBLICA ARGENTINA, EL 13 DE JULIO DE 2019",
@@ -4337,7 +4521,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE APRUEBA LA « CONVECION MUNDIAL SOBRE EL RECONOCIMIENTO DE LAS CUALIFICACIONES RELATIVAS A LA EDUCACION SUPERIOR » , ADOPTADA EN EL MARCO DE LA 40ª REUNION DE LA CONFERENCIA GENERAL DE LA ORGANIZACION DE LAS NACIONES UNIDAS PARA LA EDUCACION, LA CIENCIA Y LA CULTURA-UNESCO, EN PARIS, EL 25 DE NOVIEMBRE DE 2019 ",
@@ -4433,7 +4617,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN CÁMARA",
+      "estado": "PENDIENTE DESIGNAR PONENTES EN CÁMARA",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE APRUEBA EL «CONVENIO 156 SOBRE LA IGUALDAD DE OPORTUNIDADES Y DE TRATO ENTRE TRABAJADORES Y TRABAJADORAS: TRABAJADORES CON RESPONSABILIDADES FAMILIARES» ADOPTADO POR LA SEXAGÉSIMO SEXTA (67ª) CONFERENCIA INTERNACIONAL DEL TRABAJO, EN GINEBRA, SUIZA, EL 23 DE JUNIO DE 1981",
@@ -4452,7 +4636,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE APRUEBA EL « CONVENIO INTERNACIONAL PARA EL CONTROL Y LA GESTION DEL AGUA DE LASTRE Y LOS SEDIMENTOS DE LOS BUQUES  », ADOPTADO EN LONDRES, EL 13 DE FEBRERO DE 2004",
@@ -4471,7 +4655,7 @@
   {
     "comision": "SEGUNDA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE APRUEBA EL«CONVENIO INTERNACIONAL SOBRE RESPONSABILIDAD CIVIL NACIDA DE DAÑOS DEBIDOS A CONTAMINIACIÓN PORL OS HIDROCARBUROS PARA COMBUSTIBLE DE LOS BUQUES, 2001» , ADOPTADO EN LONDRES EL 23 DE MARZO DE 2001",
@@ -4579,9 +4763,7 @@
     },
     "titulo": "POR LA CUAL SE ESTABLECE EL REAJUSTE ANUAL DE PENSIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/81-por-la-cual-se-establece-el-reajuste-anual-de-pensiones",
-    "autores": [
-      "H.S: ALEXANDER LOPEZ MAYA"
-    ],
+    "autores": ["H.S: ALEXANDER LOPEZ MAYA"],
     "numeroSenado": {
       "numero": 70,
       "year": 22
@@ -4639,8 +4821,6 @@
     "autores": [
       "H.S: ALFREDO RAFAEL DELUQUE ZULETA",
       "JOSÉ ALFREDO GNECCO",
-      "JUAN CARLOS GARCÉS ROJAS",
-      "BERNER ZAMBRANO ERASO",
       "JUAN CARLOS GARCÉS ROJAS",
       "BERNER ZAMBRANO ERASO",
       "JOHN MOISÉS BESAILE FAYAD",
@@ -4937,9 +5117,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE EXPIDE EL CODIGO OCEANICO COLOMBIANO",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/70-por-medio-de-la-cual-se-expide-el-codigo-oceanico-colombiano",
-    "autores": [
-      "H.S: PIEDAD ESNEDA CORDOBA RUIZ"
-    ],
+    "autores": ["H.S: PIEDAD ESNEDA CORDOBA RUIZ"],
     "numeroSenado": {
       "numero": 59,
       "year": 22
@@ -5101,10 +5279,7 @@
     },
     "titulo": "POR LA CUAL SE REGULA LA IMPUGNACION DE LAS SENTENCIAS CONDENATORIAS Y LOS FALLOS SANCIONATORIOS, PARA GARANTIZAR UNA DOBLE CONFORMIDAD.",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/54-por-la-cual-se-regula-la-impugnacion-de-las-sentencias-condenatorias-y-los-fallos-sancionatorios-para-garantizar-una-doble-conformidad",
-    "autores": [
-      "DEFENSOR DEL PUEBLO",
-      "DR. CARLOS CAMARGO ASSIS"
-    ],
+    "autores": ["DEFENSOR DEL PUEBLO", "DR. CARLOS CAMARGO ASSIS"],
     "numeroSenado": {
       "numero": 53,
       "year": 22
@@ -5143,7 +5318,7 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE REGULA EL COBRO DE DERECHOS DE GRADO Y SE DICTAN OTRAS DISPOSCIONES",
@@ -5520,9 +5695,7 @@
     },
     "titulo": "POR EL CUAL ORDENA LA CONVERSION DE LOS ZOOLOGICOS, ACUARIOS, AVIARIOS, BIOPARQUES Y ESTABLECIMIENTOS SIMILARES HACIA EL MODELO DE REFUGIOS DE FAUNA Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/38-por-el-cual-ordena-la-conversion-de-los-zoologicos-acuarios-aviarios-bioparques-y-establecimientos-similares-hacia-el-modelo-de-refugios-de-fauna-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: ANDREA PADILLA VILLARRAGA"
-    ],
+    "autores": ["H.S: ANDREA PADILLA VILLARRAGA"],
     "numeroSenado": {
       "numero": 37,
       "year": 22
@@ -5538,9 +5711,7 @@
     },
     "titulo": "POR LA CUAL SE PROHIBEN PROGRESIVAMENTE LAS PRACTICAS DE ENTRETENIMIENTO CRUEL CON ANIMALES Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/37-por-la-cual-se-prohiben-progresivamente-las-practicas-de-entretenimiento-cruel-con-animales-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: ANDREA PADILLA VILLARRAGA"
-    ],
+    "autores": ["H.S: ANDREA PADILLA VILLARRAGA"],
     "numeroSenado": {
       "numero": 36,
       "year": 22
@@ -5556,9 +5727,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE IMPLEMENTA NUEVO CONTROL DE ASISTENCIA DE LOS CONGRESISTAS",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/36-por-medio-del-cual-se-implementa-nuevo-control-de-asistencia-de-los-congresistas",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 35,
       "year": 22
@@ -5574,9 +5743,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA LA LEY 1829 DE 2017",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/35-por-medio-de-la-cual-se-modifica-la-ley-1829-de-2017",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 34,
       "year": 22
@@ -5592,9 +5759,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE MODIFICA LA LEY 300 DE 1992, Y SE DICTAN DISPOSICIONES EN MATERIA DE TURISMO COMUNITARIO",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/34-por-medio-del-cual-se-modifica-la-ley-300-de-1992-y-se-dictan-disposiciones-en-materia-de-turismo-comunitario",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 33,
       "year": 22
@@ -5610,9 +5775,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE REGLAMENTAN LOS REQUISITOS MINIMOS, TECNICOS Y DE SEGURIDAD PARA LOS VEHICULOS DE CERO O BAJAS EMISIONES Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/33-por-medio-del-cual-se-reglamentan-los-requisitos-minimos-tecnicos-y-de-seguridad-para-los-vehiculos-de-cero-o-bajas-emisiones-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 32,
       "year": 22
@@ -5628,9 +5791,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE RECONOCEN COMO SUJETOS DE ESPECIAL PROTECCION CONSTITUCIONAL A LAS PERSONAS QUE PADECEN CANCER",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/32-por-medio-de-la-cual-se-reconocen-como-sujetos-de-especial-proteccion-constitucional-a-las-personas-que-padecen-cancer",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 31,
       "year": 22
@@ -5646,9 +5807,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE PROHIBE A LAS INSTITUCIONES EDUCATIVAS PUBLICAS Y PRIVADAS IMPEDIR EL ACCESO A LAS INSTALACIONES A ESTUDIANTES BAJO SU CUIDADO",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/31-por-medio-del-cual-se-prohibe-a-las-instituciones-educativas-publicas-y-privadas-impedir-el-acceso-a-las-instalaciones-a-estudiantes-bajo-su-cuidado",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 30,
       "year": 22
@@ -5664,9 +5823,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE CREA LA POLITICA PUBLICA COLOMBIA CONSUME RESPONSABLE PARA PREVENIR LA PERDIDA Y EL DESPERDICIO DE BIENES DURADEROS Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/30-por-medio-de-la-cual-se-crea-la-politica-publica-colombia-consume-responsable-para-prevenir-la-perdida-y-el-desperdicio-de-bienes-duraderos-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 29,
       "year": 22
@@ -5682,9 +5839,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE RECONOCE LA LABOR DE LAS MADRES CUIDADORAS Y DE LOS CUIDADORES DE PERSONAS EN SITUACION DE DISCAPACIDAD SEVERA O TOTAL",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/29-por-medio-del-cual-se-reconoce-la-labor-de-las-madres-cuidadoras-y-de-los-cuidadores-de-personas-en-situacion-de-discapacidad-severa-o-total",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 28,
       "year": 22
@@ -5700,9 +5855,7 @@
     },
     "titulo": "POR LA CUAL SE PROMOCIONA EL DESARROLLO DEL PROGRAMA NACIONAL DE VIVIENDA ABIERTA PARA HABITANTES DE Y EN CALLE, EN DESARROLLO DEL OBJETIVO ESPECIFICO DE DESARROLLO HUMANO INTEGRAL CONTENIDO EN LA POLITICA PUBLICA SOCIAL PARA HABITANTE DE CALLE, Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/28-por-la-cual-se-promociona-el-desarrollo-del-programa-nacional-de-vivienda-abierta-para-habitantes-de-y-en-calle-en-desarrollo-del-objetivo-especifico-de-desarrollo-humano-integral-contenido-en-la-politica-publica-social-para-habitante-de-calle-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 27,
       "year": 22
@@ -5718,9 +5871,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE REGLAMENTE LA PRESENTACION DE LA LICENCIA DE CONDUCCION VIRTUAL Y SE CREAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/27-por-medio-del-cual-se-reglamente-la-presentacion-de-la-licencia-de-conduccion-virtual-y-se-crean-otras-disposiciones",
-    "autores": [
-      "H.S. FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S. FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 26,
       "year": 22
@@ -5736,9 +5887,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE ESTABLECE UN PISO DE AUMENTO A LOS SALARIOS PAGADOS EN EL TERRITORIO NACIONAL",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/26-por-medio-del-cual-se-establece-un-piso-de-aumento-a-los-salarios-pagados-en-el-territorio-nacional",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 25,
       "year": 22
@@ -5754,9 +5903,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE MODIFICAN LA LEY 105 DE 1993 Y LA LEY 1508 DE 2012; Y SE REESTRUCTURA LA POLÍTICA TARIFARIA DE LOS PEAJES EN LA INFRAESTRUCTURA DE TRANSPORTE",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/25-por-medio-del-cual-se-modifican-la-ley-105-de-1993-y-la-ley-1508-de-2012-y-se-reestructura-la-politica-tarifaria-de-los-peajes-en-la-infraestructura-de-transporte",
-    "autores": [
-      "H.S. FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S. FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 24,
       "year": 22
@@ -5772,9 +5919,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE INCENTIVA LA GENERACION DE EMPLEO VERDE Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/24-por-medio-del-cual-se-incentiva-la-generacion-de-empleo-verde-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 23,
       "year": 22
@@ -5790,9 +5935,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL LA NACION DECLARA PATRIMONIO HISTORICO Y CULTURAL AL MUNICIPIO DE PIEDECUESTA, DEPARTAMENTO DE SANTANDER Y SE RECONOCEN LOS SABERES ANCESTRALES DE LOS ARTESANOS, CREADORES Y GESTORES CULTURALES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/23-por-medio-de-la-cual-la-nacion-declara-patrimonio-historico-y-cultural-al-municipio-de-piedecuesta-departamento-de-santander-y-se-reconocen-los-saberes-ancestrales-de-los-artesanos-creadores-y-gestores-culturales",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 22,
       "year": 22
@@ -5808,9 +5951,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE INCENTIVA LA CULTURA Y A LOS ARTISTAS EN COLOMBIA MEDIANTE LA CREACION DEL PROGRAMA ARTE AL PARQUE Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/22-por-medio-del-cual-se-incentiva-la-cultura-y-a-los-artistas-en-colombia-mediante-la-creacion-del-programa-arte-al-parque-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 21,
       "year": 22
@@ -5826,9 +5967,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE FOMENTA LA CREACION DE EMPRESAS VERDES Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/21-por-medio-del-cual-se-fomenta-la-creacion-de-empresas-verdes-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 20,
       "year": 22
@@ -5844,9 +5983,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE IMPLEMENTAN MEDIDAS PARA PROTEGER Y DESARROLLAR LA PRODUCCION AGROPECUARIA NACIONAL",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/19-por-medio-de-la-cual-se-implementan-medidas-para-proteger-y-desarrollar-la-produccion-agropecuaria-nacional",
-    "autores": [
-      "H.S: FABIA DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIA DIAZ PLATA"],
     "numeroSenado": {
       "numero": 19,
       "year": 22
@@ -5862,9 +5999,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE ESTABLECEN LAS PAUTAS PARA LA IMPLEMENTACION DEL SISTEMA DE BICICLETAS PUBLICO Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/18-por-medio-de-la-cual-se-establecen-las-pautas-para-la-implementacion-del-sistema-de-bicicletas-publico-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 18,
       "year": 22
@@ -5880,9 +6015,7 @@
     },
     "titulo": "POR LA CUAL SE PROHIBE LA PESCA INDUSTRIAL DE PECES CARTILAGINOSOS, EL ALETEO Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/17-por-la-cual-se-prohibe-la-pesca-industrial-de-peces-cartilaginosos-el-aleteo-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 17,
       "year": 22
@@ -5893,14 +6026,12 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE ESTABLECE LA CATEDRA DE BIENESTAR Y PROTECCION ANIMAL EN TODAS LAS INSTITUCIONES EDUCATIVAS DEL PAIS\". LEY JUPITER",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/16-por-medio-de-la-cual-se-establece-la-catedra-de-bienestar-y-proteccion-animal-en-todas-las-instituciones-educativas-del-pais-ley-jupiter",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 16,
       "year": 22
@@ -5911,14 +6042,12 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE INCORPORAN LAS MUTILACIONES COMO FORMA DE MALTRATO ANIMAL",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/15-por-medio-del-cual-se-incorporan-las-mutilaciones-como-forma-de-maltrato-animal",
-    "autores": [
-      "H.S. FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S. FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 15,
       "year": 22
@@ -5934,9 +6063,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE FOMENTA LA DEMOCRATIZACION DEL CREDITO AL SECTOR AGRARIO",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/14-por-medio-del-cual-se-fomenta-la-democratizacion-del-credito-al-sector-agrario",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 14,
       "year": 22
@@ -5952,9 +6079,7 @@
     },
     "titulo": "POR EL MEDIO DE LA CUAL SE MODIFICA LA LEY 635 DE 2000",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/13-por-el-medio-de-la-cual-se-modifica-la-ley-635-de-2000",
-    "autores": [
-      "H.S: FABIAN DIAZ PLATA"
-    ],
+    "autores": ["H.S: FABIAN DIAZ PLATA"],
     "numeroSenado": {
       "numero": 13,
       "year": 22
@@ -5970,10 +6095,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE RECONOCE Y DIGNIFICA LA LABOR DE LOS RECICLADORES DE OFICIO",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/12-por-medio-de-la-cual-se-reconoce-y-dignifica-la-labor-de-los-recicladores-de-oficio",
-    "autores": [
-      "H.S FABIAN DIAZ PLATA",
-      "CESAR AUGUSTO PACHÓN ACHURY"
-    ],
+    "autores": ["H.S FABIAN DIAZ PLATA", "CESAR AUGUSTO PACHÓN ACHURY"],
     "numeroSenado": {
       "numero": 12,
       "year": 22
@@ -6004,14 +6126,12 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE ADOPTAN MEDIDAS SOBRE EL SEGURO OBLIGATORIO DE DAÑOS CORPORALES CAUSADOS A LAS PERSONAS EN ACCIDENTES DE TRANSITO",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/10-por-medio-de-la-cual-se-adoptan-medidas-sobre-el-seguro-obligatorio-de-danos-corporales-causados-a-las-personas-en-accidentes-de-transito",
-    "autores": [
-      "H.S. JOSE VICENTE CARREÑO CASTRO"
-    ],
+    "autores": ["H.S. JOSE VICENTE CARREÑO CASTRO"],
     "numeroSenado": {
       "numero": 10,
       "year": 22
@@ -6027,9 +6147,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE CREA EL FONDO DE EMPRENDIMIENTO PARA LA MUJER, FEM, COMO INSTRUMENTO PARA IMPULSAR EL EMPRENDIMIENTO, EL EMPLEO Y LA CULTURA FINANCIERA Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/9-por-medio-de-la-cual-se-crea-el-fondo-de-emprendimiento-para-la-mujer-fem-como-instrumento-para-impulsar-el-emprendimiento-el-empleo-y-la-cultura-financiera-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S. LILIANA BITAR CASTILLA"
-    ],
+    "autores": ["H.S. LILIANA BITAR CASTILLA"],
     "numeroSenado": {
       "numero": 9,
       "year": 22
@@ -6063,9 +6181,7 @@
     },
     "titulo": "POR MEDIO DEL CUAL SE PROMUEVE LA AGROECOLOGÍA EN COLOMBIA, SE CONFORMA LA MESA TÉCNICA PARA LA FORMULACIÓN DE UN PLAN NACIONAL DE AGROECOLOGÍA - PNA, SE PLANTEAN ESTRATEGIAS E INCENTIVOS PARA LA PRODUCCIÓN, COMERCIALIZACIÓN, TRANSFORMACIÓN Y CONSUMO DE PRODUCTOS AGROECOLÓGICOS EN EL TERRITORIO NACIONAL Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/7-por-medio-del-cual-se-promueve-la-agroecologia-en-colombia-se-conforma-la-mesa-tecnica-para-la-formulacion-de-un-plan-nacional-de-agroecologia-pna-se-plantean-estrategias-e-incentivos-para-la-produccion-comercializacion-transformacion-y-consumo-de-productos-agroecologicos-en-el-territorio-nacional-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "CÉSAR AUGUSTO PACHÓN ACHURY."
-    ],
+    "autores": ["CÉSAR AUGUSTO PACHÓN ACHURY."],
     "numeroSenado": {
       "numero": 7,
       "year": 22
@@ -6076,7 +6192,7 @@
   {
     "comision": "PRIMERA",
     "estado": {
-      "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+      "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DE LA CUAL SE ESTABLECEN MEDIDAS PARA PREVENIR Y ERRADICAR LA VIOLENCIA CONTRA LAS MUJERES EN LA VIDA POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES",
@@ -6114,9 +6230,7 @@
     },
     "titulo": "POR LA CUAL SE REGULA EN LA LEY 1448 DE 2011 LA SITUACIÓN JURÍDICA DE LOS SEGUNDOS OCUPANTES VULNERABLES DE PREDIOS OBJETO DE RESTITUCIÓN”.\n(REPARACION Y ATENCION DE VICTIMAS DEL CONFLICTO ARMADO)",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/5-por-la-cual-se-regula-en-la-ley-1448-de-2011-la-situacion-juridica-de-los-segundos-ocupantes-vulnerables-de-predios-objeto-de-restitucion-br-br-reparacion-y-atencion-de-victimas-del-conflicto-armado",
-    "autores": [
-      "H.S. MARIA FERNANDA CABAL MOLINA"
-    ],
+    "autores": ["H.S. MARIA FERNANDA CABAL MOLINA"],
     "numeroSenado": {
       "numero": 5,
       "year": 22
@@ -6127,14 +6241,12 @@
   {
     "comision": "SEXTA",
     "estado": {
-      "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+      "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
       "anotacion": ""
     },
     "titulo": "POR MEDIO DEL CUAL SE MODIFICA LA LEY 769 DE 2002, CÓDIGO NACIONAL DE TRÁNSITO TERRESTRE, Y SE DICTAN OTRAS DISPOSICIONES (LEY GUILLERMO VIECCO)",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/4-por-medio-del-cual-se-modifica-la-ley-769-de-2002-codigo-nacional-de-transito-terrestre-y-se-dictan-otras-disposiciones-ley-guillermo-viecco",
-    "autores": [
-      "H.S. NORMA HURTADO SANCHEZ"
-    ],
+    "autores": ["H.S. NORMA HURTADO SANCHEZ"],
     "numeroSenado": {
       "numero": 4,
       "year": 22
@@ -6150,9 +6262,7 @@
     },
     "titulo": "POR EL CUAL SE REFORMA LA LEGISLACIÓN EN MATERIA DE DEPORTE, RECREACIÓN, ACTIVIDAD FÍSICA Y APROVECHAMIENTO DEL TIEMPO LIBRE Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/3-por-el-cual-se-reforma-la-legislacion-en-materia-de-deporte-recreacion-actividad-fisica-y-aprovechamiento-del-tiempo-libre-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "H.S. NORMA HURTADO SANCHEZ"
-    ],
+    "autores": ["H.S. NORMA HURTADO SANCHEZ"],
     "numeroSenado": {
       "numero": 3,
       "year": 22
@@ -6168,9 +6278,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE ORDENA LA MODERNIZACIÓN Y ACTUALIZACIÓN PERMANENTE DEL PROGRAMA AMPLIADO DE INMUNIZACIONES – PAI – Y SE DICTAN OTRAS DISPOSICIONES",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/2-por-medio-de-la-cual-se-ordena-la-modernizacion-y-actualizacion-permanente-del-programa-ampliado-de-inmunizaciones-pai-y-se-dictan-otras-disposiciones",
-    "autores": [
-      "NORMA HURTADO SANCHEZ"
-    ],
+    "autores": ["NORMA HURTADO SANCHEZ"],
     "numeroSenado": {
       "numero": 2,
       "year": 22
@@ -6186,10 +6294,7 @@
     },
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA EL ARTICULO 1 DE LA LEY 1335 DE 2009 Y SE DICTAN OTRAS DISPOSICIONES\"\n(PROHIBICION DE CONSUMO DE TABACO EN MENORES DE EDAD)",
     "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/1-por-medio-de-la-cual-se-modifica-el-articulo-1-de-la-ley-1335-de-2009-y-se-dictan-otras-disposiciones-br-br-prohibicion-de-consumo-de-tabaco-en-menores-de-edad",
-    "autores": [
-      "H.S: NORMA HURTADO SANCHEZ",
-      "JOSE DAVID NAME CARDOZO"
-    ],
+    "autores": ["H.S: NORMA HURTADO SANCHEZ", "JOSE DAVID NAME CARDOZO"],
     "numeroSenado": {
       "numero": 1,
       "year": 22
