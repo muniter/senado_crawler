@@ -42,13 +42,13 @@ const meses = new Map<string, number>([
 ])
 
 export function parseTextualDate(raw: string): Date {
-  let fecha: Date
-  const [day, month, year] = raw.replace(/\s+/, ' ').split(' ')
-  if (day && month && year && year !== '0000') {
-    const monthNumber = meses.get(month.toLowerCase())
-    if (monthNumber) {
-      fecha = new Date(parseInt(year), monthNumber - 1, parseInt(day))
-      return fecha
+  let [rawDay, rawMonth, rawYear] = raw.replace(/\s+/, ' ').split(' ')
+  if (rawDay && rawMonth && rawYear && rawYear !== '0000') {
+    const day = parseInt(rawDay);
+    const year = parseInt(rawYear);
+    const monthNumber = meses.get(rawMonth.toLowerCase())
+    if (monthNumber && !isNaN(day) && !isNaN(year)) {
+      return new Date(year, monthNumber - 1, day)
     }
   }
   throw new Error('No se pudo encontrar la fecha en el texto: ' + raw)

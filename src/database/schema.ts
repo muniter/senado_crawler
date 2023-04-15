@@ -7,7 +7,7 @@ export interface DatabaseSchema {
   cuatrenio: Cuatrenio
   legislatura: Legislatura
   ponente: Ponente
-  ponenteDebate: PonenteDebate
+  ponenteProyecto: PonenteProyecto
   proyectoSenado: ProyectoSenado
   proyectoSenadoDetalles: ProyectoSenadoDetalles
   proyectoSenadoPublicaciones: ProyectoSenadoPublicaciones
@@ -28,6 +28,7 @@ export interface AutorProyectos {
 export interface Comision {
   id: Generated<number>
   nombre: string
+  estado: string | null
 }
 
 export interface Cuatrenio {
@@ -45,7 +46,7 @@ export interface Legislatura {
   title: GeneratedAlways<string>
 }
 
-export interface PonenteDebate {
+export interface PonenteProyecto {
   id: Generated<number>
   ponenteId: number
   proyectoId: number

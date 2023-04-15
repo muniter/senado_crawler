@@ -25,7 +25,6 @@ export class SenadoService {
 
   async refreshProyectoDetalles(legislatura: string) {
     const proyectos = await this.senadoRepository.getProyectosLegislatura(legislatura)
-    console.log(proyectos)
     console.log(`Getting proyect details for: ${proyectos.length} proyectos`)
     for (const proyecto of proyectos) {
       const detalle = await getProyectoDetails(proyecto);
@@ -117,22 +116,25 @@ class SenadoRepository {
         sentenciaCorte: detalles.publicaciones.sentenciaCorte,
       }).execute()
 
-    await tx.insertInto('ponente')
-      .values(detalles.ponentes.map((p) => ({ nombre: p.ponente })))
-      .onConflict((oc) => oc.doNothing())
-      .execute()
 
-    await tx.deleteFrom('ponenteDebate')
-      .where('proyectoId', '=', proyectoId)
-      .execute()
-
-    await tx.insertInto('ponenteDebate')
-      .values(detalles.ponentes.map((p) => ({
-        proyectoId,
-        ponenteId: tx.selectFrom('ponente').select('id').where('nombre', '=', p.ponente),
-        debate: p.debate,
-      })))
-      .execute()
+    // await tx.deleteFrom('ponenteProyecto')
+    //   .where('proyectoId', '=', proyectoId)
+    //   .execute()
+    //
+    // if (detalles.ponentes.length) {
+    //   await tx.insertInto('ponente')
+    //     .values(detalles.ponentes.map((p) => ({ nombre: p.ponente })))
+    //     .onConflict((oc) => oc.doNothing())
+    //     .execute()
+    //
+    //   await tx.insertInto('ponenteProyecto')
+    //     .values(detalles.ponentes.map((p) => ({
+    //       proyectoId,
+    //       ponenteId: tx.selectFrom('ponente').select('id').where('nombre', '=', p.ponente),
+    //       debate: p.debate,
+    //     })))
+    //     .execute()
+    // }
   }
 
   async getProyectosLegislatura(legislatura: string) {
@@ -212,7 +214,7 @@ class AutorRepository {
         .values(autoresId.map((a) => ({ proyectoId, autorId: a.id })))
         .execute()
     } else {
-      console.log('No autores')
+      console.log(`No autores, ${proyectoId}`)
     }
   }
 }

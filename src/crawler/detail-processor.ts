@@ -157,14 +157,14 @@ function parseSenadoPublicacionesTable($: CheerioAPI): ProyectoDetailData['publi
     .map((td) => $(td).find('a').first().attr('href'))
     .map((href) => (href?.startsWith('http') ? href : undefined))
 
-  const fourthRow = table.find('tr').eq(1)
+  const fourthRow = table.find('tr').eq(4)
   const [textoPlenaria, conciliacion, objeciones] = fourthRow
     .find('td')
     .toArray()
     .map((td) => $(td).find('a').first().attr('href'))
     .map((href) => (href?.startsWith('http') ? href : undefined))
 
-  const sixthRow = table.find('tr').eq(1)
+  const sixthRow = table.find('tr').eq(6)
   const [concepto, textoRehecho, sentenciaCorte] = sixthRow
     .find('td')
     .toArray()

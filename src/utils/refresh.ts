@@ -9,7 +9,6 @@ program.requiredOption('--tipo <string>', 'detalle | lista')
 program.action(main)
 
 async function main(options: any) {
-  console.log(options)
   const { cuatrenio, legislatura, tipo } = z
     .object({ cuatrenio: z.string(), legislatura: z.string(), tipo: z.enum(['detalle', 'lista']) })
     .parse(options)

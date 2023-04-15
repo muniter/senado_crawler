@@ -8,3 +8,5 @@
     - Crawl details for each
     - Put in a database table `proyectos_detail`
 - Sync periodically from db to google sheets, db is source of truth for scraped data.
+
+LOS DETALLES TIENEN PROBLEMAS, LAS FECHAS NO ESTAN CORRECTAS
