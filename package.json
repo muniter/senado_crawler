@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build && node --enable-source-maps dist/src/index.js",
+    "clean": "rm prisma/dev.db; npx prisma db push && npx prisma db seed",
     "test": "jest",
     "format": "prettier --write \"src/**/*.ts\"",
     "build": "tsc --build",
