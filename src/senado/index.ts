@@ -26,7 +26,7 @@ export class SenadoService {
 
   async refreshProyectoDetalles(legislatura: string) {
     const proyectos = await this.senadoRepository.getProyectosLegislatura(legislatura)
-    const chunks = R.chunk(proyectos, 10)
+    const chunks = R.chunk(proyectos, 5)
     for (const chunk of chunks) {
       await Promise.all(chunk.map(async (proyecto) => {
         const detalle = await getProyectoDetails(proyecto);
