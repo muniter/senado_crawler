@@ -6,7 +6,7 @@ WITH autores AS (SELECT AP.proyectoId, JSON_GROUP_ARRAY(autor.nombre) AS autores
                   FROM PonenteProyecto PP
                            INNER JOIN Ponente ponente ON PP.ponenteId = ponente.id
                   GROUP BY PP.proyectoId)
-SELECT 'N' || proyecto.numero,
+SELECT 'N ' || proyecto.numero AS numero,
        proyecto.numeroCamara,
        proyecto.titulo,
        proyecto.estado,
