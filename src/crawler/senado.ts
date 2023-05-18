@@ -81,22 +81,6 @@ export async function getLegislaturaProyectsBasicData(
   return processSenadoList(rawData)
 }
 
-export async function getProyectosDetails(data: { url: string, numero: string }[]) {
-  const result: ProyectoDetailData[] = []
-  for (const { url, numero } of data) {
-    try {
-      const processed = processSenadoDetail(await getDetalleData(url))
-      assert(formatNumeroLegislativo(processed.numero) == numero, 'El número de senado no concuerda')
-      console.log(`Processed detalles del proyecto: ${numero}`)
-      result.push(processed)
-    } catch (error: any) {
-      console.error(`Error procesando los detalles del proyecto ${numero}, error: ${error?.message}`)
-      console.error(`Url: ${url}`)
-    }
-  }
-  return result;
-}
-
 export async function getProyectoDetails({ url, numero }: { url: string, numero: string }) {
   try {
     const processed = processSenadoDetail(await getDetalleData(url))

@@ -2,6 +2,7 @@ import { db, DBTransaction } from '../database'
 import { NumeroIdentificador, ProyectoBasicData } from '../crawler/list-processor'
 import { getLegislaturaProyectsBasicData, getProyectoDetails } from '../crawler/senado'
 import { ProyectoDetailData } from '../crawler/detail-processor'
+import * as R from 'remeda';
 
 export function formatNumeroLegislativo(numero: NumeroIdentificador) {
   return `${numero.numero}/${numero.year}`
@@ -25,17 +26,19 @@ export class SenadoService {
 
   async refreshProyectoDetalles(legislatura: string) {
     const proyectos = await this.senadoRepository.getProyectosLegislatura(legislatura)
-    console.log(`Getting proyect details for: ${proyectos.length} proyectos`)
-    for (const proyecto of proyectos) {
-      const detalle = await getProyectoDetails(proyecto);
-      if (!detalle) {
-        console.error(`Skipping proyecto: ${proyecto.numero}, no detail datata was found`)
-        continue
-      }
-      console.log(`Updating proyecto: ${proyecto.numero}, with id: ${proyecto.id}`)
-      await db.transaction().execute(async (tx) => {
-        await this.senadoRepository.upsertProyectoDetalles(tx, proyecto.id, detalle)
-      })
+    const chunks = R.chunk(proyectos, 10)
+    for (const chunk of chunks) {
+      await Promise.all(chunk.map(async (proyecto) => {
+        const detalle = await getProyectoDetails(proyecto);
+        if (!detalle) {
+          console.error(`Skipping proyecto: ${proyecto.numero}, no detail datata was found`)
+          return null
+        }
+        console.log(`Updating proyecto: ${proyecto.numero}, with id: ${proyecto.id}`)
+        await db.transaction().execute(async (tx) => {
+          await this.senadoRepository.upsertProyectoDetalles(tx, proyecto.id, detalle)
+        })
+      }))
     }
   }
 }

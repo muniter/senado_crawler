@@ -22,6 +22,7 @@
     "cheerio": "^1.0.0-rc.12",
     "google-spreadsheet": "^3.3.0",
     "kysely": "^0.22.0",
+    "remeda": "^1.14.0",
     "zod": "^3.19.1"
   },
   "devDependencies": {
