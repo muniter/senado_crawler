@@ -77,7 +77,7 @@ jobs:
       - name: Commit data
         if: steps.check-changes.outputs.CHANGES == 'true'
         run: |
-          git add data.csv
+          git add output
           git add prisma/dev.db
           git commit -m "Update data"
           git push
