@@ -1,6 +1,8 @@
 name: Generate Data
 
 on:
+  schedule:
+    - cron: '0 */6 * * *'
   push:
     branches:
       - main
@@ -48,7 +50,7 @@ jobs:
           npm run refresh -- --cuatrenio "2022-2026" --legislatura "2022-2023" --tipo lista
 
       - name: Refresh Detalles
-        if: false
+        # if: false
         run: |
           npm run refresh -- --cuatrenio "2022-2026" --legislatura "2022-2023" --tipo detalle
 
