@@ -63,7 +63,7 @@ function getOrigen($: CheerioAPI): string {
 }
 
 function getTipoDeLey($: CheerioAPI): string {
-  const raw = $("td:contains('Tipo de Ley:')").next('td').text().trim()
+  const raw = $("td:contains('Tipo de Ley:')").next('td').text().replaceAll('-', '').trim()
   return raw
 }
 
