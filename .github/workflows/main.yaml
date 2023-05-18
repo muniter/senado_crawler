@@ -56,6 +56,10 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
       - name: Commit data
         run: |
+          if [[ -z $(git status -s) ]]; then
+            echo "No changes to commit"
+            exit 1
+          fi
           git add data.csv
           git add prisma/dev.db
           git commit -m "Update data"
