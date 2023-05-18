@@ -61,17 +61,18 @@ jobs:
           git config user.email 'github-actions[bot]@users.noreply.github.com'
 
       - name: Check if there's changes
+        id: check-changes
         run: |
           if [[ -z $(git status -s) ]]; then
             echo "No changes to commit"
-            echo "CHANGES=false" >> $GITHUB_STATE
+            echo "CHANGES=false" >> $GITHUB_OUTPUT
           else
             echo "There are changes"
-            echo "CHANGES=true" >> $GITHUB_STATE
+            echo "CHANGES=true" >> $GITHUB_OUTPUT
           fi
 
       - name: Commit data
-        if: steps.CHANGES.outputs.CHANGES == 'true'
+        if: steps.check-changes.outputs.CHANGES == 'true'
         run: |
           git add data.csv
           git add prisma/dev.db
