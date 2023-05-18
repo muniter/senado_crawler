@@ -43,9 +43,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # - name: Refresh Detalles
-      #   run: |
-      #     npm run refresh -- --cuatrenio "2022-2026" --legislatura "2022-2023" --tipo detalle
+      - name: Refresh Lista
+        run: |
+          npm run refresh -- --cuatrenio "2022-2026" --legislatura "2022-2023" --tipo lista
+
+      - name: Refresh Detalles
+        if: false
+        run: |
+          npm run refresh -- --cuatrenio "2022-2026" --legislatura "2022-2023" --tipo detalle
 
       - name: Execute SQLite Query
         run: |
