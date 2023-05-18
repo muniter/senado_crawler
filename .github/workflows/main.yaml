@@ -58,7 +58,7 @@ jobs:
         run: |
           if [[ -z $(git status -s) ]]; then
             echo "No changes to commit"
-            exit 1
+            exit 0
           fi
           git add data.csv
           git add prisma/dev.db
