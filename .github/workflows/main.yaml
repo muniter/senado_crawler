@@ -54,9 +54,10 @@ jobs:
         run: |
           npm run refresh -- --cuatrenio "2022-2026" --legislatura "2022-2023" --tipo detalle
 
-      - name: Execute SQLite Query
+      - name: Execute SQLite Query generating artifacts
         run: |
-          sqlite3 prisma/dev.db -cmd '.mode csv' -cmd '.headers on'  < db/report_query.sql > data.csv
+          npm run gen-csv
+          npm run gen-json
       - name: Set up git config
         run: |
           git config user.name 'github-actions[bot]'
@@ -65,7 +66,7 @@ jobs:
       - name: Check if there's changes
         id: check-changes
         run: |
-          if [[ -z $(git status -s) ]]; then
+          if [[ -z $(git diff --exit-code -- output) ]]; then
             echo "No changes to commit"
             echo "CHANGES=false" >> $GITHUB_OUTPUT
           else
