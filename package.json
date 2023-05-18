@@ -11,7 +11,7 @@
     "build": "tsc --build",
     "refresh": "tsx ./src/utils/refresh.ts",
     "gen-csv": "sqlite3 prisma/dev.db -cmd '.mode csv' -cmd '.headers on'  < db/report_query.sql > output/data.csv",
-    "gen-json": "sqlite3 prisma/dev.db -cmd '.mode json' -cmd '.headers on'  < db/report_query.sql | jq > output/data.json",
+    "gen-json": "sqlite3 prisma/dev.db -cmd '.mode json' -cmd '.headers on'  < db/report_query.sql | jq 'map((.autores) |= fromjson)' > output/data.json",
     "gen-fixtures": "tsx ./src/utils/generate-fixture-results.ts"
   },
   "keywords": [],
