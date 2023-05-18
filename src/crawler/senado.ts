@@ -32,8 +32,12 @@ function legislaturaURL(cuatrenio: string, legislatura: string) {
 }
 
 async function getLegislaturaData(cuatrenio: string, legislatura: string) {
+  console.log('Getting legislatura data')
   const url = legislaturaURL(cuatrenio, legislatura)
-  const { data, ...response } = await Senado.get(url)
+  const { data, ...response } = await Senado.get(url, {
+    timeout: 10000,
+  })
+  console.log(`Got legislatura data, status: ${response.status}`)
   if (typeof data !== 'string') {
     throw new InvalidDataError('Data is not a string', {
       cuatrenio,
@@ -52,7 +56,9 @@ async function getLegislaturaData(cuatrenio: string, legislatura: string) {
 }
 
 async function getDetalleData(url: string) {
-  const { data, ...response } = await Senado.get(url)
+  const { data, ...response } = await Senado.get(url, {
+    timeout: 10000,
+  })
   if (typeof data !== 'string') {
     throw new InvalidDataError('Data is not a string', { url })
   } else if (data.length === 0) {

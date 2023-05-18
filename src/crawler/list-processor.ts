@@ -218,6 +218,7 @@ export function processRow($: CheerioAPI, table: CElement): ProyectoBasicData {
 }
 
 export function processSenadoList(raw: string): ProyectoBasicData[] {
+  console.log('Processing senado legislatura list')
   const $ = load(raw)
   const result: ProyectoBasicData[] = []
   const tables = $('table')
