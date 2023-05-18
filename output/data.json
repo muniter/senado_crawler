@@ -1770,9 +1770,6 @@
     "fechaAprobacionPrimerDebate": "2023-03-23",
     "fechaAprobacionSegundoDebate": "2023-05-03",
     "fechaConciliacion": "2023-05-05",
-<<<<<<< HEAD
-    "autores": "[\"Director Departamento Nacional de Planeación\",\"Dr. GUSTAVO FRANCISCO PETRO URREGO.\",\"Dr. JORGE IVÁN GONZALEZ BORRERO\",\"Dr. JOSÉ ANTONIO OCAMPO GAVIRIA\",\"Ministro de Hacienda y Crédito Público\",\"con el acompañamiento del señor Presidente de la República\"]",
-=======
     "autores": [
       "Director Departamento Nacional de Planeación",
       "Dr. GUSTAVO FRANCISCO PETRO URREGO.",
@@ -1781,7 +1778,6 @@
       "Ministro de Hacienda y Crédito Público",
       "con el acompañamiento del señor Presidente de la República"
     ],
->>>>>>> f5959b5 (feat: improve json output)
     "exposicionMotivos": null,
     "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023/gaceta_181.pdf",
     "segundaPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023gaceta_386.pdf",
@@ -3723,9 +3719,6 @@
     "fechaAprobacionPrimerDebate": "2022-11-28",
     "fechaAprobacionSegundoDebate": "2022-12-12",
     "fechaConciliacion": "2022-12-15",
-<<<<<<< HEAD
-    "autores": "[\"AGMETH ESCAF TIJERINO\",\"AIDA AVELLA ESQUIVEL\",\"AIDA QUILCUE VIVAS\",\"ALEJANDRO OCAMPO GIRALDO\",\"ALEXANDER LÓPEZ MAYA\",\"Acompañamiento del Presidente de la República\",\"CESAR PACHÓN ACHURY\",\"CRISTOBAL CAICEDO\",\"DORINA HERNANDEZ PALOMINO\",\"Dr. DAVID RACERO MAYORCA.\",\"Dr. GUSTAVO FRANCISCO PETRO URREGO.\",\"Dr. HERNANDO ALFONSO PRADA GIL.\",\"Dr. ROY LEONARDO BARRERAS MONTEALEGRE.\",\"Dra. FRANCIA ELENA MÁRQUEZ MINA.\",\"ERICK VELASCO\",\"ERMES PETE VIVAS\",\"ETNA ARGOTE CALDERÓN\",\"GABRIEL BECERRA\",\"GABRIEL PARRADO DURÁN\",\"GILMA DÍAZ ARIAS\",\"GLORIA FLOREZ SCHNEIDER\",\"HERACLITO LANDINEZ\",\"Honorables Representantes PEDRO SUÁREZ VACCA\",\"Honorables Senadores IVÁN CEPEDA CASTRO\",\"IMELDA DAZA COTES\",\"INTI ASPRILLA REYES\",\"ISABEL CRISTINA ZULETA\",\"JAHEL QUIROGA\",\"JAMES MOSQUERA TORRES\",\"JOHN JAIRO GONZALEZ AGUDELO\",\"JORGE BASTIDAS ROSERO\",\"KARINA BOCANEGRA\",\"LEYLA RINCÓN TRUJILLO\",\"LUZ MARÍA MUNERA MEDINA\",\"MARTHA PERALTA EPIEYU\",\"MARY ANNE PERDOMO GUTIERREZ y otras firmas ilegibles.\",\"MARÍA JOSÉ PIZARRO\",\"Ministro del Interior\",\"PAULINO RIASCOS.\",\"PEDRO FLOREZ PORRAS\",\"Presidente de la Cámara de Representantes\",\"Presidente del Senado de la República\",\"SANDRA RAMÍREZ LOBO\",\"SUSANA GÓMEZ\",\"Vicepresidenta  de la República\"]",
-=======
     "autores": [
       "AGMETH ESCAF TIJERINO",
       "AIDA AVELLA ESQUIVEL",
@@ -3773,7 +3766,6 @@
       "SUSANA GÓMEZ",
       "Vicepresidenta  de la República"
     ],
->>>>>>> f5959b5 (feat: improve json output)
     "exposicionMotivos": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2022/gaceta_1273.pdf",
     "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2022/gaceta_1477.pdf",
     "segundaPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2022/gaceta_1596.pdf",
@@ -5434,9 +5426,6 @@
     "fechaAprobacionPrimerDebate": "2022-10-10",
     "fechaAprobacionSegundoDebate": "2022-10-25",
     "fechaConciliacion": "2022-11-03",
-<<<<<<< HEAD
-    "autores": "[\"AGMETH JOSÉ ESCAF TIGERINO\",\"ALEJANDRO ALBERTO VEGA PÉREZ\",\"ALIRIO URIBE MUÑOZ\",\"ANDRÉS DAVID CALLE AGUAS\",\"ARIEL FERNANDO AVÍLA MARTÍNEZ\",\"CARLOS ALBERTO CARREÑO MARIN\",\"CARLOS FELIPE QUINTERO OVALLE\",\"GABRIEL BECERRA YAÑEZ\",\"GUSTAVO BOLIVAR MORENO\",\"HERACLITO LANDINEZ SUÁREZ\",\"Honorables Representantes: DAVID RICARDO RACERO MAYORCA\",\"Honorables Senadores: IVÁN CEPEDA CASTRO\",\"ISABEL CRISTINA ZULETA LÓPEZ\",\"JAEL QUIROGA CARRILLO\",\"JAMES HERMENEGILDO MOSQUERA TORRES\",\"KARYME ADRANA COTES MARTÍNEZ\",\"LUIS ALBERTO ALBÁN URBANO\",\"LUZ MARÍA MÚNERA MEDINA\",\"Ministro de Defensa Nacional - IVAN VELASQUEZ GOMEZ\",\"Ministro del Interior - ALFONSO PRADA GIL\",\"OSCAR HERNÁN SÁNCHEZ LEÓN\",\"PAULINO RIASCOS RIASCOS\",\"PEDRO JOSÉ SÚAREZ VACCA\",\"WILLIAM FERNEY ALJURE MARTÍNEZ\",\"ÁLVARO LEONEL RUEDA CABALLERO\"]",
-=======
     "autores": [
       "AGMETH JOSÉ ESCAF TIGERINO",
       "ALEJANDRO ALBERTO VEGA PÉREZ",
@@ -5464,7 +5453,6 @@
       "WILLIAM FERNEY ALJURE MARTÍNEZ",
       "ÁLVARO LEONEL RUEDA CABALLERO"
     ],
->>>>>>> f5959b5 (feat: improve json output)
     "exposicionMotivos": null,
     "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2022/gaceta_1186.pdf",
     "segundaPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2022/gaceta_1261.pdf",
@@ -6133,7 +6121,7 @@
     ],
     "exposicionMotivos": null,
     "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2022/gaceta_1691.pdf",
-    "segundaPonencia": null,
+    "segundaPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023gaceta_503.pdf",
     "textoPlenaria": null,
     "conciliacion": null,
     "objeciones": null,
@@ -7269,13 +7257,9 @@
     "fechaAprobacionPrimerDebate": "2022-10-06",
     "fechaAprobacionSegundoDebate": "2022-11-02",
     "fechaConciliacion": "2022-11-17",
-<<<<<<< HEAD
-    "autores": "[\"Ministro de Hacienda y Crédito Público - Dr.Jose Antonio Ocampo Gaviria\"]",
-=======
     "autores": [
       "Ministro de Hacienda y Crédito Público - Dr.Jose Antonio Ocampo Gaviria"
     ],
->>>>>>> f5959b5 (feat: improve json output)
     "exposicionMotivos": null,
     "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2022/gaceta_1200.pdf",
     "segundaPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2022gaceta_1359.pdf",
@@ -10497,9 +10481,6 @@
     "fechaAprobacionPrimerDebate": null,
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
-<<<<<<< HEAD
-    "autores": "[\"CARLOS ALBERTO CARREÑO\",\"GERMAN GÓMEZ\",\"H.R. OMAR DE JESÚS RESTREPO CORREA\",\"H.S. SANDRA RAMÍREZ LOBO SILVA\",\"IMELDA DAZA COTES\",\"JAIRO REINALDO CALA\",\"JUAN PABLO SALAZAR.\",\"JULIAN GALLO CUBILLOS\",\"LUIS ALBERTO ALBAN\",\"PABLO CATATUMBO TORRES VICTORIA\",\"PEDRO BARACUTAO GARCÍA\"]",
-=======
     "autores": [
       "CARLOS ALBERTO CARREÑO",
       "GERMAN GÓMEZ",
@@ -10513,7 +10494,6 @@
       "PABLO CATATUMBO TORRES VICTORIA",
       "PEDRO BARACUTAO GARCÍA"
     ],
->>>>>>> f5959b5 (feat: improve json output)
     "exposicionMotivos": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2022/gaceta_886.pdf",
     "primeraPonencia": null,
     "segundaPonencia": null,
