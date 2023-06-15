@@ -2294,7 +2294,7 @@
     "numero": "N 260/22",
     "numeroCamara": "132/21",
     "titulo": "POR LA CUAL SE ESTABLECE LA GRATUIDAD UNIVERSAL EN LA EDUCACIÓN SUPERIOR PUBLICA Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+    "estado": "CONCILIACIÓN",
     "estadoAnotacion": "",
     "comision": "SEXTA",
     "fechaRadicado": "2021-07-26",
@@ -2305,7 +2305,7 @@
     "fechaEnvioComision": "2022-12-01",
     "fechaPresentacion": "2021-07-26",
     "fechaAprobacionPrimerDebate": "2023-04-18",
-    "fechaAprobacionSegundoDebate": null,
+    "fechaAprobacionSegundoDebate": "2023-06-14",
     "fechaConciliacion": null,
     "autores": [
       "ABEL DAVID JARAMILLO LARGO",
@@ -5129,7 +5129,7 @@
     ],
     "exposicionMotivos": null,
     "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023/gaceta_435.pdf",
-    "segundaPonencia": null,
+    "segundaPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023/gaceta_704.pdf",
     "textoPlenaria": null,
     "conciliacion": null,
     "objeciones": null,
@@ -6113,7 +6113,7 @@
     "fechaPresentacion": "2021-12-02",
     "fechaAprobacionPrimerDebate": "2023-03-22",
     "fechaAprobacionSegundoDebate": "2023-06-06",
-    "fechaConciliacion": null,
+    "fechaConciliacion": "2023-06-14",
     "autores": [
       "Honorable Representante. ESTEBAN QUINTERO CARDONA."
     ],
