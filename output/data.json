@@ -1490,7 +1490,7 @@
     "numero": "N 280/23",
     "numeroCamara": "240/22",
     "titulo": "POR MEDIO DE LA CUAL SE REFORMA LA LEY 397 DE 1997, SE CAMBIA LA DENOMINACIÓN DEL MINISTERIO DE CULTURA, SE MODIFICA EL TÉRMINO DE ECONOMÍA NARANJA Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "CONCILIACIÓN",
+    "estado": "PENDIENTE ENVIAR A SANCIÓN",
     "estadoAnotacion": "",
     "comision": "SEXTA",
     "fechaRadicado": "2022-10-13",
@@ -1502,7 +1502,7 @@
     "fechaPresentacion": "2022-10-13",
     "fechaAprobacionPrimerDebate": "2023-04-18",
     "fechaAprobacionSegundoDebate": "2023-06-14",
-    "fechaConciliacion": null,
+    "fechaConciliacion": "2023-06-19",
     "autores": [
       "Agmeth José Escaf Tijerino",
       "Alfredo Mondragón Garzón",
@@ -2294,7 +2294,7 @@
     "numero": "N 260/22",
     "numeroCamara": "132/21",
     "titulo": "POR LA CUAL SE ESTABLECE LA GRATUIDAD UNIVERSAL EN LA EDUCACIÓN SUPERIOR PUBLICA Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "CONCILIACIÓN",
+    "estado": "PENDIENTE ENVIAR A SANCIÓN",
     "estadoAnotacion": "enviado a cámara el 16 de junio de 2023",
     "comision": "SEXTA",
     "fechaRadicado": "2021-07-26",
@@ -2306,7 +2306,7 @@
     "fechaPresentacion": "2021-07-26",
     "fechaAprobacionPrimerDebate": "2023-04-18",
     "fechaAprobacionSegundoDebate": "2023-06-14",
-    "fechaConciliacion": null,
+    "fechaConciliacion": "2023-06-19",
     "autores": [
       "ABEL DAVID JARAMILLO LARGO",
       "AIDA YOLANDA AVELLA ESQUIVEL",
@@ -3579,7 +3579,7 @@
     "numero": "N 225/22",
     "numeroCamara": "29/21",
     "titulo": "POR MEDIO DE LA CUAL SE DECLARA AL TRABAJADOR BANANERO, AL CAMPESINO PLATANERO Y A LA PRODUCCIÓN BANANERA Y PLATANERA COMO PATRIMONIO CULTURAL, INMATERIAL, ALIMENTICIO Y NUTRICIONAL DE LA NACIÓN Y SE DICTAN OTRAS DISPOSICIONES – LEY MANUEL RIVAS PALACIOS",
-    "estado": "CONCILIACIÓN",
+    "estado": "PENDIENTE ENVIAR A SANCIÓN",
     "estadoAnotacion": "enviado a cámara el 16 de junio de 2023",
     "comision": "SEXTA",
     "fechaRadicado": "2021-07-20",
@@ -3591,7 +3591,7 @@
     "fechaPresentacion": "2021-07-20",
     "fechaAprobacionPrimerDebate": "2023-03-28",
     "fechaAprobacionSegundoDebate": "2023-06-14",
-    "fechaConciliacion": null,
+    "fechaConciliacion": "2023-06-19",
     "autores": [
       "CARLOS JULIO BONILLA SOTO",
       "ELIZABETH JAY-PANG DÍAZ",
@@ -6143,7 +6143,7 @@
     "fechaPresentacion": "2021-07-21",
     "fechaAprobacionPrimerDebate": "2023-04-12",
     "fechaAprobacionSegundoDebate": "2023-06-14",
-    "fechaConciliacion": null,
+    "fechaConciliacion": "2023-06-19",
     "autores": [
       "H.S. JUAN DIEGO GOMEZ JIMENEZ",
       "NICOLAS ALBEIRO ECHEVERRY ALVARÁN."
@@ -7153,7 +7153,7 @@
     "numeroCamara": "260/21",
     "titulo": "POR MEDIO DE LA CUAL SE PROHÍBE EL USO DE ANIMALES PARA DISUADIR MANIFESTACIONES, MOTINES, ASONADAS O CUALQUIER OTRA AFECTACIÓN DEL ORDEN PÚBLICO Y SE DICTAN OTRAS DISPOSICIONES",
     "estado": "CONCILIACIÓN",
-    "estadoAnotacion": "",
+    "estadoAnotacion": "pendiente conciliacion Camara",
     "comision": "PRIMERA",
     "fechaRadicado": "2021-08-23",
     "legislatura": "2022-2023",
@@ -7164,7 +7164,7 @@
     "fechaPresentacion": "2021-08-23",
     "fechaAprobacionPrimerDebate": "2023-04-25",
     "fechaAprobacionSegundoDebate": "2023-06-14",
-    "fechaConciliacion": null,
+    "fechaConciliacion": "2023-06-19",
     "autores": [
       "H.R.Juan Carlos Lozada Vargas"
     ],
@@ -8807,7 +8807,7 @@
     "numero": "N 93/22",
     "numeroCamara": "349/23",
     "titulo": "POR LA CUAL SE ADOPTAN MEDIDAS PARA GARANTIZAR LA PARTICIPACIÓN PARITARIA DE LAS MUJERES EN LAS DIFERENTES RAMAS Y ÓRGANOS DEL PODER PÚBLICO DE CONFORMIDAD CON LOS ARTÍCULOS 13, 40 Y 43 DE LA CONSTITUCIÓN POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES.",
-    "estado": "CONCILIACIÓN",
+    "estado": "PENDIENTE ENVIAR A SANCIÓN",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaRadicado": "2022-08-03",
@@ -8819,7 +8819,7 @@
     "fechaPresentacion": "2022-08-03",
     "fechaAprobacionPrimerDebate": "2022-10-25",
     "fechaAprobacionSegundoDebate": "2022-12-14",
-    "fechaConciliacion": null,
+    "fechaConciliacion": "2023-06-19",
     "autores": [
       "ALEJANDRO GARCÍA RIOS",
       "ANA CAROLINA ESPITIA JEREZ",
