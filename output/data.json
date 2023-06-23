@@ -12423,7 +12423,7 @@
     "numero": "N 330/23",
     "numeroCamara": "416/23",
     "titulo": "POR LA CUAL SE ESTABLECEN LOS PARÁMETROS PARA DETERMINAR EL NÚMERO DE DIPUTADOS \"MENSAJE DE URGENCIA",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+    "estado": "PENDIENTE ENVIAR A SANCIÓN",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaRadicado": "2023-05-18",
@@ -12434,7 +12434,7 @@
     "fechaEnvioComision": "2023-05-30",
     "fechaPresentacion": "2023-05-18",
     "fechaAprobacionPrimerDebate": "2023-06-14",
-    "fechaAprobacionSegundoDebate": null,
+    "fechaAprobacionSegundoDebate": "2023-06-23",
     "fechaConciliacion": null,
     "autores": [
       "Dr. LUIS FERNANDO VELASCO CHÁVES",
