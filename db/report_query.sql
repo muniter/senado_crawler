@@ -42,4 +42,5 @@ FROM ProyectoSenado AS proyecto
          LEFT JOIN ProyectoSenadoPublicaciones publicaciones ON proyecto.id = publicaciones.proyectoId
          LEFT JOIN autores ON proyecto.id = autores.proyectoId
          LEFT JOIN ponentes ON proyecto.id = ponentes.proyectoId
-ORDER BY legislatura.title DESC, proyecto.id
+ORDER BY CAST(SUBSTR(proyecto.numero, INSTR(proyecto.numero, '/') + 1) AS INT) DESC,
+         CAST(SUBSTR(proyecto.numero, 1, INSTR(proyecto.numero, '/') - 1) AS INT) DESC;
