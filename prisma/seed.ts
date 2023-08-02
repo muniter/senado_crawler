@@ -8,7 +8,7 @@ const cuatrenios = {
     end: 2022,
     legilsaturas: ['2018-2019', '2019-2020', '2020-2021', '2021-2022']
   },
-  '2022-2026': { start: 2022, end: 2026, legilsaturas: ['2022-2023'] }
+  '2022-2026': { start: 2022, end: 2026, legilsaturas: ['2022-2023', '2023-2024'] }
 }
 
 const comisiones = [
