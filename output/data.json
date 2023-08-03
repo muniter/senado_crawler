@@ -2286,7 +2286,7 @@
     "numero": "N 285/23",
     "numeroCamara": "287/22",
     "titulo": "POR MEDIO DE LA CUAL SE CONMEMORA EL CENTÉSIMO DÉCIMO SÉPTIMO (117) ANIVERSARIO DE FUNDACIÓN DEL MUNICIPIO DE MONTELÍBANO, EN EL DEPARTAMENTO DE CÓRDOBA; SE LE DECLARA COMO LA CAPITAL NIQUELERA DE AMÉRICA Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+    "estado": "PENDIENTE ENVIAR A SANCIÓN",
     "estadoAnotacion": "",
     "comision": "SEGUNDA",
     "fechaRadicado": "2022-11-18",
@@ -2297,7 +2297,7 @@
     "fechaEnvioComision": "2023-03-02",
     "fechaPresentacion": "2022-11-18",
     "fechaAprobacionPrimerDebate": "2023-04-19",
-    "fechaAprobacionSegundoDebate": null,
+    "fechaAprobacionSegundoDebate": "2023-08-02",
     "fechaConciliacion": null,
     "autores": [
       "H.R. ANDRÉS DAVID CALLE AGUAS"
@@ -15610,7 +15610,7 @@
     "numero": "N 76/22",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL SE APRUEBA EL « CONVENIO INTERNACIONAL PARA EL CONTROL Y LA GESTION DEL AGUA DE LASTRE Y LOS SEDIMENTOS DE LOS BUQUES  », ADOPTADO EN LONDRES, EL 13 DE FEBRERO DE 2004",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+    "estado": "PENDIENTE DE ENVIAR A CÁMARA",
     "estadoAnotacion": "",
     "comision": "SEGUNDA",
     "fechaRadicado": "2022-07-29",
@@ -15621,7 +15621,7 @@
     "fechaEnvioComision": "2022-08-09",
     "fechaPresentacion": "2022-07-29",
     "fechaAprobacionPrimerDebate": "2022-11-08",
-    "fechaAprobacionSegundoDebate": null,
+    "fechaAprobacionSegundoDebate": "2023-08-02",
     "fechaConciliacion": null,
     "autores": [
       "MINISTRA DE RELACIONES EXTERIORES: MARTHA LUCIA RAMIREZ BLANCO.",
