@@ -47,7 +47,11 @@ jobs:
       - name: Refresh Cuatrenio 2022-2026
         run: |
           npm run refresh -- --cuatrenio "2022-2026"
+
+      - name: Execute SQLite Query generating artifacts
+        run: |
           npm run gen-csv
+          npm run gen-json
 
       - name: Check if there's changes
         id: check-changes-first
@@ -69,14 +73,23 @@ jobs:
         run: |
           npm run gen-csv
           npm run gen-json
-      - name: Set up git config
+
+      - name: Check if there's changes again
+        id: check-changes-second
+        run: |
+          if [[ -z $(git diff --exit-code -- output) ]]; then
+            echo "No changes to commit"
+            echo "CHANGES=false" >> $GITHUB_OUTPUT
+          else
+            echo "There are changes"
+            echo "CHANGES=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit data
+        if: steps.check-changes-second.outputs.CHANGES == 'true'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Commit data
-        if: steps.check-changes.outputs.CHANGES == 'true'
-        run: |
           git add output
           git add prisma/dev.db
           git commit -m "Update data"
