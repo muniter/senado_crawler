@@ -47,9 +47,21 @@ jobs:
       - name: Refresh Cuatrenio 2022-2026
         run: |
           npm run refresh -- --cuatrenio "2022-2026"
+          npm run gen-csv
+
+      - name: Check if there's changes
+        id: check-changes-first
+        run: |
+          if [[ -z $(git diff --exit-code -- output) ]]; then
+            echo "No changes to commit"
+            echo "CHANGES=false" >> $GITHUB_OUTPUT
+          else
+            echo "There are changes"
+            echo "CHANGES=true" >> $GITHUB_OUTPUT
+          fi
 
       - name: Refresh Cuatrenio 2018-2022
-        # if: false
+        if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
           npm run refresh -- --cuatrenio "2018-2022"
 
@@ -61,17 +73,6 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
-
-      - name: Check if there's changes
-        id: check-changes
-        run: |
-          if [[ -z $(git diff --exit-code -- output) ]]; then
-            echo "No changes to commit"
-            echo "CHANGES=false" >> $GITHUB_OUTPUT
-          else
-            echo "There are changes"
-            echo "CHANGES=true" >> $GITHUB_OUTPUT
-          fi
 
       - name: Commit data
         if: steps.check-changes.outputs.CHANGES == 'true'
