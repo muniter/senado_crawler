@@ -2287,7 +2287,7 @@
     "numero": "N 285/23",
     "numeroCamara": "287/22",
     "titulo": "POR MEDIO DE LA CUAL SE CONMEMORA EL CENTÉSIMO DÉCIMO SÉPTIMO (117) ANIVERSARIO DE FUNDACIÓN DEL MUNICIPIO DE MONTELÍBANO, EN EL DEPARTAMENTO DE CÓRDOBA; SE LE DECLARA COMO LA CAPITAL NIQUELERA DE AMÉRICA Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "CONCILIACIÓN",
+    "estado": "PENDIENTE ENVIAR A SANCIÓN",
     "estadoAnotacion": "",
     "comision": "SEGUNDA",
     "fechaRadicado": "2022-11-18",
@@ -2299,7 +2299,7 @@
     "fechaPresentacion": "2022-11-18",
     "fechaAprobacionPrimerDebate": "2023-04-19",
     "fechaAprobacionSegundoDebate": "2023-08-02",
-    "fechaConciliacion": null,
+    "fechaConciliacion": "2023-10-03",
     "autores": [
       "H.R. ANDRÉS DAVID CALLE AGUAS"
     ],
@@ -8559,7 +8559,7 @@
     "numero": "N 9/23",
     "numeroCamara": null,
     "titulo": "MEDIANTE LA CUAL SE MODIFICA LA LEY 1523 DE 2012, RECONOCIENDO E INCLUYENDO A LOS ANIMALES DENTRO DE LA POLÍTICA DE GESTIÓN DE RIESGOS DE DESASTRE Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "SEXTA",
     "fechaRadicado": "2023-07-24",
@@ -8600,7 +8600,7 @@
       "y otras firmas ilegibles."
     ],
     "exposicionMotivos": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023/gaceta_982.pdf",
-    "primeraPonencia": null,
+    "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023/gaceta_1397.pdf",
     "segundaPonencia": null,
     "textoPlenaria": null,
     "conciliacion": null,
