@@ -2796,7 +2796,7 @@
       "PAOLA HOLGUÍN MORENO",
       "SOLEDAD TAMAYO TAMAYO"
     ],
-    "exposicionMotivos": null,
+    "exposicionMotivos": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023/gaceta_1416.pdf",
     "primeraPonencia": null,
     "segundaPonencia": null,
     "textoPlenaria": null,
@@ -2920,7 +2920,7 @@
     "autores": [
       "H.S. ALEJANDRO CARLOS CHACÓN CAMARGO."
     ],
-    "exposicionMotivos": null,
+    "exposicionMotivos": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023/gaceta_1415.pdf",
     "primeraPonencia": null,
     "segundaPonencia": null,
     "textoPlenaria": null,
@@ -8015,7 +8015,7 @@
     "numero": "N 44/23",
     "numeroCamara": null,
     "titulo": "NO MAS ABUSOS A LAS MOTOS",
-    "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "SEXTA",
     "fechaRadicado": "2023-07-25",
