@@ -4429,7 +4429,8 @@
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
     "autores": [
-      "H.R. ALEJANDRO ALBERTO VEGA PEREZ"
+      "H.R.OSCAR TORRES ROMERO",
+      "H.S.PEDRO HERNANDO FLOREZ PORRAS"
     ],
     "exposicionMotivos": null,
     "primeraPonencia": null,
@@ -6634,7 +6635,7 @@
     "numero": "N 82/23",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL SE ESTABLECE EL PROCEDIMIENTO ESPECIAL ADMINISTRATIVO Y JUDICIAL PARA LA RESTITUCIÓN INTERNACIONAL Y/O GARANTÍA DEL DERECHO DE VISITAS DE NIÑOS, NIÑAS Y ADOLESCENTES",
-    "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaRadicado": "2023-08-08",
@@ -6658,7 +6659,7 @@
       "SOLEDAD TAMAYO TAMAYO"
     ],
     "exposicionMotivos": null,
-    "primeraPonencia": null,
+    "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023/gaceta_1445.pdf",
     "segundaPonencia": null,
     "textoPlenaria": null,
     "conciliacion": null,
@@ -9129,7 +9130,7 @@
     "numeroCamara": "60/22",
     "titulo": "POR MEDIO DE LA CUAL SE DICTAN DISPOSICIONES PARA LA REDUCCIÓN DE LAS DESIGUALDADES DE GÉNERO EN EL SECTOR DE LA INFRAESTRUCTURA CIVIL Y LA CONSTRUCCIÓN EN COLOMBIA A TRAVÉS DE LA ESTRATEGIA MÁS MUJERES CONSTRUYENDO",
     "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
-    "estadoAnotacion": "",
+    "estadoAnotacion": "Texto Comisión Gaceta 1445/2023",
     "comision": "SEPTIMA",
     "fechaRadicado": "2022-07-26",
     "legislatura": "2023-2024",
