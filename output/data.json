@@ -7650,7 +7650,7 @@
     "numero": "N 55/23",
     "numeroCamara": null,
     "titulo": "POR MEDIO DE LA CUAL SE FORTALECE LA LEY 1616 DE 2013 Y LA POLÍTICA NACIONAL DE SALUD MENTAL Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+    "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "SEPTIMA",
     "fechaRadicado": "2023-08-01",
@@ -7660,7 +7660,7 @@
     "tipoLey": "ORDINARIA",
     "fechaEnvioComision": "2023-05-15",
     "fechaPresentacion": "2023-08-01",
-    "fechaAprobacionPrimerDebate": null,
+    "fechaAprobacionPrimerDebate": "2023-10-03",
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
     "autores": [
