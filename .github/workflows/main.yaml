@@ -5,7 +5,7 @@ on:
     - cron: '0 */3 * * *'
   push:
     branches:
-      - main
+      - '*'
   workflow_dispatch:
 
 jobs:
@@ -36,11 +36,6 @@ jobs:
             ${{ runner.os }}-build-
             ${{ runner.os }}-
 
-      - if: ${{ steps.cache-npm.outputs.cache-hit != 'true' }}
-        name: List the state of node modules
-        continue-on-error: true
-        run: npm list
-
       - name: Install dependencies
         run: npm ci
 
@@ -50,8 +45,7 @@ jobs:
 
       - name: Execute SQLite Query generating artifacts
         run: |
-          npm run gen-csv
-          npm run gen-json
+          npm run gen-reports
 
       - name: Check if there's changes
         id: check-changes-first
@@ -71,8 +65,7 @@ jobs:
 
       - name: Execute SQLite Query generating artifacts
         run: |
-          npm run gen-csv
-          npm run gen-json
+          npm run gen-reports
 
       - name: Check if there's changes again
         id: check-changes-second

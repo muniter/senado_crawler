@@ -243,3 +243,18 @@ class AutorRepository {
         }
     }
 }
+
+
+export class CuatrenioRepository {
+    constructor() { }
+
+    private selectFields = ['id', 'title', 'inicio', 'fin'] as const
+
+    async getAll() {
+        return db.selectFrom('cuatrenio').select(this.selectFields).execute()
+    }
+
+    async getByTitle(title: string) {
+      return db.selectFrom('cuatrenio').select(this.selectFields).where('title', '=', title).executeTakeFirst()
+    }
+}
