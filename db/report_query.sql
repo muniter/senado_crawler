@@ -37,9 +37,11 @@ SELECT 'N ' || proyecto.numero                     AS numero,
 FROM ProyectoSenado AS proyecto
          LEFT JOIN Comision comision ON proyecto.comisionId = comision.id
          LEFT JOIN Legislatura legislatura ON proyecto.legislaturaId = legislatura.id
+         LEFT JOIN Cuatrenio cuatrenio ON legislatura.cuatrenioId = cuatrenio.id
          LEFT JOIN ProyectoSenadoDetalles detalles ON proyecto.id = detalles.proyectoId
          LEFT JOIN ProyectoSenadoPublicaciones publicaciones ON proyecto.id = publicaciones.proyectoId
          LEFT JOIN autores ON proyecto.id = autores.proyectoId
          LEFT JOIN ponentes ON proyecto.id = ponentes.proyectoId
+WHERE cuatrenio.title = :cuatrenio_title
 ORDER BY CAST(SUBSTR(proyecto.numero, INSTR(proyecto.numero, '/') + 1) AS INT) DESC,
          CAST(SUBSTR(proyecto.numero, 1, INSTR(proyecto.numero, '/') - 1) AS INT) DESC;
