@@ -1,5 +1,5 @@
 import { load, CheerioAPI } from 'cheerio'
-import { writeFileSync } from 'fs'
+
 import {
   NumeroIdentificador,
   parseNumeroIdentificador,

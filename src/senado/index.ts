@@ -1,7 +1,7 @@
 import { db, DBTransaction } from '../database'
-import { NumeroIdentificador, ProyectoBasicData } from '../crawler/list-processor'
-import { getLegislaturaProyectsBasicData, getProyectoDetails } from '../crawler/senado'
-import { ProyectoDetailData } from '../crawler/detail-processor'
+import { NumeroIdentificador, ProyectoBasicData } from './crawler/list-processor'
+import { getLegislaturaProyectsBasicData, getProyectoDetails } from './crawler/senado'
+import { ProyectoDetailData } from './crawler/detail-processor'
 import * as R from 'remeda';
 
 export function formatNumeroLegislativo(numero: NumeroIdentificador) {

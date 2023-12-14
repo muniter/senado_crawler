@@ -1,7 +1,7 @@
 import { Axios } from 'axios'
 import { processSenadoList, ProyectoBasicData } from './list-processor'
-import { processSenadoDetail, ProyectoDetailData } from './detail-processor'
-import { formatNumeroLegislativo } from '../senado'
+import { processSenadoDetail } from './detail-processor'
+import { formatNumeroLegislativo } from '../../senado/index'
 import { assert } from 'console'
 
 class InvalidDataError extends Error {

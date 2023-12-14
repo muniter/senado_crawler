@@ -1,10 +1,10 @@
 import { z } from 'zod'
-import { processSenadoList } from '../crawler/list-processor'
+import { processSenadoList } from '../senado/crawler/list-processor'
 import { writeFileSync } from 'fs'
 import { Command } from 'commander'
 import * as http from 'http'
 import * as fs from 'fs'
-import { processSenadoDetail } from '../crawler/detail-processor'
+import { processSenadoDetail } from '../senado/crawler/detail-processor'
 import path from 'path'
 
 const program = new Command('generate-fixtures')

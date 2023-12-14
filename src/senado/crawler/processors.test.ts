@@ -1,7 +1,6 @@
 import { readFileSync } from 'fs'
 import { load } from 'cheerio'
 import { processSenadoList, ProyectoBasicData } from './list-processor'
-import { assert } from 'console'
 
 function getCheerio() {
   const { raw, parsed } = getFixtures()
