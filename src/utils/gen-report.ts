@@ -57,12 +57,12 @@ function prepareQueryFile(cuatrenio: string): string {
 
 
 function genCSV(cuatrenio: string, queryFile: string) {
-  const command = `sqlite3 prisma/dev.db -cmd '.mode csv' -cmd '.headers on'  < ${queryFile} > output/data_${cuatrenio}.csv`
+  const command = `sqlite3 db/database.db -cmd '.mode csv' -cmd '.headers on'  < ${queryFile} > output/data_${cuatrenio}.csv`
   child_process.execSync(command)
 }
 
 function genJSON(cuatrenio: string, queryFile: string) {
-  const command = `sqlite3 prisma/dev.db -cmd '.mode json' -cmd '.headers on'  < ${queryFile} | jq 'map((.autores) |= fromjson)' > output/data_${cuatrenio}.json`
+  const command = `sqlite3 db/database.db -cmd '.mode json' -cmd '.headers on'  < ${queryFile} | jq 'map((.autores) |= fromjson)' > output/data_${cuatrenio}.json`
   child_process.execSync(command)
 }
 
