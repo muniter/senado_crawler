@@ -74,7 +74,7 @@ export async function down(db: Kysely<any>): Promise<void> {
 
   let filename = new Date().toISOString()
   if (name) {
-    filename = `${filename}-${name.replace(' ', '_')}`
+    filename = `${filename}-${name.replaceAll(' ', '_')}`
   }
   const filepath = path.join(__dirname, '/migrations', `${filename}.ts`);
   console.log(`creating migration file ${filepath}`);

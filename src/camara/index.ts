@@ -1,5 +1,5 @@
 import { Axios } from "axios"
-import { processPage } from "./crawler/list-processor"
+import { processDetailPage, processPage as processRawPage } from "./crawler/list-processor"
 
 export interface NumeroIdentificador {
   numero: number
@@ -10,6 +10,36 @@ interface Estado {
   estado: string
   anotacion?: string
 }
+
+export type ListData = {
+  numeroCamara: string
+  numeroSenado: string
+  tituloCorto: string
+  url: string
+  tipo: string
+  autores: string
+  estado: string
+  comision: string
+  origen: 'Camara' | 'Senado'
+  legislatura: string
+}
+
+export type DetailData = {
+  numeroCamara: string
+  numeroSenado: string
+  tituloCorto: string
+  tituloLargo: string
+  tipo: string
+  autores: string
+  estado: string
+  comision: string
+  origen: 'Camara' | 'Senado'
+  legislatura: string
+  objeto: string
+  contenido: string
+  observaciones?: string
+}
+
 
 export type ProyectoBasicData = {
   comision: string
@@ -42,7 +72,7 @@ function getPageUrl(page: number) {
   return config.url.head + config.url.query.replace('{$page}', page.toString())
 }
 
-async function getPageData(url: string) {
+async function getPageRawData(url: string) {
   console.info('Getting page data for url', url)
   const result = await Camara.get(url, {
     timeout: 10000
@@ -53,10 +83,21 @@ async function getPageData(url: string) {
 
 async function getProyectos() {
   const url = getPageUrl(0)
-  const raw = await getPageData(url)
-  const data = processPage(raw)
+  const raw = await getPageRawData(url)
+  const data = processRawPage(raw)
+  return data
+}
+
+async function getProyectosDetail() {
+  const raw = await getPageRawData(buildCamaraUrl('/adicion-presupuestal-4'))
+  const data = processDetailPage(raw)
   console.log(data)
   return data
 }
 
-getProyectos()
+export function buildCamaraUrl(url: string) {
+  return config.url.base + url
+}
+
+// getProyectos()
+getProyectosDetail();
