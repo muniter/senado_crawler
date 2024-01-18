@@ -5,20 +5,22 @@ import {
   Migrator,
   FileMigrationProvider,
 } from 'kysely'
-import { Command } from 'commander'
+import { Command, Option } from 'commander'
 const program = new Command()
 
 program.description('Database migrator script');
-program.requiredOption('--action <string>', 'migrate | generate')
+program.requiredOption('-a --action <string>', 'migrate | generate')
 program.option('--name <string>', 'migration name')
+program.addOption(new Option('-md --migration-dir <string>', 'migration direction').default('up').choices(['up', 'down']))
 program.action(main)
 
 async function main(options: any) {
   const action = options.action
   const name = options.name
+  console.log(options)
 
   if (action === 'migrate') {
-    await migrateToLatest()
+    await migrate(options.migrationDir as 'up' | 'down')
   } else if (action === 'generate') {
     await generateMigrationFile(name)
   } else {
@@ -29,8 +31,7 @@ async function main(options: any) {
 }
 
 
-async function migrateToLatest() {
-  console.log('migrating database to latest version')
+async function migrate(arg: 'up' | 'down') {
 
   const migrator = new Migrator({
     db,
@@ -42,15 +43,33 @@ async function migrateToLatest() {
     }),
   })
 
-  const { error, results } = await migrator.migrateToLatest()
+  let error: unknown| null = null
 
-  results?.forEach((it) => {
-    if (it.status === 'Success') {
-      console.log(`migration "${it.migrationName}" was executed successfully`)
-    } else if (it.status === 'Error') {
-      console.error(`failed to execute migration "${it.migrationName}"`)
-    }
-  })
+  if (arg === 'up') {
+    console.log('migrating database to latest version')
+    const { error: merror, results } = await migrator.migrateToLatest()
+    error = merror
+
+    results?.forEach((it) => {
+      if (it.status === 'Success') {
+        console.log(`migration "${it.migrationName}" was executed successfully`)
+      } else if (it.status === 'Error') {
+        console.error(`failed to execute migration "${it.migrationName}"`)
+      }
+    })
+  } else {
+    console.log('Migrating one step down')
+    const { error: merror, results } = await migrator.migrateDown()
+    error = merror
+
+    results?.forEach((it) => {
+      if (it.status === 'Success') {
+        console.log(`migration "${it.migrationName}" was rolled back successfully`)
+      } else if (it.status === 'Error') {
+        console.error(`failed to roll back migration "${it.migrationName}"`)
+      }
+    })
+  }
 
   if (error) {
     console.error('failed to migrate')

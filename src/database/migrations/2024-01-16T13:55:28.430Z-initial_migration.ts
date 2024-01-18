@@ -57,6 +57,7 @@ create table Legislatura
     inicio      INTEGER not null,
     fin         INTEGER not null,
     title       TEXT    not null,
+    camaraId    INTEGER not null,
     cuatrenioId INTEGER not null
         constraint Legislatura_cuatrenioId_fkey
             references Cuatrenio

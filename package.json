@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm db/database.db && npm run db:migrate && npm run db:seed",
+    "reset": "rm db/database.db && npm run db:migrate && npm run db:seed && npm run db:gen-ts-schema",
     "test": "jest",
     "format": "prettier --write \"src/**/*.ts\"",
     "db:gen-ts-schema": "npx kysely-codegen --out-file src/database/schema.ts",
@@ -12,7 +12,8 @@
     "db:migrate": "npx tsx src/database/migrator.ts --action migrate",
     "db:seed": "npx tsx src/database/seeder.ts",
     "build": "tsc --build",
-    "refresh": "tsx ./src/utils/refresh.ts",
+    "refresh-senado": "tsx ./src/utils/refresh-senado.ts",
+    "refresh-camara": "tsx ./src/utils/refresh-camara.ts",
     "gen-reports": "tsx ./src/utils/gen-report.ts",
     "gen-fixtures": "tsx ./src/utils/generate-fixture-results.ts"
   },

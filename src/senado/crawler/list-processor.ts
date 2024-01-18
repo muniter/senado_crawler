@@ -1,5 +1,6 @@
 import { load, Cheerio, CheerioAPI, Element } from 'cheerio'
 import { Config } from './senado'
+import { processListOfPersonas } from '../../utils'
 
 const numeroIdentificadorRegex = /(?<numero>\d+)\/(?<year>\d+)?/
 
@@ -136,17 +137,6 @@ function getAutores($: CheerioAPI, cell: CElement): string[] {
   // It's found in this format Autores: {autores} |
   const raw = $(cell).find('p > b').first().text().trim()
   return processListOfPersonas(raw)
-}
-
-export function processListOfPersonas(raw: string): string[] {
-  let autores = raw
-    .replaceAll('\t', ' ')
-    .replace(/("|')/g, '')
-    .split(/,|;|\n/)
-  autores = autores.map((autor) => autor.trim()).filter((autor) => autor.match(/\w{5,}/))
-
-  const unique = new Set(autores)
-  return [...unique]
 }
 
 function getTitulo($: CheerioAPI, cell: CElement): string {

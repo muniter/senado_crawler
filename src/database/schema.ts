@@ -15,6 +15,25 @@ export interface AutorProyectos {
   proyectoId: number;
 }
 
+export interface CamaraProyectos {
+  autores: string | null;
+  comision: string | null;
+  contenido: string | null;
+  detailDataHash: string | null;
+  estado: string | null;
+  legislatura: string | null;
+  listDataHash: string | null;
+  numeroCamara: string;
+  numeroSenado: string | null;
+  objeto: string | null;
+  observaciones: string | null;
+  origen: string | null;
+  tipo: string | null;
+  tituloCorto: string | null;
+  tituloLargo: string | null;
+  url: string | null;
+}
+
 export interface Comision {
   id: Generated<number>;
   nombre: string;
@@ -28,6 +47,7 @@ export interface Cuatrenio {
 }
 
 export interface Legislatura {
+  camaraId: number;
   cuatrenioId: number;
   fin: number;
   id: Generated<number>;
@@ -94,6 +114,7 @@ export interface ProyectosRelacionados {
 export interface DB {
   Autor: Autor;
   AutorProyectos: AutorProyectos;
+  CamaraProyectos: CamaraProyectos;
   Comision: Comision;
   Cuatrenio: Cuatrenio;
   Legislatura: Legislatura;
