@@ -38,6 +38,33 @@ npm run refresh -- --cuatrenio "2022-2026" --legislatura "2022-2023" --tipo deta
 Los resultados de la ejecución se guardan en la carpeta `prisma` en el archivo `dev.db`. Esto es una base de datos en formato Sqlite que se puede visualizar en diferentes programas como https://sqlitebrowser.org/dl/
 
 
+## Utils
+
+1. Migrate database
+
+```bash
+npm run db:migrate
+```
+
+2. Seed database
+
+```bash
+npm run db:seed
+```
+
+3. Generate typescript schema for kysely
+
+```bash
+npm run db:gen-ts-schema
+```
+
+4. Generate migration file
+
+```bash
+npm run db:migrator -- --action 'generate' --name 'initial migration'
+```
+
+
 ## Tareas
 
 - Crawl main page
