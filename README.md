@@ -64,6 +64,12 @@ npm run db:gen-ts-schema
 npm run db:migrator -- --action 'generate' --name 'initial migration'
 ```
 
+5. Clean, delete, migrate and seed.
+
+```bash
+npm run clean
+```
+
 
 ## Tareas
 
