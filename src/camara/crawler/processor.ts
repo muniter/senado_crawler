@@ -2,8 +2,8 @@ import { load } from 'cheerio';
 import { buildCamaraUrl, DetailData, ListData } from '..';
 import { processListOfPersonas } from '../../utils';
 
-const numeroCamaraRegex = /\d+\/\d+C?/
-const numeroSenadoRegex = /\d+\/\d+S?/
+const numeroCamaraRegex = /\d+(\/|-)\d+C?/
+const numeroSenadoRegex = /\d+(\/|-)\d+S?/
 const autorRegex = /Autor.?.?:?\s/
 const dateRegex = /\d{4}-\d{2}-\d{2}/
 
@@ -11,6 +11,7 @@ function getNumeroCamara(raw: string): string {
   const matcher = raw.match(numeroCamaraRegex)
   if (matcher) {
     let result = matcher[0].trim()
+    result = result.replace('-', '/')
     if (!result.endsWith('C')) {
       result = result + 'C'
     }
@@ -24,6 +25,7 @@ function getNumeroSenado(raw: string): string | null {
   const matcher = raw.match(numeroSenadoRegex)
   if (matcher) {
     let result = matcher[0].trim()
+    result = result.replace('-', '/')
     if (!result.endsWith('S')) {
       result = result + 'S'
     }
