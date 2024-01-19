@@ -8,6 +8,8 @@
     "clean": "rm prisma/dev.db; npx prisma db push && npx prisma db seed",
     "test": "jest",
     "format": "prettier --write \"src/**/*.ts\"",
+    "db:gen-schema": "npx kysely-codegen --out-file src/database/schema.ts",
+    "db:migrator": "npx tsx src/database/migrator.ts",
     "build": "tsc --build",
     "refresh": "tsx ./src/utils/refresh.ts",
     "gen-reports": "tsx ./src/utils/gen-report.ts",

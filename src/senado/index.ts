@@ -80,20 +80,20 @@ class SenadoRepository {
         const numeroSenado = formatNumeroLegislativo(data.numeroSenado)
         const numeroCamara = data.numeroCamara ? formatNumeroLegislativo(data.numeroCamara) : null
         const update = {
-            comisionId: tx.selectFrom('comision').select('id').where('nombre', '=', data.comision),
+            comisionId: tx.selectFrom('Comision').select('id').where('nombre', '=', data.comision),
             estado: data.estado.estado,
             estadoAnotacion: data.estado.anotacion,
             numero: numeroSenado,
             numeroCamara,
             titulo: data.titulo,
             fechaRadicado: data.fechaRadicado.toISOString(),
-            legislaturaId: tx.selectFrom('legislatura').select('id').where('title', '=', legislatura),
+            legislaturaId: tx.selectFrom('Legislatura').select('id').where('title', '=', legislatura),
             url: data.url
         }
         // TODO: Replace with ON CONFLICT DO REPLACE
         // https://www.sqlite.org/lang_conflict.html
         const { id: proyectoId } = await tx
-            .insertInto('proyectoSenado')
+            .insertInto('ProyectoSenado')
             .values(update)
             .returning('id')
             .onConflict((oc) => oc.doUpdateSet(update))
@@ -105,7 +105,7 @@ class SenadoRepository {
     }
 
     async upsertProyectoDetalles(tx: DBTransaction, proyectoId: number, detalles: ProyectoDetailData) {
-        await tx.replaceInto('proyectoSenadoDetalles')
+        await tx.replaceInto('ProyectoSenadoDetalles')
             .values({
                 proyectoId,
                 origen: detalles.origen,
@@ -117,7 +117,7 @@ class SenadoRepository {
                 fechaConciliacion: detalles.fechaConciliacion?.toISOString()
             }).execute()
 
-        await tx.replaceInto('proyectoSenadoPublicaciones')
+        await tx.replaceInto('ProyectoSenadoPublicaciones')
             .values({
                 proyectoId,
                 exposicionMotivos: detalles.publicaciones.exposicionMotivos,
@@ -154,11 +154,10 @@ class SenadoRepository {
 
     async getProyectosLegislatura(legislatura: string) {
         return db
-            .selectFrom('proyectoSenado')
-            .select(['proyectoSenado.id', 'proyectoSenado.url', 'proyectoSenado.numero'])
-            .leftJoin('legislatura', 'legislatura.id', 'proyectoSenado.legislaturaId')
-            .where('legislatura.title', '=', legislatura)
-            // TODO: Remove this limit
+            .selectFrom('ProyectoSenado')
+            .select(['ProyectoSenado.id', 'ProyectoSenado.url', 'ProyectoSenado.numero'])
+            .leftJoin('Legislatura', 'Legislatura.id', 'ProyectoSenado.legislaturaId')
+            .where('Legislatura.title', '=', legislatura)
             .execute()
     }
 
@@ -171,7 +170,7 @@ class SenadoRepository {
             return
         }
         await db
-            .replaceInto('proyectosRelacionados')
+            .replaceInto('ProyectosRelacionados')
             .values(
                 relacionados.map((r) => ({
                     proyectoId,
@@ -183,21 +182,21 @@ class SenadoRepository {
 
     private buildGetLegislaturas() {
         return db
-            .selectFrom('legislatura as legislatura')
-            .select(['legislatura.id', 'legislatura.title', 'legislatura.cuatrenioId', 'legislatura.inicio', 'legislatura.fin'])
-            .leftJoin('cuatrenio', 'cuatrenio.id', 'legislatura.cuatrenioId')
+            .selectFrom('Legislatura')
+            .select(['Legislatura.id', 'Legislatura.title', 'Legislatura.cuatrenioId', 'Legislatura.inicio', 'Legislatura.fin'])
+            .leftJoin('Cuatrenio', 'Cuatrenio.id', 'Legislatura.cuatrenioId')
     }
 
     async getLegislatura(cuatrenio: string, legislatura: string) {
         return this.buildGetLegislaturas()
-            .where('cuatrenio.title', '=', cuatrenio)
-            .where('legislatura.title', '=', legislatura)
+            .where('Cuatrenio.title', '=', cuatrenio)
+            .where('Legislatura.title', '=', legislatura)
             .executeTakeFirst()
     }
 
     async getLegislaturasCuatrenio(cuatrenio: string) {
         return this.buildGetLegislaturas()
-            .where('cuatrenio.title', '=', cuatrenio)
+            .where('Cuatrenio.title', '=', cuatrenio)
             .execute()
     }
 }
@@ -207,7 +206,7 @@ class ComisionRepository {
 
     async upsertComisiones(comisiones: string[]) {
         await db
-            .insertInto('comision')
+            .insertInto('Comision')
             .values(comisiones.map((c) => ({ nombre: c })))
             .onConflict((co) => co.doNothing())
             .execute()
@@ -220,21 +219,21 @@ class AutorRepository {
     async syncAutoresWithProyecto(db: DBTransaction, proyectoId: number, autores: string[]) {
         if (autores.length > 0) {
             await db
-                .insertInto('autor')
+                .insertInto('Autor')
                 .values(autores.map((a) => ({ nombre: a })))
                 .onConflict((co) => co.doNothing())
                 .execute()
 
             const autoresId = await db
-                .selectFrom('autor')
+                .selectFrom('Autor')
                 .select('id')
                 .where('nombre', 'in', autores)
                 .execute()
 
-            await db.deleteFrom('autorProyectos').where('proyectoId', '=', proyectoId).execute()
+            await db.deleteFrom('AutorProyectos').where('proyectoId', '=', proyectoId).execute()
 
             await db
-                .insertInto('autorProyectos')
+                .insertInto('AutorProyectos')
                 .columns(['proyectoId', 'autorId'])
                 .values(autoresId.map((a) => ({ proyectoId, autorId: a.id })))
                 .execute()
@@ -251,10 +250,10 @@ export class CuatrenioRepository {
     private selectFields = ['id', 'title', 'inicio', 'fin'] as const
 
     async getAll() {
-        return db.selectFrom('cuatrenio').select(this.selectFields).execute()
+        return db.selectFrom('Cuatrenio').select(this.selectFields).execute()
     }
 
     async getByTitle(title: string) {
-      return db.selectFrom('cuatrenio').select(this.selectFields).where('title', '=', title).executeTakeFirst()
+      return db.selectFrom('Cuatrenio').select(this.selectFields).where('title', '=', title).executeTakeFirst()
     }
 }

@@ -1,107 +1,106 @@
-import type { Generated, GeneratedAlways, ColumnType } from 'kysely'
+import type { ColumnType } from "kysely";
 
-export interface DatabaseSchema {
-  autor: Autor
-  autorProyectos: AutorProyectos
-  comision: Comision
-  cuatrenio: Cuatrenio
-  legislatura: Legislatura
-  ponente: Ponente
-  ponenteProyecto: PonenteProyecto
-  proyectoSenado: ProyectoSenado
-  proyectoSenadoDetalles: ProyectoSenadoDetalles
-  proyectoSenadoPublicaciones: ProyectoSenadoPublicaciones
-  proyectosRelacionados: ProyectosRelacionados
-}
+export type Generated<T> = T extends ColumnType<infer S, infer I, infer U>
+  ? ColumnType<S, I | undefined, U>
+  : ColumnType<T, T | undefined, T>;
 
 export interface Autor {
-  id: Generated<number>
-  nombre: string
+  id: Generated<number>;
+  nombre: string;
 }
 
 export interface AutorProyectos {
-  id: Generated<number>
-  autorId: number
-  proyectoId: number
+  autorId: number;
+  id: Generated<number>;
+  proyectoId: number;
 }
 
 export interface Comision {
-  id: Generated<number>
-  nombre: string
-  estado: string | null
+  id: Generated<number>;
+  nombre: string;
 }
 
 export interface Cuatrenio {
-  id: Generated<number>
-  fin: number
-  inicio: number
-  title: GeneratedAlways<string>
+  fin: number;
+  id: Generated<number>;
+  inicio: number;
+  title: string;
 }
 
 export interface Legislatura {
-  id: Generated<number>
-  cuatrenioId: number
-  fin: number
-  inicio: number
-  title: GeneratedAlways<string>
-}
-
-export interface PonenteProyecto {
-  id: Generated<number>
-  ponenteId: number
-  proyectoId: number
-  debate: 'primer' | 'segundo'
+  cuatrenioId: number;
+  fin: number;
+  id: Generated<number>;
+  inicio: number;
+  title: string;
 }
 
 export interface Ponente {
-  id: Generated<number>
-  nombre: string
+  id: Generated<number>;
+  nombre: string;
+}
+
+export interface PonenteProyecto {
+  id: Generated<number>;
+  ponenteId: number;
+  proyectoId: number;
 }
 
 export interface ProyectoSenado {
-  id: Generated<number>
-  numero: string
-  numeroCamara: string | null
-  titulo: string
-  comisionId: number
-  estado: string | null
-  estadoAnotacion: string | null
-  fechaRadicado: Generated<string | string | string> // TODO: convert to Date
-  legislaturaId: number
-  url: string
-  // TODO:
-  // lastCrawled: ColumnType<string | string | string >; // TODO: convert to Date
-  // lastUpdated: ColumnType<string | string | string >; // TODO: convert to Date
+  comisionId: number;
+  estado: string | null;
+  estadoAnotacion: string | null;
+  fechaRadicado: string;
+  id: Generated<number>;
+  legislaturaId: number;
+  numero: string;
+  numeroCamara: string | null;
+  titulo: string;
+  url: string;
 }
 
 export interface ProyectoSenadoDetalles {
-  id: Generated<number>
-  proyectoId: number
-  origen: string | null
-  tipoLey: string | null
-  fechaEnvioComision: ColumnType<string | string | string> | null // TODO: convert to Date
-  fechaPresentacion: ColumnType<string | string | string> | null // TODO: convert to Date
-  fechaAprobacionPrimerDebate: ColumnType<string | string | string> | null // TODO: convert to Date
-  fechaAprobacionSegundoDebate: ColumnType<string | string | string> | null // TODO: convert to Date
-  fechaConciliacion: ColumnType<string | string | string> | null // TODO: convert to Date
+  fechaAprobacionPrimerDebate: string | null;
+  fechaAprobacionSegundoDebate: string | null;
+  fechaConciliacion: string | null;
+  fechaEnvioComision: string | null;
+  fechaPresentacion: string | null;
+  id: Generated<number>;
+  origen: string | null;
+  proyectoId: number;
+  tipoLey: string | null;
 }
 
 export interface ProyectoSenadoPublicaciones {
-  id: Generated<number>
-  proyectoId: number
-  exposicionMotivos: string | null
-  primeraPonencia: string | null
-  segundaPonencia: string | null
-  textoPlenaria: string | null
-  conciliacion: string | null
-  objeciones: string | null
-  concepto: string | null
-  textoRehecho: string | null
-  sentenciaCorte: string | null
+  concepto: string | null;
+  conciliacion: string | null;
+  exposicionMotivos: string | null;
+  id: Generated<number>;
+  objeciones: string | null;
+  primeraPonencia: string | null;
+  proyectoId: number;
+  segundaPonencia: string | null;
+  sentenciaCorte: string | null;
+  textoPlenaria: string | null;
+  textoRehecho: string | null;
 }
 
 export interface ProyectosRelacionados {
-  id: Generated<number>
-  proyectoId: number
-  relacionadoNumero: string
+  id: Generated<number>;
+  proyectoId: number;
+  relacionadoNumero: string;
+}
+
+export interface DB {
+  Autor: Autor;
+  AutorProyectos: AutorProyectos;
+  Comision: Comision;
+  Cuatrenio: Cuatrenio;
+  Legislatura: Legislatura;
+  Ponente: Ponente;
+  PonenteProyecto: PonenteProyecto;
+  ProyectoSenado: ProyectoSenado;
+  ProyectoSenadoDetalles: ProyectoSenadoDetalles;
+  ProyectoSenadoPublicaciones: ProyectoSenadoPublicaciones;
+  ProyectosRelacionados: ProyectosRelacionados;
 }
