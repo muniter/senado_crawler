@@ -90,6 +90,7 @@ jobs:
 
   camara:
     if: ${{ always() }}
+    needs: senado
     runs-on: ubuntu-latest
     permissions:
       contents: write

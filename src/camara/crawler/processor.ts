@@ -16,7 +16,7 @@ function getNumeroCamara(raw: string): string {
     }
     return result
   } else {
-    throw new Error('Could not find numeroCamara')
+    throw new Error(`Could not find numeroCamara in: ${raw}`)
   }
 }
 
@@ -43,7 +43,7 @@ function getLegislatura(raw: string): string {
   if (matcher) {
     return matcher[0].trim().replaceAll(' ', '')
   } else {
-    throw new Error('Could not find legislatura')
+    throw new Error('Could not find legislatura in: ' + raw)
   }
 }
 
