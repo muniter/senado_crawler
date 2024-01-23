@@ -4,8 +4,8 @@ import {
   NumeroIdentificador,
   parseNumeroIdentificador,
   parseTextualDate,
-  processListOfPersonas
 } from './list-processor'
+import { processListOfPersonas } from '../../utils'
 
 export type ProyectoDetailData = {
   numero: NumeroIdentificador
