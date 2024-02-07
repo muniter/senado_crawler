@@ -44,13 +44,23 @@ function getPageUrl(legislaturaID: number, page: number) {
   return config.url.head + config.url.query.replace('{$page}', page.toString()).replace('{$legislaturaID}', legislaturaID.toString())
 }
 
-async function getPageRawData(url: string) {
+async function getPageRawData(url: string, attempts = 1): Promise<string> {
   console.info('Getting page data for url', url)
-  const result = await Camara.get(url, {
-    timeout: 10000
-  })
+  let currentAttempt = 1
+  let lastError: unknown | null = null
 
-  return result.data
+  while (currentAttempt <= attempts) {
+    try {
+      const result = await Camara.get(url)
+      return result.data
+    } catch (e: unknown) {
+      lastError = e
+      currentAttempt++
+      console.error(`Error getting page data for url ${url}, attempt ${currentAttempt} of ${attempts}`)
+    }
+  }
+  console.error(`Error getting page data for url ${url}, attempts limit reached`)
+  throw lastError
 }
 
 export async function refreshCuatrenio(cuatrenio: string) {
@@ -83,9 +93,9 @@ export async function refreshLegislaturaProyectosListData(legislatura: string) {
   while (true) {
     const url = getPageUrl(legislaturaData.camaraId, page)
     console.info(`Getting page ${page} for legislatura ${legislatura}`)
-    const raw = await getPageRawData(url)
 
     let data = null
+    const raw = await getPageRawData(url, 3)
     try {
       data = processRawPage(raw)
     } catch (e) {
@@ -147,8 +157,8 @@ async function refreshProyectoDetailData(options: RefreshProyectoDetailDataOptio
   }
 
   console.info(`Refreshing detail data for proyecto: ${options.numeroCamara}`)
-  const raw = await getPageRawData(fetchUrl)
   try {
+    const raw = await getPageRawData(fetchUrl, 2)
     const data = processDetailPage(raw)
     await storeProyectoDetailData(data)
   } catch (e) {
