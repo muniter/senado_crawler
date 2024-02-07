@@ -108,7 +108,11 @@ export async function refreshLegislaturaProyectosDetailData(legislatura: string)
   const proyectos = await db.selectFrom('CamaraProyectos')
     .selectAll()
     .where('legislatura', '=', legislatura)
-    .where('estado', 'not in', ['Archivado', 'Retirado'])
+    .where((eb) => eb.or([
+      eb('estado', 'not in', ['Archivado', 'Retirado']),
+      // Makes sure we at least have scrapped the detail data one time.
+      eb('detailDataHash', 'is', null),
+    ]))
     .execute()
 
   const chunks = R.chunk(R.filter(proyectos, (proyecto) => proyecto.url !== null), 10)
@@ -257,5 +261,5 @@ async function storeProyectoDetailData(data: DetailData) {
 
 // refreshProyectosListData('2020-2021')
 // refreshLegislaturaProyectosDetailData('2020-2021')
-// refreshProyectoDetailData({ numeroCamara: '643/2021C' })
+// refreshProyectoDetailData({ numeroCamara: '397/2019C' })
 // getProyectosDetail();
