@@ -578,7 +578,7 @@
       "H.S.Ana Paola Agudelo García",
       "H.R.Irma Luz Herrera Rodríguez"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Ley",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -2687,7 +2687,7 @@
       "Industria y Turismo - Dario German Umaña Mendoza",
       "Ministro de Trasporte - Guillermo Francisco Reyes Gonzalez"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Ley",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -3374,7 +3374,7 @@
     "autores": [
       "H.S.John Harold Suarez Vargas"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Ley",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -3596,14 +3596,14 @@
   },
   {
     "numeroCamara": "288/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "077/2022S",
     "tituloCorto": "CONVENIO IGUALDAD DE OPORTUNIDADES",
     "tipo": "Ley Ordinaria",
     "autores": [
       "Ministra de Relaciones Exteriores - Martha Lucia Ramirez Blanco",
       "Ministro del Trabajo - Angel Custodio Cabrera Baez"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Ley",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -4562,7 +4562,7 @@
       "Ministra de Agricultura - Cecilia Lopez Montaño",
       "Ministro del Interior - Alfonso Prada Gil"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Acto Legislativo",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -5427,7 +5427,7 @@
       "Ministra de Comercio",
       "Industria y Turismo - Martha Ximena Lombana"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Ley",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
