@@ -2071,19 +2071,26 @@
   {
     "numeroCamara": "347/2023C",
     "numeroSenado": null,
-    "tituloCorto": "EDUCACIÓN",
+    "tituloCorto": "HIDRÓLISIS ALCALINA",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "H.R.Santiago Osorio Marín"
+      "H.R.David Alejandro Toro Ramírez",
+      "H.R.Mary Anne Andrea Perdomo",
+      "H.R.Óscar Darío Pérez Pineda",
+      "H.R.John Jairo González Agudelo",
+      "H.R.Pedro José Súarez Vacca",
+      "H.R.Susana Gómez Castaño",
+      "H.R.Gabriel Ernesto Parrado Durán",
+      "H.R.Carmen Felisa Ramírez Boscán"
     ],
-    "estado": "Archivado",
-    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
+    "estado": "Trámite en Comisión",
+    "comision": "",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
-    "legislatura": "2022-2023",
-    "url": "https://www.camara.gov.co/educacion-1",
-    "tituloLargo": "Por medio del cual se garantizan recursos para el acceso y la permanencia en las Universidades Públicas del país",
-    "objeto": "La presente ley tiene por objeto garantizar recursos necesarios financiar medidas que fomenten el acceso, la permanencia y la educación en condiciones de calidad en las Universidades Públicas del país"
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/hidrolisis-alcalina",
+    "tituloLargo": "Por medio del cual se establece la hidrólisis alcalina como servicio funerario para la disposición final de cadáveres",
+    "objeto": "Establecer la hidrolisis alcalina como servicio funerario para la disposición de cadáveres o restos humanos."
   },
   {
     "numeroCamara": "346/2023C",
@@ -15504,7 +15511,7 @@
     "autores": [
       "H.S.Edwing Fabián Díaz Plata"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -19991,5 +19998,61 @@
     "url": "https://www.camara.gov.co/ciudades-verdes",
     "tituloLargo": "por medio del cual se fortalece la gestión del riesgo y la adaptación al cambio climático en Colombia a través de las ciudades verdes y biodiversas.",
     "objeto": "fortalecer la gestión del riesgo y la adaptación al cambio climático en Colombia aumentando significativamente la superficie, calidad y conectividad de los espacios verdes y azules en zonas urbanas, de expansión urbana, periurbanas y densamente pobladas de los distritos, municipios de mas de 100000 habitantes y areas metropolitanas de manera sostenible, integrando la biodiversidad e implementando las soluciones basadas en la naturaleza."
+  },
+  {
+    "numeroCamara": "349/2024C",
+    "numeroSenado": "231/2022S",
+    "tituloCorto": "SERVICIO PÚBLICO ESCENCIAL GAS NATURAL",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Arturo Char Chaljub",
+      "H.S.Carlos Abraham Jiménez",
+      "H.S.Jorge Enrique Benedetti Martelo",
+      "H.S.Jose Luis Pérez Oyuela",
+      "H.R.Adriana Carolina Arbeláez Giraldo",
+      "H.R.Betsy Judith Pérez Arango",
+      "H.R.Gersel Luis Pérez Altamiranda",
+      "H.R.Hernando González",
+      "H.R.Jairo Humberto Cristo Correa",
+      "H.R.Javier Alexander Sánchez Reyes",
+      "H.R.Jorge Méndez Hernández",
+      "H.R.Lina María Garrido Martín",
+      "H.R.Mauricio Parodi Díaz",
+      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Oscar Rodrigo Campo Hurtado",
+      "H.R.Sandra Milena Ramírez Caviedes",
+      "H.R.Víctor Andrés Tovar Trujillo",
+      "H.R.Jaime Rodríguez Contreras",
+      "H.R.Modesto Enrique Aguilera Vides"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/servicio-publico-escencial-gas-natural",
+    "tituloLargo": "POR MEDIO DEL CUAL SE GARANTIZA EL ACCESO AL SERVICIO PÚBLICO DOMICILIARIO DE GAS COMBUSTIBLE POR REDES EN NUEVAS VIVIENDAS DE INTERÉS SOCIAL, VIS, Y VIVIENDAS DE INTERÉS PRIORITARIO, VIP.",
+    "objeto": "garantizar el acceso al servicio público domiciliario esencial de gas natural en nuevas viviendas de interés social , VIS, y de interés prioritario, VIP."
+  },
+  {
+    "numeroCamara": "348/2024C",
+    "numeroSenado": "105/2022S",
+    "tituloCorto": "ENTORNOS SEGUROS",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Nadya Georgette Blel Scaf",
+      "H.S.Juan Samy Merheg Marun",
+      "H.S.Efraín José Cepeda Sarabia",
+      "H.R.Juliana Aray Franco",
+      "H.R.Jorge Alexander Quevedo Herrera"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Primera Constitucional Permanente",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/entornos-seguros",
+    "tituloLargo": "POR MEDIO DE LA CUAL SE ESTABLECEN LOS CARGOS, OFICIOS O PROFESIONES SUSCEPTIBLES DE APLICACIÓN DE LA INHABILIDAD POR DELITOS SEXUALES CONTRA MENORES Y SE DICTAN OTRAS DISPOSICIONES. “ENTORNOS SEGUROS\"",
+    "objeto": "Establecer los cargos, oficios o profesiones susceptibles de aplicación de la inhabilidad por delitos sexuales contra menores en los términos de la Ley 1918 de 2019."
   }
 ]
