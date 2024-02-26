@@ -20076,7 +20076,9 @@
       "H.R.Andrés David Calle Aguas",
       "H.R.Hugo Alfonso Archila Suárez",
       "H.R.Julián Peinado Ramírez",
-      "H.R.Wilmer Yesid Guerrero Avendaño"
+      "H.R.Wilmer Yesid Guerrero Avendaño",
+      "H.R.Oscar Hernán Sánchez León",
+      "H.R.Karyme Adrana Cotes Martínez"
     ],
     "estado": "Trámite en Comisión",
     "comision": "",
@@ -20106,7 +20108,9 @@
       "H.R.Julián David López Tenorio",
       "H.R.Ana Paola García Soto",
       "H.R.Alexander Guarín Silva",
-      "H.R.Álvaro Mauricio Londoño Lugo"
+      "H.R.Álvaro Mauricio Londoño Lugo",
+      "H.R.Saray Elena Robayo Bechara",
+      "H.R.José Eliécer Salazar López"
     ],
     "estado": "Trámite en Comisión",
     "comision": "",
@@ -20209,7 +20213,7 @@
     "numeroCamara": "362/2024C",
     "numeroSenado": "269/2022S",
     "tituloCorto": "INSOLVENCIA PERSONA NATURAL",
-    "tipo": "Ley Estatutaria",
+    "tipo": "Ley Ordinaria",
     "autores": [
       "H.S.Germán Alcides Blanco Álvarez",
       "H.S.Oscar Barreto Quiroga",
@@ -20365,5 +20369,22 @@
     "url": "https://www.camara.gov.co/juntas-calificadoras",
     "tituloLargo": "POR LA CUAL SE ESTABLECE LA CONFORMACIÓN E INTEGRACIÓN DE LAS JUNTAS REGIONALES Y  NACIONAL DE LA CALIFICACIÓN DE INVALIDEZ Y SE DICTAN OTRAS  DISPOSICIONES",
     "objeto": "Establecer lineamientos para que la escogencia de las y los miembros e integrantes de las Juntas Regionales de Calificación de Invalidez y la Junta Nacional de Calificación de Invalidez se realice de manera transparente y basada en el mérito."
+  },
+  {
+    "numeroCamara": "350/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "SIMON BOLIVAR",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Ingrid Johana Aguirre Juvinao"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/simon-bolivar",
+    "tituloLargo": "Por medio de la cual la nación se vincula a la conmemoración solemne del bicentenario de la muerte del libertador Simón Bolívar en el Distrito de Santa Marta, departamento del Magdalena en el año 2030 y se dictan otras disposiciones",
+    "objeto": "La presente Ley tiene por objeto vincular a la nación en la conmemoración solemne del bicentenario de la muerte del libertador Simón Bolívar que se cumple el 17 de diciembre de 2030 en el Distrito de Santa Marta, Departamento del Magdalena."
   }
 ]
