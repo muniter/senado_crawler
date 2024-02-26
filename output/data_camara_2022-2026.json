@@ -2074,17 +2074,17 @@
     "tituloCorto": "HIDRÓLISIS ALCALINA",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "David Alejandro Toro Ramírez",
-      "Mary Anne Andrea Perdomo",
-      "Óscar Darío Pérez Pineda",
-      "John Jairo González Agudelo",
-      "Pedro José Súarez Vacca",
-      "Susana Gómez Castaño",
-      "Gabriel Ernesto Parrado Durán",
-      "Carmen Felisa Ramírez Boscán"
+      "H.R.David Alejandro Toro Ramírez",
+      "H.R.Mary Anne Andrea Perdomo",
+      "H.R.Óscar Darío Pérez Pineda",
+      "H.R.John Jairo González Agudelo",
+      "H.R.Pedro José Súarez Vacca",
+      "H.R.Susana Gómez Castaño",
+      "H.R.Gabriel Ernesto Parrado Durán",
+      "H.R.Carmen Felisa Ramírez Boscán"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
@@ -2158,6 +2158,7 @@
       "H.R.Alfredo Mondragón Garzón",
       "H.R.David Alejandro Toro Ramírez",
       "H.R.Carmen Felisa Ramírez Boscán",
+      "H.R.Pedro José Súarez Vacca",
       "Ministro de Minas y Energía - Andrés Camacho Morales"
     ],
     "estado": "Trámite en Comisión",
@@ -20081,7 +20082,7 @@
       "H.R.Karyme Adrana Cotes Martínez"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
@@ -20113,7 +20114,7 @@
       "H.R.José Eliécer Salazar López"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
@@ -20362,7 +20363,7 @@
       "H.R.Erick Adrián Velasco Burbano"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
@@ -20379,12 +20380,74 @@
       "H.R.Ingrid Johana Aguirre Juvinao"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
     "url": "https://www.camara.gov.co/simon-bolivar",
     "tituloLargo": "Por medio de la cual la nación se vincula a la conmemoración solemne del bicentenario de la muerte del libertador Simón Bolívar en el Distrito de Santa Marta, departamento del Magdalena en el año 2030 y se dictan otras disposiciones",
     "objeto": "La presente Ley tiene por objeto vincular a la nación en la conmemoración solemne del bicentenario de la muerte del libertador Simón Bolívar que se cumple el 17 de diciembre de 2030 en el Distrito de Santa Marta, Departamento del Magdalena."
+  },
+  {
+    "numeroCamara": "353/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "PASAJEROS DISRUPTIVOS",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.María Fernanda Carrascal Rojas",
+      "H.R.Jennifer Dalley Pedraza Sandoval"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/pasajeros-disruptivos",
+    "tituloLargo": "por medio del cual se protege a las personas\ntrabajadoras del sector aeronáutico, se previene y regula las conductas de\npasajeros disruptivos en el sector aeronáutico",
+    "objeto": "La presente ley tiene por objeto proteger a las personas trabajadoras del sector aeronáutico mediante la prevención, sanción y reparación de las conductas de pasajeros disruptivos, indisciplinados, perturbadores o insubordinados en el sector aeronáutico colombiano, incluyendo sanciones temporales para la restricción de movilidad a pasajeros disruptivos."
+  },
+  {
+    "numeroCamara": "352/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "INCENDIOS FORESTALES",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Ana carolina Espitia Jerez",
+      "H.S.Angélica lisbeth lozano correa",
+      "H.S.Ariel Fernando Avíla Martínez",
+      "H.S.Edwing Fabián Díaz Plata",
+      "H.R.Cristian Danilo Avendaño Fino",
+      "H.R.Jorge Andrés Cancimance López",
+      "H.R.Duvalier Sánchez Arango",
+      "H.R.Erick Adrián Velasco Burbano",
+      "H.R.Gabriel Ernesto Parrado Durán",
+      "H.R.Álvaro Leonel Rueda caballero"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Quinta Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/incendios-forestales",
+    "tituloLargo": "Por medio de la cual se protegen las áreas de especial importancia ecológica afectadas por incendios forestales, se dictan lineamientos para la restauración ecológica participativa, se crea el registro nacional de áreas afectadas por incendios forestales y se dictan otras disposiciones",
+    "objeto": "El objeto de la presente Ley es proteger las áreas de especial importancia ecológica afectadas por incendios forestales, prohibiendo que sobre las mismas se desarrollen procesos de cambio en la clasificación del uso suelo o procesos administrativos de sustracción de áreas, con el propósito de evitar que se habiliten estas áreas para su explotación económica; establecer la obligatoriedad de diseñar, implementar y actualizar los planes de restauración ecológica participativa, de acuerdo a los lineamientos dictaminados en la presente Ley; desarrollar mecanismos de articulación institucional para el diseño e implementación de programas de restauración ecológica participativa de las áreas de especial interés ecológicas afectadas por los incendios forestales; y crear el Registro Nacional de Áreas Afectadas por Incendios Forestales- RAAIF."
+  },
+  {
+    "numeroCamara": "351/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "FORTALECIMIENTO ECONOMIA POPULAR",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Juan Carlos Vargas Soler",
+      "H.R.Juan Pablo Salazar Rivera"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Séptima Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/fortalecimiento-economia-popular",
+    "tituloLargo": "POR MEDIO DEL CUAL SE ESTABLECEN LINEAMIENTOS PARA FORTALECIMIENTO DE LA ECONOMIA POPULAR Y SOCIAL-SOLIDARIA EN EL SECTOR RURAL EN COLOMBIA, Y SE DICTAN OTRAS DISPOSICIONES.",
+    "objeto": "La presente ley tiene por objeto promover, fomentar, fortalecer y desarrollar la economía popular y social-solidaria del sector rural en Colombia, a partir del fortalecimiento de economía campesina y solidaria, potenciando con ello la seguridad y la soberanía alimentaria en el país, así como el mejoramiento de las condiciones de vida de la población campesina."
   }
 ]
