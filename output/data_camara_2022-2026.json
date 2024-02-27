@@ -63,7 +63,7 @@
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.Adriana Carolina Arbeláez Giraldo"
     ],
-    "estado": "",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -5843,7 +5843,7 @@
       "H.R.Marelen Castillo Torres",
       "H.R.Leonor María Palencia Vega"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -12289,7 +12289,7 @@
       "H.R.Karen Juliana López Salazar",
       "H.R.Juan Pablo Salazar Rivera"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -14527,7 +14527,7 @@
       "H.R.Gabriel Ernesto Parrado Durán",
       "H.R.Etna Tamara Argote Calderón"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -17052,7 +17052,7 @@
       "H.R.Daniel Restrepo Carmona",
       "H.R.Carlos Adolfo Ardila Espinosa"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20449,5 +20449,34 @@
     "url": "https://www.camara.gov.co/fortalecimiento-economia-popular",
     "tituloLargo": "POR MEDIO DEL CUAL SE ESTABLECEN LINEAMIENTOS PARA FORTALECIMIENTO DE LA ECONOMIA POPULAR Y SOCIAL-SOLIDARIA EN EL SECTOR RURAL EN COLOMBIA, Y SE DICTAN OTRAS DISPOSICIONES.",
     "objeto": "La presente ley tiene por objeto promover, fomentar, fortalecer y desarrollar la economía popular y social-solidaria del sector rural en Colombia, a partir del fortalecimiento de economía campesina y solidaria, potenciando con ello la seguridad y la soberanía alimentaria en el país, así como el mejoramiento de las condiciones de vida de la población campesina."
+  },
+  {
+    "numeroCamara": "370/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "CASA COLOMBIA",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Carmen Felisa Ramírez Boscán",
+      "H.R.Gabriel Ernesto Parrado Durán",
+      "H.R.Jorge Andrés Cancimance López",
+      "H.R.Mary Anne Andrea Perdomo",
+      "H.R.Alirio Uribe Muñoz",
+      "H.R.Ermes Evelio Pete Vivas",
+      "H.R.Etna Tamara Argote Calderón",
+      "H.R.David Alejandro Toro Ramírez",
+      "H.R.Luis Alberto Albán Urbano",
+      "H.R.José Octavio Cardona León",
+      "H.R.Leyla Marleny Rincón Trujillo",
+      "H.R.Norman David Bañol Álvarez",
+      "H.R.Gabriel Becerra Yañez"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/casa-colombia",
+    "tituloLargo": "Por medio de la cual se institucionaliza el Programa Casa Colombia, se fortalecen las expresiones de las culturas, las artes, los saberes, la memoria y la identidad colombiana en el exterior y se dictan otras disposiciones",
+    "objeto": "La presente ley tiene por objeto reconocer, promover y apoyar las expresiones de las culturas, las artes, los saberes, la memoria y la identidad colombiana alrededor del mundo, generadas por la población colombiana residente en el exterior del país, a través de la institucionalización del Programa Casa Colombia y de la adopción de otras disposiciones."
   }
 ]
