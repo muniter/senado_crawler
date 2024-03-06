@@ -1,5 +1,38 @@
 [
   {
+    "numero": "N 239/24",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DE LA CUAL SE DECLARA EL DÍA NACIONAL DEL ÁRBOL Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+    "estadoAnotacion": "",
+    "comision": "SEGUNDA",
+    "fechaRadicado": "2024-03-01",
+    "legislatura": "2023-2024",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2023-2024/article/239-por-medio-de-la-cual-se-declara-el-dia-nacional-del-arbol-y-se-dictan-otras-disposiciones",
+    "origen": "SENADO DE LA REPUBLICA",
+    "tipoLey": "ORDINARIA",
+    "fechaEnvioComision": null,
+    "fechaPresentacion": "2024-03-01",
+    "fechaAprobacionPrimerDebate": null,
+    "fechaAprobacionSegundoDebate": null,
+    "fechaConciliacion": null,
+    "autores": [
+      "ANA PAOLA AGUDELO GARCÍA",
+      "H.R. IRMA LUZ HERRERA RODRÍGUEZ.",
+      "H.S. CARLOS EDUARDO GUEVARA VILLABÓN",
+      "MANUEL VIRGUEZ PIRAQUIVE"
+    ],
+    "exposicionMotivos": null,
+    "primeraPonencia": null,
+    "segundaPonencia": null,
+    "textoPlenaria": null,
+    "conciliacion": null,
+    "objeciones": null,
+    "concepto": null,
+    "textoRehecho": null,
+    "sentenciaCorte": null
+  },
+  {
     "numero": "N 238/24",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL LA NACIÓN SE ASOCIA A LA CELBRACIÓN DE LOS (400) AÑOS DE FUNDACIÓN DEL MUNICIPIO DE PLATO (DEPARTAMENTO DEL MAGDALENA) (1626 – 2026) Y SE DICTAN OTRAS DISPOSICIONES",
