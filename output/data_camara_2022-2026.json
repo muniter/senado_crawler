@@ -11,7 +11,7 @@
       "H.S.Guido Echeverri Piedrahita",
       "H.S.Miguel Uribe Turbay"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Debate de Comisión",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -11314,7 +11314,7 @@
     "autores": [
       "Ministro del Interior - Daniel Palacios Martinez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -12813,7 +12813,7 @@
     "autores": [
       "H.R.Wilmer Yair Castellanos Hernández"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -12830,7 +12830,7 @@
     "autores": [
       "H.R.Wilmer Yair Castellanos Hernández"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -13910,7 +13910,7 @@
       "H.R.Juan Diego Muñoz Cabrera",
       "H.R.Wilmer Yair Castellanos Hernández"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -15083,7 +15083,7 @@
       "H.S.Carlos Andres Trujillo Gonzalez",
       "H.R.Daniel Restrepo Carmona"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -15890,7 +15890,7 @@
       "H.R.Julio Roberto Salazar Pérdomo",
       "H.R.Wadith Alberto Manzur Imbett"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -16676,7 +16676,7 @@
       "H.R.Juan Camilo Londoño Barrera",
       "H.R.Julio Roberto Salazar Pérdomo"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -17077,7 +17077,7 @@
       "H.R.Ana Rogelia Monsalve Álvarez",
       "H.R.Gersel Luis Pérez Altamiranda"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -17893,7 +17893,7 @@
       "H.R.Wilder Iberson Escobar Ortiz",
       "H.R.Mónica Karina Bocanegra Pantoja"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19079,7 +19079,7 @@
       "H.R.Hernán Darío Cadavid Márquez",
       "H.R.Andrés Felipe Jiménez Vargas"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19579,7 +19579,7 @@
     "autores": [
       "H.R.Jaime Raúl Salamanca Torres"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20666,5 +20666,120 @@
     "url": "https://www.camara.gov.co/cuasimodo-del-santo-ecce-homo",
     "tituloLargo": "POR MEDIO DEL CUAL LA NACIÓN DECLARA LA CELEBRACIÓN RELIGIOSA DE CUASIMODO DEL SANTO ECCE-HOMO REALIZADAS EN EL CORREGIMIENTO PLAN DE RASPADURA – MUNICIPIO DE UNIÓN PANAMERICANA - CHOCÓ, PATRIMONIO RELIGIOSO, CULTURAL, ECOLOGICO Y TURÍSTICO DE LA NACIÓN, EXALTANDO Y RECONOCIENDO SU RIQUEZA CULTURAL Y DICTÁNDOSE OTRAS DISPOSICIONES",
     "objeto": "La presente ley tiene como finalidad que la Nación rinda un homenaje público a través de distintos reconocimientos de carácter histórico, cultural e inmaterial, como contribución al corregimiento de Raspadura y sus habitantes que desde el año 1802 se cimentó en su historia religiosa las acciones milagrosas del Santo Eccehomo de Raspadura en cuyo honor se edificó el Santuario del Divino Eccehomo."
+  },
+  {
+    "numeroCamara": "376/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "CONVENIOS SOLIDARIOS JAC",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Wilder Iberson Escobar Ortiz",
+      "H.R.Wilmer Yair Castellanos Hernández",
+      "H.R.Luvi Katherine Miranda Peña",
+      "H.R.Óscar Darío Pérez Pineda",
+      "H.R.Olga Lucia Velásquez Nieto",
+      "H.R.Milene Jarava Díaz",
+      "H.R.Ángela María Vergara González",
+      "H.R.Daniel Carvalho Mejía",
+      "H.R.Armando Antonio Zabaraín de Arce",
+      "H.R.Teresa De Jesús Enríquez Rosero",
+      "H.R.Wadith Alberto Manzur Imbett",
+      "H.R.Etna Tamara Argote Calderón"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Tercera o de Hacienda y Crédito Público",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/convenios-solidarios-jac",
+    "tituloLargo": "POR MEDIO DE LA CUAL SE EXCEPTÚA A LOS CONVENIOS SOLIDARIOS DE LAS JUNTAS DE ACCIÓN COMUNAL DEL PAGO DEL GRAVAMEN A LOS MOVIMIENTOS FINANCIEROS",
+    "objeto": "El presente proyecto tiene como objeto exceptuar a los convenios solidarios celebrados entre los entes del orden Nacional, Departamental, Distrital y municipal con las Juntas de Acción Comunal del pago del Gravamen a los Movimientos Financieros -GMF, a través de la adición de un numeral en el artículo 879 del Estatuto Tributario."
+  },
+  {
+    "numeroCamara": "375/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "IGUALDAD EN LA ESTRUCTURA TERRITORIAL",
+    "tipo": "Acto Legislativo",
+    "autores": [
+      "H.S.Paulino Riascos Riascos",
+      "H.R.Orlando Castillo Advincula",
+      "H.R.Gerson Lisímaco Montaño Arizala",
+      "H.R.James Hermenegildo Mosquera Torres",
+      "H.R.Diógenes Quintero Amaya",
+      "H.R.Karen Juliana López Salazar",
+      "H.R.Karen Astrith Manrique Olarte",
+      "H.R.Cristóbal Caicedo Angulo",
+      "H.R.William Ferney Aljure Martínez",
+      "H.R.John Jairo González Agudelo"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Primera Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/igualdad-en-la-estructura-territorial",
+    "tituloLargo": "Por medio del cual se modifica el artículo 286y el artículo 356 de la Constitución Política de Colombia y se incluyen las comunidades negras en la organización territorial del Estado",
+    "objeto": "El proyecto de Acto Legislativo busca modificar el artículo 286 y el artículo 356 de la Constitución Política de 1991 con el objetivo de incorporar los territorios colectivos históricamente ocupados por las comunidades negras, raizales y palenqueras dentro de la estructura territorial o división política del país. Se persigue con ello concretar el principio de igualdad, consagrado en el artículo 13 de la Constitución, así como el principio de no discriminación establecido por la Comisión Interamericano de Derechos Humanos (CIDH) en sus decisiones respecto a poblaciones indígenas y tribales."
+  },
+  {
+    "numeroCamara": "374/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "FONDO EMPRENDER",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Paola Andrea Holguín Moreno",
+      "H.R.Juan Fernando Espinal Ramírez",
+      "H.R.Luis Ramiro Ricardo Buelvas",
+      "H.R.Wilmer Yair Castellanos Hernández",
+      "H.R.José Octavio Cardona León",
+      "H.R.Olga Beatriz González Correa",
+      "H.R.Flora Perdomo Andrade",
+      "H.R.Erick Adrián Velasco Burbano",
+      "H.R.Sandra Milena Ramírez Caviedes",
+      "H.R.Jaime Rodríguez Contreras",
+      "H.R.Oscar Leonardo Villamizar Meneses",
+      "H.R.Orlando Castillo Advincula",
+      "H.R.Héctor Mauricio Cuéllar Pinzón",
+      "H.R.Gerson Lisímaco Montaño Arizala",
+      "H.R.Yulieth Andrea Sánchez Carreño",
+      "H.R.Ana Rogelia Monsalve Álvarez",
+      "H.R.Leonor María Palencia Vega",
+      "H.R.Julio Roberto Salazar Pérdomo",
+      "H.R.James Hermenegildo Mosquera Torres",
+      "H.R.Juan Pablo Salazar Rivera",
+      "H.R.Yenica Sugein Acosta Infante",
+      "H.R.Óscar Darío Pérez Pineda",
+      "H.R.Hugo Danilo Lozano Pimiento",
+      "H.R.Juan Felipe Corzo Álvarez",
+      "H.R.Christian Munir Garcés Aljure",
+      "H.R.Eduard Alexis Triana Rincón",
+      "H.R.Teresa De Jesús Enríquez Rosero",
+      "H.R.Olmes de Jesús Echeverría de la Rosa"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Quinta Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/fondo-emprender-1",
+    "tituloLargo": "Por medio de la cual se crea el Fondo Emprender de Cafés Especiales para el impulso del  sector productor de cafés especiales en todo el territorio nacional y se dictan otras disposiciones",
+    "objeto": "Crease el Fondo Emprender de Cafés Especiales, para el impulso del sector productor de cafés especiales en todo el territorio nacional, acompañado de líneas de crédito, asesoría técnica, investigación, apertura de mercados, asesoría y acompañamiento para su producción, empaque, distribución y comercialización."
+  },
+  {
+    "numeroCamara": "373/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "PERDIDAS ENERGÉTICAS",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Nicolás Antonio Barguil Cubillos"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Quinta Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/perdidas-energeticas",
+    "tituloLargo": "Por medio de la cual se establecen reglas para el reconocimiento de las pérdidas de energía eléctrica a los usuarios del sistema interconectado nacional",
+    "objeto": "La presente ley tiene por objeto establecer un porcentaje máximo para el traslado de las pérdidas de energía eléctrica, tanto técnicas como no técnicas, a los usuarios del servicio de energía eléctrica en la región Caribe, con el fin de disminuir el costo de la energía para Los habitantes de esta región."
   }
 ]
