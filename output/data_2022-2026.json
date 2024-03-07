@@ -928,7 +928,7 @@
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
     "autores": [
-      "H.S. JONATHAN PULIDO HERNÁNDEZ"
+      "H.S. JONATHAN PULIDO HERNÁNDEZ ."
     ],
     "exposicionMotivos": null,
     "primeraPonencia": null,
@@ -1269,7 +1269,7 @@
       "ÁLVARO LEONEL RUEDA CABALLERO"
     ],
     "exposicionMotivos": null,
-    "primeraPonencia": null,
+    "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2024/gaceta_199.pdf",
     "segundaPonencia": null,
     "textoPlenaria": null,
     "conciliacion": null,
@@ -2509,7 +2509,7 @@
     "numero": "N 309/23",
     "numeroCamara": "219/23",
     "titulo": "POR MEDIO DEL CUAL SE PROHÍBEN   EN TODO EL TERRITORIO  NACIONAL, EL DESARROLLO DE LAS ACTIVIDADES DE CORRIDAS DE TOROS, REJONEO, NOVILLADAS,  BECERRADAS Y TIENTAS, ENCIERROS Y SUELTA DE VAQUILLAS, ASÍ COMO LOS PROCEDIMIENTOS UTILIZADOS EN ESTOS ESPECTÁCULOS, TANTO EN EL ÁMBITO PÚBLICO COMO EN EL PRIVADO",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN CÁMARA",
+    "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN CÁMARA",
     "estadoAnotacion": "enviado a cámara el 11 de Septiembre de 2023",
     "comision": "SEXTA",
     "fechaRadicado": "2023-04-26",
@@ -19590,7 +19590,7 @@
     "numeroCamara": "288/22",
     "titulo": "POR MEDIO DE LA CUAL SE APRUEBA EL «CONVENIO 156 SOBRE LA IGUALDAD DE OPORTUNIDADES Y DE TRATO ENTRE TRABAJADORES Y TRABAJADORAS: TRABAJADORES CON RESPONSABILIDADES FAMILIARES» ADOPTADO POR LA SEXAGÉSIMO SEXTA (67ª) CONFERENCIA INTERNACIONAL DEL TRABAJO, EN GINEBRA, SUIZA, EL 23 DE JUNIO DE 1981",
     "estado": "LEY",
-    "estadoAnotacion": "2305 DEL 31 DE JULIO DE 2023",
+    "estadoAnotacion": "2305 DEL 31 DE JULIO DE 2023 GACETA 997/2023",
     "comision": "SEGUNDA",
     "fechaRadicado": "2022-07-29",
     "legislatura": "2022-2023",
@@ -22254,7 +22254,7 @@
     "numero": "N 1/22",
     "numeroCamara": "325/22",
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA EL ARTÍCULO 1 DE LA LEY 1335 DE 2009 Y SE DICTAN OTRAS DISPOSICIONES\" (PROHIBICIÓN DE CONSUMO DE TABACO EN MENORES DE EDAD)",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN CÁMARA",
+    "estado": "CONCILIACIÓN",
     "estadoAnotacion": "Texto Comisión Gaceta 1573/22",
     "comision": "SEPTIMA",
     "fechaRadicado": "2022-07-20",
