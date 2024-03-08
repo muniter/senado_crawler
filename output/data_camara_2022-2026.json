@@ -6894,7 +6894,7 @@
   },
   {
     "numeroCamara": "163/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "323/2023S",
     "tituloCorto": "MARCAS DE GOBIERNO",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -6902,7 +6902,7 @@
       "H.R.Cristian Danilo Avendaño Fino",
       "H.R.Carolina Giraldo Botero"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Ley",
     "comision": "Comisión Cuarta o Presupuesto",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -7106,7 +7106,7 @@
       "H.R.Haiver Rincón Gutiérrez",
       "H.R.Luis Ramiro Ricardo Buelvas"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Ley",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -12731,7 +12731,7 @@
       "H.R.Juan Carlos Wills Ospina",
       "H.R.Yulieth Andrea Sánchez Carreño"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -13808,7 +13808,7 @@
       "H.R.Alfredo Ape Cuello Baute",
       "H.R.Juan Loreto Gómez Soto"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -14000,7 +14000,7 @@
       "H.R.Leyla Marleny Rincón Trujillo",
       "H.R.Jorge Dilson Murcia Olaya"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -15664,7 +15664,7 @@
     "autores": [
       "H.S.Karina Espinosa Oliver"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -18141,7 +18141,7 @@
     "autores": [
       "H.R.James Hermenegildo Mosquera Torres"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -18246,13 +18246,13 @@
   },
   {
     "numeroCamara": "057/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "079/2023S",
     "tituloCorto": "PRESUPUESTO GENERAL DE LA NACION 2024",
     "tipo": "Ley Ordinaria",
     "autores": [
       "Ministro de Hacienda y Crédito Público - Ricardo Bonilla González"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Ley",
     "comision": "Comisión Cuarta o PresupuestoComisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19537,7 +19537,7 @@
       "H.S.Carlos Eduardo Guevara villabón",
       "H.R.Irma Luz Herrera Rodríguez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20958,7 +20958,8 @@
       "H.R.Mónica Karina Bocanegra Pantoja",
       "H.R.Camilo Esteban Ávila Morales",
       "H.R.Álvaro Mauricio Londoño Lugo",
-      "H.R.Yenica Sugein Acosta Infante"
+      "H.R.Yenica Sugein Acosta Infante",
+      "H.R.Javier Alexander Sánchez Reyes"
     ],
     "estado": "Trámite en Comisión",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
