@@ -2641,7 +2641,7 @@
       "H.S.Norma Hurtado Sánchez",
       "H.S.José David Name Cardozo"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -5090,7 +5090,7 @@
       "H.R.Libardo Cruz Casado",
       "H.R.Alfredo Ape Cuello Baute"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -11973,6 +11973,7 @@
     "tituloCorto": "IMPUESTO PREDIAL",
     "tipo": "Ley Ordinaria",
     "autores": [
+      "H.R.Olga Lucia Velásquez Nieto",
       "Ministro de Hacienda y Crédito Público - Ricardo Bonilla González",
       "Ministra de Agricultura y Desarrollo Rural - Jhenifer Mojica Florez"
     ],
@@ -15813,7 +15814,8 @@
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.S.Nicolás Albeiro Echeverri Alvarán",
-      "H.R.Andrés Felipe Jiménez Vargas"
+      "H.R.Andrés Felipe Jiménez Vargas",
+      "H.R.Juan Manuel Cortés Dueñas"
     ],
     "estado": "Trámite en Comisión",
     "comision": "Comisión Primera Constitucional Permanente",
