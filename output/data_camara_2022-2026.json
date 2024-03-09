@@ -11958,7 +11958,7 @@
       "Ministro de Comercio",
       "Industria y Turismo - German Umaña Mendoza"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Ley",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -14017,7 +14017,7 @@
     "autores": [
       "H.R.Olmes de Jesús Echeverría de la Rosa"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -16925,7 +16925,7 @@
     "autores": [
       "Ministro de Justicia y del Derecho - Nestor Ivan Osuna Patiño"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Ley",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21023,5 +21023,28 @@
     "url": "https://www.camara.gov.co/estampilla-pro-iu-digital-de-antioquia",
     "tituloLargo": "Por medio de la cual se modifica la Ley 2226 del 30 de junio de 2022",
     "objeto": ""
+  },
+  {
+    "numeroCamara": "389/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "RIO SUMAPAZ",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Leider Alexandra Vásquez Ochoa",
+      "H.R.Martha Lisbeth Alfonso Jurado",
+      "H.R.Gloria Liliana Rodríguez Valencia",
+      "H.R.Gerardo Yepes Caro",
+      "H.R.Diego Fernando Caicedo Navas",
+      "H.R.Oscar Hernán Sánchez León",
+      "H.R.Julio Roberto Salazar Pérdomo"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Quinta Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/rio-sumapaz",
+    "tituloLargo": "Por medio del cual se reconoce al Río Sumapaz, su cuenca y afluentes como sujeto de derechos, se establecen medidas para su protección y conservación y se dictan otras disposiciones",
+    "objeto": "La presente Ley tiene por objeto reconocer al Río Sumapaz, su cuenca y sus afluentes, como un sujeto de derechos, con el fin de garantizar su protección, conservación, mantenimiento y restauración a cargo del Estado, las comunidades étnicas y los campesinos que habitan en la zona de influencia."
   }
 ]
