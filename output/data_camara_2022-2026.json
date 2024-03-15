@@ -2706,7 +2706,7 @@
   },
   {
     "numeroCamara": "321/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "080/2023S",
     "tituloCorto": "ESTAMPILLA UNICAUCA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -2716,7 +2716,7 @@
       "H.R.Ermes Evelio Pete Vivas",
       "H.R.Jorge Hernán Bastidas Rosero"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -12688,7 +12688,7 @@
       "H.R.Juan Diego Muñoz Cabrera",
       "H.R.Alexander Harley Bermúdez Lasso"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -13869,7 +13869,7 @@
       "H.R.Dorina Hernández Palomino",
       "Ministro de Cultura - Jorge Ignacio Zorro"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -14790,7 +14790,7 @@
     "autores": [
       "H.S.Andrea Padilla Villarraga"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -21278,5 +21278,22 @@
     "url": "https://www.camara.gov.co/marroquineria",
     "tituloLargo": "Por medio del cual se crean medidas para La protección, fomento, fortalecimiento, y comercialización del sector de la marroquinería, cuero, calzado textil y de confecciones.",
     "objeto": "La presente ley tiene como objeto crear medidas de protección, fomento, fortalecimiento y comercialización del sector de la marroquinería, cuero, calzado, textil y de confecciones mediante la imposición de métodos de adquisición obligatoria por parte de las entidades de la Administración Pública y de servicios públicos domiciliarios de carácter público, o donde el Estado tenga más del 50% de sus acciones."
+  },
+  {
+    "numeroCamara": "395/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "MUJERES EN JUNTAS DIRECTIVAS",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Héctor David Chaparro Chaparro"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Séptima Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/mujeres-en-juntas-directivas",
+    "tituloLargo": "Por medio de la cual se establecen medidas de Paridad de Género en los niveles directivos de los órganos colegiados\" o \"Ley Mujeres en Juntas Directivas",
+    "objeto": "Esta ley tiene por objeto establecer medidas para que los órganos colegiados aumenten y garanticen de manera progresiva la paridad de género en aquellos espacios y cargos directivos y de toma de decisiones. En ese sentido, se pretende reducir o eliminar las brechas de género en las empresas y en el mercado laboral."
   }
 ]
