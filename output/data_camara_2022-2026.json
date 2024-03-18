@@ -17725,7 +17725,7 @@
       "H.R.Andrés Felipe Jiménez Vargas",
       "H.R.Flora Perdomo Andrade"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -18081,7 +18081,7 @@
     "autores": [
       "H.R.James Hermenegildo Mosquera Torres"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -18419,7 +18419,7 @@
       "H.S.Ana Maria Castañeda Gómez",
       "H.R.Luvi Katherine Miranda Peña"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21337,7 +21337,7 @@
       "H.R.Julia Miranda Londoño"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
@@ -21444,8 +21444,7 @@
       "H.R.John Edgar Pérez Rojas",
       "H.R.Hernando Guida Ponce",
       "Ministro de Comercio",
-      "Industria y Turismo - German Umaña Mendoza",
-      "Ministro del Interior - Luis Fernando Velasco Chaves"
+      "Industria y Turismo - German Umaña Mendoza"
     ],
     "estado": "Trámite en Comisión",
     "comision": "Comisión Cuarta o Presupuesto",
@@ -21556,5 +21555,65 @@
     "url": "https://www.camara.gov.co/ley-de-emprendimiento-innovacion-empresarial-y-empresa-con-enfoque-de-inclusion",
     "tituloLargo": "Por medio de la cual se establecen los lineamientos para la formulación de la Política Pública de promoción del emprendimiento, la innovación empresarial y la empresa con enfoque de inclusión para personas con discapacidad y personas cuidadoras o asistentes personales, se promueve el empoderamiento económico, el acceso a espacios de tomas de decisión, así como el liderazgo de este segmento poblacional en el emprendimiento, la innovación empresarial y la empresa; y se dictan otras disposiciones",
     "objeto": "Por medio de la presente ley se establecen los lineamientos para la formulación de la Política Pública de promoción del emprendimiento, la innovación empresarial y la empresa con enfoque de inclusión, para personas con discapacidad y personas cuidadoras o asistentes personales, se promueve el emprendimiento; la innovación empresarial; la creación, formalización y fortalecimiento de empresas con enfoque de inclusión a personas con discapacidad y sus cuidadoras o asistentes personales, la generación de empresas de este segmento poblacional; se adoptan medidas orientadas a fomentar la generación de empleos, la vinculación de personas con discapacidad en los órganos de decisión de las personas jurídicas; la creación de ecosistemas propicios para el emprendimiento y la innovación empresarial orientado a este segmento poblacional, se modifican y adicionan apartes a la ley 2069 de 2020; a la ley 1014 de 2006, a la ley 789 de 2002, a la ley 2337 de 2023 y se dictan otras disposiciones tendientes a fortalecer la inclusión y el liderazgo de estas personas, objeto de la especial protección del Estado."
+  },
+  {
+    "numeroCamara": "403/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "PÉRDIDAS DE ENERGÍA ELÉCTRICA",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Nicolás Antonio Barguil Cubillos"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Quinta Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/perdidas-de-energia-electrica",
+    "tituloLargo": "Por medio de la cual se establecen reglas para el reconocimiento de las pérdidas de energía eléctrica a los usuarios del sistema interconectado nacional",
+    "objeto": "La presente ley tiene por objeto establecer un porcentaje máximo para el traslado de las pérdidas de energía eléctrica, tanto técnicas como no técnicas, a los usuarios del servicio de energía eléctrica en la región Caribe, con el fin de disminuir el costo de la energía para los habitantes de esta región."
+  },
+  {
+    "numeroCamara": "402/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "DISTRITO PUERTO COLOMBIA",
+    "tipo": "Acto Legislativo",
+    "autores": [
+      "H.R.Dolcey Oscar Torres Romero",
+      "H.R.Jorge Méndez Hernández",
+      "H.R.Armando Antonio Zabaraín de Arce",
+      "H.R.Jaime Raúl Salamanca Torres",
+      "H.R.Dorina Hernández Palomino",
+      "H.R.José Octavio Cardona León",
+      "H.R.Carlos Felipe Quintero Ovalle",
+      "H.R.Oscar Hernán Sánchez León",
+      "H.R.Silvio José Carrasquilla Torres",
+      "H.R.Piedad Correal Rubiano"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Primera Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/distrito-puerto-colombia-0",
+    "tituloLargo": "Por el cual se modifican los artículos 328 y 356 de la Constitución Política otorgándole la categoría de Distrito Turístico, Cultural, Histórico y de Tecnología al municipio de Puerto Colombia en el Departamento del Atlántico.",
+    "objeto": ""
+  },
+  {
+    "numeroCamara": "401/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "SOCORRO PIONERO LIBERTAD",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Mary Anne Andrea Perdomo"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Segunda o de Relaciones Internacionales",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/socorro-pionero-libertad",
+    "tituloLargo": "Por medio de la cual la Nación y el Congreso de Colombia rinde público homenaje al municipio del Socorro -departamento de Santander- como pionero de la Libertad, se realiza reconocimiento a las acciones históricas que marcaron la libertad y la democracia de nuestra patria, y se dictan otras disposiciones",
+    "objeto": "El proyecto de ley tiene por objeto los siguientes propósitos:\n1.\tRendir público homenaje y asociarse en reconocimiento al municipio del Socorro, departamento de Santander, y su pueblo por sus valiosos aportes como pionero de la libertad y la democracia de Colombia; igualmente se resalta el legado comunero que en una cadena de acciones históricas marcaron el proceso de independencia de Colombia y la tradición libertaria a lo largo del siglo XIX.\n2.\tDeclarar como Patrimonio Cultural de la Nación al municipio de Socorro, sus manifestaciones culturales y el legado patrimonial en torno a la rebelión de los comuneros.\n3.\tAutorizar los recursos y disposiciones necesarias para la puesta en marcha de los proyectos y obras de utilidad pública que se ejecutarán con motivo del reconocimiento y los honores que se rinden al municipio del Socorro, con la finalidad de avanzar en un proceso de memoria histórica, así como, el fortalecimiento de los referentes históricos y culturales que aportaron a la génesis de la emancipación colombiana.\n4.\tSalvaguardar los bienes de interés cultural del municipio, las áreas naturales y culturales del municipio para el uso y aprovechamiento en un marco de conservación de los recursos culturales / patrimoniales y naturales para un turismo con responsabilidad social y sostenible."
   }
 ]
