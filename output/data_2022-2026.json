@@ -994,7 +994,7 @@
     "numero": "N 229/24",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL SE MODIFICA LA LEY 2165 DE 2021, EL ARTICULO 342 DE LA LEY 2294 DE 2023 Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+    "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaRadicado": "2024-02-27",
@@ -1004,7 +1004,7 @@
     "tipoLey": "ORDINARIA",
     "fechaEnvioComision": "2024-02-27",
     "fechaPresentacion": "2024-02-27",
-    "fechaAprobacionPrimerDebate": null,
+    "fechaAprobacionPrimerDebate": "2024-03-19",
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
     "autores": [
