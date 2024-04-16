@@ -66,6 +66,24 @@ export interface PonenteProyecto {
   proyectoId: number;
 }
 
+export interface ProyectosActoLegislativoSenado {
+  acumulados: string | null;
+  autores: string | null;
+  created_at: Generated<string | null>;
+  estado: string | null;
+  fechaDePresentacion: string | null;
+  id: Generated<number | null>;
+  id_senado: number;
+  legislatura: string;
+  numero: string;
+  numeroCamara: string | null;
+  origen: string | null;
+  ponentesPrimerDebate: string | null;
+  titulo: string;
+  updated_at: Generated<string | null>;
+  url: string;
+}
+
 export interface ProyectoSenado {
   comisionId: number;
   estado: string | null;
@@ -120,6 +138,7 @@ export interface DB {
   Legislatura: Legislatura;
   Ponente: Ponente;
   PonenteProyecto: PonenteProyecto;
+  ProyectosActoLegislativoSenado: ProyectosActoLegislativoSenado;
   ProyectoSenado: ProyectoSenado;
   ProyectoSenadoDetalles: ProyectoSenadoDetalles;
   ProyectoSenadoPublicaciones: ProyectoSenadoPublicaciones;

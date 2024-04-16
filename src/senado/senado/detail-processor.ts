@@ -2,10 +2,8 @@ import { load, CheerioAPI } from 'cheerio'
 
 import {
   NumeroIdentificador,
-  parseNumeroIdentificador,
-  parseTextualDate,
 } from './list-processor'
-import { processListOfPersonas } from '../../utils'
+import { parseNumeroIdentificador, parseTextualDate, processListOfPersonas } from '../../common/utils'
 
 export type ProyectoDetailData = {
   numero: NumeroIdentificador

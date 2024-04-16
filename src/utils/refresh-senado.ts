@@ -1,4 +1,4 @@
-import { SenadoService } from '../senado/index'
+import { SenadoService } from '../senado/senado/index'
 import { z } from 'zod'
 import { Command } from 'commander'
 const program = new Command()

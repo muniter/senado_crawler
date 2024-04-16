@@ -2,7 +2,7 @@ import { z } from 'zod'
 import fs from 'fs'
 import child_process from 'child_process'
 import { Command } from 'commander'
-import { CuatrenioRepository } from '../senado'
+import { CuatrenioRepository } from '../senado/senado'
 const program = new Command()
 program.description('Refreshes the data from the database')
 program.requiredOption('--corporacion <string>', 'Camara | Senado')
@@ -10,9 +10,15 @@ program.option('--tipo <string>', 'json | csv | all')
 program.option('--cuatrenio <string>', 'Cuatrenio to generate report of')
 program.action(main)
 
+const queryFiles: Record<string, string> = {
+  senado: 'senado_query.sql',
+  camara: 'camara_query.sql',
+  pal: 'senado_pal_query.sql',
+}
+
 async function main(options: any) {
   const { cuatrenio, tipo, corporacion } = z.object({
-    corporacion: z.enum(['Camara', 'Senado']),
+    corporacion: z.enum(['Camara', 'Senado', 'PAL']),
     cuatrenio: z.string().optional(),
     tipo: z.enum(['json', 'csv', 'all']).default('all')
   }).parse(options)
@@ -32,7 +38,11 @@ async function main(options: any) {
   }
 
   for (const cuatrenio of cuaternios) {
-    const queryFile = renderQueryFile(cuatrenio, corporacion === 'Senado' ? 'senado_query.sql' : 'camara_query.sql')
+    const templateQueryFile = queryFiles[corporacion.toLowerCase()]
+    if (!templateQueryFile) {
+      throw new Error(`No query file found for corporacion ${corporacion}`)
+    }
+    const queryFile = renderQueryFile(cuatrenio, templateQueryFile)
     if (tipo === 'json' || tipo === 'all') {
       console.log(`Generating JSON for ${cuatrenio}`)
       genJSON(cuatrenio, queryFile, corporacion)
@@ -59,14 +69,18 @@ function renderQueryFile(cuatrenio: string, queryFile: string): string {
 
 
 function genCSV(cuatrenio: string, queryFile: string, corporacion: string) {
-  const title = corporacion == 'Senado' ? `data_${cuatrenio}.csv` : `data_${corporacion.toLowerCase()}_${cuatrenio}.csv`
+  const title = `data_${corporacion.toLowerCase()}_${cuatrenio}.csv`.replace('senado_', '');
   const command = `sqlite3 db/database.db -cmd '.mode csv' -cmd '.headers on'  < ${queryFile} > output/${title}`
   child_process.execSync(command)
 }
 
 function genJSON(cuatrenio: string, queryFile: string, corporacion: string) {
-  const title = corporacion == 'Senado' ? `data_${cuatrenio}.json` : `data_${corporacion.toLowerCase()}_${cuatrenio}.json`
-  const command = `sqlite3 db/database.db -cmd '.mode json' -cmd '.headers on'  < ${queryFile} | jq 'map((.autores) |= fromjson)' > output/${title}`
+  const title = `data_${corporacion.toLowerCase()}_${cuatrenio}.json`.replace('senado_', '');
+  const json_fields = ['.autores']
+  if (corporacion === 'PAL') {
+    json_fields.push('.acumulados')
+  }
+  const command = `sqlite3 db/database.db -cmd '.mode json' -cmd '.headers on'  < ${queryFile} | jq 'map((${json_fields.join(', ')}) |= fromjson)' > output/${title}`
   console.info(`Executing command: ${command}`)
   child_process.execSync(command)
 }
