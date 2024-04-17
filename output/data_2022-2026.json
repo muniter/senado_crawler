@@ -5158,7 +5158,7 @@
       "H.S. ANDREA PADILLA VILLARRAGA"
     ],
     "exposicionMotivos": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2024/gaceta_10.pdf",
-    "primeraPonencia": null,
+    "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2024/gaceta_417.pdf",
     "segundaPonencia": null,
     "textoPlenaria": null,
     "conciliacion": null,
@@ -12303,7 +12303,7 @@
     "numero": "N 15/23",
     "numeroCamara": null,
     "titulo": "POR LA CUAL SE ESTABLECEN LINEAMIENTOS PARA LA FORMULACIÓN DE LA POLÍTICA PÚBLICA DE PROTECCIÓN A LA FAUNA SILVESTRE EN LAS VÍAS TERRESTRES DEL PAÍS; SE ESTABLECEN DISPOSICIONES RELACIONADAS CON LA CONSTRUCCIÓN DE INFRAESTRUCTURA PARA LA PRESERVACIÓN DE LA VIDA ANIMAL, SE CREA EL REGISTRO NACIONAL DE ANIMALES ATROPELLADOS EN VÍAS COLOMBIANAS Y SE DICTAN OTRAS DISPOSICIONES” O “LEY DE POLÍTICA PÚBLICA DE PROTECCIÓN A LA FAUNA SILVESRE EN LAS VÍAS TERRESTRES DEL PAÍS",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+    "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "SEXTA",
     "fechaRadicado": "2023-07-25",
@@ -12313,7 +12313,7 @@
     "tipoLey": "ORDINARIA",
     "fechaEnvioComision": "2023-08-03",
     "fechaPresentacion": "2023-07-25",
-    "fechaAprobacionPrimerDebate": null,
+    "fechaAprobacionPrimerDebate": "2024-04-17",
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
     "autores": [
