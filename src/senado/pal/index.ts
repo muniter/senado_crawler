@@ -83,7 +83,7 @@ class PalRepository {
     await this.conn
       .updateTable(this.table)
       .set(this.prepareData(data))
-      .where('id_senado', '=', data.id_senado)
+      .where('numero', '=', data.numero)
       .execute()
   }
 }
