@@ -621,65 +621,196 @@
     ]
   },
   {
-    "numero": "037/19PAL",
+    "numero": "026/22PAL",
+    "numeroCamara": "243/22",
+    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPÍTULO I DEL TÍTULO II DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA.",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/26-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2022-03-18",
+    "autores": [
+      "H.S: ANGELICA LOZANO CORREA",
+      "H.S: IVAN LEONIDAS NAME VASQUEZ",
+      "H.S: ANTONIO SANGUINO PAEZ",
+      "H.S: JORGE EDUARDO LONDOÑO",
+      "H.S: IVAN MARULANDA GOMEZ",
+      "H.S: TEMISTOCLES ORTEGA NARVAEZ",
+      "HS: GUILLERMO GARCIA REALPE",
+      "H.S: PABLO CATATUMBO",
+      "H.R: WILMER LEAL PEREZ",
+      "H.S: AIDA AVELLA ESQUIVEL",
+      "H.S: FELICIANO VALENCIA MEDINA."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S ANGELICA LOZANO CORREA"
+    ]
+  },
+  {
+    "numero": "026/22PAL",
+    "numeroCamara": "243/22",
+    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPÍTULO I DEL TÍTULO II DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA.",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/26-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2022-03-18",
+    "autores": [
+      "H.S: ANGELICA LOZANO CORREA",
+      "H.S: IVAN LEONIDAS NAME VASQUEZ",
+      "H.S: ANTONIO SANGUINO PAEZ",
+      "H.S: JORGE EDUARDO LONDOÑO",
+      "H.S: IVAN MARULANDA GOMEZ",
+      "H.S: TEMISTOCLES ORTEGA NARVAEZ",
+      "HS: GUILLERMO GARCIA REALPE",
+      "H.S: PABLO CATATUMBO",
+      "H.R: WILMER LEAL PEREZ",
+      "H.S: AIDA AVELLA ESQUIVEL",
+      "H.S: FELICIANO VALENCIA MEDINA."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S ANGELICA LOZANO CORREA"
+    ]
+  },
+  {
+    "numero": "035/19PAL",
     "numeroCamara": null,
-    "titulo": "POR EL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA EN MATERIA DE ADMINISTRACIÓN DE JUSTICIA Y SE DICTAN OTRAS DISPOSICIONES",
+    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTICULOS 328 Y 356 DE LA CONSTITUCIÓN POLITICA OTORGANDOLE AL MUNICIPIO DE VILLAVICENCIO (META) EL CARACTER DE DISTRITO ESPECIAL, TURISTICO, CULTURAL Y UNIVERSITARIO.",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [
+      "034/19PAL"
+    ],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/35-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-al-municipio-de-villavicencio-meta-el-caracter-de-distrito-especial-turistico-cultural-y-universitario",
+    "fechaDePresentacion": "2019-03-13",
+    "autores": [
+      "H.S. IVAN DARIO AGUDELO ZAPATA",
+      "HORACIO JOSE SERPA MONCADA",
+      "JULIAN BEDOYA PULGARIN",
+      "H.R. ALEJANDRO VEGA PÉREZ",
+      "JULIAN PEINADO RAMIREZ",
+      "ANDRES DAVID CALLE AGUAS",
+      "JUAN FERNANDO REYES KURI",
+      "NILTON CORDOBA MANYOMA",
+      "OSCAR HERNAN SANCHEZ LEÓN",
+      "HENRY FERNANDO CORREAL HERRERA",
+      "JOSE LUIS CORREA LOPEZ",
+      "JUAN DIEGO ECHAVARRIA LOPEZ",
+      "LUCIANO GRISALES LONDOÑO",
+      "VICTOR MANUEL ORTIZ JOYA",
+      "RODRIGO ARTURO ROJAS LARA",
+      "ALEJANDRO CARLOS CHACÓN CAMARGO."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. JOSÉ OBDULIO GAVIRIA VÉLEZ"
+    ]
+  },
+  {
+    "numero": "039/19PAL",
+    "numeroCamara": "355/19",
+    "titulo": "POR MEDIO DE LA CUAL SE REFORMA EL RÉGIMEN DE CONTROL FISCAL",
+    "estado": "ACTO LEGISLATIVO,  04 DEL 18 DE SEPTIEMBRE DE 2019",
+    "origen": "CAMARA DE REPRESENTANTES",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/39-por-medio-de-la-cual-se-reforma-el-regimen-de-control-fiscal",
+    "fechaDePresentacion": "2019-03-27",
+    "autores": [
+      "H.S. SANTIAGO VALENCIA GONZÁLEZ",
+      "MIGUEL ANGEL PINTO HERNÁNDEZ",
+      "LUIS FERNANDO VELASCO CHAVES",
+      "GERMÁN VARÓN COTRINO",
+      "ROY LEONARDO BARRERAS MONTEALEGRE",
+      "FABIO RAÚL AMÍN SALEME",
+      "H.R.GABRIEL SANTOS GARCÍA",
+      "EDWARD DAVID RODRÍGUEZ RODRÍGUEZ",
+      "GABRIEL JAIME VALLEJO CHUJFI",
+      "KELYN JOHANA GONZÁLEZ DUARTE",
+      "ÁLVARO HENRY MONEDERO RIVERA",
+      "FABIO FERNANDO ARROYAVE RIVAS",
+      "HARRY GIOVANNY GONZÁLEZ GARCÍA",
+      "JORGE MÉNDEZ HERNÁNDEZ",
+      "JOSÉ DANIEL LÓPEZ JIMÉNEZ",
+      "JUAN CARLOS RIVERA PEÑA",
+      "ERASMO ELÍAS ZULETA BECHARA",
+      "EDGAR ALFONSO GÓMEZ ROMÁN",
+      "SALIM VILLAMIL QUESSEP",
+      "CÉSAR AUGUSTO LORDUY MALDONADO DR. CARLOS FELIPE CORDOBA LARRARTE"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. ROY BARRERAS MONTEALEGRE"
+    ]
+  },
+  {
+    "numero": "036/19PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 65 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/37-por-el-cual-se-reforma-la-constitucion-politica-en-materia-de-administracion-de-justicia-y-se-dictan-otras-disposiciones",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/36-por-el-cual-se-modifica-el-articulo-65-de-la-constitucion-politica-de-colombia",
     "fechaDePresentacion": "2019-04-03",
     "autores": [
-      "H.S. GERMAN VARÓN COTRINO",
-      "DAIRA DE JESUS GALVIS MÉNDEZ",
-      "DIDIER LOBO CHINCHILLA",
-      "EDGAR JESUS DIAZ CONTRERAS",
-      "RICHARD AGUILAR VILLA",
+      "H.S MARITZA MARTINEZ ARISTIZABAL",
       "ROY LEONARDO BARRERAS MONTEALEGRE",
-      "H.R. CESAR AUGUSTO LORDUY MALDONADO",
-      "JAIRO HUMBERTO CRISTO CORREA",
-      "JORGE MÉNDEZ HERNÁNDEZ",
-      "AQUILEO MEDINA ARTEAGA."
+      "ANDRES FELIPE GARCIA ZUCCARDI",
+      "BERNER LEÓN ZAMBRANO ERASO",
+      "MIGUEL AMÍN SCAF",
+      "GUILLERMO GARCIA REALPE",
+      "JOSE ALFREDO GENECCO ZULETA",
+      "JOSE DAVID NAME CARDOZO",
+      "JOSE RITTER LOPEZ PEÑA",
+      "ROOSVELT RODRIGUEZ RENGIFO",
+      "JONATAN TAMAYO PEREZ",
+      "GERMAN VARON COTRINO",
+      "ANA MARIA CASTAÑEDA GOMEZ",
+      "EDGAR JESUS DIAZ CONTRERAS",
+      "Honorables Representantes",
+      "ALFREDO RAFAEL DELUQUE ZULETA",
+      "HARRY GIOVANNY GONZALEZ GARCIA",
+      "ANATOLIO HERNANDEZ LOZANO",
+      "FABER ALBERTO MUÑOZ CERON",
+      "JOSE LUIS CORREA LOPEZ",
+      "CARLOS JULIO BONILLA SOTO",
+      "JULIAN BEDOYA PULGARIN",
+      "ABEL DAVID JARAMILLO LARGO",
+      "JEZMI LISETH BARRAZA ARRAUT."
     ],
     "ponentesPrimerDebate": [
-      "H.S. GERMAN VARÓN COTRINO"
+      "H.S. Roosvelt Rodríguez Rengifo"
     ]
   },
   {
-    "numero": "040/19PAL",
-    "numeroCamara": "343/19",
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 361 DE LA CONSTITUCIÓN POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES SOBRE EL RÉGIMEN DE REGALÍAS Y COMPENSACIONES",
-    "estado": "ACTO LEGISLATIVO,  05 DEL 26 DE DICIEMBRE DE 2019",
-    "origen": "CAMARA DE REPRESENTANTES",
-    "acumulados": [],
+    "numero": "034/19PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 328 Y 356 DE LA CONSTITUCIÓN POLÍTICA OTORGÁNDOLE AL MUNICIPIO DE VILLAVICENCIO (META) EL CARÁCTER DE DISTRITO ESPECIAL BIODIVERSO, ECOTURÍSTICO, AGROINDUSTRIAL Y EDUCATIVO",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [
+      "035/19PAL"
+    ],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/40-por-el-cual-se-modifica-el-articulo-361-de-la-constitucion-politica-y-se-dictan-otras-disposiciones-sobre-el-regimen-de-regalias-y-compensaciones",
-    "fechaDePresentacion": "2019-03-22",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/34-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-al-municipio-de-villavicencio-meta-el-caracter-de-distrito-especial-biodiverso-ecoturistico-agroindustrial-y-educativo",
+    "fechaDePresentacion": "2019-02-19",
     "autores": [
-      "H.R. CÉSAR AUGUSTO ORTIZ ZORRO",
-      "FABIÁN DÍAZ PLATA",
-      "KATHERINE MIRANDA PEÑA",
-      "LEÓN FREDY MUÑOZ LOPERA",
-      "WILMER LEAL PÉREZ",
-      "NEVARDO ENEIRO RINCÓN VERGARA",
-      "ALEJANDRO ALBERTO VEGA PÉREZ",
-      "ALFREDO RAFAEL DELUQUE ZULETA",
-      "ANDRÉS DAVID CALLE AGUAS",
-      "JAIRO REINALDO CALA SÚAREZ",
-      "DAVID RICARDO RACERO MAYORCA"
+      "H.S. GERMÁN VARÓN COTRINO",
+      "JOSE OBDULIO GAVIRIA VELEZ",
+      "ROY LEONARDO BARRERAS MONTEALEGRE",
+      "Honorables Representantes",
+      "JAIME RODRIGUEZ CONTRERAS",
+      "BUENAVENTURA LEON LEON",
+      "JORGE ELIECER TAMAYO MARULANDA",
+      "CESAR AUGUSTO LORDUY MALDONADO",
+      "JOSE DANIEL LOPEZ JIMENEZ",
+      "JULIO CESAR TRIANA QUINTERO",
+      "ERWIN ARIAS BETANCUR."
     ],
     "ponentesPrimerDebate": [
-      "H.S. Esperanza Andrade de Osso",
-      "Temístocles Ortega Narvaez (Coordinadores)",
-      "Carlos Guevara Villabon",
-      "Julian Gallo Cubillos",
-      "Alexander López Maya",
-      "Gustavo Petro Urrego",
-      "Iván Name Vasquez",
-      "Luis Fernando Velasco",
-      "Armando Benedetti Villaneda",
-      "Paloma Valencia."
+      "H.S. JOSÉ OBDULIO GAVIRIA VÉLEZ"
     ]
   },
   {
@@ -757,68 +888,47 @@
     ]
   },
   {
-    "numero": "034/19PAL",
+    "numero": "037/19PAL",
     "numeroCamara": null,
-    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 328 Y 356 DE LA CONSTITUCIÓN POLÍTICA OTORGÁNDOLE AL MUNICIPIO DE VILLAVICENCIO (META) EL CARÁCTER DE DISTRITO ESPECIAL BIODIVERSO, ECOTURÍSTICO, AGROINDUSTRIAL Y EDUCATIVO",
+    "titulo": "POR EL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA EN MATERIA DE ADMINISTRACIÓN DE JUSTICIA Y SE DICTAN OTRAS DISPOSICIONES",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [
-      "035/19PAL"
-    ],
+    "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/34-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-al-municipio-de-villavicencio-meta-el-caracter-de-distrito-especial-biodiverso-ecoturistico-agroindustrial-y-educativo",
-    "fechaDePresentacion": "2019-02-19",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/37-por-el-cual-se-reforma-la-constitucion-politica-en-materia-de-administracion-de-justicia-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2019-04-03",
     "autores": [
-      "H.S. GERMÁN VARÓN COTRINO",
-      "JOSE OBDULIO GAVIRIA VELEZ",
+      "H.S. GERMAN VARÓN COTRINO",
+      "DAIRA DE JESUS GALVIS MÉNDEZ",
+      "DIDIER LOBO CHINCHILLA",
+      "EDGAR JESUS DIAZ CONTRERAS",
+      "RICHARD AGUILAR VILLA",
       "ROY LEONARDO BARRERAS MONTEALEGRE",
-      "Honorables Representantes",
-      "JAIME RODRIGUEZ CONTRERAS",
-      "BUENAVENTURA LEON LEON",
-      "JORGE ELIECER TAMAYO MARULANDA",
-      "CESAR AUGUSTO LORDUY MALDONADO",
-      "JOSE DANIEL LOPEZ JIMENEZ",
-      "JULIO CESAR TRIANA QUINTERO",
-      "ERWIN ARIAS BETANCUR."
+      "H.R. CESAR AUGUSTO LORDUY MALDONADO",
+      "JAIRO HUMBERTO CRISTO CORREA",
+      "JORGE MÉNDEZ HERNÁNDEZ",
+      "AQUILEO MEDINA ARTEAGA."
     ],
     "ponentesPrimerDebate": [
-      "H.S. JOSÉ OBDULIO GAVIRIA VÉLEZ"
+      "H.S. GERMAN VARÓN COTRINO"
     ]
   },
   {
-    "numero": "039/19PAL",
-    "numeroCamara": "355/19",
-    "titulo": "POR MEDIO DE LA CUAL SE REFORMA EL RÉGIMEN DE CONTROL FISCAL",
-    "estado": "ACTO LEGISLATIVO,  04 DEL 18 DE SEPTIEMBRE DE 2019",
+    "numero": "031/18PAL",
+    "numeroCamara": "081/18",
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 122 DE LA CONSTITUCIÓN POLITICA.",
+    "estado": "ARCHIVADO,  ARCHIVADO – SEGUNDA VUELTA - NEGADO EN CÁMARA AL NO CUMPLIR CON LA VOTACION EXIGIDA CON EL ARTICULO 119 DE LA LEY 5ª DE 1992 (Acta 47 de mayo 07 de 2019)",
     "origen": "CAMARA DE REPRESENTANTES",
     "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/39-por-medio-de-la-cual-se-reforma-el-regimen-de-control-fiscal",
-    "fechaDePresentacion": "2019-03-27",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/31-por-el-cual-se-modifica-el-articulo-122-de-la-constitucion-politica",
+    "fechaDePresentacion": "2018-08-14",
     "autores": [
-      "H.S. SANTIAGO VALENCIA GONZÁLEZ",
-      "MIGUEL ANGEL PINTO HERNÁNDEZ",
-      "LUIS FERNANDO VELASCO CHAVES",
-      "GERMÁN VARÓN COTRINO",
-      "ROY LEONARDO BARRERAS MONTEALEGRE",
-      "FABIO RAÚL AMÍN SALEME",
-      "H.R.GABRIEL SANTOS GARCÍA",
-      "EDWARD DAVID RODRÍGUEZ RODRÍGUEZ",
-      "GABRIEL JAIME VALLEJO CHUJFI",
-      "KELYN JOHANA GONZÁLEZ DUARTE",
-      "ÁLVARO HENRY MONEDERO RIVERA",
-      "FABIO FERNANDO ARROYAVE RIVAS",
-      "HARRY GIOVANNY GONZÁLEZ GARCÍA",
-      "JORGE MÉNDEZ HERNÁNDEZ",
-      "JOSÉ DANIEL LÓPEZ JIMÉNEZ",
-      "JUAN CARLOS RIVERA PEÑA",
-      "ERASMO ELÍAS ZULETA BECHARA",
-      "EDGAR ALFONSO GÓMEZ ROMÁN",
-      "SALIM VILLAMIL QUESSEP",
-      "CÉSAR AUGUSTO LORDUY MALDONADO DR. CARLOS FELIPE CORDOBA LARRARTE"
+      "Ministra del Interior",
+      "Doctora NANCY PATRICIA GUTIERREZ CASTAÑEDA"
     ],
     "ponentesPrimerDebate": [
-      "H.S. ROY BARRERAS MONTEALEGRE"
+      "H.S. PALOMA VALENCIA LASERNA"
     ]
   },
   {
@@ -849,208 +959,106 @@
     ]
   },
   {
-    "numero": "036/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 65 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
-    "estado": "ARCHIVADO,",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/36-por-el-cual-se-modifica-el-articulo-65-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2019-04-03",
-    "autores": [
-      "H.S MARITZA MARTINEZ ARISTIZABAL",
-      "ROY LEONARDO BARRERAS MONTEALEGRE",
-      "ANDRES FELIPE GARCIA ZUCCARDI",
-      "BERNER LEÓN ZAMBRANO ERASO",
-      "MIGUEL AMÍN SCAF",
-      "GUILLERMO GARCIA REALPE",
-      "JOSE ALFREDO GENECCO ZULETA",
-      "JOSE DAVID NAME CARDOZO",
-      "JOSE RITTER LOPEZ PEÑA",
-      "ROOSVELT RODRIGUEZ RENGIFO",
-      "JONATAN TAMAYO PEREZ",
-      "GERMAN VARON COTRINO",
-      "ANA MARIA CASTAÑEDA GOMEZ",
-      "EDGAR JESUS DIAZ CONTRERAS",
-      "Honorables Representantes",
-      "ALFREDO RAFAEL DELUQUE ZULETA",
-      "HARRY GIOVANNY GONZALEZ GARCIA",
-      "ANATOLIO HERNANDEZ LOZANO",
-      "FABER ALBERTO MUÑOZ CERON",
-      "JOSE LUIS CORREA LOPEZ",
-      "CARLOS JULIO BONILLA SOTO",
-      "JULIAN BEDOYA PULGARIN",
-      "ABEL DAVID JARAMILLO LARGO",
-      "JEZMI LISETH BARRAZA ARRAUT."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. Roosvelt Rodríguez Rengifo"
-    ]
-  },
-  {
-    "numero": "035/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTICULOS 328 Y 356 DE LA CONSTITUCIÓN POLITICA OTORGANDOLE AL MUNICIPIO DE VILLAVICENCIO (META) EL CARACTER DE DISTRITO ESPECIAL, TURISTICO, CULTURAL Y UNIVERSITARIO.",
-    "estado": "ARCHIVADO,",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [
-      "034/19PAL"
-    ],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/35-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-al-municipio-de-villavicencio-meta-el-caracter-de-distrito-especial-turistico-cultural-y-universitario",
-    "fechaDePresentacion": "2019-03-13",
-    "autores": [
-      "H.S. IVAN DARIO AGUDELO ZAPATA",
-      "HORACIO JOSE SERPA MONCADA",
-      "JULIAN BEDOYA PULGARIN",
-      "H.R. ALEJANDRO VEGA PÉREZ",
-      "JULIAN PEINADO RAMIREZ",
-      "ANDRES DAVID CALLE AGUAS",
-      "JUAN FERNANDO REYES KURI",
-      "NILTON CORDOBA MANYOMA",
-      "OSCAR HERNAN SANCHEZ LEÓN",
-      "HENRY FERNANDO CORREAL HERRERA",
-      "JOSE LUIS CORREA LOPEZ",
-      "JUAN DIEGO ECHAVARRIA LOPEZ",
-      "LUCIANO GRISALES LONDOÑO",
-      "VICTOR MANUEL ORTIZ JOYA",
-      "RODRIGO ARTURO ROJAS LARA",
-      "ALEJANDRO CARLOS CHACÓN CAMARGO."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. JOSÉ OBDULIO GAVIRIA VÉLEZ"
-    ]
-  },
-  {
-    "numero": "031/18PAL",
-    "numeroCamara": "081/18",
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 122 DE LA CONSTITUCIÓN POLITICA.",
-    "estado": "ARCHIVADO,  ARCHIVADO – SEGUNDA VUELTA - NEGADO EN CÁMARA AL NO CUMPLIR CON LA VOTACION EXIGIDA CON EL ARTICULO 119 DE LA LEY 5ª DE 1992 (Acta 47 de mayo 07 de 2019)",
+    "numero": "040/19PAL",
+    "numeroCamara": "343/19",
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 361 DE LA CONSTITUCIÓN POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES SOBRE EL RÉGIMEN DE REGALÍAS Y COMPENSACIONES",
+    "estado": "ACTO LEGISLATIVO,  05 DEL 26 DE DICIEMBRE DE 2019",
     "origen": "CAMARA DE REPRESENTANTES",
     "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/31-por-el-cual-se-modifica-el-articulo-122-de-la-constitucion-politica",
-    "fechaDePresentacion": "2018-08-14",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/40-por-el-cual-se-modifica-el-articulo-361-de-la-constitucion-politica-y-se-dictan-otras-disposiciones-sobre-el-regimen-de-regalias-y-compensaciones",
+    "fechaDePresentacion": "2019-03-22",
     "autores": [
-      "Ministra del Interior",
-      "Doctora NANCY PATRICIA GUTIERREZ CASTAÑEDA"
+      "H.R. CÉSAR AUGUSTO ORTIZ ZORRO",
+      "FABIÁN DÍAZ PLATA",
+      "KATHERINE MIRANDA PEÑA",
+      "LEÓN FREDY MUÑOZ LOPERA",
+      "WILMER LEAL PÉREZ",
+      "NEVARDO ENEIRO RINCÓN VERGARA",
+      "ALEJANDRO ALBERTO VEGA PÉREZ",
+      "ALFREDO RAFAEL DELUQUE ZULETA",
+      "ANDRÉS DAVID CALLE AGUAS",
+      "JAIRO REINALDO CALA SÚAREZ",
+      "DAVID RICARDO RACERO MAYORCA"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. Esperanza Andrade de Osso",
+      "Temístocles Ortega Narvaez (Coordinadores)",
+      "Carlos Guevara Villabon",
+      "Julian Gallo Cubillos",
+      "Alexander López Maya",
+      "Gustavo Petro Urrego",
+      "Iván Name Vasquez",
+      "Luis Fernando Velasco",
+      "Armando Benedetti Villaneda",
+      "Paloma Valencia."
+    ]
+  },
+  {
+    "numero": "027/18PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE OTORGA INICIATIVA LEGISLATIVA A LA COMISIÓN NACIONAL DEL SERVICIO CIVIL (CNSC)",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/27-por-medio-del-cual-se-otorga-iniciativa-legislativa-a-la-comision-nacional-del-servicio-civil-cnsc",
+    "fechaDePresentacion": "2018-10-10",
+    "autores": [
+      "H.S:JOSE RITTER LÓPEZ PEÑA",
+      "ROOSVELT RODRIGUEZ RENGIFO",
+      "ARMANDO ALBERTO BENEDETTI VILLANEDA Honorables Representantes",
+      "ELBERT DIAZ LOZANO",
+      "JOHN JAIRO HOYOS GARCIA",
+      "JORGE ELIECER TAMAYO MARULANDA",
+      "JOHN JAIRO CARDENAS MORAN",
+      "HAROLD AUGUSTO VALENCIA INFANTE",
+      "NORMA HURTADO SANCHEZ",
+      "WILMER RAMIRO CARRILLO MENDOZA",
+      "JHON ARLEY MURILLO BENITEZ."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. Roosvelt Rodriguez Rengifo"
+    ]
+  },
+  {
+    "numero": "024/18PAL",
+    "numeroCamara": null,
+    "titulo": "POR LA CUAL SE ADICIONA EL ACTO LEGISLATIVO 01 DE 2017 Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/24-por-la-cual-se-adiciona-el-acto-legislativo-01-de-2017-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2018-09-26",
+    "autores": [
+      "H.S. PALOMA VALENCIA LASERNA",
+      "ALVARO URIBE VELEZ",
+      "JOSE OBDULIO GAVIRIA VELEZ",
+      "MARÍA FERNANDA CABAL MOLINA",
+      "ANA MARÍA CASTAÑEDA GÓMEZ",
+      "EMMA CLAUDIA CASTELLANOS",
+      "LUIS EDUARDO DIAZ GRANADOS TORRES",
+      "JOSÉ LUIS PEREZ HOYUELA",
+      "EDGAR JESUS DIAZ CONTRERAS",
+      "ANTONIO LUIS ZABARAIN GUEVARA",
+      "GERMÁN VARÓN COTRINO. HH.RR.: SAMUEL ALEJANDRO HOYOS MEJIA",
+      "EDWARD RODRIGUEZ RODRIGUEZ",
+      "ALVARO HERNÁN PRADA ARTUNDUAGA",
+      "MARGARITA RESTREPO ARANGO",
+      "GABRIEL JAIME VALLEJO",
+      "GABRIEL SANTOS GARCÍA",
+      "CHRISTIAN MUNIR GARCES",
+      "MODESTO ENRIQUE AGUILERA VIDES",
+      "ANGELA PATRICIA SANCHEZ LEAL",
+      "NESTOR LEONARDO RICO RICO",
+      "JAIRO HUMBERTO CRISTO CORREA",
+      "ATILANO ALONSO GIRALDO ARBOLEDA",
+      "JORGE MENDEZ HERNÁNDEZ",
+      "SALIM VILLAMIL QUESSEP."
     ],
     "ponentesPrimerDebate": [
       "H.S. PALOMA VALENCIA LASERNA"
-    ]
-  },
-  {
-    "numero": "030/18PAL",
-    "numeroCamara": "072/18",
-    "titulo": "POR MEDIO DEL CUAL SE ADICIONA UN INCISO AL NUMERAL 17 ARTICULO 150 DE LA CONSTITUCIÓN POLÍTICA. \"DELITOS CONEXOS",
-    "estado": "ACTO LEGISLATIVO,  02 DEL 15 DE JULIO DE 2019",
-    "origen": "CAMARA DE REPRESENTANTES",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/30-por-medio-del-cual-se-adiciona-un-inciso-al-numeral-17-articulo-150-de-la-constitucion-politica-delitos-conexos",
-    "fechaDePresentacion": "2018-08-08",
-    "autores": [
-      "H.R.Álvaro Hernán Prada Artunduaga Ministra del Interior",
-      "Doctora NANCY PATRICIA GUTIERREZ CASTAÑEDA",
-      "Ministra de Justicia y del Derecho",
-      "Doctora GLORIA MARÍA BORRERO RESTREPO"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. SANTIAGO VALENCIA GONZALEZ"
-    ]
-  },
-  {
-    "numero": "025/18PAL",
-    "numeroCamara": "044/18",
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 323 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA Y SE ESTABLECE LA SEGUNDA VUELTA PARA LA ELECCIÓN DE ALCALDE MAYOR DE BOGOTÁ, DISTRITO CAPITAL",
-    "estado": "ACTO LEGISLATIVO,  03 del 25 de Julio de 2019",
-    "origen": "CAMARA DE REPRESENTANTES",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/25-por-el-cual-se-modifica-el-articulo-323-de-la-constitucion-politica-de-colombia-y-se-establece-la-segunda-vuelta-para-la-eleccion-de-alcalde-mayor-de-bogota-distrito-capital",
-    "fechaDePresentacion": "2018-07-25",
-    "autores": [
-      "H.R.JUAN CARLOS LOZADA VARGAS",
-      "H.R.KELYN JOHANA GONZÁLEZ DUARTE",
-      "H.R.FABIO FERNANDO ARROYAVE RIVAS",
-      "H.R.MAURICIO ANDRÉS TORO ORJUELA",
-      "H.R.RODRIGO ARTURO ROJAS LARA",
-      "H.R.JOSÉ LUIS CORREA LÓPEZ",
-      "H.R.ANDRÉS DAVID CALLE AGUAS",
-      "H.R.OSCAR HERNÁN SÁNCHEZ LEÓN",
-      "H.R.ÁLVARO HENRY MONEDERO RIVERA",
-      "H.R.EDGAR ALFONSO GÓMEZ ROMÁN H.S.MAURICIO GOMEZ AMIN"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. Miguel Angel Pinto Hernández."
-    ]
-  },
-  {
-    "numero": "023/18PAL",
-    "numeroCamara": null,
-    "titulo": "POR LA CUAL SE MODIFICA EL ACTO LEGISLATIVO 01 DE 2017 Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/23-por-la-cual-se-modifica-el-acto-legislativo-01-de-2017-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": "2018-09-26",
-    "autores": [
-      "H.S ÁLVARO URIBE VÉLEZ",
-      "PALOMA VALENCIA LASERNA",
-      "PAOLA ANDREA HOLGUIN MORENO",
-      "CIRO ALEJANDRO RAMIREZ CORTÉS",
-      "SANTIAGO VALENCIA GONZÁLEZ",
-      "CARLOS FELIPE MEJIA",
-      "ALEJANDRO CORRALES ESCOBAR",
-      "GABRIEL JAIME VELASCO OCAMPO",
-      "FERNANDO NICOLAS ARAUJO RUMIÉ",
-      "Honorable Representante",
-      "SAMUEL ALEJANDRO HOYOS MEJÍA."
-    ],
-    "ponentesPrimerDebate": [
-      "HS PALOMA VALENCIA LASERNA"
-    ]
-  },
-  {
-    "numero": "022/18PAL",
-    "numeroCamara": "267/18",
-    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA EN MATERIA DE ADMINISTRACIÓN DE JUSTICIA Y SE REFORMA EL EQUILIBRIO ORGÁNICO DE FRENOS Y CONTRAPESOS",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [
-      "017/18PAL",
-      "021/18PAL"
-    ],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/22-por-medio-del-cual-se-reforma-la-constitucion-politica-en-materia-de-administracion-de-justicia-y-se-reforma-el-equilibrio-organico-de-frenos-y-contrapesos",
-    "fechaDePresentacion": "2018-09-25",
-    "autores": [
-      "HH.SS: Paloma Valencia Laserna",
-      "Jose Obdulio Gaviria Velez",
-      "Alejandro Corrales Escobar",
-      "Gabriel Velasco Ocampo",
-      "Milla Patricia Romero Soto",
-      "Paola Andrea Holguin Moreno",
-      "Carlos Felipe Mejia Mejia",
-      "John Harold Suarez Vargas",
-      "Ciro Alejandro Ramirez Cortes. HH.RR.: Samuel Alejandro Hoyos Mejia",
-      "Gabriel Santos García ."
-    ],
-    "ponentesPrimerDebate": [
-      "HH.SS: Germán Varón Cotrino",
-      "Paloma Valencia Laserna (Coordinadores)",
-      "Eduardo",
-      "Miguel Angel Pinto Hernández",
-      "Roosvelt Rodríguez Rengifo",
-      "Vasquez",
-      "Gustavo Petro Urrego",
-      "Alexander López Maya",
-      "Carlos Eduardo Guevara Villabon",
-      "Julián Gallo Cubillos",
-      "Rodrigo Lara Restrepo",
-      "Armando Benedetti Villaneda."
     ]
   },
   {
@@ -1108,70 +1116,84 @@
     ]
   },
   {
-    "numero": "024/18PAL",
+    "numero": "029/18PAL",
     "numeroCamara": null,
-    "titulo": "POR LA CUAL SE ADICIONA EL ACTO LEGISLATIVO 01 DE 2017 Y SE DICTAN OTRAS DISPOSICIONES",
+    "titulo": "POR MEDIO DEL CUAL SE REFORMA EL RÉGIMEN DE CONTROL FISCAL",
     "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/24-por-la-cual-se-adiciona-el-acto-legislativo-01-de-2017-y-se-dictan-otras-disposiciones",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/29-por-medio-del-cual-se-reforma-el-regimen-de-control-fiscal",
+    "fechaDePresentacion": "2018-11-07",
+    "autores": [
+      "Contralor General de la República Dr. CARLOS FELIPE CÓRDOBA LARRARTE con el acompañamiento de los Honorables Senadores",
+      "MIGUEL                                                                                                                                                                                                          AMÍN SCAFF",
+      "MAURICIO GOMEZ AMÍN",
+      "NICOLÁS PÉREZ VÁSQUEZ",
+      "HONORIO MIGUEL HENRIQUEZ PINEDO",
+      "DAVID BARGUIL ASSIS",
+      "ANDRES GARCIA ZUCCARDI",
+      "Honorables Representantes",
+      "ARMANDO ANTONIO ZABARAÍN",
+      "FABIO FERNANDO ARROYAVE BOTERO",
+      "KELYM GONZALEZ DUARTE",
+      "ATILANO ALONSO GIRALDO ARBOLEDA",
+      "RODRIGO ARTURO ROJAS LARA",
+      "ENRIQUE CABRALES BAQUERO"
+    ],
+    "ponentesPrimerDebate": []
+  },
+  {
+    "numero": "023/18PAL",
+    "numeroCamara": null,
+    "titulo": "POR LA CUAL SE MODIFICA EL ACTO LEGISLATIVO 01 DE 2017 Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/23-por-la-cual-se-modifica-el-acto-legislativo-01-de-2017-y-se-dictan-otras-disposiciones",
     "fechaDePresentacion": "2018-09-26",
     "autores": [
-      "H.S. PALOMA VALENCIA LASERNA",
-      "ALVARO URIBE VELEZ",
-      "JOSE OBDULIO GAVIRIA VELEZ",
-      "MARÍA FERNANDA CABAL MOLINA",
-      "ANA MARÍA CASTAÑEDA GÓMEZ",
-      "EMMA CLAUDIA CASTELLANOS",
-      "LUIS EDUARDO DIAZ GRANADOS TORRES",
-      "JOSÉ LUIS PEREZ HOYUELA",
-      "EDGAR JESUS DIAZ CONTRERAS",
-      "ANTONIO LUIS ZABARAIN GUEVARA",
-      "GERMÁN VARÓN COTRINO. HH.RR.: SAMUEL ALEJANDRO HOYOS MEJIA",
-      "EDWARD RODRIGUEZ RODRIGUEZ",
-      "ALVARO HERNÁN PRADA ARTUNDUAGA",
-      "MARGARITA RESTREPO ARANGO",
-      "GABRIEL JAIME VALLEJO",
-      "GABRIEL SANTOS GARCÍA",
-      "CHRISTIAN MUNIR GARCES",
-      "MODESTO ENRIQUE AGUILERA VIDES",
-      "ANGELA PATRICIA SANCHEZ LEAL",
-      "NESTOR LEONARDO RICO RICO",
-      "JAIRO HUMBERTO CRISTO CORREA",
-      "ATILANO ALONSO GIRALDO ARBOLEDA",
-      "JORGE MENDEZ HERNÁNDEZ",
-      "SALIM VILLAMIL QUESSEP."
+      "H.S ÁLVARO URIBE VÉLEZ",
+      "PALOMA VALENCIA LASERNA",
+      "PAOLA ANDREA HOLGUIN MORENO",
+      "CIRO ALEJANDRO RAMIREZ CORTÉS",
+      "SANTIAGO VALENCIA GONZÁLEZ",
+      "CARLOS FELIPE MEJIA",
+      "ALEJANDRO CORRALES ESCOBAR",
+      "GABRIEL JAIME VELASCO OCAMPO",
+      "FERNANDO NICOLAS ARAUJO RUMIÉ",
+      "Honorable Representante",
+      "SAMUEL ALEJANDRO HOYOS MEJÍA."
     ],
     "ponentesPrimerDebate": [
-      "H.S. PALOMA VALENCIA LASERNA"
+      "HS PALOMA VALENCIA LASERNA"
     ]
   },
   {
-    "numero": "027/18PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE OTORGA INICIATIVA LEGISLATIVA A LA COMISIÓN NACIONAL DEL SERVICIO CIVIL (CNSC)",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
+    "numero": "025/18PAL",
+    "numeroCamara": "044/18",
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 323 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA Y SE ESTABLECE LA SEGUNDA VUELTA PARA LA ELECCIÓN DE ALCALDE MAYOR DE BOGOTÁ, DISTRITO CAPITAL",
+    "estado": "ACTO LEGISLATIVO,  03 del 25 de Julio de 2019",
+    "origen": "CAMARA DE REPRESENTANTES",
     "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/27-por-medio-del-cual-se-otorga-iniciativa-legislativa-a-la-comision-nacional-del-servicio-civil-cnsc",
-    "fechaDePresentacion": "2018-10-10",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/25-por-el-cual-se-modifica-el-articulo-323-de-la-constitucion-politica-de-colombia-y-se-establece-la-segunda-vuelta-para-la-eleccion-de-alcalde-mayor-de-bogota-distrito-capital",
+    "fechaDePresentacion": "2018-07-25",
     "autores": [
-      "H.S:JOSE RITTER LÓPEZ PEÑA",
-      "ROOSVELT RODRIGUEZ RENGIFO",
-      "ARMANDO ALBERTO BENEDETTI VILLANEDA Honorables Representantes",
-      "ELBERT DIAZ LOZANO",
-      "JOHN JAIRO HOYOS GARCIA",
-      "JORGE ELIECER TAMAYO MARULANDA",
-      "JOHN JAIRO CARDENAS MORAN",
-      "HAROLD AUGUSTO VALENCIA INFANTE",
-      "NORMA HURTADO SANCHEZ",
-      "WILMER RAMIRO CARRILLO MENDOZA",
-      "JHON ARLEY MURILLO BENITEZ."
+      "H.R.JUAN CARLOS LOZADA VARGAS",
+      "H.R.KELYN JOHANA GONZÁLEZ DUARTE",
+      "H.R.FABIO FERNANDO ARROYAVE RIVAS",
+      "H.R.MAURICIO ANDRÉS TORO ORJUELA",
+      "H.R.RODRIGO ARTURO ROJAS LARA",
+      "H.R.JOSÉ LUIS CORREA LÓPEZ",
+      "H.R.ANDRÉS DAVID CALLE AGUAS",
+      "H.R.OSCAR HERNÁN SÁNCHEZ LEÓN",
+      "H.R.ÁLVARO HENRY MONEDERO RIVERA",
+      "H.R.EDGAR ALFONSO GÓMEZ ROMÁN H.S.MAURICIO GOMEZ AMIN"
     ],
     "ponentesPrimerDebate": [
-      "H.S. Roosvelt Rodriguez Rengifo"
+      "H.S. Miguel Angel Pinto Hernández."
     ]
   },
   {
@@ -1208,124 +1230,116 @@
     ]
   },
   {
-    "numero": "029/18PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE REFORMA EL RÉGIMEN DE CONTROL FISCAL",
+    "numero": "022/18PAL",
+    "numeroCamara": "267/18",
+    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA EN MATERIA DE ADMINISTRACIÓN DE JUSTICIA Y SE REFORMA EL EQUILIBRIO ORGÁNICO DE FRENOS Y CONTRAPESOS",
     "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
     "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/29-por-medio-del-cual-se-reforma-el-regimen-de-control-fiscal",
-    "fechaDePresentacion": "2018-11-07",
-    "autores": [
-      "Contralor General de la República Dr. CARLOS FELIPE CÓRDOBA LARRARTE con el acompañamiento de los Honorables Senadores",
-      "MIGUEL                                                                                                                                                                                                          AMÍN SCAFF",
-      "MAURICIO GOMEZ AMÍN",
-      "NICOLÁS PÉREZ VÁSQUEZ",
-      "HONORIO MIGUEL HENRIQUEZ PINEDO",
-      "DAVID BARGUIL ASSIS",
-      "ANDRES GARCIA ZUCCARDI",
-      "Honorables Representantes",
-      "ARMANDO ANTONIO ZABARAÍN",
-      "FABIO FERNANDO ARROYAVE BOTERO",
-      "KELYM GONZALEZ DUARTE",
-      "ATILANO ALONSO GIRALDO ARBOLEDA",
-      "RODRIGO ARTURO ROJAS LARA",
-      "ENRIQUE CABRALES BAQUERO"
+    "acumulados": [
+      "017/18PAL",
+      "021/18PAL"
     ],
-    "ponentesPrimerDebate": []
-  },
-  {
-    "numero": "019/18PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE ADOPTA UNA REFORMA POLÍTICA QUE PERMITA LA APERTURA DEMOCRÁTICA PARA LA CONSTRUCCIÓN DE UNA PAZ, ESTABLE Y DURADERA",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/19-por-medio-del-cual-se-adopta-una-reforma-politica-que-permita-la-apertura-democratica-para-la-construccion-de-una-paz-estable-y-duradera",
-    "fechaDePresentacion": "2018-09-04",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/22-por-medio-del-cual-se-reforma-la-constitucion-politica-en-materia-de-administracion-de-justicia-y-se-reforma-el-equilibrio-organico-de-frenos-y-contrapesos",
+    "fechaDePresentacion": "2018-09-25",
     "autores": [
-      "HH.SS: GUSTAVO BOLIVAR MORENO",
-      "JULIAN GALLO CUBILLOS",
-      "FELICIANO VALENCIA MEDINA",
-      "GUSTAVO PETRO URREGO",
-      "VICTORIA SANDINO SIMANCA HERRERA",
-      "CRISELDA LOBO SILVA",
-      "JUAN CARLOS CARREÑO CARMONA",
-      "AIDA AVELLA ESQUIVEL. HH.RR: FABIAN DIAZ PLATA",
-      "LUIS ALBAN URBANO",
-      "OMAR DE JESÚS RESTREPO",
-      "ABEL JARAMILLO LARGO",
-      "DAVID RACERO MAYORCA",
-      "CARLOS CARREÑO MARIN",
-      "MARIA JOSE PIZARRO RODRIGUEZ",
-      "KATHERINE MIRANDA PEÑA",
-      "LEON FREDY MUÑOZ LOPERA."
+      "HH.SS: Paloma Valencia Laserna",
+      "Jose Obdulio Gaviria Velez",
+      "Alejandro Corrales Escobar",
+      "Gabriel Velasco Ocampo",
+      "Milla Patricia Romero Soto",
+      "Paola Andrea Holguin Moreno",
+      "Carlos Felipe Mejia Mejia",
+      "John Harold Suarez Vargas",
+      "Ciro Alejandro Ramirez Cortes. HH.RR.: Samuel Alejandro Hoyos Mejia",
+      "Gabriel Santos García ."
     ],
     "ponentesPrimerDebate": [
-      "Senado: H.S: José Obdulio Gaviria Velez",
-      "Temístocles Ortega Narvaez (Coordinadores)",
-      "Roy Barreras Montealegre",
-      "Esperanza Andrade de Osso",
-      "Julian Gallo Cubillos",
-      "Alexander Lopez Maya",
-      "Carlos Guevara Villabon",
+      "HH.SS: Germán Varón Cotrino",
+      "Paloma Valencia Laserna (Coordinadores)",
+      "Eduardo",
+      "Miguel Angel Pinto Hernández",
+      "Roosvelt Rodríguez Rengifo",
+      "Vasquez",
       "Gustavo Petro Urrego",
-      "Luis Fernando Velasco Chaves",
-      "Angelica Lozano Correa."
+      "Alexander López Maya",
+      "Carlos Eduardo Guevara Villabon",
+      "Julián Gallo Cubillos",
+      "Rodrigo Lara Restrepo",
+      "Armando Benedetti Villaneda."
     ]
   },
   {
-    "numero": "020/18PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE ADICIONA UN ARTÍCULO A LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
+    "numero": "030/18PAL",
+    "numeroCamara": "072/18",
+    "titulo": "POR MEDIO DEL CUAL SE ADICIONA UN INCISO AL NUMERAL 17 ARTICULO 150 DE LA CONSTITUCIÓN POLÍTICA. \"DELITOS CONEXOS",
+    "estado": "ACTO LEGISLATIVO,  02 DEL 15 DE JULIO DE 2019",
+    "origen": "CAMARA DE REPRESENTANTES",
     "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/20-por-medio-del-cual-se-adiciona-un-articulo-a-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2018-09-04",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/30-por-medio-del-cual-se-adiciona-un-inciso-al-numeral-17-articulo-150-de-la-constitucion-politica-delitos-conexos",
+    "fechaDePresentacion": "2018-08-08",
     "autores": [
-      "HH.SS: JUAN DIEGO GOMEZ JIMENEZ",
-      "NADIA BLEL SCAFF",
-      "DAVID BARGUIL ASIS",
-      "JUAN CARLOS GARCIA GOMEZ",
-      "MIRYAM PAREDES AGUIRRE",
-      "CARLOS ABRAHAM JIMENEZ LOPEZ",
-      "CIRO ALEJANDRO RAMIREZ CORTES",
-      "JONATAN TAMAYO PEREZ. HH.RR: NICOLAS ECHEVERRYALVARÁN",
-      "GERMAN BLANCO ALVAREZ",
-      "JAIME FELIPE LOZADA POLANCO."
+      "H.R.Álvaro Hernán Prada Artunduaga Ministra del Interior",
+      "Doctora NANCY PATRICIA GUTIERREZ CASTAÑEDA",
+      "Ministra de Justicia y del Derecho",
+      "Doctora GLORIA MARÍA BORRERO RESTREPO"
     ],
     "ponentesPrimerDebate": [
-      "H.S: Esperanza Andrade de Osso."
+      "H.S. SANTIAGO VALENCIA GONZALEZ"
     ]
   },
   {
-    "numero": "013/18PAL",
+    "numero": "011/18PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL MODIFICA EL ARTÍCULO 361 DE LA CONSTITUCIÓN POLÍTICA, SE CREA EL FONDO DE COMPENSACIÓN AMBIENTAL Y SE DICTAN OTRAS DISPOSICIONES",
+    "titulo": "POR EL CUAL SE CREA LA CIRCUNSCRIPCIÓN ESPECIAL DE JÓVENES EN LA CÁMARA DE REPRESENTANTES Y SE DICTAN OTRAS DISPOSICIONES.",
     "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/13-por-medio-del-cual-modifica-el-articulo-361-de-la-constitucion-politica-se-crea-el-fondo-de-compensacion-ambiental-y-se-dictan-otras-disposiciones",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/11-por-el-cual-se-crea-la-circunscripcion-especial-de-jovenes-en-la-camara-de-representantes-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2018-08-08",
+    "autores": [
+      "HS. HORACIO JOSE SERPA URIBE",
+      "MIGUEL ANGEL PINTO HERNANDEZ",
+      "LIDIO GARCIA TURBAY",
+      "IVAN DARIO AGUDELO",
+      "JULIAN BEDOYA PULGARIN",
+      "FABIO RAUL AMIN SALEME",
+      "MAURICIO GOMEZ AMIN",
+      "GUILLERMO GARICA REALPE",
+      "ANDRES CRISTO BUSTOS",
+      "MARIO ALBERTO CASTAÑO PEREZ",
+      "HR. CARLOS ARDILA ESPINOSA."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Fabio Raúl Amín Saleme."
+    ]
+  },
+  {
+    "numero": "014/18PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DE LA CUAL SE MODIFICA EL ARTÍCULO 242 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/14-por-medio-de-la-cual-se-modifica-el-articulo-242-de-la-constitucion-politica-de-colombia",
     "fechaDePresentacion": "2018-08-15",
     "autores": [
-      "HS: JOSE ALFREDO GNECCO ZULETA",
-      "JUAN FELIPE LEMOS URIBE",
-      "BERNER ZAMBRANO ERASO",
-      "JOHNY MOISES BESAILE FAYAD",
-      "ARMANDO BENEDETTI VILLANEDA",
-      "EDUARDO ENRIQUE PULGAR DAZA",
-      "FERNANDO NICOLAS ARAUJO RUMIÉ",
-      "MIGUEL AMÍN ESCAF",
-      "LIDIO ARTURO GARCIA TURBAY",
-      "LAUREANO AUGUSTO ACUÑA DIAZ."
+      "H.S. RODRIGO LARA RESTREPO",
+      "ANA MARIA CASTAÑEDA GOMEZ",
+      "FABIAN GERARDO CASTILLO SUAREZ",
+      "GERMAN VARON COTRINO",
+      "H.R.DAVID ERNESTO PULIDO NOVOA",
+      "JOSE DANIEL LOPEZ JIMENEZ",
+      "JAIME RODRIGUEZ CONTRERAS",
+      "ERWIN ARIAS BETANCUR",
+      "JULIO CESAR TRIANA QUINTERO",
+      "HERNANDO JOSE PADAUI ALVAREZ."
     ],
     "ponentesPrimerDebate": [
-      "HS : Roosvelt Rodriguez Rengifo."
+      "H.S: Rodrigo Lara Restrepo."
     ]
   },
   {
@@ -1360,50 +1374,29 @@
     ]
   },
   {
-    "numero": "011/18PAL",
+    "numero": "020/18PAL",
     "numeroCamara": null,
-    "titulo": "POR EL CUAL SE CREA LA CIRCUNSCRIPCIÓN ESPECIAL DE JÓVENES EN LA CÁMARA DE REPRESENTANTES Y SE DICTAN OTRAS DISPOSICIONES.",
+    "titulo": "POR MEDIO DEL CUAL SE ADICIONA UN ARTÍCULO A LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
     "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/11-por-el-cual-se-crea-la-circunscripcion-especial-de-jovenes-en-la-camara-de-representantes-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": "2018-08-08",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/20-por-medio-del-cual-se-adiciona-un-articulo-a-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2018-09-04",
     "autores": [
-      "HS. HORACIO JOSE SERPA URIBE",
-      "MIGUEL ANGEL PINTO HERNANDEZ",
-      "LIDIO GARCIA TURBAY",
-      "IVAN DARIO AGUDELO",
-      "JULIAN BEDOYA PULGARIN",
-      "FABIO RAUL AMIN SALEME",
-      "MAURICIO GOMEZ AMIN",
-      "GUILLERMO GARICA REALPE",
-      "ANDRES CRISTO BUSTOS",
-      "MARIO ALBERTO CASTAÑO PEREZ",
-      "HR. CARLOS ARDILA ESPINOSA."
+      "HH.SS: JUAN DIEGO GOMEZ JIMENEZ",
+      "NADIA BLEL SCAFF",
+      "DAVID BARGUIL ASIS",
+      "JUAN CARLOS GARCIA GOMEZ",
+      "MIRYAM PAREDES AGUIRRE",
+      "CARLOS ABRAHAM JIMENEZ LOPEZ",
+      "CIRO ALEJANDRO RAMIREZ CORTES",
+      "JONATAN TAMAYO PEREZ. HH.RR: NICOLAS ECHEVERRYALVARÁN",
+      "GERMAN BLANCO ALVAREZ",
+      "JAIME FELIPE LOZADA POLANCO."
     ],
     "ponentesPrimerDebate": [
-      "H.S: Fabio Raúl Amín Saleme."
-    ]
-  },
-  {
-    "numero": "012/18PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE ADICIONA UN ARTÍCULO A LA CONSTITUCIÓN POLÍTICA",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/12-por-el-cual-se-adiciona-un-articulo-a-la-constitucion-politica",
-    "fechaDePresentacion": "2018-08-08",
-    "autores": [
-      "Ministra del Interior",
-      "Dra. NANCY PATRICIA GUTIÉRREZ CASTAÑEDA",
-      "Ministra de Justicia y del Derecho",
-      "Dra. GLORIA MARÍA BORRERO RESTREPO"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S: Paloma Valencia Laserna."
+      "H.S: Esperanza Andrade de Osso."
     ]
   },
   {
@@ -1483,6 +1476,67 @@
     ]
   },
   {
+    "numero": "019/18PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE ADOPTA UNA REFORMA POLÍTICA QUE PERMITA LA APERTURA DEMOCRÁTICA PARA LA CONSTRUCCIÓN DE UNA PAZ, ESTABLE Y DURADERA",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/19-por-medio-del-cual-se-adopta-una-reforma-politica-que-permita-la-apertura-democratica-para-la-construccion-de-una-paz-estable-y-duradera",
+    "fechaDePresentacion": "2018-09-04",
+    "autores": [
+      "HH.SS: GUSTAVO BOLIVAR MORENO",
+      "JULIAN GALLO CUBILLOS",
+      "FELICIANO VALENCIA MEDINA",
+      "GUSTAVO PETRO URREGO",
+      "VICTORIA SANDINO SIMANCA HERRERA",
+      "CRISELDA LOBO SILVA",
+      "JUAN CARLOS CARREÑO CARMONA",
+      "AIDA AVELLA ESQUIVEL. HH.RR: FABIAN DIAZ PLATA",
+      "LUIS ALBAN URBANO",
+      "OMAR DE JESÚS RESTREPO",
+      "ABEL JARAMILLO LARGO",
+      "DAVID RACERO MAYORCA",
+      "CARLOS CARREÑO MARIN",
+      "MARIA JOSE PIZARRO RODRIGUEZ",
+      "KATHERINE MIRANDA PEÑA",
+      "LEON FREDY MUÑOZ LOPERA."
+    ],
+    "ponentesPrimerDebate": [
+      "Senado: H.S: José Obdulio Gaviria Velez",
+      "Temístocles Ortega Narvaez (Coordinadores)",
+      "Roy Barreras Montealegre",
+      "Esperanza Andrade de Osso",
+      "Julian Gallo Cubillos",
+      "Alexander Lopez Maya",
+      "Carlos Guevara Villabon",
+      "Gustavo Petro Urrego",
+      "Luis Fernando Velasco Chaves",
+      "Angelica Lozano Correa."
+    ]
+  },
+  {
+    "numero": "012/18PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE ADICIONA UN ARTÍCULO A LA CONSTITUCIÓN POLÍTICA",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/12-por-el-cual-se-adiciona-un-articulo-a-la-constitucion-politica",
+    "fechaDePresentacion": "2018-08-08",
+    "autores": [
+      "Ministra del Interior",
+      "Dra. NANCY PATRICIA GUTIÉRREZ CASTAÑEDA",
+      "Ministra de Justicia y del Derecho",
+      "Dra. GLORIA MARÍA BORRERO RESTREPO"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Paloma Valencia Laserna."
+    ]
+  },
+  {
     "numero": "018/18PAL",
     "numeroCamara": null,
     "titulo": "POR MEDIO DE LA CUAL SE REGLAMENTA LA IMPLEMENTACIÓN DEL VOTO DIGITAL Y A DISTANCIA Y SE DICTAN OTRAS DISPOSICIONES.",
@@ -1509,201 +1563,29 @@
     ]
   },
   {
-    "numero": "014/18PAL",
+    "numero": "013/18PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DE LA CUAL SE MODIFICA EL ARTÍCULO 242 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "titulo": "POR MEDIO DEL CUAL MODIFICA EL ARTÍCULO 361 DE LA CONSTITUCIÓN POLÍTICA, SE CREA EL FONDO DE COMPENSACIÓN AMBIENTAL Y SE DICTAN OTRAS DISPOSICIONES",
     "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/14-por-medio-de-la-cual-se-modifica-el-articulo-242-de-la-constitucion-politica-de-colombia",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/13-por-medio-del-cual-modifica-el-articulo-361-de-la-constitucion-politica-se-crea-el-fondo-de-compensacion-ambiental-y-se-dictan-otras-disposiciones",
     "fechaDePresentacion": "2018-08-15",
     "autores": [
-      "H.S. RODRIGO LARA RESTREPO",
-      "ANA MARIA CASTAÑEDA GOMEZ",
-      "FABIAN GERARDO CASTILLO SUAREZ",
-      "GERMAN VARON COTRINO",
-      "H.R.DAVID ERNESTO PULIDO NOVOA",
-      "JOSE DANIEL LOPEZ JIMENEZ",
-      "JAIME RODRIGUEZ CONTRERAS",
-      "ERWIN ARIAS BETANCUR",
-      "JULIO CESAR TRIANA QUINTERO",
-      "HERNANDO JOSE PADAUI ALVAREZ."
+      "HS: JOSE ALFREDO GNECCO ZULETA",
+      "JUAN FELIPE LEMOS URIBE",
+      "BERNER ZAMBRANO ERASO",
+      "JOHNY MOISES BESAILE FAYAD",
+      "ARMANDO BENEDETTI VILLANEDA",
+      "EDUARDO ENRIQUE PULGAR DAZA",
+      "FERNANDO NICOLAS ARAUJO RUMIÉ",
+      "MIGUEL AMÍN ESCAF",
+      "LIDIO ARTURO GARCIA TURBAY",
+      "LAUREANO AUGUSTO ACUÑA DIAZ."
     ],
     "ponentesPrimerDebate": [
-      "H.S: Rodrigo Lara Restrepo."
-    ]
-  },
-  {
-    "numero": "010/18PAL",
-    "numeroCamara": "269/18",
-    "titulo": "POR EL CUAL SE OTORGA LA CATEGORIA DE DISTRITO PETROQUIMICO, PORTUARIO Y TURISTICO AL MUNICIPIO DE BARRANCABERMEJA EN EL DEPARTAMENTO DE SANTANDER.",
-    "estado": "ACTO LEGISLATIVO,  01 del 11 de Julio de 2019",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/10-por-el-cual-se-otorga-la-categoria-de-distrito-petroquimico-portuario-y-turistico-al-municipio-de-barrancabermeja-en-el-departamento-de-santander",
-    "fechaDePresentacion": "2018-08-08",
-    "autores": [
-      "HS. HORACIO JOSE SERPA URIBE",
-      "MIGUEL ANGEL PINTO HERNANDEZ",
-      "LIDIO GARCIA TURBAY",
-      "IVAN DARIO AGUDELO",
-      "JULIAN BEDOYA PULGARIN",
-      "FABIO RAUL AMIN SALEME",
-      "MAURICIO GOMEZ AMIN",
-      "GUILLERMO GARICA REALPE",
-      "ANDRES CRISTO BUSTOS",
-      "MARIO ALBERTO CASTAÑO PERE",
-      "JAIME DURÁN BARRERA."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. Miguel Angel Pinto Hernandez."
-    ]
-  },
-  {
-    "numero": "005/18PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE ADICIONA EL ARTÍCULO 41 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA CON EL ESTUDIO DE LA BIOÉTICA Y EL BIODERECHO",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/5-por-el-cual-se-adiciona-el-articulo-41-de-la-constitucion-politica-de-colombia-con-el-estudio-de-la-bioetica-y-el-bioderecho",
-    "fechaDePresentacion": "2018-07-24",
-    "autores": [
-      "HS EDUARDO EMILIO PACHECO CUELLO",
-      "JHON MILTON RODRÍGUEZ GONZÁLEZ",
-      "EDGAR PALACIOS MIZRAHI",
-      "HR CARLOS EDUARDO ACOSTA LOZANO"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S: Roy Barreras Montealegre."
-    ]
-  },
-  {
-    "numero": "006/18PAL",
-    "numeroCamara": "234/18",
-    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPÍTULO I DEL TÍTULO II DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/6-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2018-07-25",
-    "autores": [
-      "HH.SS: Angelica Lozano Correa",
-      "Jose Polo Narvaez",
-      "Ivan Marulanda Gomez",
-      "Antonio Sanguino",
-      "Juan Castro Prieto",
-      "Sandra Ortiz Nova",
-      "Fabian Diaz Suarez. - HH.RR: Cesar Augusto Ortiz",
-      "Catalina Ortiz Lalinde",
-      "Inti Raul Asprilla",
-      "Wilmer Leal Perez",
-      "Mauricio Toro Orjuela",
-      "Neyla Ruiz",
-      "Correa",
-      "Leon Fredy Muñoz Lopera."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S: Angelica Lozano Correa."
-    ]
-  },
-  {
-    "numero": "009/18PAL",
-    "numeroCamara": "248/18",
-    "titulo": "POR EL CUAL SE ADOPTA UNA REFORMA POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "ARCHIVADO,  SEGUNDA VUELTA",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [
-      "008/18PAL"
-    ],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/9-por-el-cual-se-adopta-una-reforma-politica-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": "2018-08-08",
-    "autores": [
-      "Ministra del Interior",
-      "NANCY PATRICIA GUTIÉRREZ CASTAÑEDA"
-    ],
-    "ponentesPrimerDebate": [
-      "HH.SS: Santiago Valencia González",
-      "Temístocles Ortega Narvaez (Coordinadores)",
-      "Roy Barreras Montealegre",
-      "Esperanza Andrade de Osso",
-      "Julian Gallo Cubillos",
-      "Alexander Lopez Maya",
-      "Carlos Guevara Villabon",
-      "Gustavo Petro Urrego",
-      "Luis Fernando Velasco Chaves",
-      "Angelica Lozano Correa."
-    ]
-  },
-  {
-    "numero": "002/18PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE RECONOCE AL CAMPESINADO COMO SUJETO DE DERECHOS, SE RECONOCE EL DERECHO A LA TIERRA Y A LA TERRITORIALIDAD CAMPESINA Y SE ADOPTAN DISPOSICIONES SOBRE LA CONSULTA POPULAR",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/2-por-medio-del-cual-se-reconoce-al-campesinado-como-sujeto-de-derechos-se-reconoce-el-derecho-a-la-tierra-y-a-la-territorialidad-campesina-y-se-adoptan-disposiciones-sobre-la-consulta-popular",
-    "fechaDePresentacion": "2018-07-20",
-    "autores": [
-      "HS ALEXANDER LOPEZ MAYA",
-      "ALBERTO CASTILLA SALAZAR",
-      "GUSTABO FRANCISCO PETRO URREGO",
-      "FELICIANO VALENCIA MEDINA",
-      "GUSTAVO  BOLIVAR MORENO",
-      "VICTORIA SANDINO SIMANCA",
-      "JULIAN GALLO",
-      "ANTONIO SANGUINO PAEZ",
-      "IVAN CEPEDA CASTRO",
-      "GRISELDA LOBO SILVA",
-      "ANGELA MARIA ROBLEDO",
-      "MARIA JOSE PIZARRO",
-      "OMAR RESTREPO",
-      "LEO FREDY MUÑOZ",
-      "DAVID RACERO",
-      "LUIS ALBERTO ALBAN",
-      "JOHN JAIRO CARDENAS Y OTROS."
-    ],
-    "ponentesPrimerDebate": [
-      ": H.S: Alexander Lopez Maya."
-    ]
-  },
-  {
-    "numero": "003/18PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE CREA EL SERVICIO SOCIAL PARA LA PAZ Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2018-2019",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/3-por-medio-del-cual-se-crea-el-servicio-social-para-la-paz-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": "2018-07-20",
-    "autores": [
-      "HS ALEXANDER LOPEZ MAYA",
-      "ALBERTO CASTILLA SALAZAR",
-      "GUSTABO FRANCISCO PETRO URREGO",
-      "FELICIANO VALENCIA MEDINA",
-      "GUSTAVO  BOLIVAR MORENO",
-      "VICTORIA SANDINO SIMANCA",
-      "JULIAN GALLO",
-      "ANTONIO SANGUINO PAEZ",
-      "IVAN CEPEDA CASTRO",
-      "GRISELDA LOBO SILVA",
-      "ANGELA MARIA ROBLEDO",
-      "MARIA JOSE PIZARRO",
-      "OMAR RESTREPO",
-      "LEO FREDY MUÑOZ",
-      "DAVID RACERO",
-      "LUIS ALBERTO ALBAN",
-      "JOHN JAIRO CARDENAS Y OTROS."
-    ],
-    "ponentesPrimerDebate": [
-      ": H.S: Alexander Lopez Maya."
+      "HS : Roosvelt Rodriguez Rengifo."
     ]
   },
   {
@@ -1767,6 +1649,59 @@
     ]
   },
   {
+    "numero": "002/18PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE RECONOCE AL CAMPESINADO COMO SUJETO DE DERECHOS, SE RECONOCE EL DERECHO A LA TIERRA Y A LA TERRITORIALIDAD CAMPESINA Y SE ADOPTAN DISPOSICIONES SOBRE LA CONSULTA POPULAR",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/2-por-medio-del-cual-se-reconoce-al-campesinado-como-sujeto-de-derechos-se-reconoce-el-derecho-a-la-tierra-y-a-la-territorialidad-campesina-y-se-adoptan-disposiciones-sobre-la-consulta-popular",
+    "fechaDePresentacion": "2018-07-20",
+    "autores": [
+      "HS ALEXANDER LOPEZ MAYA",
+      "ALBERTO CASTILLA SALAZAR",
+      "GUSTABO FRANCISCO PETRO URREGO",
+      "FELICIANO VALENCIA MEDINA",
+      "GUSTAVO  BOLIVAR MORENO",
+      "VICTORIA SANDINO SIMANCA",
+      "JULIAN GALLO",
+      "ANTONIO SANGUINO PAEZ",
+      "IVAN CEPEDA CASTRO",
+      "GRISELDA LOBO SILVA",
+      "ANGELA MARIA ROBLEDO",
+      "MARIA JOSE PIZARRO",
+      "OMAR RESTREPO",
+      "LEO FREDY MUÑOZ",
+      "DAVID RACERO",
+      "LUIS ALBERTO ALBAN",
+      "JOHN JAIRO CARDENAS Y OTROS."
+    ],
+    "ponentesPrimerDebate": [
+      ": H.S: Alexander Lopez Maya."
+    ]
+  },
+  {
+    "numero": "005/18PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE ADICIONA EL ARTÍCULO 41 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA CON EL ESTUDIO DE LA BIOÉTICA Y EL BIODERECHO",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/5-por-el-cual-se-adiciona-el-articulo-41-de-la-constitucion-politica-de-colombia-con-el-estudio-de-la-bioetica-y-el-bioderecho",
+    "fechaDePresentacion": "2018-07-24",
+    "autores": [
+      "HS EDUARDO EMILIO PACHECO CUELLO",
+      "JHON MILTON RODRÍGUEZ GONZÁLEZ",
+      "EDGAR PALACIOS MIZRAHI",
+      "HR CARLOS EDUARDO ACOSTA LOZANO"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Roy Barreras Montealegre."
+    ]
+  },
+  {
     "numero": "004/18PAL",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL SE CREAN 16 CIRCUNSCRIPCIONES TRANSITORIAS ESPECIALES DE PAZ PARA LA CÁMARA DE REPRESENTANTES",
@@ -1811,6 +1746,39 @@
     ]
   },
   {
+    "numero": "003/18PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE CREA EL SERVICIO SOCIAL PARA LA PAZ Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/3-por-medio-del-cual-se-crea-el-servicio-social-para-la-paz-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2018-07-20",
+    "autores": [
+      "HS ALEXANDER LOPEZ MAYA",
+      "ALBERTO CASTILLA SALAZAR",
+      "GUSTABO FRANCISCO PETRO URREGO",
+      "FELICIANO VALENCIA MEDINA",
+      "GUSTAVO  BOLIVAR MORENO",
+      "VICTORIA SANDINO SIMANCA",
+      "JULIAN GALLO",
+      "ANTONIO SANGUINO PAEZ",
+      "IVAN CEPEDA CASTRO",
+      "GRISELDA LOBO SILVA",
+      "ANGELA MARIA ROBLEDO",
+      "MARIA JOSE PIZARRO",
+      "OMAR RESTREPO",
+      "LEO FREDY MUÑOZ",
+      "DAVID RACERO",
+      "LUIS ALBERTO ALBAN",
+      "JOHN JAIRO CARDENAS Y OTROS."
+    ],
+    "ponentesPrimerDebate": [
+      ": H.S: Alexander Lopez Maya."
+    ]
+  },
+  {
     "numero": "008/18PAL",
     "numeroCamara": "248/18",
     "titulo": "POR MEDIO DEL CUAL SE ADOPTA UNA REFORMA POLÍTICA Y ELECTORAL",
@@ -1846,33 +1814,90 @@
     ]
   },
   {
-    "numero": "029/20PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL SALARIO DE LOS CONGRESISTAS Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "ARCHIVADO,",
+    "numero": "009/18PAL",
+    "numeroCamara": "248/18",
+    "titulo": "POR EL CUAL SE ADOPTA UNA REFORMA POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "ARCHIVADO,  SEGUNDA VUELTA",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [
+      "008/18PAL"
+    ],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/9-por-el-cual-se-adopta-una-reforma-politica-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2018-08-08",
+    "autores": [
+      "Ministra del Interior",
+      "NANCY PATRICIA GUTIÉRREZ CASTAÑEDA"
+    ],
+    "ponentesPrimerDebate": [
+      "HH.SS: Santiago Valencia González",
+      "Temístocles Ortega Narvaez (Coordinadores)",
+      "Roy Barreras Montealegre",
+      "Esperanza Andrade de Osso",
+      "Julian Gallo Cubillos",
+      "Alexander Lopez Maya",
+      "Carlos Guevara Villabon",
+      "Gustavo Petro Urrego",
+      "Luis Fernando Velasco Chaves",
+      "Angelica Lozano Correa."
+    ]
+  },
+  {
+    "numero": "010/18PAL",
+    "numeroCamara": "269/18",
+    "titulo": "POR EL CUAL SE OTORGA LA CATEGORIA DE DISTRITO PETROQUIMICO, PORTUARIO Y TURISTICO AL MUNICIPIO DE BARRANCABERMEJA EN EL DEPARTAMENTO DE SANTANDER.",
+    "estado": "ACTO LEGISLATIVO,  01 del 11 de Julio de 2019",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/30-por-medio-del-cual-se-modifica-el-salario-de-los-congresistas-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": "2020-05-06",
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/10-por-el-cual-se-otorga-la-categoria-de-distrito-petroquimico-portuario-y-turistico-al-municipio-de-barrancabermeja-en-el-departamento-de-santander",
+    "fechaDePresentacion": "2018-08-08",
     "autores": [
-      "H.S. GUSTAVO BOLÍVAR MORENO",
-      "IVÁN CEPEDA CASTRO",
-      "ALEXANDER LÓPEZ MAYA",
-      "GUSTAVO FRANCISCO PETRO URREGO",
-      "AIDA YOLANDA AVELLA ESQUIVEL",
-      "VICTORIA SANDINO SIMANCA",
-      "JULIAN GALLO CUBILLOS",
-      "FELICIANO VALENCIA MEDINA",
-      "PABLO CATATUMBO TORRES VICTORIA",
-      "ISRAEL ALBERTO ZÚÑIGA IRIARTE",
-      "H.R. DAVID RICARDO RACERO MAYORCA",
-      "LEÓN FREDY MUÑOZ LOPERA",
-      "ABEL DAVID JARAMILLO",
-      "OMAR DE JESUS RESTREPO CORREA",
-      "CARLOS ALBERTO CARREÑO MARIN."
+      "HS. HORACIO JOSE SERPA URIBE",
+      "MIGUEL ANGEL PINTO HERNANDEZ",
+      "LIDIO GARCIA TURBAY",
+      "IVAN DARIO AGUDELO",
+      "JULIAN BEDOYA PULGARIN",
+      "FABIO RAUL AMIN SALEME",
+      "MAURICIO GOMEZ AMIN",
+      "GUILLERMO GARICA REALPE",
+      "ANDRES CRISTO BUSTOS",
+      "MARIO ALBERTO CASTAÑO PERE",
+      "JAIME DURÁN BARRERA."
     ],
-    "ponentesPrimerDebate": []
+    "ponentesPrimerDebate": [
+      "H.S. Miguel Angel Pinto Hernandez."
+    ]
+  },
+  {
+    "numero": "006/18PAL",
+    "numeroCamara": "234/18",
+    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPÍTULO I DEL TÍTULO II DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "estado": "ARCHIVADO,  Articulo 375 de la Constitucion Nacional y el articulo 234 de la ley 5a el 17 de Diciembre de 2018",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2018-2019",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2018-2019/article/6-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2018-07-25",
+    "autores": [
+      "HH.SS: Angelica Lozano Correa",
+      "Jose Polo Narvaez",
+      "Ivan Marulanda Gomez",
+      "Antonio Sanguino",
+      "Juan Castro Prieto",
+      "Sandra Ortiz Nova",
+      "Fabian Diaz Suarez. - HH.RR: Cesar Augusto Ortiz",
+      "Catalina Ortiz Lalinde",
+      "Inti Raul Asprilla",
+      "Wilmer Leal Perez",
+      "Mauricio Toro Orjuela",
+      "Neyla Ruiz",
+      "Correa",
+      "Leon Fredy Muñoz Lopera."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Angelica Lozano Correa."
+    ]
   },
   {
     "numero": "028/20PAL",
@@ -1937,77 +1962,6 @@
     ]
   },
   {
-    "numero": "025/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE REFORMA EL ARTÍCULO 135 DE LA CONSTITUCIÓN POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/25-por-medio-del-cual-se-reforma-el-articulo-135-de-la-constitucion-politica-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": "2019-11-13",
-    "autores": [
-      "H.S. ROY LEONARDO BARRERAS MONTEALEGRE",
-      "RODRIGO LARA RESTREPO",
-      "GUILLERMO GARCÍA REALPE",
-      "JUAN FELIPE LEMOS URIBE",
-      "JOSÉ RITTER LÓPEZ PEÑA",
-      "ANDRÉS FELIPE GARCÍA ZUCCARDI",
-      "ROOSVELT RODRÍGUEZ RENGIFO",
-      "SANDRA LILIANA ORTIZ NOVA",
-      "GERMÁN VARÓN COTRINO."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. ROY LEONARDO BARRERAS MONTEALEGRE"
-    ]
-  },
-  {
-    "numero": "022/19PAL",
-    "numeroCamara": "107/19",
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 249 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA, SE ESTABLECE QUE EL PERIODO DEL FISCAL GENERAL DE LA NACIÓN SERÁ INSTITUCIONAL Y SU ELECCIÓN SE REALIZARÁ A TRAVÉS DE TERNA ELABORADA A PARTIR DE CONCURSO PÚBLICO DE MÉRITOS",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "CAMARA DE REPRESENTANTES",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/22-por-el-cual-se-modifica-el-articulo-249-de-la-constitucion-politica-de-colombia-se-establece-que-el-periodo-del-fiscal-general-de-la-nacion-sera-institucional-y-su-eleccion-se-realizara-a-traves-de-terna-elaborada-a-partir-de-concurso-publico-de-meritos",
-    "fechaDePresentacion": "2019-07-23",
-    "autores": [
-      "H.S ANGELICA LOZANO CORREA",
-      "TEMISTOCLES ORTEGA NARVAEZ",
-      "JORGE ENRIQUE ROBLEDO CASTILLO",
-      "ANTONIO ESREMID SANGUINO PÁEZ",
-      "IVÁN MARULANDA GÓMEZ",
-      "IVAN CEPEDA CASTRO",
-      "IVAN LEONIDAS NAME VASQUEZ",
-      "JESÚS ALBERTO CASTILLA SALAZAR",
-      "ARMANDO ALBERTO BENEDETTI VILLANEDA",
-      "JORGE EDUARDO LONDOÑO ULLOA",
-      "H.R. JOSÉ DANIEL LÓPEZ JIMÉNEZ",
-      "JAIME FELIPE LOZADA POLANCO",
-      "BUENAVENTURA LEON LEON",
-      "JUANITA MARIA GOUBERTUS ESTRADA",
-      "JOHN JAIRO HOYOS GARCÍA",
-      "CARLOS EDUARDO ACOSTA LOZANO",
-      "JUAN CARLOS LOZADA VARGAS",
-      "ERWIN ARIAS BETANCUR",
-      "JULIO CESAR TRIANA QUINTERO",
-      "DAVID ERNESTO PULIDO NOVOA",
-      "y otras firmas."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. ANGELICA LOZANO CORREA",
-      "ARMANDO ALBERTO BENEDETTI VILLANEDA",
-      "MIGUEL ÁNGEL PINTO HERNÁNDEZ",
-      "GERMÁN VARÓN COTRINO",
-      "GUSTAVO PETRO URREGO",
-      "JULIÁN GALLO CUBILLOS",
-      "ALEXANDER LÓPEZ MAYA",
-      "MARÍA FERNANDA CABAL MOLINA",
-      "JUAN CARLOS GARCÍA GÓMEZ",
-      "CARLOS EDUARDO GUEVARA VILLABÓN."
-    ]
-  },
-  {
     "numero": "027/20PAL",
     "numeroCamara": null,
     "titulo": "__",
@@ -2035,6 +1989,35 @@
       "JHON MILTON RODRIGUEZ GONZALEZ",
       "EDUARDO EMILIO PACHECO CUELLO",
       "CARLOS EDUARDO ACOSTA LOZANO."
+    ],
+    "ponentesPrimerDebate": []
+  },
+  {
+    "numero": "029/20PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL SALARIO DE LOS CONGRESISTAS Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/30-por-medio-del-cual-se-modifica-el-salario-de-los-congresistas-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2020-05-06",
+    "autores": [
+      "H.S. GUSTAVO BOLÍVAR MORENO",
+      "IVÁN CEPEDA CASTRO",
+      "ALEXANDER LÓPEZ MAYA",
+      "GUSTAVO FRANCISCO PETRO URREGO",
+      "AIDA YOLANDA AVELLA ESQUIVEL",
+      "VICTORIA SANDINO SIMANCA",
+      "JULIAN GALLO CUBILLOS",
+      "FELICIANO VALENCIA MEDINA",
+      "PABLO CATATUMBO TORRES VICTORIA",
+      "ISRAEL ALBERTO ZÚÑIGA IRIARTE",
+      "H.R. DAVID RICARDO RACERO MAYORCA",
+      "LEÓN FREDY MUÑOZ LOPERA",
+      "ABEL DAVID JARAMILLO",
+      "OMAR DE JESUS RESTREPO CORREA",
+      "CARLOS ALBERTO CARREÑO MARIN."
     ],
     "ponentesPrimerDebate": []
   },
@@ -2072,6 +2055,31 @@
     ],
     "ponentesPrimerDebate": [
       "H.S. GERMÁN VARÓN COTRINO"
+    ]
+  },
+  {
+    "numero": "025/19PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE REFORMA EL ARTÍCULO 135 DE LA CONSTITUCIÓN POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/25-por-medio-del-cual-se-reforma-el-articulo-135-de-la-constitucion-politica-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2019-11-13",
+    "autores": [
+      "H.S. ROY LEONARDO BARRERAS MONTEALEGRE",
+      "RODRIGO LARA RESTREPO",
+      "GUILLERMO GARCÍA REALPE",
+      "JUAN FELIPE LEMOS URIBE",
+      "JOSÉ RITTER LÓPEZ PEÑA",
+      "ANDRÉS FELIPE GARCÍA ZUCCARDI",
+      "ROOSVELT RODRÍGUEZ RENGIFO",
+      "SANDRA LILIANA ORTIZ NOVA",
+      "GERMÁN VARÓN COTRINO."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. ROY LEONARDO BARRERAS MONTEALEGRE"
     ]
   },
   {
@@ -2145,6 +2153,52 @@
     ]
   },
   {
+    "numero": "022/19PAL",
+    "numeroCamara": "107/19",
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 249 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA, SE ESTABLECE QUE EL PERIODO DEL FISCAL GENERAL DE LA NACIÓN SERÁ INSTITUCIONAL Y SU ELECCIÓN SE REALIZARÁ A TRAVÉS DE TERNA ELABORADA A PARTIR DE CONCURSO PÚBLICO DE MÉRITOS",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
+    "origen": "CAMARA DE REPRESENTANTES",
+    "acumulados": [],
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/22-por-el-cual-se-modifica-el-articulo-249-de-la-constitucion-politica-de-colombia-se-establece-que-el-periodo-del-fiscal-general-de-la-nacion-sera-institucional-y-su-eleccion-se-realizara-a-traves-de-terna-elaborada-a-partir-de-concurso-publico-de-meritos",
+    "fechaDePresentacion": "2019-07-23",
+    "autores": [
+      "H.S ANGELICA LOZANO CORREA",
+      "TEMISTOCLES ORTEGA NARVAEZ",
+      "JORGE ENRIQUE ROBLEDO CASTILLO",
+      "ANTONIO ESREMID SANGUINO PÁEZ",
+      "IVÁN MARULANDA GÓMEZ",
+      "IVAN CEPEDA CASTRO",
+      "IVAN LEONIDAS NAME VASQUEZ",
+      "JESÚS ALBERTO CASTILLA SALAZAR",
+      "ARMANDO ALBERTO BENEDETTI VILLANEDA",
+      "JORGE EDUARDO LONDOÑO ULLOA",
+      "H.R. JOSÉ DANIEL LÓPEZ JIMÉNEZ",
+      "JAIME FELIPE LOZADA POLANCO",
+      "BUENAVENTURA LEON LEON",
+      "JUANITA MARIA GOUBERTUS ESTRADA",
+      "JOHN JAIRO HOYOS GARCÍA",
+      "CARLOS EDUARDO ACOSTA LOZANO",
+      "JUAN CARLOS LOZADA VARGAS",
+      "ERWIN ARIAS BETANCUR",
+      "JULIO CESAR TRIANA QUINTERO",
+      "DAVID ERNESTO PULIDO NOVOA",
+      "y otras firmas."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. ANGELICA LOZANO CORREA",
+      "ARMANDO ALBERTO BENEDETTI VILLANEDA",
+      "MIGUEL ÁNGEL PINTO HERNÁNDEZ",
+      "GERMÁN VARÓN COTRINO",
+      "GUSTAVO PETRO URREGO",
+      "JULIÁN GALLO CUBILLOS",
+      "ALEXANDER LÓPEZ MAYA",
+      "MARÍA FERNANDA CABAL MOLINA",
+      "JUAN CARLOS GARCÍA GÓMEZ",
+      "CARLOS EDUARDO GUEVARA VILLABÓN."
+    ]
+  },
+  {
     "numero": "020/19PAL",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 272 Y SE ELIMINAN LOS ARTÍCULOS 274 Y 354 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA \"CONTRALORIAS DEPARTAMENTALES",
@@ -2175,58 +2229,6 @@
     ],
     "ponentesPrimerDebate": [
       "H.S. JOSÉ OBDULIO GAVIRIA"
-    ]
-  },
-  {
-    "numero": "013/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 65 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/13-por-el-cual-se-modifica-el-articulo-65-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2019-07-31",
-    "autores": [
-      "H.S. MARITZA MARTÍNEZ ARISTIZABAL",
-      "ROY LEONARDO BARRERAS MONTEALEGRE",
-      "JHON MOISES MUSA BESAILE",
-      "EDUARDO ENRIQUE PULGAR DAZA",
-      "BERNER ZAMBRANO ERASO",
-      "NORA GARCÍA BURGOS",
-      "MIGUEL ÁNGEL PINTO HERNÁNDEZ",
-      "DIDIER LOBO CHINCHILLA y otras firmas"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. Roosvelt Rodríguez Rengifo."
-    ]
-  },
-  {
-    "numero": "017/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE REGULA AL INSTITUTO NACIONAL DE MEDICINA LEGAL Y CIENCIAS FORENSES COMO ÓRGANO AUTÓNOMO E INDEPENDIENTE",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/17-por-el-cual-se-regula-al-instituto-nacional-de-medicina-legal-y-ciencias-forenses-como-organo-autonomo-e-independiente",
-    "fechaDePresentacion": "2019-08-13",
-    "autores": [
-      "H. S.GUSTAVO BOLIVAR MORENO",
-      "AIDA AVELLA ESQUIVEL",
-      "JULIAN GALLO CUBILLOS",
-      "WILSON NEBER ARIAS CASTILLO",
-      "VICTORIA SANDINO SIMANCA",
-      "ANTONIO ERESMID SANGUINO PAEZ",
-      "GRISELDA LOBO SILVA",
-      "IVAN CEPEDA CASTRO",
-      "JESUS ALBERTO CASTILLA SALAZAR",
-      "ALEXANDER LOPEZ MAYA",
-      "Honorables Representantes: DAVID RICARDO RACERO MAYORCA",
-      "MARIA JOSE PIZARRO RODRIGUEZ."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. Alexander López Maya."
     ]
   },
   {
@@ -2286,35 +2288,30 @@
     ]
   },
   {
-    "numero": "014/19PAL",
+    "numero": "019/19PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE RECONOCE AL CAMPESINADO COMO SUJETO DE DERECHOS, SE RECONOCE EL DERECHO A LA TIERRA Y A LA TERRITORIALIDAD CAMPESINA Y SE ADOPTAN DISPOSICIONES SOBRE LA CONSULTA POPULAR",
+    "titulo": "POR MEDIO DEL CUAL SE LIMITAN LOS PERIODOS DE LOS CUERPOS COLEGIADOS DE ELECCIÓN DIRECTA",
     "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/14-por-medio-del-cual-se-reconoce-al-campesinado-como-sujeto-de-derechos-se-reconoce-el-derecho-a-la-tierra-y-a-la-territorialidad-campesina-y-se-adoptan-disposiciones-sobre-la-consulta-popular",
-    "fechaDePresentacion": "2019-07-31",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/19-por-medio-del-cual-se-limitan-los-periodos-de-los-cuerpos-colegiados-de-eleccion-directa",
+    "fechaDePresentacion": "2019-08-21",
     "autores": [
-      "H.S JESÚS ALBERTO CASTILLA SALAZAR",
-      "ALEXANDER LÓPEZ MAYA",
-      "IVÁN CEPEDA CASTRO",
-      "WILSON ARIAS CASTILLO",
-      "ANTONIO SANGUINO PÁEZ",
-      "AÍDA AVELLA ESQUIVEL",
-      "GUSTAVO BOLÍVAR MORENO",
-      "VICTORIA SANDINO SIMANCA",
-      "CRISELDA LOBO SILVA",
-      "H.R. MARÍA JOSÉ PIZARRO RODRÍGUEZ",
-      "DAVID RICARDO RACERO MAYORCA",
-      "LUIS ALBERTO ALBÁN URBANO",
-      "OMAR DE JESÚS RESTREPO CORREA",
-      "CARLOS CARREÑO MARÍN",
-      "ABEL DAVID JARAMILLO LARGO",
-      "JAIRO REINALDO CALA SUÁREZ."
+      "H.S ANGELICA MARIA LOZANO CORREA",
+      "LUIS IVAN MARULANDA GOMEZ",
+      "JORGE EDUARDO LONDOÑO ULLOA",
+      "JULIAN GALLO CUBILLOS",
+      "LUIS FERNANDO VELASCO CHAVES",
+      "JUAN LUIS CASTRO CORDOBA",
+      "Honorables Representantes: JUANITA MARIA GOEBERTUS ESTRADA",
+      "INTI RAUL ASPRILLA REYES",
+      "LEON FREDY MUÑOZ LOPERA",
+      "CESAR AUGUSTO ORTIZ ZORRO",
+      "DAVID RICARDO RACERO MAYORCA"
     ],
     "ponentesPrimerDebate": [
-      "H.S. Alexander López Maya."
+      "H.S. LUIS FERNANDO VELASCO CHAVES"
     ]
   },
   {
@@ -2357,33 +2354,6 @@
     ]
   },
   {
-    "numero": "019/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE LIMITAN LOS PERIODOS DE LOS CUERPOS COLEGIADOS DE ELECCIÓN DIRECTA",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/19-por-medio-del-cual-se-limitan-los-periodos-de-los-cuerpos-colegiados-de-eleccion-directa",
-    "fechaDePresentacion": "2019-08-21",
-    "autores": [
-      "H.S ANGELICA MARIA LOZANO CORREA",
-      "LUIS IVAN MARULANDA GOMEZ",
-      "JORGE EDUARDO LONDOÑO ULLOA",
-      "JULIAN GALLO CUBILLOS",
-      "LUIS FERNANDO VELASCO CHAVES",
-      "JUAN LUIS CASTRO CORDOBA",
-      "Honorables Representantes: JUANITA MARIA GOEBERTUS ESTRADA",
-      "INTI RAUL ASPRILLA REYES",
-      "LEON FREDY MUÑOZ LOPERA",
-      "CESAR AUGUSTO ORTIZ ZORRO",
-      "DAVID RICARDO RACERO MAYORCA"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. LUIS FERNANDO VELASCO CHAVES"
-    ]
-  },
-  {
     "numero": "010/19PAL",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL SE GARANTIZA LA APLICACIÓN DE LA SILLA VACIA A PARTIDOS POLITICOS CORRUPTOS",
@@ -2407,6 +2377,62 @@
     ],
     "ponentesPrimerDebate": [
       "H.S. ANGÉLICA LISBETH LOZANO CORREA."
+    ]
+  },
+  {
+    "numero": "013/19PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 65 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/13-por-el-cual-se-modifica-el-articulo-65-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2019-07-31",
+    "autores": [
+      "H.S. MARITZA MARTÍNEZ ARISTIZABAL",
+      "ROY LEONARDO BARRERAS MONTEALEGRE",
+      "JHON MOISES MUSA BESAILE",
+      "EDUARDO ENRIQUE PULGAR DAZA",
+      "BERNER ZAMBRANO ERASO",
+      "NORA GARCÍA BURGOS",
+      "MIGUEL ÁNGEL PINTO HERNÁNDEZ",
+      "DIDIER LOBO CHINCHILLA y otras firmas"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. Roosvelt Rodríguez Rengifo."
+    ]
+  },
+  {
+    "numero": "014/19PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE RECONOCE AL CAMPESINADO COMO SUJETO DE DERECHOS, SE RECONOCE EL DERECHO A LA TIERRA Y A LA TERRITORIALIDAD CAMPESINA Y SE ADOPTAN DISPOSICIONES SOBRE LA CONSULTA POPULAR",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/14-por-medio-del-cual-se-reconoce-al-campesinado-como-sujeto-de-derechos-se-reconoce-el-derecho-a-la-tierra-y-a-la-territorialidad-campesina-y-se-adoptan-disposiciones-sobre-la-consulta-popular",
+    "fechaDePresentacion": "2019-07-31",
+    "autores": [
+      "H.S JESÚS ALBERTO CASTILLA SALAZAR",
+      "ALEXANDER LÓPEZ MAYA",
+      "IVÁN CEPEDA CASTRO",
+      "WILSON ARIAS CASTILLO",
+      "ANTONIO SANGUINO PÁEZ",
+      "AÍDA AVELLA ESQUIVEL",
+      "GUSTAVO BOLÍVAR MORENO",
+      "VICTORIA SANDINO SIMANCA",
+      "CRISELDA LOBO SILVA",
+      "H.R. MARÍA JOSÉ PIZARRO RODRÍGUEZ",
+      "DAVID RICARDO RACERO MAYORCA",
+      "LUIS ALBERTO ALBÁN URBANO",
+      "OMAR DE JESÚS RESTREPO CORREA",
+      "CARLOS CARREÑO MARÍN",
+      "ABEL DAVID JARAMILLO LARGO",
+      "JAIRO REINALDO CALA SUÁREZ."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. Alexander López Maya."
     ]
   },
   {
@@ -2475,31 +2501,31 @@
     ]
   },
   {
-    "numero": "002/19PAL",
+    "numero": "017/19PAL",
     "numeroCamara": null,
-    "titulo": "POR EL CUAL SE REFORMAN LOS ARTÍCULOS 126, 231, 254, 257, 264, 266, 267, 274, 276 Y 281 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA, REFERENTE A LA ELECCIÓN POR CONCURSO DE LOS SERVIDORES PÚBLICOS",
+    "titulo": "POR EL CUAL SE REGULA AL INSTITUTO NACIONAL DE MEDICINA LEGAL Y CIENCIAS FORENSES COMO ÓRGANO AUTÓNOMO E INDEPENDIENTE",
     "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/2-por-el-cual-se-reforman-los-articulos-126-231-254-257-264-266-267-274-276-y-281-de-la-constitucion-politica-de-colombia-referente-a-la-eleccion-por-concurso-de-los-servidores-publicos",
-    "fechaDePresentacion": "2019-07-20",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/17-por-el-cual-se-regula-al-instituto-nacional-de-medicina-legal-y-ciencias-forenses-como-organo-autonomo-e-independiente",
+    "fechaDePresentacion": "2019-08-13",
     "autores": [
-      "H.S. EDUARDO EMILIO PACHECO CUELLO",
-      "ÉDGAR PALACIOS MIZRAHI",
-      "JHON MILTON RODRÍGUEZ GONZÁLEZ",
-      "JONATAN TAMAYO PÉREZ",
-      "CARLOS MANUEL MEISEL VERGARA",
-      "EFRAÍN CEPEDA SARABIA",
-      "H.R. CARLOS EDUARDO ACOSTA LOZANO",
-      "BUENAVENTURA LEÓN LEÓN",
-      "FELIPE ANDRÉS MUÑÓZ DELGADO",
-      "CIRO ANTONIO RODRÍGUEZ PINZÓN",
-      "YENICA ACOSTA INFANTE",
-      "ARMANDO ANTONIO ZABARAIN DE ARCE."
+      "H. S.GUSTAVO BOLIVAR MORENO",
+      "AIDA AVELLA ESQUIVEL",
+      "JULIAN GALLO CUBILLOS",
+      "WILSON NEBER ARIAS CASTILLO",
+      "VICTORIA SANDINO SIMANCA",
+      "ANTONIO ERESMID SANGUINO PAEZ",
+      "GRISELDA LOBO SILVA",
+      "IVAN CEPEDA CASTRO",
+      "JESUS ALBERTO CASTILLA SALAZAR",
+      "ALEXANDER LOPEZ MAYA",
+      "Honorables Representantes: DAVID RICARDO RACERO MAYORCA",
+      "MARIA JOSE PIZARRO RODRIGUEZ."
     ],
     "ponentesPrimerDebate": [
-      "H.S. CARLOS EDUARDO ENRÍQUEZ MAYA"
+      "H.S. Alexander López Maya."
     ]
   },
   {
@@ -2532,148 +2558,6 @@
     ],
     "ponentesPrimerDebate": [
       "H.S. Temístocles Ortega Narváez."
-    ]
-  },
-  {
-    "numero": "006/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE ADOPTA UNA REFORMA POLÍTICA Y ELECTORAL QUE PERMITA LA APERTURA DEMOCRÁTICA PARA LA CONSTRUCCIÓN DE UNA PAZ, ESTABLE Y DURADERA",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/6-por-medio-del-cual-se-adopta-una-reforma-politica-y-electoral-que-permita-la-apertura-democratica-para-la-construccion-de-una-paz-estable-y-duradera",
-    "fechaDePresentacion": "2019-07-24",
-    "autores": [
-      "H.S. GUSTAVO BOLIVAR MORENO",
-      "JULIAN GALLO CUBILLOS",
-      "GUSTAVO FRANCISCO PETRO URREGO",
-      "AIDA YOLANDA AVELLA ESQUIVEL",
-      "ANTONIO ERESMID SAGUINO PÁEZ",
-      "PABLO CATATUMBO",
-      "CRISELDA LOBO",
-      "VICTORIA SANDINO",
-      "H.R. ÓMAR RESTREPO",
-      "DAVID RACERO",
-      "JAIRO CALA",
-      "CARLOS CARREÑO",
-      "LUIS ALBERTO ALBÁN"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. Julián Gallo Cubillos."
-    ]
-  },
-  {
-    "numero": "004/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA DE COLOMBIA EN LO RELATIVO A LA REMUNERACIÓN DE LOS MIEMBROS DEL CONGRESO DE LA REPÚBLICA",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/4-por-medio-del-cual-se-reforma-la-constitucion-politica-de-colombia-en-lo-relativo-a-la-remuneracion-de-los-miembros-del-congreso-de-la-republica",
-    "fechaDePresentacion": "2019-07-23",
-    "autores": [
-      "H.S. PAOLA ANDREA HOLGUÍN MORENO",
-      "ÁLVARO URIBE VÉLEZ",
-      "CIRO ALEJANDRO RAMÍREZ CORTÉS",
-      "SANTIAGO VALENCIA GONZÁLEZ",
-      "RUBY CHAGUI SPATH",
-      "FERNANDO NICOLÁS ARAÚJO RUMIÉ",
-      "H.R. JUAN FERNANDO ESPINAL RAMÍREZ",
-      "JHON JAIRO BERMUDEZ GARCÉS",
-      "JOSÉ JAIME USCÁTEGUI PASTRANA",
-      "JUAN DAVID VÉLEZ TRUJILLO",
-      "YENICA ACOSTA INFANTE",
-      "ENRIQUE CABRALES BAQUERO",
-      "MARGARITA MARÍA RESTREPO ARANGO."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. PALOMA SUSANA VALENCIA LASERNA"
-    ]
-  },
-  {
-    "numero": "001/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE ADICIONA EL ARTÍCULO 41 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA CON EL ESTUDIO DE LA BIOÉTICA Y BIODERECHO",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/1-por-el-cual-se-adiciona-el-articulo-41-de-la-constitucion-politica-de-colombia-con-el-estudio-de-la-bioetica-y-bioderecho",
-    "fechaDePresentacion": "2019-07-20",
-    "autores": [
-      "H.S. EDUARDO EMILIO PACHECO CUELLO",
-      "ÉDGAR PALACIOS MIZRAHI",
-      "JHON MILTON RODRÍGUEZ  GONZÁLEZ",
-      "CARLOS MANUEL MEISEL VERGARA",
-      "EFRAÍN CEPEDA SARABIA",
-      "H.R. CARLOS EDUARDO ACOSTA LOZANO",
-      "BUENAVENTURA LEÓN LEÓN",
-      "CIRO ANTONIO RODRÍGUEZ PINZÓN",
-      "YENICA ACOSTA INFANTE",
-      "ARMANDO ANTONIO ZABARAIN DE ARCE",
-      "OSCAR DARÍO PÉREZ PINEDA",
-      "HERNANDO GUIDA PONCE",
-      "FELIPE ANDRÉS MUÑÓZ."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. ROY LEONARDO BARRERAS MONTEALEGRE"
-    ]
-  },
-  {
-    "numero": "005/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL INCISO SEGUNDO DEL NUMERAL 17 DEL ARTÍCULO 150 DE LA CONSTITUCIÓN POLÍTICA",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/5-por-medio-del-cual-se-modifica-el-inciso-segundo-del-numeral-17-del-articulo-150-de-la-constitucion-politica",
-    "fechaDePresentacion": "2019-07-23",
-    "autores": [
-      "H.S. ALVARO URIBE VELEZ",
-      "MARIA FERNANDA CABAL MOLINA",
-      "PALOMA SUSANA VALENCIA LASERNA",
-      "CIRO ALEJANDRO RAMIREZ",
-      "NICOLAS PEREZ VASQUEZ",
-      "H.R JUAN MANUEL DAZA IGUARAN",
-      "JUAN DAVID VELEZ TRUJILLO",
-      "JOSE JAIME USCATEGUI PASTRANA",
-      "MARGARITA RESTREPO ARANGO",
-      "ENRIQUE CABRALES BAQUERO",
-      "otras firmas ilegibles."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. María Fernanda Cabal Molina"
-    ]
-  },
-  {
-    "numero": "003/19PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 351 DE LA CONSTITUCIÓN POLÍTICA. \"INICIATIVA PRESUPUESTAL",
-    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2019-2020",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/3-por-el-cual-se-modifica-el-articulo-351-de-la-constitucion-politica-iniciativa-presupuestal",
-    "fechaDePresentacion": "2019-07-23",
-    "autores": [
-      "H.S. MIGUEL ANGEL PINTO HERNANDEZ",
-      "ROOSVELT RODRIGUEZ RENGIFO",
-      "H.R. CARLOS GERMAN NAVAS TALERO"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. Miguel Angel Pinto Hernández (Coordinador)",
-      "Armando Benedetti Villaneda",
-      "María Fernanda Cabal Molina",
-      "Juan Carlos García Gómez",
-      "Temístocles Ortega Narváez",
-      "Name Vásquez",
-      "Alexander López Maya",
-      "Carlos Guevara Villabón",
-      "Julián Gallo Cubillos",
-      "Gustavo Petro Urrego."
     ]
   },
   {
@@ -2744,179 +2628,173 @@
     ]
   },
   {
-    "numero": "038/21PAL",
-    "numeroCamara": "521/21",
-    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 328 Y 356 DE LA CONSTITUCIÓN POLÍTICA OTORGÁNDOLE LA CATEGORÍA DE DISTRITO TURÍSTICO, CULTURAL E HISTÓRICO AL MUNICIPIO DE PUERTO COLOMBIA EN EL DEPARTAMENTO DEL ATLÁNTICO.",
-    "estado": "ARCHIVADO,  SEGUNDA VUELTA conciliacion 18 de jun 21 Senado-  ARCHIVADO DE CONFORMIDAD ART 375 .C.P.",
-    "origen": "CAMARA DE REPRESENTANTES",
+    "numero": "004/19PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA DE COLOMBIA EN LO RELATIVO A LA REMUNERACIÓN DE LOS MIEMBROS DEL CONGRESO DE LA REPÚBLICA",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
+    "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/38-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-la-categoria-de-distrito-turistico-cultural-e-historico-al-municipio-de-puerto-colombia-en-el-departamento-del-atlantico",
-    "fechaDePresentacion": "2021-03-10",
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/4-por-medio-del-cual-se-reforma-la-constitucion-politica-de-colombia-en-lo-relativo-a-la-remuneracion-de-los-miembros-del-congreso-de-la-republica",
+    "fechaDePresentacion": "2019-07-23",
     "autores": [
-      "H.S. ARMANDO ALBERTO BENEDETTI VILLANEDA",
-      "EFRAÍN JOSÉ CEPEDA SARABIA",
-      "MAURICIO GÓMEZ AMIN",
-      "H.R. MARTHA PATRICIA VILLALBA HODWALKER",
-      "CESAR AUGUSTO LORDUY MALDONADO",
-      "ALFREDO RAFAEL DELUQUE ZULETA",
-      "ARMANDO ANTONIO ZABARAIN DE ARCE",
-      "ASTRID SANCHEZ MONTES DE OCA",
-      "MODESTO ENRIQUE AGUILERA VIDES",
-      "OSCAR HERNÁN SÁNCHEZ LEÓN",
-      "KARINA ESTETANIA ROJANO PALACIO",
-      "SARA ELENA PIEDRAHITA LYONS",
-      "TERESA DE JESUS ENRIQUEZ ROSERO",
-      "MONICA LILIANA VALENCIA MONTAÑA",
-      "MONICA MARIA RAIGOZA MORALES",
-      "NORMA HURTADO SANCHEZ",
-      "MILENE JARAVA DIAZ"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. ARMANDO BENEDETTI VILLANEDA"
-    ]
-  },
-  {
-    "numero": "037/21PAL",
-    "numeroCamara": "508/21",
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 138 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
-    "estado": "ARCHIVADO,  SEGUNDA VUELTA (conciliacion 18 de jun 21 Senado)- archivado conforme al art 375 C.P.",
-    "origen": "CAMARA DE REPRESENTANTES",
-    "acumulados": [],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/37-por-medio-del-cual-se-modifica-el-articulo-138-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2021-01-25",
-    "autores": [
-      "H.R. GABRIEL SANTOS GARCIA",
-      "JAIRO HUMBERTO CRISTO CORREA",
-      "CESAR AUGUSTO LORDUY MALDONADO",
-      "JUAN FERNANDO REYES KURI",
-      "JAIME RODRIGUEZ CONTRERAS",
-      "GABRIEL JAIME VALLEJO CHUJFI",
-      "JOSÉ DANIEL LÓPEZ JIMÉNEZ",
-      "LUIS ALBERTO ALBAN URBANO",
-      "OSCAR LEONARDO VILLAMIZAR MENESES",
-      "JOHN JAIRO HOYOS GARCÍA",
-      "JUANITA MARIA GOEBERTUS ESTRADA",
-      "ÁNGELA MARÍA ROBLEDO GÓMEZ",
-      "DAVID ERNESTO PULIDO NOVOA",
+      "H.S. PAOLA ANDREA HOLGUÍN MORENO",
+      "ÁLVARO URIBE VÉLEZ",
+      "CIRO ALEJANDRO RAMÍREZ CORTÉS",
       "SANTIAGO VALENCIA GONZÁLEZ",
-      "NILTON CÓRDOBA MANYOMA",
-      "ESTEBAN QUINTERO CARDONA"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. SANTIAGO VALENCIA GONZALEZ"
-    ]
-  },
-  {
-    "numero": "039/21PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICAN ALGUNOS ARTÍCULOS DE LA CONSTITUCIÓN POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/39-por-medio-del-cual-se-modifican-algunos-articulos-de-la-constitucion-politica-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": "2021-05-06",
-    "autores": [
-      "H.S. MILLA PATRICIA ROMERO SOTO",
-      "PALOMA SUSANA VALENCIA LASERNA",
-      "MARIA FERNANDA CABAL",
-      "PAOLA ANDREA HOLGUIN",
-      "ALEJANDRO CORRALES",
-      "MIGUEL ANGEL BARRETO",
-      "CIRO ALEJANDRO RAMÍREZ",
-      "SANTIAGO VALENCIA",
-      "JHON HAROLD SUAREZ",
-      "RUBY HELENA CHAGUI",
-      "AMANDA ROCIO",
-      "CARLOS FELIPE MEJIA",
-      "FERNANDO NICOLAS ARAUJO RUMIE",
-      "MARIA DEL ROSARIO GUERRA DE LA ESPRIELLA",
-      "EDUARDO EMILIO PACHECO CUELLO",
-      "CARLOS MANUEL MEISEL",
-      "H.R. JENNIFER ARIAS",
-      "JUAN MANUEL DAZA",
-      "RUBEN DARIO MOLANO",
-      "OSCAR LEONARDO VILLAMIZAR",
-      "GABRIEL JAIME VALLEJO",
-      "ESTEBAN QUINTERO CARDONA",
-      "JAIRO GIOVANY CRISTANCHO",
-      "JHON JAIRO BERRIO",
-      "JUAN DAVID VELEZ",
-      "OSCAR DARIO PEREZ",
+      "RUBY CHAGUI SPATH",
+      "FERNANDO NICOLÁS ARAÚJO RUMIÉ",
+      "H.R. JUAN FERNANDO ESPINAL RAMÍREZ",
+      "JHON JAIRO BERMUDEZ GARCÉS",
+      "JOSÉ JAIME USCÁTEGUI PASTRANA",
+      "JUAN DAVID VÉLEZ TRUJILLO",
+      "YENICA ACOSTA INFANTE",
       "ENRIQUE CABRALES BAQUERO",
-      "YENICA ACOSTA",
-      "MARGARITA RESTREPO",
-      "CHRISTIAN MUNIR GARCES",
-      "EDWIN VALDES",
-      "JHON JAIRO BERMUDEZ",
-      "JUAN ESPINAL",
-      "LUIS FERNANDO GOMEZ BATANCOURT"
+      "MARGARITA MARÍA RESTREPO ARANGO."
     ],
     "ponentesPrimerDebate": [
-      "H.S. PALOMA VALENCIA LASERNA"
+      "H.S. PALOMA SUSANA VALENCIA LASERNA"
     ]
   },
   {
-    "numero": "035/21PAL",
+    "numero": "002/19PAL",
     "numeroCamara": null,
-    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 45 Y 65 DE LA CONSTITUCIÓN POLÍTICA ESTABLECIENDO EL DERECHO FUNDAMENTAL A LA ALIMENTACIÓN Y A NO PADECER HAMBRE",
-    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
+    "titulo": "POR EL CUAL SE REFORMAN LOS ARTÍCULOS 126, 231, 254, 257, 264, 266, 267, 274, 276 Y 281 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA, REFERENTE A LA ELECCIÓN POR CONCURSO DE LOS SERVIDORES PÚBLICOS",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/35-por-el-cual-se-modifican-los-articulos-45-y-65-de-la-constitucion-politica-estableciendo-el-derecho-fundamental-a-la-alimentacion-y-a-no-padecer-hambre",
-    "fechaDePresentacion": "2021-03-29",
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/2-por-el-cual-se-reforman-los-articulos-126-231-254-257-264-266-267-274-276-y-281-de-la-constitucion-politica-de-colombia-referente-a-la-eleccion-por-concurso-de-los-servidores-publicos",
+    "fechaDePresentacion": "2019-07-20",
     "autores": [
-      "H.R. JULIÁN PEINADO RAMÍREZ",
-      "ALEJANDRO VEGA PÉREZ",
-      "JUAN CARLOS LOZADA VARGAS",
-      "CARLOS ARDILA ESPINOSA",
-      "ELOY CHICHI QUINTERO",
-      "ALVARO HENRY MONEDERO RIVERA",
-      "OSCAR SANCHEZ LEÓN",
-      "ANDRÉS DAVID CALLE AGUAS",
-      "KAREN VIOLETTE CURE CORCIONE",
-      "JENNIFER KRISTIN ARIAS FALLA",
-      "JEZMI LIZETH BARRAZA ARRAUT",
-      "ÁNGELA MARÍA ROBLEDO GÓMEZ",
-      "MARGARITA MARÍA RESTREPO ARANGO"
+      "H.S. EDUARDO EMILIO PACHECO CUELLO",
+      "ÉDGAR PALACIOS MIZRAHI",
+      "JHON MILTON RODRÍGUEZ GONZÁLEZ",
+      "JONATAN TAMAYO PÉREZ",
+      "CARLOS MANUEL MEISEL VERGARA",
+      "EFRAÍN CEPEDA SARABIA",
+      "H.R. CARLOS EDUARDO ACOSTA LOZANO",
+      "BUENAVENTURA LEÓN LEÓN",
+      "FELIPE ANDRÉS MUÑÓZ DELGADO",
+      "CIRO ANTONIO RODRÍGUEZ PINZÓN",
+      "YENICA ACOSTA INFANTE",
+      "ARMANDO ANTONIO ZABARAIN DE ARCE."
     ],
     "ponentesPrimerDebate": [
-      "H.S ROOSVELT RODRIGUEZ RENGIFO"
+      "H.S. CARLOS EDUARDO ENRÍQUEZ MAYA"
     ]
   },
   {
-    "numero": "031/21PAL",
+    "numero": "003/19PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE LIMITAN LOS PERÍODOS DE LOS MIEMBROS DE LOS CUERPOS COLEGIADOS DE ELECCIÓN DIRECTA",
-    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA Y",
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 351 DE LA CONSTITUCIÓN POLÍTICA. \"INICIATIVA PRESUPUESTAL",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/31-por-medio-del-cual-se-limitan-los-periodos-de-los-miembros-de-los-cuerpos-colegiados-de-eleccion-directa",
-    "fechaDePresentacion": "2021-03-16",
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/3-por-el-cual-se-modifica-el-articulo-351-de-la-constitucion-politica-iniciativa-presupuestal",
+    "fechaDePresentacion": "2019-07-23",
     "autores": [
-      "H.S. ANGÉLICA LOZANO CORREA",
-      "GUILLERMO GARCÍA REALPE",
-      "TEMISTOCLES ORTEGA NARVAEZ",
-      "JORGE ELIECER GUEVARA",
-      "LUIS FERNANDO VELASCO CHAVES",
-      "MARITZA MARTÍNEZ ARISTIZÁBAL",
-      "IVÁN LUIS MARULANDA GOMEZ",
-      "ANTONIO ERESMID SANGUINO PÁEZ",
-      "JORGE EDUARDO LONDOÑO ULLOA",
-      "H.R. JUANITA MARIA GOEBERTUS",
-      "JOSÉ DANIEL LÓPEZ",
-      "JOSE LUIS CORREA LÓPEZ",
-      "MAURICIO TORO",
-      "LEÓN FREDY MUÑOZ",
-      "HARRY GONZÁLEZ",
-      "CÉSAR AUGUSTO ORTIZ ZORRO"
+      "H.S. MIGUEL ANGEL PINTO HERNANDEZ",
+      "ROOSVELT RODRIGUEZ RENGIFO",
+      "H.R. CARLOS GERMAN NAVAS TALERO"
     ],
     "ponentesPrimerDebate": [
-      "H.S: Temistocles Ortega Narvaez."
+      "H.S. Miguel Angel Pinto Hernández (Coordinador)",
+      "Armando Benedetti Villaneda",
+      "María Fernanda Cabal Molina",
+      "Juan Carlos García Gómez",
+      "Temístocles Ortega Narváez",
+      "Name Vásquez",
+      "Alexander López Maya",
+      "Carlos Guevara Villabón",
+      "Julián Gallo Cubillos",
+      "Gustavo Petro Urrego."
+    ]
+  },
+  {
+    "numero": "001/19PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE ADICIONA EL ARTÍCULO 41 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA CON EL ESTUDIO DE LA BIOÉTICA Y BIODERECHO",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/1-por-el-cual-se-adiciona-el-articulo-41-de-la-constitucion-politica-de-colombia-con-el-estudio-de-la-bioetica-y-bioderecho",
+    "fechaDePresentacion": "2019-07-20",
+    "autores": [
+      "H.S. EDUARDO EMILIO PACHECO CUELLO",
+      "ÉDGAR PALACIOS MIZRAHI",
+      "JHON MILTON RODRÍGUEZ  GONZÁLEZ",
+      "CARLOS MANUEL MEISEL VERGARA",
+      "EFRAÍN CEPEDA SARABIA",
+      "H.R. CARLOS EDUARDO ACOSTA LOZANO",
+      "BUENAVENTURA LEÓN LEÓN",
+      "CIRO ANTONIO RODRÍGUEZ PINZÓN",
+      "YENICA ACOSTA INFANTE",
+      "ARMANDO ANTONIO ZABARAIN DE ARCE",
+      "OSCAR DARÍO PÉREZ PINEDA",
+      "HERNANDO GUIDA PONCE",
+      "FELIPE ANDRÉS MUÑÓZ."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. ROY LEONARDO BARRERAS MONTEALEGRE"
+    ]
+  },
+  {
+    "numero": "006/19PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE ADOPTA UNA REFORMA POLÍTICA Y ELECTORAL QUE PERMITA LA APERTURA DEMOCRÁTICA PARA LA CONSTRUCCIÓN DE UNA PAZ, ESTABLE Y DURADERA",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/6-por-medio-del-cual-se-adopta-una-reforma-politica-y-electoral-que-permita-la-apertura-democratica-para-la-construccion-de-una-paz-estable-y-duradera",
+    "fechaDePresentacion": "2019-07-24",
+    "autores": [
+      "H.S. GUSTAVO BOLIVAR MORENO",
+      "JULIAN GALLO CUBILLOS",
+      "GUSTAVO FRANCISCO PETRO URREGO",
+      "AIDA YOLANDA AVELLA ESQUIVEL",
+      "ANTONIO ERESMID SAGUINO PÁEZ",
+      "PABLO CATATUMBO",
+      "CRISELDA LOBO",
+      "VICTORIA SANDINO",
+      "H.R. ÓMAR RESTREPO",
+      "DAVID RACERO",
+      "JAIRO CALA",
+      "CARLOS CARREÑO",
+      "LUIS ALBERTO ALBÁN"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. Julián Gallo Cubillos."
+    ]
+  },
+  {
+    "numero": "005/19PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL INCISO SEGUNDO DEL NUMERAL 17 DEL ARTÍCULO 150 DE LA CONSTITUCIÓN POLÍTICA",
+    "estado": "ARCHIVADO,  Art. 375 de la Constitución Política",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2019-2020",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2019-2020/article/5-por-medio-del-cual-se-modifica-el-inciso-segundo-del-numeral-17-del-articulo-150-de-la-constitucion-politica",
+    "fechaDePresentacion": "2019-07-23",
+    "autores": [
+      "H.S. ALVARO URIBE VELEZ",
+      "MARIA FERNANDA CABAL MOLINA",
+      "PALOMA SUSANA VALENCIA LASERNA",
+      "CIRO ALEJANDRO RAMIREZ",
+      "NICOLAS PEREZ VASQUEZ",
+      "H.R JUAN MANUEL DAZA IGUARAN",
+      "JUAN DAVID VELEZ TRUJILLO",
+      "JOSE JAIME USCATEGUI PASTRANA",
+      "MARGARITA RESTREPO ARANGO",
+      "ENRIQUE CABRALES BAQUERO",
+      "otras firmas ilegibles."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. María Fernanda Cabal Molina"
     ]
   },
   {
@@ -2970,68 +2848,179 @@
     ]
   },
   {
-    "numero": "032/21PAL",
-    "numeroCamara": null,
-    "titulo": "PROYECTO DE ACTO LEGISLATIVO QUE MODIFICA EL ARTÍCULO 48 DE LA CONSTITUCIÓN POLÍTICA ADICIONADO POR EL ACTO LEGISLATIVO 01 DE 2005",
-    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
-    "origen": "SENADO DE LA REPUBLICA",
+    "numero": "038/21PAL",
+    "numeroCamara": "521/21",
+    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 328 Y 356 DE LA CONSTITUCIÓN POLÍTICA OTORGÁNDOLE LA CATEGORÍA DE DISTRITO TURÍSTICO, CULTURAL E HISTÓRICO AL MUNICIPIO DE PUERTO COLOMBIA EN EL DEPARTAMENTO DEL ATLÁNTICO.",
+    "estado": "ARCHIVADO,  SEGUNDA VUELTA conciliacion 18 de jun 21 Senado-  ARCHIVADO DE CONFORMIDAD ART 375 .C.P.",
+    "origen": "CAMARA DE REPRESENTANTES",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/32-proyecto-de-acto-legislativo-que-modifica-el-articulo-48-de-la-constitucion-politica-adicionado-por-el-acto-legislativo-01-de-2005",
-    "fechaDePresentacion": "2021-03-16",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/38-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-la-categoria-de-distrito-turistico-cultural-e-historico-al-municipio-de-puerto-colombia-en-el-departamento-del-atlantico",
+    "fechaDePresentacion": "2021-03-10",
     "autores": [
-      "H.S. ANGÉLICA LOZANO CORREA",
-      "VICTORIA SANDINO SIMANCA HERRERA",
-      "ANTONIO ERESMID SANGUINO PAEZ",
-      "JORGE EDUARDO LONDOÑO ULLOA",
-      "JUAN LUIS CASTRO CORDOBA",
-      "JULIAN GALLO CUBILLOS",
-      "ALEXANDER LOPEZ MAYA",
-      "H.S. JUANITA MARIA GOEBERTUS ESTRADA",
-      "KATHERINE MIRANDA PEÑA",
-      "JOSE LUIS CORREA LÓPEZ",
-      "LUCIANO GRISALES LONDOÑO",
-      "CATALINA ORTÍZ LALINDE"
+      "H.S. ARMANDO ALBERTO BENEDETTI VILLANEDA",
+      "EFRAÍN JOSÉ CEPEDA SARABIA",
+      "MAURICIO GÓMEZ AMIN",
+      "H.R. MARTHA PATRICIA VILLALBA HODWALKER",
+      "CESAR AUGUSTO LORDUY MALDONADO",
+      "ALFREDO RAFAEL DELUQUE ZULETA",
+      "ARMANDO ANTONIO ZABARAIN DE ARCE",
+      "ASTRID SANCHEZ MONTES DE OCA",
+      "MODESTO ENRIQUE AGUILERA VIDES",
+      "OSCAR HERNÁN SÁNCHEZ LEÓN",
+      "KARINA ESTETANIA ROJANO PALACIO",
+      "SARA ELENA PIEDRAHITA LYONS",
+      "TERESA DE JESUS ENRIQUEZ ROSERO",
+      "MONICA LILIANA VALENCIA MONTAÑA",
+      "MONICA MARIA RAIGOZA MORALES",
+      "NORMA HURTADO SANCHEZ",
+      "MILENE JARAVA DIAZ"
     ],
     "ponentesPrimerDebate": [
-      "H.S: Alexander Lopez Maya"
+      "H.S. ARMANDO BENEDETTI VILLANEDA"
     ]
   },
   {
-    "numero": "036/21PAL",
+    "numero": "031/21PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA PARA ELIMINAR LA IMPUNIDAD Y FORTALECER LA LUCHA CONTRA LA CORRUPCIÓN",
+    "titulo": "POR MEDIO DEL CUAL SE LIMITAN LOS PERÍODOS DE LOS MIEMBROS DE LOS CUERPOS COLEGIADOS DE ELECCIÓN DIRECTA",
+    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA Y",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/31-por-medio-del-cual-se-limitan-los-periodos-de-los-miembros-de-los-cuerpos-colegiados-de-eleccion-directa",
+    "fechaDePresentacion": "2021-03-16",
+    "autores": [
+      "H.S. ANGÉLICA LOZANO CORREA",
+      "GUILLERMO GARCÍA REALPE",
+      "TEMISTOCLES ORTEGA NARVAEZ",
+      "JORGE ELIECER GUEVARA",
+      "LUIS FERNANDO VELASCO CHAVES",
+      "MARITZA MARTÍNEZ ARISTIZÁBAL",
+      "IVÁN LUIS MARULANDA GOMEZ",
+      "ANTONIO ERESMID SANGUINO PÁEZ",
+      "JORGE EDUARDO LONDOÑO ULLOA",
+      "H.R. JUANITA MARIA GOEBERTUS",
+      "JOSÉ DANIEL LÓPEZ",
+      "JOSE LUIS CORREA LÓPEZ",
+      "MAURICIO TORO",
+      "LEÓN FREDY MUÑOZ",
+      "HARRY GONZÁLEZ",
+      "CÉSAR AUGUSTO ORTIZ ZORRO"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Temistocles Ortega Narvaez."
+    ]
+  },
+  {
+    "numero": "039/21PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICAN ALGUNOS ARTÍCULOS DE LA CONSTITUCIÓN POLÍTICA Y SE DICTAN OTRAS DISPOSICIONES",
     "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/36-por-medio-del-cual-se-reforma-la-constitucion-politica-para-eliminar-la-impunidad-y-fortalecer-la-lucha-contra-la-corrupcion",
-    "fechaDePresentacion": "2021-04-06",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/39-por-medio-del-cual-se-modifican-algunos-articulos-de-la-constitucion-politica-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2021-05-06",
     "autores": [
-      "H.S. JORGE ENRIQUE ROBLEDO",
-      "CRISELDA LOBO SILVA",
-      "ANTONIO ERESMID SANGUINO PAEZ",
-      "AÍDA YOLANDA AVELLA ESQUIVEL",
-      "JUAN LUIS CASTRO CORDOBA",
-      "JORGE EDUARDO LONDOÑO ULLOA",
-      "PABLO CATATUMBO TORRES VICTORIA",
-      "WILSON NEBER ARIAS CASTILLO",
-      "FELICIANO VALENCIA MEDINA",
-      "JOSÉ AULO POLO NARVAEZ",
-      "JORGE ELIECER GUEVARA",
-      "H.R. LEÓN FREDY MUÑOZ",
-      "GERMÁN NÁVAS TALERO",
-      "ÁNGELA MARÍA ROBLEDO",
-      "JORGE GÓMEZ GALLEGO",
-      "LUIS ALBERTO ALBÁN",
-      "MAURICIO TORO ORJUELA",
-      "CARLOS CARREÑO MARÍN",
-      "JAIRO CALA",
-      "WILMER LEAL",
-      "ABEL DAVID JARAMILLO"
+      "H.S. MILLA PATRICIA ROMERO SOTO",
+      "PALOMA SUSANA VALENCIA LASERNA",
+      "MARIA FERNANDA CABAL",
+      "PAOLA ANDREA HOLGUIN",
+      "ALEJANDRO CORRALES",
+      "MIGUEL ANGEL BARRETO",
+      "CIRO ALEJANDRO RAMÍREZ",
+      "SANTIAGO VALENCIA",
+      "JHON HAROLD SUAREZ",
+      "RUBY HELENA CHAGUI",
+      "AMANDA ROCIO",
+      "CARLOS FELIPE MEJIA",
+      "FERNANDO NICOLAS ARAUJO RUMIE",
+      "MARIA DEL ROSARIO GUERRA DE LA ESPRIELLA",
+      "EDUARDO EMILIO PACHECO CUELLO",
+      "CARLOS MANUEL MEISEL",
+      "H.R. JENNIFER ARIAS",
+      "JUAN MANUEL DAZA",
+      "RUBEN DARIO MOLANO",
+      "OSCAR LEONARDO VILLAMIZAR",
+      "GABRIEL JAIME VALLEJO",
+      "ESTEBAN QUINTERO CARDONA",
+      "JAIRO GIOVANY CRISTANCHO",
+      "JHON JAIRO BERRIO",
+      "JUAN DAVID VELEZ",
+      "OSCAR DARIO PEREZ",
+      "ENRIQUE CABRALES BAQUERO",
+      "YENICA ACOSTA",
+      "MARGARITA RESTREPO",
+      "CHRISTIAN MUNIR GARCES",
+      "EDWIN VALDES",
+      "JHON JAIRO BERMUDEZ",
+      "JUAN ESPINAL",
+      "LUIS FERNANDO GOMEZ BATANCOURT"
     ],
     "ponentesPrimerDebate": [
-      "H.S. ALEXANDER LOPEZ MAYA"
+      "H.S. PALOMA VALENCIA LASERNA"
+    ]
+  },
+  {
+    "numero": "037/21PAL",
+    "numeroCamara": "508/21",
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 138 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "estado": "ARCHIVADO,  SEGUNDA VUELTA (conciliacion 18 de jun 21 Senado)- archivado conforme al art 375 C.P.",
+    "origen": "CAMARA DE REPRESENTANTES",
+    "acumulados": [],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/37-por-medio-del-cual-se-modifica-el-articulo-138-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2021-01-25",
+    "autores": [
+      "H.R. GABRIEL SANTOS GARCIA",
+      "JAIRO HUMBERTO CRISTO CORREA",
+      "CESAR AUGUSTO LORDUY MALDONADO",
+      "JUAN FERNANDO REYES KURI",
+      "JAIME RODRIGUEZ CONTRERAS",
+      "GABRIEL JAIME VALLEJO CHUJFI",
+      "JOSÉ DANIEL LÓPEZ JIMÉNEZ",
+      "LUIS ALBERTO ALBAN URBANO",
+      "OSCAR LEONARDO VILLAMIZAR MENESES",
+      "JOHN JAIRO HOYOS GARCÍA",
+      "JUANITA MARIA GOEBERTUS ESTRADA",
+      "ÁNGELA MARÍA ROBLEDO GÓMEZ",
+      "DAVID ERNESTO PULIDO NOVOA",
+      "SANTIAGO VALENCIA GONZÁLEZ",
+      "NILTON CÓRDOBA MANYOMA",
+      "ESTEBAN QUINTERO CARDONA"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. SANTIAGO VALENCIA GONZALEZ"
+    ]
+  },
+  {
+    "numero": "035/21PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 45 Y 65 DE LA CONSTITUCIÓN POLÍTICA ESTABLECIENDO EL DERECHO FUNDAMENTAL A LA ALIMENTACIÓN Y A NO PADECER HAMBRE",
+    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/35-por-el-cual-se-modifican-los-articulos-45-y-65-de-la-constitucion-politica-estableciendo-el-derecho-fundamental-a-la-alimentacion-y-a-no-padecer-hambre",
+    "fechaDePresentacion": "2021-03-29",
+    "autores": [
+      "H.R. JULIÁN PEINADO RAMÍREZ",
+      "ALEJANDRO VEGA PÉREZ",
+      "JUAN CARLOS LOZADA VARGAS",
+      "CARLOS ARDILA ESPINOSA",
+      "ELOY CHICHI QUINTERO",
+      "ALVARO HENRY MONEDERO RIVERA",
+      "OSCAR SANCHEZ LEÓN",
+      "ANDRÉS DAVID CALLE AGUAS",
+      "KAREN VIOLETTE CURE CORCIONE",
+      "JENNIFER KRISTIN ARIAS FALLA",
+      "JEZMI LIZETH BARRAZA ARRAUT",
+      "ÁNGELA MARÍA ROBLEDO GÓMEZ",
+      "MARGARITA MARÍA RESTREPO ARANGO"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S ROOSVELT RODRIGUEZ RENGIFO"
     ]
   },
   {
@@ -3091,115 +3080,68 @@
     ]
   },
   {
-    "numero": "025/20PAL",
+    "numero": "036/21PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA PARA CREAR MECANISMOS DE DEFENSA DE LOS INTERESES ECONÓMICOS DEL PAÍS",
-    "estado": "ARCHIVADO,",
+    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA PARA ELIMINAR LA IMPUNIDAD Y FORTALECER LA LUCHA CONTRA LA CORRUPCIÓN",
+    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/25-por-medio-del-cual-se-reforma-la-constitucion-politica-para-crear-mecanismos-de-defensa-de-los-intereses-economicos-del-pais",
-    "fechaDePresentacion": "2020-11-27",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/36-por-medio-del-cual-se-reforma-la-constitucion-politica-para-eliminar-la-impunidad-y-fortalecer-la-lucha-contra-la-corrupcion",
+    "fechaDePresentacion": "2021-04-06",
     "autores": [
       "H.S. JORGE ENRIQUE ROBLEDO",
-      "JORGE LONDOÑO",
-      "ALEXANDER LÓPEZ MAYA",
-      "IVÁN CEPEDA CASTRO",
-      "JUAN LUIS CASTRO",
-      "GRISELDA LOBO SILVA",
-      "ISRAEL ZÚÑIGA",
-      "VICTORIA SANDINO SIMANCA HERRERA",
+      "CRISELDA LOBO SILVA",
+      "ANTONIO ERESMID SANGUINO PAEZ",
+      "AÍDA YOLANDA AVELLA ESQUIVEL",
+      "JUAN LUIS CASTRO CORDOBA",
+      "JORGE EDUARDO LONDOÑO ULLOA",
+      "PABLO CATATUMBO TORRES VICTORIA",
       "WILSON NEBER ARIAS CASTILLO",
-      "H.R. JORGE ALBERTO GÓMEZ",
+      "FELICIANO VALENCIA MEDINA",
+      "JOSÉ AULO POLO NARVAEZ",
+      "JORGE ELIECER GUEVARA",
+      "H.R. LEÓN FREDY MUÑOZ",
+      "GERMÁN NÁVAS TALERO",
       "ÁNGELA MARÍA ROBLEDO",
-      "FABIÁN DÍAZ PLATA",
-      "LEÓN FREDY MUÑOZ",
-      "WILMER LEAL",
-      "NEYLA RUIZ",
-      "ABEL DAVID JARAMILLO",
+      "JORGE GÓMEZ GALLEGO",
       "LUIS ALBERTO ALBÁN",
-      "CARLOS CARREÑO MARÍN"
+      "MAURICIO TORO ORJUELA",
+      "CARLOS CARREÑO MARÍN",
+      "JAIRO CALA",
+      "WILMER LEAL",
+      "ABEL DAVID JARAMILLO"
     ],
-    "ponentesPrimerDebate": []
+    "ponentesPrimerDebate": [
+      "H.S. ALEXANDER LOPEZ MAYA"
+    ]
   },
   {
-    "numero": "022/20PAL",
-    "numeroCamara": "458/20",
-    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA DE COLOMBIA EN SU ARTÍCULO 79 ADICIONANDO UN INCISO QUE PROHÍBE EXPRESAMENTE EL EJERCICIO DE ACTIVIDADES DE EXPLORACIÓN Y EXPLOTACIÓN MINERAS EN ECOSISTEMAS DE PÁRAMOS",
+    "numero": "032/21PAL",
+    "numeroCamara": null,
+    "titulo": "PROYECTO DE ACTO LEGISLATIVO QUE MODIFICA EL ARTÍCULO 48 DE LA CONSTITUCIÓN POLÍTICA ADICIONADO POR EL ACTO LEGISLATIVO 01 DE 2005",
     "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/22-por-medio-del-cual-se-reforma-la-constitucion-politica-de-colombia-en-su-articulo-79-adicionando-un-inciso-que-prohibe-expresamente-el-ejercicio-de-actividades-de-exploracion-y-explotacion-mineras-en-ecosistemas-de-paramos",
-    "fechaDePresentacion": "2020-09-16",
-    "autores": [
-      "H.S. PAOLA ANDREA HOLGUÍN MORENO",
-      "ALEJANDRO CORRALES ESCOBAR",
-      "CARLOS FELIPE MEJÍA MEJÍA",
-      "JOSÉ OBDULIO GAVIRIA VÉLEZ",
-      "MARIA DEL ROSARIO GUERRA DE LA ESPRIELLA",
-      "RUBY HELENA CHAGÜI SPATH",
-      "H.R. JUAN ESPINAL",
-      "GABRIEL JAIME VALLEJO",
-      "RICARDO FERRO LOZANO",
-      "JUAN DAVID VÉLEZ",
-      "ESTEBAN QUINTERO CARDONA."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. PALOMA VALENCIA LASERNA"
-    ]
-  },
-  {
-    "numero": "026/22PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPÍTULO I DEL TÍTULO II DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA.",
-    "estado": "ARCHIVADO,",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/26-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2022-03-18",
-    "autores": [
-      "H.S: ANGELICA LOZANO CORREA",
-      "H.S: IVAN LEONIDAS NAME VASQUEZ",
-      "H.S: ANTONIO SANGUINO PAEZ",
-      "H.S: JORGE EDUARDO LONDOÑO",
-      "H.S: IVAN MARULANDA GOMEZ",
-      "H.S: TEMISTOCLES ORTEGA NARVAEZ",
-      "HS: GUILLERMO GARCIA REALPE",
-      "H.S: PABLO CATATUMBO",
-      "H.R: WILMER LEAL PEREZ",
-      "H.S: AIDA AVELLA ESQUIVEL",
-      "H.S: FELICIANO VALENCIA MEDINA."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S ANGELICA LOZANO CORREA"
-    ]
-  },
-  {
-    "numero": "029/21PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICAN LOS ARTÍCULOS 176 Y 177 DE LA CONSTITUCIÓN POLÍTICA CON EL FIN DE GARANTIZAR LA REPRESENTACIÓN POLÍTICA",
-    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/29-por-medio-del-cual-se-modifican-los-articulos-176-y-177-de-la-constitucion-politica-con-el-fin-de-garantizar-la-representacion-politica",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/32-proyecto-de-acto-legislativo-que-modifica-el-articulo-48-de-la-constitucion-politica-adicionado-por-el-acto-legislativo-01-de-2005",
     "fechaDePresentacion": "2021-03-16",
     "autores": [
       "H.S. ANGÉLICA LOZANO CORREA",
-      "LUIS FERNANDO VELASCO CHAVES",
-      "GUILLERMO GARCÍA REALPE",
-      "ANDRÉS FELIPE GARCÍA ZUCCARDI",
+      "VICTORIA SANDINO SIMANCA HERRERA",
       "ANTONIO ERESMID SANGUINO PAEZ",
       "JORGE EDUARDO LONDOÑO ULLOA",
-      "H.R. JOSÉ DANIEL LÓPEZ",
+      "JUAN LUIS CASTRO CORDOBA",
+      "JULIAN GALLO CUBILLOS",
+      "ALEXANDER LOPEZ MAYA",
+      "H.S. JUANITA MARIA GOEBERTUS ESTRADA",
+      "KATHERINE MIRANDA PEÑA",
       "JOSE LUIS CORREA LÓPEZ",
-      "JORGE ELIECER GUEVARA",
-      "CÉSAR AUGUSTO ORTIZ ZORRO"
+      "LUCIANO GRISALES LONDOÑO",
+      "CATALINA ORTÍZ LALINDE"
     ],
     "ponentesPrimerDebate": [
-      "H.S: Luis Fernando Velasco Chaves"
+      "H.S: Alexander Lopez Maya"
     ]
   },
   {
@@ -3232,30 +3174,68 @@
     ]
   },
   {
-    "numero": "024/20PAL",
+    "numero": "023/20PAL",
     "numeroCamara": null,
-    "titulo": "POR EL CUAL SE DEROGA LA JURISDICCIÓN ESPECIAL PARA LA PAZ Y SE DICTAN OTRAS DISPOSICIONES",
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 221 DE LA CONSTITUCIÓN POLÍTICA CON EL FIN DE FORTALECER LA PROTECCIÓN DE LOS DERECHOS HUMANOS Y LA GARANTÍA A UN TRIBUNAL INDEPENDIENTE, IMPARCIAL Y COMPETENTE",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/24-por-el-cual-se-deroga-la-jurisdiccion-especial-para-la-paz-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": "2020-10-14",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/23-por-medio-del-cual-se-modifica-el-articulo-221-de-la-constitucion-politica-con-el-fin-de-fortalecer-la-proteccion-de-los-derechos-humanos-y-la-garantia-a-un-tribunal-independiente-imparcial-y-competente",
+    "fechaDePresentacion": "2020-10-09",
     "autores": [
-      "H.S. MILLA PATRICIA ROMERO SOTO",
-      "PAOLA ANDREA HOLGUIN MORENO",
-      "PALOMA SUSANA VALENCIA LASERNA",
-      "AMANDA ROCIO GONZALEZ",
-      "CARLOS FELIPE MEJIA MEJIA",
-      "FERNANDO NICOLAS ARAUJO",
-      "H.R. JENNIFER KRISTIN ARIAS",
-      "EDWIN ALBERTO VALDES",
-      "MARGARITA MARIA RESTREPO",
-      "JUAN FERNANDO ESPINAL",
-      "ÁLVARO HERNAN PRADA"
+      "H.S. IVÁN CEPEDA CASTRO",
+      "ANGÉLICA LOZANO",
+      "IVAN MARULANDA GOMEZ",
+      "ALEXANDER LÓPEZ MAYA",
+      "JORGE ENRIQUE ROBLEDO CASTILLO",
+      "GUSTAVO BOLIVAR MORENO",
+      "SANDRA LILIANA ORTÍZ NOVA",
+      "ANTONIO ERESMID SANGUINO PAEZ",
+      "AIDA YOLANDA AVELLA RESTREPO",
+      "JORGE EDUARDO LONDOÑO",
+      "JUAN LUIS CASTRO",
+      "WILSON NEBER ARIAS",
+      "JOSE AULO POLO NARVAEZ",
+      "GUSTAVO FRANCISCO PETRO URREGO",
+      "FELICIANO VALENCIA MEDINA",
+      "H.R.MARÍA JOSE PIZARRO",
+      "ABEL DAVID JARAMILLO",
+      "FABIAN DÍAZ PLATA",
+      "WILMER LEAL",
+      "ANGELA MARÍA ROBLEDO",
+      "JORGE GÓMEZ",
+      "LEON FREDDY MUÑOZ",
+      "INTI ASPRILLA"
     ],
     "ponentesPrimerDebate": [
-      "H.S. PALOMA SUSANA VALENCIA LASERNA"
+      "H.S. ANGELICA LOZANO CORREA"
+    ]
+  },
+  {
+    "numero": "029/21PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICAN LOS ARTÍCULOS 176 Y 177 DE LA CONSTITUCIÓN POLÍTICA CON EL FIN DE GARANTIZAR LA REPRESENTACIÓN POLÍTICA",
+    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/29-por-medio-del-cual-se-modifican-los-articulos-176-y-177-de-la-constitucion-politica-con-el-fin-de-garantizar-la-representacion-politica",
+    "fechaDePresentacion": "2021-03-16",
+    "autores": [
+      "H.S. ANGÉLICA LOZANO CORREA",
+      "LUIS FERNANDO VELASCO CHAVES",
+      "GUILLERMO GARCÍA REALPE",
+      "ANDRÉS FELIPE GARCÍA ZUCCARDI",
+      "ANTONIO ERESMID SANGUINO PAEZ",
+      "JORGE EDUARDO LONDOÑO ULLOA",
+      "H.R. JOSÉ DANIEL LÓPEZ",
+      "JOSE LUIS CORREA LÓPEZ",
+      "JORGE ELIECER GUEVARA",
+      "CÉSAR AUGUSTO ORTIZ ZORRO"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Luis Fernando Velasco Chaves"
     ]
   },
   {
@@ -3289,6 +3269,65 @@
     "ponentesPrimerDebate": [
       "H.S. ANGELICA LISBETH LOZANO CORREA"
     ]
+  },
+  {
+    "numero": "024/20PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE DEROGA LA JURISDICCIÓN ESPECIAL PARA LA PAZ Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/24-por-el-cual-se-deroga-la-jurisdiccion-especial-para-la-paz-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2020-10-14",
+    "autores": [
+      "H.S. MILLA PATRICIA ROMERO SOTO",
+      "PAOLA ANDREA HOLGUIN MORENO",
+      "PALOMA SUSANA VALENCIA LASERNA",
+      "AMANDA ROCIO GONZALEZ",
+      "CARLOS FELIPE MEJIA MEJIA",
+      "FERNANDO NICOLAS ARAUJO",
+      "H.R. JENNIFER KRISTIN ARIAS",
+      "EDWIN ALBERTO VALDES",
+      "MARGARITA MARIA RESTREPO",
+      "JUAN FERNANDO ESPINAL",
+      "ÁLVARO HERNAN PRADA"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. PALOMA SUSANA VALENCIA LASERNA"
+    ]
+  },
+  {
+    "numero": "025/20PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA PARA CREAR MECANISMOS DE DEFENSA DE LOS INTERESES ECONÓMICOS DEL PAÍS",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/25-por-medio-del-cual-se-reforma-la-constitucion-politica-para-crear-mecanismos-de-defensa-de-los-intereses-economicos-del-pais",
+    "fechaDePresentacion": "2020-11-27",
+    "autores": [
+      "H.S. JORGE ENRIQUE ROBLEDO",
+      "JORGE LONDOÑO",
+      "ALEXANDER LÓPEZ MAYA",
+      "IVÁN CEPEDA CASTRO",
+      "JUAN LUIS CASTRO",
+      "GRISELDA LOBO SILVA",
+      "ISRAEL ZÚÑIGA",
+      "VICTORIA SANDINO SIMANCA HERRERA",
+      "WILSON NEBER ARIAS CASTILLO",
+      "H.R. JORGE ALBERTO GÓMEZ",
+      "ÁNGELA MARÍA ROBLEDO",
+      "FABIÁN DÍAZ PLATA",
+      "LEÓN FREDY MUÑOZ",
+      "WILMER LEAL",
+      "NEYLA RUIZ",
+      "ABEL DAVID JARAMILLO",
+      "LUIS ALBERTO ALBÁN",
+      "CARLOS CARREÑO MARÍN"
+    ],
+    "ponentesPrimerDebate": []
   },
   {
     "numero": "030/21PAL",
@@ -3353,42 +3392,57 @@
     ]
   },
   {
-    "numero": "023/20PAL",
+    "numero": "026/22PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 221 DE LA CONSTITUCIÓN POLÍTICA CON EL FIN DE FORTALECER LA PROTECCIÓN DE LOS DERECHOS HUMANOS Y LA GARANTÍA A UN TRIBUNAL INDEPENDIENTE, IMPARCIAL Y COMPETENTE",
+    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPÍTULO I DEL TÍTULO II DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA.",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/23-por-medio-del-cual-se-modifica-el-articulo-221-de-la-constitucion-politica-con-el-fin-de-fortalecer-la-proteccion-de-los-derechos-humanos-y-la-garantia-a-un-tribunal-independiente-imparcial-y-competente",
-    "fechaDePresentacion": "2020-10-09",
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/26-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2022-03-18",
     "autores": [
-      "H.S. IVÁN CEPEDA CASTRO",
-      "ANGÉLICA LOZANO",
-      "IVAN MARULANDA GOMEZ",
-      "ALEXANDER LÓPEZ MAYA",
-      "JORGE ENRIQUE ROBLEDO CASTILLO",
-      "GUSTAVO BOLIVAR MORENO",
-      "SANDRA LILIANA ORTÍZ NOVA",
-      "ANTONIO ERESMID SANGUINO PAEZ",
-      "AIDA YOLANDA AVELLA RESTREPO",
-      "JORGE EDUARDO LONDOÑO",
-      "JUAN LUIS CASTRO",
-      "WILSON NEBER ARIAS",
-      "JOSE AULO POLO NARVAEZ",
-      "GUSTAVO FRANCISCO PETRO URREGO",
-      "FELICIANO VALENCIA MEDINA",
-      "H.R.MARÍA JOSE PIZARRO",
-      "ABEL DAVID JARAMILLO",
-      "FABIAN DÍAZ PLATA",
-      "WILMER LEAL",
-      "ANGELA MARÍA ROBLEDO",
-      "JORGE GÓMEZ",
-      "LEON FREDDY MUÑOZ",
-      "INTI ASPRILLA"
+      "H.S: ANGELICA LOZANO CORREA",
+      "H.S: IVAN LEONIDAS NAME VASQUEZ",
+      "H.S: ANTONIO SANGUINO PAEZ",
+      "H.S: JORGE EDUARDO LONDOÑO",
+      "H.S: IVAN MARULANDA GOMEZ",
+      "H.S: TEMISTOCLES ORTEGA NARVAEZ",
+      "HS: GUILLERMO GARCIA REALPE",
+      "H.S: PABLO CATATUMBO",
+      "H.R: WILMER LEAL PEREZ",
+      "H.S: AIDA AVELLA ESQUIVEL",
+      "H.S: FELICIANO VALENCIA MEDINA."
     ],
     "ponentesPrimerDebate": [
-      "H.S. ANGELICA LOZANO CORREA"
+      "H.S ANGELICA LOZANO CORREA"
+    ]
+  },
+  {
+    "numero": "022/20PAL",
+    "numeroCamara": "458/20",
+    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA CONSTITUCIÓN POLÍTICA DE COLOMBIA EN SU ARTÍCULO 79 ADICIONANDO UN INCISO QUE PROHÍBE EXPRESAMENTE EL EJERCICIO DE ACTIVIDADES DE EXPLORACIÓN Y EXPLOTACIÓN MINERAS EN ECOSISTEMAS DE PÁRAMOS",
+    "estado": "ARCHIVADO,  CONFORME ART. 375 DE LA CONSTITUCIÓN POLÍTICA",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/22-por-medio-del-cual-se-reforma-la-constitucion-politica-de-colombia-en-su-articulo-79-adicionando-un-inciso-que-prohibe-expresamente-el-ejercicio-de-actividades-de-exploracion-y-explotacion-mineras-en-ecosistemas-de-paramos",
+    "fechaDePresentacion": "2020-09-16",
+    "autores": [
+      "H.S. PAOLA ANDREA HOLGUÍN MORENO",
+      "ALEJANDRO CORRALES ESCOBAR",
+      "CARLOS FELIPE MEJÍA MEJÍA",
+      "JOSÉ OBDULIO GAVIRIA VÉLEZ",
+      "MARIA DEL ROSARIO GUERRA DE LA ESPRIELLA",
+      "RUBY HELENA CHAGÜI SPATH",
+      "H.R. JUAN ESPINAL",
+      "GABRIEL JAIME VALLEJO",
+      "RICARDO FERRO LOZANO",
+      "JUAN DAVID VÉLEZ",
+      "ESTEBAN QUINTERO CARDONA."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. PALOMA VALENCIA LASERNA"
     ]
   },
   {
@@ -3418,56 +3472,66 @@
     ]
   },
   {
-    "numero": "017/20PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 328 Y 356 DE LA CONSTITUCIÓN POLÍTICA OTORGÁNDOLE AL MUNICIPIO DE VILLAVICENCIO (META) LA CATEGORIA ESPECIAL DE DISTRITO BIODIVERSO, TURÍSTICO, CULTURAL, AGROINDUSTRIAL Y EDUCATIVO",
+    "numero": "011/20PAL",
+    "numeroCamara": "366/2021",
+    "titulo": "POR EL CUAL SE MODIFICA EL NUMERAL 2º DEL ARTÍCULO 173 DE LA CONSTITUCIÓN POLÍTICA",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/17-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-al-municipio-de-villavicencio-meta-la-categoria-especial-de-distrito-biodiverso-turistico-cultural-agroindustrial-y-educativo",
-    "fechaDePresentacion": "2020-08-25",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/11-por-el-cual-se-modifica-el-numeral-2-del-articulo-173-de-la-constitucion-politica",
+    "fechaDePresentacion": "2020-07-23",
     "autores": [
-      "H.S.JONATAN TAMAYO PEREZ",
-      "EDUARDO EMILIO PACHECO CUELLO",
-      "RUBY HELENA CHAGUI SPATH",
-      "GABRIEL JAIME VELASCO",
-      "ESPERANZA ANDRADE DE OSSO",
-      "H.R. JOSE DANIEL LOPEZ",
-      "ALEXANDER BERMÚDEZ LASSO",
-      "ERWIN ARIAS BETANCUR",
-      "JORGE MENDEZ HERNANDEZ",
-      "OSCAR CAMILO ARANGO",
-      "ALEJANDRO VEGA PEREZ."
+      "H.S. PAOLA HOLGUÍN MORENO",
+      "ÁLVARO URIBE VÉLEZ",
+      "ALEJANDRO CORRALES ESCOBAR",
+      "MARIA DEL ROSARIO GUERRA DE LA ESPRIELLA",
+      "FERNANDO NICOLAS ARAUJO RUMIE",
+      "H.R. JUAN ESPINAL",
+      "EDWIN GILBERTO BALLESTEROS",
+      "ÓSCAR DARÍO PÉREZ PINEDA",
+      "GABRIEL JAIME VALLEJO CHUJFI",
+      "JOSÉ JAIME USCÁTEGUI"
     ],
     "ponentesPrimerDebate": [
-      "H.S. ESPERANZA ANDRADE DE OSSO"
+      "H.S. MARIA FERNANDA CABAL MOLINA"
     ]
   },
   {
-    "numero": "019/20PAL",
+    "numero": "015/20PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 219, EN SU INCISO 2º DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "titulo": "POR MEDIO DEL CUAL SE LIMITAN LOS PERÍODOS DE LOS MIEMBROS DE LOS CUERPOS COLEGIADOS DE ELECCIÓN DIRECTA",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/19-por-medio-del-cual-se-modifica-el-articulo-219-en-su-inciso-2-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2020-08-27",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/15-por-medio-del-cual-se-limitan-los-periodos-de-los-miembros-de-los-cuerpos-colegiados-de-eleccion-directa",
+    "fechaDePresentacion": "2020-07-24",
     "autores": [
-      "H.S. EDGAR ENRIQUE PALACIO MIZRAHI",
-      "JOHN MILTON RODRÍGUEZ GONZÁLEZ",
-      "EDUARDO EMILIO PACHECO CUELLO",
-      "DIDIER LOBO CHINCHILLA",
-      "JONATAN TAMAYO PEREZ",
-      "CIRO ALEJANDRO RAMÍREZ CORTÉS",
-      "EDUARDO ENRIQUE PULGAR DAZA",
-      "CARLOS EDUARDO ACOSTA LOZANO",
-      "JOSE VICENTE CARREÑO CASTRO",
-      "JAIME ARMANDO YEPES MARTÍNEZ"
+      "H.S. ANGÉLICA LOZANO CORREA",
+      "TEMISTOCLES ORTEGA NARVAEZ",
+      "JOSÉ DANIEL LÓPEZ",
+      "IVÁN MARULANDA GOMEZ",
+      "H.R. JUANITA GOEBERTUS",
+      "KATHERINE MIRANDA",
+      "MAURICIO TORO",
+      "HARRY GONZÁLEZ",
+      "LEÓN FREDY MUÑOZ",
+      "DAVID RACERO",
+      "FABIAN DIAZ PLATA"
     ],
     "ponentesPrimerDebate": [
-      "H.S. EDUARDO EMILIO PACHECO CUELLO"
+      "H.S. Luis Fernando Velasco Chaves",
+      "Germán Varón Cotrino",
+      "Roy Barreras Montealegre",
+      "Juan Carlos García Gomez",
+      "Paloma Valencia Laserna",
+      "Iván Name Vasquez",
+      "Gustavo Petro Urrego",
+      "Carlos Guevara Villabon",
+      "Julian Gallo Cubillos",
+      "Alexander Lopez Maya",
+      "Eduardo Pacheco Cuello."
     ]
   },
   {
@@ -3536,53 +3600,115 @@
     ]
   },
   {
-    "numero": "011/20PAL",
-    "numeroCamara": "366/2021",
-    "titulo": "POR EL CUAL SE MODIFICA EL NUMERAL 2º DEL ARTÍCULO 173 DE LA CONSTITUCIÓN POLÍTICA",
+    "numero": "017/20PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 328 Y 356 DE LA CONSTITUCIÓN POLÍTICA OTORGÁNDOLE AL MUNICIPIO DE VILLAVICENCIO (META) LA CATEGORIA ESPECIAL DE DISTRITO BIODIVERSO, TURÍSTICO, CULTURAL, AGROINDUSTRIAL Y EDUCATIVO",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/11-por-el-cual-se-modifica-el-numeral-2-del-articulo-173-de-la-constitucion-politica",
-    "fechaDePresentacion": "2020-07-23",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/17-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-al-municipio-de-villavicencio-meta-la-categoria-especial-de-distrito-biodiverso-turistico-cultural-agroindustrial-y-educativo",
+    "fechaDePresentacion": "2020-08-25",
     "autores": [
-      "H.S. PAOLA HOLGUÍN MORENO",
-      "ÁLVARO URIBE VÉLEZ",
-      "ALEJANDRO CORRALES ESCOBAR",
-      "MARIA DEL ROSARIO GUERRA DE LA ESPRIELLA",
-      "FERNANDO NICOLAS ARAUJO RUMIE",
-      "H.R. JUAN ESPINAL",
-      "EDWIN GILBERTO BALLESTEROS",
-      "ÓSCAR DARÍO PÉREZ PINEDA",
-      "GABRIEL JAIME VALLEJO CHUJFI",
-      "JOSÉ JAIME USCÁTEGUI"
+      "H.S.JONATAN TAMAYO PEREZ",
+      "EDUARDO EMILIO PACHECO CUELLO",
+      "RUBY HELENA CHAGUI SPATH",
+      "GABRIEL JAIME VELASCO",
+      "ESPERANZA ANDRADE DE OSSO",
+      "H.R. JOSE DANIEL LOPEZ",
+      "ALEXANDER BERMÚDEZ LASSO",
+      "ERWIN ARIAS BETANCUR",
+      "JORGE MENDEZ HERNANDEZ",
+      "OSCAR CAMILO ARANGO",
+      "ALEJANDRO VEGA PEREZ."
     ],
     "ponentesPrimerDebate": [
-      "H.S. MARIA FERNANDA CABAL MOLINA"
+      "H.S. ESPERANZA ANDRADE DE OSSO"
     ]
   },
   {
-    "numero": "015/20PAL",
+    "numero": "019/20PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE LIMITAN LOS PERÍODOS DE LOS MIEMBROS DE LOS CUERPOS COLEGIADOS DE ELECCIÓN DIRECTA",
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 219, EN SU INCISO 2º DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/15-por-medio-del-cual-se-limitan-los-periodos-de-los-miembros-de-los-cuerpos-colegiados-de-eleccion-directa",
-    "fechaDePresentacion": "2020-07-24",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/19-por-medio-del-cual-se-modifica-el-articulo-219-en-su-inciso-2-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2020-08-27",
     "autores": [
-      "H.S. ANGÉLICA LOZANO CORREA",
-      "TEMISTOCLES ORTEGA NARVAEZ",
-      "JOSÉ DANIEL LÓPEZ",
-      "IVÁN MARULANDA GOMEZ",
-      "H.R. JUANITA GOEBERTUS",
-      "KATHERINE MIRANDA",
-      "MAURICIO TORO",
-      "HARRY GONZÁLEZ",
-      "LEÓN FREDY MUÑOZ",
-      "DAVID RACERO",
-      "FABIAN DIAZ PLATA"
+      "H.S. EDGAR ENRIQUE PALACIO MIZRAHI",
+      "JOHN MILTON RODRÍGUEZ GONZÁLEZ",
+      "EDUARDO EMILIO PACHECO CUELLO",
+      "DIDIER LOBO CHINCHILLA",
+      "JONATAN TAMAYO PEREZ",
+      "CIRO ALEJANDRO RAMÍREZ CORTÉS",
+      "EDUARDO ENRIQUE PULGAR DAZA",
+      "CARLOS EDUARDO ACOSTA LOZANO",
+      "JOSE VICENTE CARREÑO CASTRO",
+      "JAIME ARMANDO YEPES MARTÍNEZ"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. EDUARDO EMILIO PACHECO CUELLO"
+    ]
+  },
+  {
+    "numero": "006/20PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICAN LOS ARTICULOS 171 Y 176 DE LA CONSTITUCION POLITICA DE COLOMBIA",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/6-por-medio-del-cual-se-modifican-los-articulos-171-y-176-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2020-07-20",
+    "autores": [
+      "H.S. CARLOS CARREÑO MARÍN",
+      "GUSTAVO BOLÍVAR MORENO",
+      "FELICIANO VALENCIA MEDINA",
+      "CRISELDA LOBO SILVA",
+      "ANTONIO ERESMID SANGUINO PAEZ",
+      "JULIÁN GALLO CUBILLOS",
+      "PABLO CATATUMBO TORRES VICTORIA",
+      "VICTORIA SANDINO SIMANCA HERRERA",
+      "ISRAEL ZUÑIGA IRIARTE",
+      "AIDA YOLANDA AVELLA ESQUIVEL",
+      "H.R. JAIRO REINALDO CALA",
+      "ABEL DAVID JARAMILLO",
+      "ANGELA MARÍA ROBLEDO",
+      "LUIS ALBERTO ALBÁN URBANO",
+      "OMAR DE JESÚS RESTREPO."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. JULIÁN GALLO CUBILLOS"
+    ]
+  },
+  {
+    "numero": "007/20PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE ADOPTA UNA REFORMA POLÍTICA Y ELECTORAL QUE PERMITA LA APERTURA DEMOCRÁTICA PARA LA CONSTRUCCIÓN DE UNA PAZ ESTABLE Y DURADERA",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/7-por-medio-del-cual-se-adopta-una-reforma-politica-y-electoral-que-permita-la-apertura-democratica-para-la-construccion-de-una-paz-estable-y-duradera",
+    "fechaDePresentacion": "2020-07-22",
+    "autores": [
+      "JULIÁN GALLO CUBILLOS",
+      "GUSTAVO BOLÍVAR MORENO",
+      "AIDA YOLANDA AVELLA ESQUIVEL",
+      "ANTONIO ERESMID SANGUINO PAEZ",
+      "GUSTAVO FRANCISCO PETRO URREGO",
+      "CRISELDA LOBO SILVA",
+      "PABLO CATATUMBO TORRES VICTORIA",
+      "ISRAEL ZÚNIGA IRIARTE",
+      "VICTORIA SANDINO SIMANCA HERRERA",
+      "H.R. ANGELA MARÍA ROBLEDO",
+      "ABEL DAVID JARAMILLO",
+      "OMAR DE JESÚS RESTREPO",
+      "LUIS ALBERTO ALBÁN URBANO",
+      "JAIRO REINALDO CALA",
+      "CARLOS ALBERTO CARREÑO"
     ],
     "ponentesPrimerDebate": [
       "H.S. Luis Fernando Velasco Chaves",
@@ -3599,14 +3725,43 @@
     ]
   },
   {
-    "numero": "004/20PAL",
+    "numero": "001/20PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 272 Y SE ELIMINAN LOS ARTÍCULOS 274 Y 354 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 65 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
     "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [
+      "287/20PAL"
+    ],
+    "legislatura": "2020-2021",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/1-por-el-cual-se-modifica-el-articulo-65-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2020-07-20",
+    "autores": [
+      "H.S. MARITZA MARTINEZ ARISTIZABAL",
+      "ROY LEONARDO BARRERAS MONTEALEGRE",
+      "ROOSVELT RODRIGUEZ RENGIFO",
+      "MIGUEL AMIN ESCAF",
+      "ANDRES FELIPE GARCIA ZUCARDI",
+      "JUAN FELIPE LEMOS URIBE",
+      "JOSE DAVID NAME CARDOZO",
+      "GERMAN HOYOS GIRALDO",
+      "JOSE RITTER LOPEZ PEÑA",
+      "BERNER LEÓN ZAMBRANO ERASO",
+      "JOHN MOISES BESAILE FAYAD."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. ROOSVELT RODRIGUEZ RENGIFO"
+    ]
+  },
+  {
+    "numero": "005/20PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL INCISO SEGUNDO DEL NUMERAL 17 DEL ARTÍCULO 150 DE LA CONSTITUCIÓN POLÍTICA",
+    "estado": "ARCHIVADO,  Sesión Comisión Octubre 28/20",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/4-por-medio-del-cual-se-modifica-el-articulo-272-y-se-eliminan-los-articulos-274-y-354-de-la-constitucion-politica-de-colombia",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/5-por-medio-del-cual-se-modifica-el-inciso-segundo-del-numeral-17-del-articulo-150-de-la-constitucion-politica",
     "fechaDePresentacion": "2020-07-20",
     "autores": [
       "H.S. ÁLVARO URIBE VÉLEZ",
@@ -3649,11 +3804,11 @@
       "JENNIFER KRISTIN ARIAS",
       "JUAN PABLO CELIS",
       "GABRIEL JAIME VALLEJO",
-      "OSCAR VILLAMIZAR",
-      "RICARDO FERRO."
+      "RICARDO FERRO",
+      "OSCAR VILLAMIZAR"
     ],
     "ponentesPrimerDebate": [
-      "H.S. PALOMA SUSANA VALENCIA LASERNA"
+      "H.S. MARÍA FERNANDA CABAL MOLINA"
     ]
   },
   {
@@ -3681,47 +3836,6 @@
       "JULIÁN BEDOYA PULGARÍN",
       "MARIO ALBERTO CASTAÑO PÉREZ",
       "HORACIO JOSÉ SERPA MONCADA"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. Luis Fernando Velasco Chaves",
-      "Germán Varón Cotrino",
-      "Roy Barreras Montealegre",
-      "Juan Carlos García Gomez",
-      "Paloma Valencia Laserna",
-      "Iván Name Vasquez",
-      "Gustavo Petro Urrego",
-      "Carlos Guevara Villabon",
-      "Julian Gallo Cubillos",
-      "Alexander Lopez Maya",
-      "Eduardo Pacheco Cuello."
-    ]
-  },
-  {
-    "numero": "007/20PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE ADOPTA UNA REFORMA POLÍTICA Y ELECTORAL QUE PERMITA LA APERTURA DEMOCRÁTICA PARA LA CONSTRUCCIÓN DE UNA PAZ ESTABLE Y DURADERA",
-    "estado": "ARCHIVADO,",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/7-por-medio-del-cual-se-adopta-una-reforma-politica-y-electoral-que-permita-la-apertura-democratica-para-la-construccion-de-una-paz-estable-y-duradera",
-    "fechaDePresentacion": "2020-07-22",
-    "autores": [
-      "JULIÁN GALLO CUBILLOS",
-      "GUSTAVO BOLÍVAR MORENO",
-      "AIDA YOLANDA AVELLA ESQUIVEL",
-      "ANTONIO ERESMID SANGUINO PAEZ",
-      "GUSTAVO FRANCISCO PETRO URREGO",
-      "CRISELDA LOBO SILVA",
-      "PABLO CATATUMBO TORRES VICTORIA",
-      "ISRAEL ZÚNIGA IRIARTE",
-      "VICTORIA SANDINO SIMANCA HERRERA",
-      "H.R. ANGELA MARÍA ROBLEDO",
-      "ABEL DAVID JARAMILLO",
-      "OMAR DE JESÚS RESTREPO",
-      "LUIS ALBERTO ALBÁN URBANO",
-      "JAIRO REINALDO CALA",
-      "CARLOS ALBERTO CARREÑO"
     ],
     "ponentesPrimerDebate": [
       "H.S. Luis Fernando Velasco Chaves",
@@ -3786,66 +3900,6 @@
     ]
   },
   {
-    "numero": "006/20PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICAN LOS ARTICULOS 171 Y 176 DE LA CONSTITUCION POLITICA DE COLOMBIA",
-    "estado": "ARCHIVADO,",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/6-por-medio-del-cual-se-modifican-los-articulos-171-y-176-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2020-07-20",
-    "autores": [
-      "H.S. CARLOS CARREÑO MARÍN",
-      "GUSTAVO BOLÍVAR MORENO",
-      "FELICIANO VALENCIA MEDINA",
-      "CRISELDA LOBO SILVA",
-      "ANTONIO ERESMID SANGUINO PAEZ",
-      "JULIÁN GALLO CUBILLOS",
-      "PABLO CATATUMBO TORRES VICTORIA",
-      "VICTORIA SANDINO SIMANCA HERRERA",
-      "ISRAEL ZUÑIGA IRIARTE",
-      "AIDA YOLANDA AVELLA ESQUIVEL",
-      "H.R. JAIRO REINALDO CALA",
-      "ABEL DAVID JARAMILLO",
-      "ANGELA MARÍA ROBLEDO",
-      "LUIS ALBERTO ALBÁN URBANO",
-      "OMAR DE JESÚS RESTREPO."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. JULIÁN GALLO CUBILLOS"
-    ]
-  },
-  {
-    "numero": "001/20PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 65 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
-    "estado": "ARCHIVADO,",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [
-      "287/20PAL"
-    ],
-    "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/1-por-el-cual-se-modifica-el-articulo-65-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2020-07-20",
-    "autores": [
-      "H.S. MARITZA MARTINEZ ARISTIZABAL",
-      "ROY LEONARDO BARRERAS MONTEALEGRE",
-      "ROOSVELT RODRIGUEZ RENGIFO",
-      "MIGUEL AMIN ESCAF",
-      "ANDRES FELIPE GARCIA ZUCARDI",
-      "JUAN FELIPE LEMOS URIBE",
-      "JOSE DAVID NAME CARDOZO",
-      "GERMAN HOYOS GIRALDO",
-      "JOSE RITTER LOPEZ PEÑA",
-      "BERNER LEÓN ZAMBRANO ERASO",
-      "JOHN MOISES BESAILE FAYAD."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. ROOSVELT RODRIGUEZ RENGIFO"
-    ]
-  },
-  {
     "numero": "003/20PAL",
     "numeroCamara": "467/20",
     "titulo": "POR EL CUAL SE OTORGA LA CALIDAD DE DISTRITO ESPECIAL DE CIENCIA, TECNOLOGÍA E INNOVACIÓN A LA CIUDAD DE MEDELLÍN Y SE DICTAN OTRAS DISPOSICIONES",
@@ -3906,53 +3960,48 @@
     ]
   },
   {
-    "numero": "010/20PAL",
+    "numero": "008/20PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 34 DE LA CONSTITUCIÓN POLÍTICA, PERMITIENDO LA PRISIÓN PERPETUA REVISABLE PARA FEMINICIDAS",
+    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPÍTULO I DEL TÍTULO II DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/10-por-medio-del-cual-se-modifica-el-articulo-34-de-la-constitucion-politica-permitiendo-la-prision-perpetua-revisable-para-feminicidas",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/8-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
     "fechaDePresentacion": "2020-07-22",
     "autores": [
-      "H.S. ESPERANZA ANDRADE SERRANO",
-      "NORA MARIA GARCIA BURGOS",
-      "MYRIAM ALICIA PAREDES AGUIRRE",
-      "EFRAÍN JOSÉ CEPEDA SARABIA",
-      "MARIA FERNANDA CABAL MOLINA",
-      "NADIA GEORGETTE BLEL SCAFF",
-      "SOLEDAD TAMAYO TAMAYO",
-      "MIGUEL ANGEL BARRETO CASTILLO",
-      "JUAN SAMY MERHEG MARÚN",
-      "H.R. DIELA LILIANA BENAVIDES SOLARTE",
-      "NIDIA MARCELA OSORIO SALGADO",
-      "JOSE ELVER HERNANDEZ CASAS",
-      "JOSE GUSTAVO PADILLA OROZCO",
-      "BUENAVENTURA LEÓN LEÓN",
-      "ARMANDO ZABARAIN D’ ARCE",
-      "GERMAN ALCIDES BLANCO ALVAREZ",
-      "CIRO ANTONIO RODRIGUEZ",
-      "MARIA CRISTINA SOTO DE GOMEZ",
-      "YAMIL HERNANDO ARANA PADAUÍ",
-      "ALFREDO APE CUELLO BAUTE",
-      "JUAN CARLOS RIVERA PEÑA",
-      "JAIME FELIPE LOZADA POLANCO",
-      "FELIPE ANDRÉS MUNOZ DELGADO"
+      "H.S. ANGÉLICA LOZANO CORREA",
+      "ANTONIO SANGUINO PÁEZ",
+      "WILSON NEBER ARIAS CASTILLO",
+      "JORGE EDUARDO LONDOÑO",
+      "IVÁN MARULANDA GOMEZ",
+      "IVÁN CEPEDA CASTRO",
+      "PABLO CATATUMBO TORRES VICTORIA",
+      "GUSTAVO BOLÍVAR MORENO",
+      "CRISELDA LOBO SILVA",
+      "JUAN LUIS CASTRO CORDOBA",
+      "IVÁN LEONIDAS NAME VÁSQUEZ",
+      "SANDRA LILIANA ORTIZ NOVA",
+      "H.R. JAIRO REINALDO CALA SUÁREZ",
+      "MARÍA JOSÉ PIZARRO",
+      "CARLOS ALBERTO CARREÑO MARÍN",
+      "FABIAN DIAZ PLATA",
+      "LEON FREDY MUÑOZ LOPERA",
+      "CESAR ORTIZ ZORRO"
     ],
     "ponentesPrimerDebate": [
-      "H.S. ESPERANZA ANDRADE SERRANO"
+      "H.S. IVAN LEONIDAS NAME VÁSQUEZ"
     ]
   },
   {
-    "numero": "005/20PAL",
+    "numero": "004/20PAL",
     "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL INCISO SEGUNDO DEL NUMERAL 17 DEL ARTÍCULO 150 DE LA CONSTITUCIÓN POLÍTICA",
-    "estado": "ARCHIVADO,  Sesión Comisión Octubre 28/20",
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 272 Y SE ELIMINAN LOS ARTÍCULOS 274 Y 354 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/5-por-medio-del-cual-se-modifica-el-inciso-segundo-del-numeral-17-del-articulo-150-de-la-constitucion-politica",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/4-por-medio-del-cual-se-modifica-el-articulo-272-y-se-eliminan-los-articulos-274-y-354-de-la-constitucion-politica-de-colombia",
     "fechaDePresentacion": "2020-07-20",
     "autores": [
       "H.S. ÁLVARO URIBE VÉLEZ",
@@ -3995,97 +4044,50 @@
       "JENNIFER KRISTIN ARIAS",
       "JUAN PABLO CELIS",
       "GABRIEL JAIME VALLEJO",
-      "RICARDO FERRO",
-      "OSCAR VILLAMIZAR"
+      "OSCAR VILLAMIZAR",
+      "RICARDO FERRO."
     ],
     "ponentesPrimerDebate": [
-      "H.S. MARÍA FERNANDA CABAL MOLINA"
+      "H.S. PALOMA SUSANA VALENCIA LASERNA"
     ]
   },
   {
-    "numero": "008/20PAL",
+    "numero": "010/20PAL",
     "numeroCamara": null,
-    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPÍTULO I DEL TÍTULO II DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 34 DE LA CONSTITUCIÓN POLÍTICA, PERMITIENDO LA PRISIÓN PERPETUA REVISABLE PARA FEMINICIDAS",
     "estado": "ARCHIVADO,",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2020-2021",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/8-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2020-2021/article/10-por-medio-del-cual-se-modifica-el-articulo-34-de-la-constitucion-politica-permitiendo-la-prision-perpetua-revisable-para-feminicidas",
     "fechaDePresentacion": "2020-07-22",
     "autores": [
-      "H.S. ANGÉLICA LOZANO CORREA",
-      "ANTONIO SANGUINO PÁEZ",
-      "WILSON NEBER ARIAS CASTILLO",
-      "JORGE EDUARDO LONDOÑO",
-      "IVÁN MARULANDA GOMEZ",
-      "IVÁN CEPEDA CASTRO",
-      "PABLO CATATUMBO TORRES VICTORIA",
-      "GUSTAVO BOLÍVAR MORENO",
-      "CRISELDA LOBO SILVA",
-      "JUAN LUIS CASTRO CORDOBA",
-      "IVÁN LEONIDAS NAME VÁSQUEZ",
-      "SANDRA LILIANA ORTIZ NOVA",
-      "H.R. JAIRO REINALDO CALA SUÁREZ",
-      "MARÍA JOSÉ PIZARRO",
-      "CARLOS ALBERTO CARREÑO MARÍN",
-      "FABIAN DIAZ PLATA",
-      "LEON FREDY MUÑOZ LOPERA",
-      "CESAR ORTIZ ZORRO"
+      "H.S. ESPERANZA ANDRADE SERRANO",
+      "NORA MARIA GARCIA BURGOS",
+      "MYRIAM ALICIA PAREDES AGUIRRE",
+      "EFRAÍN JOSÉ CEPEDA SARABIA",
+      "MARIA FERNANDA CABAL MOLINA",
+      "NADIA GEORGETTE BLEL SCAFF",
+      "SOLEDAD TAMAYO TAMAYO",
+      "MIGUEL ANGEL BARRETO CASTILLO",
+      "JUAN SAMY MERHEG MARÚN",
+      "H.R. DIELA LILIANA BENAVIDES SOLARTE",
+      "NIDIA MARCELA OSORIO SALGADO",
+      "JOSE ELVER HERNANDEZ CASAS",
+      "JOSE GUSTAVO PADILLA OROZCO",
+      "BUENAVENTURA LEÓN LEÓN",
+      "ARMANDO ZABARAIN D’ ARCE",
+      "GERMAN ALCIDES BLANCO ALVAREZ",
+      "CIRO ANTONIO RODRIGUEZ",
+      "MARIA CRISTINA SOTO DE GOMEZ",
+      "YAMIL HERNANDO ARANA PADAUÍ",
+      "ALFREDO APE CUELLO BAUTE",
+      "JUAN CARLOS RIVERA PEÑA",
+      "JAIME FELIPE LOZADA POLANCO",
+      "FELIPE ANDRÉS MUNOZ DELGADO"
     ],
     "ponentesPrimerDebate": [
-      "H.S. IVAN LEONIDAS NAME VÁSQUEZ"
-    ]
-  },
-  {
-    "numero": "025/21PAL",
-    "numeroCamara": "243/21",
-    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 328 Y 356 DE LA CONSTITUCIÓN POLÍTICA OTORGÁNDOLE LA CATEGORÍA DE DISTRITO LITERARIO, CULTURAL Y TURÍSTICO AL MUNICIPIO DE ARACATACA EN EL DEPARTAMENTO DEL MAGDALENA",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
-    "origen": "CAMARA DE REPRESENTANTES",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/25-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-la-categoria-de-distrito-literario-cultural-y-turistico-al-municipio-de-aracataca-en-el-departamento-del-magdalena",
-    "fechaDePresentacion": "2021-08-18",
-    "autores": [
-      "H.R. JOSÉ LUIS PINEDO CAMPO",
-      "MAURICIO PARODI DIAZ",
-      "KARINA ESTEFANÍA ROJANO PALACIO",
-      "MODESTO ENRIQUE AGUILERA VIDES",
-      "JOSÉ GABRIEL AMAR SEPÚLVEDA",
-      "CÉSAR AUGUSTO LORDUY MALDONADO",
-      "ELOY CHICHÍ QUINTERO ROMERO",
-      "DAVID ERNESTO PULIDO NOVOA",
-      "JHON ARLEY MURILLO BENÍTEZ",
-      "HERNANDO GUIDA PONCE"
-    ],
-    "ponentesPrimerDebate": []
-  },
-  {
-    "numero": "023/21PAL",
-    "numeroCamara": "146/21",
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA LAS FUNCIONES DE CONTROL POLÍTICO DEL CONGRESO DE LA REPÚBLICA",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
-    "origen": "CAMARA DE REPRESENTANTES",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/23-por-medio-del-cual-se-modifica-las-funciones-de-control-politico-del-congreso-de-la-republica",
-    "fechaDePresentacion": "2021-07-28",
-    "autores": [
-      "H.R. VÍCTOR MANUEL ORTIZ JOYA",
-      "JOHN JAIRO ROLDAN AVENDAÑO",
-      "KELYN JOHANA GONZÁLEZ DUARTE",
-      "ELIZABETH JAY-PANG DÍAZ",
-      "NUBIA LÓPEZ MORALES",
-      "JOSÉ LUIS CORREA LÓPEZ",
-      "ÁNGEL MARÍA GAITÁN PULIDO",
-      "ALEJANDRO CARLOS CHACÓN CAMARGO",
-      "CARLOS JULIO BONILLA SOTO",
-      "CRISANTO PISSO MAZABUEL",
-      "NILTON CÓRDOBA MANYOMA",
-      "HARRY GIOVANNY GONZÁLEZ GARCÍA"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. MIGUEL ÁNGEL PINTO"
+      "H.S. ESPERANZA ANDRADE SERRANO"
     ]
   },
   {
@@ -4112,6 +4114,32 @@
     ],
     "ponentesPrimerDebate": [
       "H.S. ARMANDO BENEDETTI VILLANEDA"
+    ]
+  },
+  {
+    "numero": "017/21PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 183 DE LA CONSTITUCIÓN POLÍTICA",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/17-por-el-cual-se-modifica-el-articulo-183-de-la-constitucion-politica",
+    "fechaDePresentacion": "2021-08-10",
+    "autores": [
+      "H.S. JOHN MILTON RODRÍGUEZ GONZÁLEZ",
+      "ESPERANZA ANDRADE SERRANO",
+      "MILLA PATRICIA ROMERO SOTO",
+      "RUBY HELENA CHAGÜI SPATH",
+      "MARIA DEL ROSARIO GUERRA",
+      "SANTIAGO VALENCIA GONZALEZ",
+      "EDUARDO EMILIO PACHECO CUELLO",
+      "H.R. ENRIQUE CABRALES BAQUERO",
+      "GABRIEL JAIME VALLEJO CHUJFI",
+      "EDWIN GILBERTO BALLESTEROS ARCHILA"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Eduardo Pacheco Cuello"
     ]
   },
   {
@@ -4157,98 +4185,28 @@
     ]
   },
   {
-    "numero": "024/21PAL",
-    "numeroCamara": "320/21",
-    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA JUSTICIA",
+    "numero": "025/21PAL",
+    "numeroCamara": "243/21",
+    "titulo": "POR EL CUAL SE MODIFICAN LOS ARTÍCULOS 328 Y 356 DE LA CONSTITUCIÓN POLÍTICA OTORGÁNDOLE LA CATEGORÍA DE DISTRITO LITERARIO, CULTURAL Y TURÍSTICO AL MUNICIPIO DE ARACATACA EN EL DEPARTAMENTO DEL MAGDALENA",
     "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
     "origen": "CAMARA DE REPRESENTANTES",
     "acumulados": [],
     "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/24-por-medio-del-cual-se-reforma-la-justicia",
-    "fechaDePresentacion": "2021-09-13",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/25-por-el-cual-se-modifican-los-articulos-328-y-356-de-la-constitucion-politica-otorgandole-la-categoria-de-distrito-literario-cultural-y-turistico-al-municipio-de-aracataca-en-el-departamento-del-magdalena",
+    "fechaDePresentacion": "2021-08-18",
     "autores": [
-      "H.S. GERMÁN VARÓN COTRINO",
-      "FABIO RAUL AMIN SALEME",
-      "MIGUEL ANGEL PINTO HERNANDEZ",
-      "ARMANDO ALBERTO BENEDETTI VILLANEDA",
-      "EDUARDO EMILIO PACHECO CUELLO",
-      "ROY LEONARDO BARRERAS MONTEALEGRE",
-      "MIGUEL ANGEL PINTO HERNANDEZ H.R. JULIO CÉSAR TRIANA QUINTERO",
-      "JENNIFER KRISTIN ARIAS FALLA",
-      "OSCAR HERNÁN SÁNCHEZ LEÓN"
+      "H.R. JOSÉ LUIS PINEDO CAMPO",
+      "MAURICIO PARODI DIAZ",
+      "KARINA ESTEFANÍA ROJANO PALACIO",
+      "MODESTO ENRIQUE AGUILERA VIDES",
+      "JOSÉ GABRIEL AMAR SEPÚLVEDA",
+      "CÉSAR AUGUSTO LORDUY MALDONADO",
+      "ELOY CHICHÍ QUINTERO ROMERO",
+      "DAVID ERNESTO PULIDO NOVOA",
+      "JHON ARLEY MURILLO BENÍTEZ",
+      "HERNANDO GUIDA PONCE"
     ],
-    "ponentesPrimerDebate": [
-      "H.S. MIGUEL ÁNGEL PINTO",
-      "ESPERANZA ANDRADE SERRANO",
-      "GERMÁN VARÓN COTRINO",
-      "SANTIAGO VALENCIA GONZÁLEZ",
-      "ROOSVELT RODRÍGUEZ RENGIFO",
-      "IVÁN NAME VASQUEZ",
-      "JULIAN GALLO CUBILLOS",
-      "GUSTAVO PETRO URREGO",
-      "EDUARDO PACHECO CUELLO",
-      "CARLOS GUEVARA VILLABÓN",
-      "ALEXANDER LÓPEZ MAYA",
-      "ROY BARRERAS MONTEALEGRE",
-      "ARMANDO BENEDETTI VILLANEDA"
-    ]
-  },
-  {
-    "numero": "017/21PAL",
-    "numeroCamara": null,
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 183 DE LA CONSTITUCIÓN POLÍTICA",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/17-por-el-cual-se-modifica-el-articulo-183-de-la-constitucion-politica",
-    "fechaDePresentacion": "2021-08-10",
-    "autores": [
-      "H.S. JOHN MILTON RODRÍGUEZ GONZÁLEZ",
-      "ESPERANZA ANDRADE SERRANO",
-      "MILLA PATRICIA ROMERO SOTO",
-      "RUBY HELENA CHAGÜI SPATH",
-      "MARIA DEL ROSARIO GUERRA",
-      "SANTIAGO VALENCIA GONZALEZ",
-      "EDUARDO EMILIO PACHECO CUELLO",
-      "H.R. ENRIQUE CABRALES BAQUERO",
-      "GABRIEL JAIME VALLEJO CHUJFI",
-      "EDWIN GILBERTO BALLESTEROS ARCHILA"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S: Eduardo Pacheco Cuello"
-    ]
-  },
-  {
-    "numero": "022/21PAL",
-    "numeroCamara": "024/21",
-    "titulo": "POR EL CUAL SE FORTALECE LA PARTICIPACIÓN POLÍTICA DE LA JUVENTUD Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
-    "origen": "CAMARA DE REPRESENTANTES",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/22-por-el-cual-se-fortalece-la-participacion-politica-de-la-juventud-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": null,
-    "autores": [
-      "H.S. ANDRÉS GARCÍA ZUCCARDI",
-      "BERNER LEÓN ZAMBRANO ERAZO",
-      "ESPERANZA ANDRADE DE OSSO",
-      "H.R. NORMA HURTADO SANCHEZ",
-      "JEZMI LIZETH BARRAZA ARRAUT",
-      "MARTHA PATRICIA VILLALBA HODWALKER",
-      "JORGE ELIECER TAMAYO MARULANDA",
-      "MONICA LILIANA VALENCIA MONTAÑA",
-      "HARRY GIOVANNY GONZÁLEZ GARCÍA",
-      "JULIAN PEINADO RAMIREZ",
-      "OSCAR TULIO LIZCANO GONZALEZ",
-      "JAIRO GIOVANY CRISTANCHO TARACHE",
-      "JOSE LUIS CORREA LOPEZ",
-      "ALFREDO RAFAEL DELUQUE ZULETA",
-      "MILTON HUGO ANGULO VIVEROS"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. CARLOS EDUARDO GUEVARA VILLABÓN"
-    ]
+    "ponentesPrimerDebate": []
   },
   {
     "numero": "020/21PAL",
@@ -4308,147 +4266,99 @@
     ]
   },
   {
-    "numero": "011/21PAL",
-    "numeroCamara": "366/21",
-    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 65 DE LA CONSTITUCION POLÍTICA DE COLOMBIA",
-    "estado": "ARCHIVADO,",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/11-por-el-cual-se-modifica-el-articulo-65-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2021-07-27",
-    "autores": [
-      "H.S. MARITZA MARTINEZ ARISTIZABAL",
-      "ROOSVELT RODRIGUEZ RENGIFO",
-      "ROY LEONARDO BARRERAS MONTEALEGRE",
-      "EMMA CLAUDIA CASTELLANOS",
-      "DAIRA DE JESUS GALVIS MENDEZ",
-      "JUAN FELIPE LEMOS URIBE",
-      "JUAN DIEGO GOMEZ JIMENEZ",
-      "RODRIGO VILLALBA MOSQUERA",
-      "IVAN DARIO AGUDELO ZAPATA",
-      "GUILLERMO GARCIA REALPE"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S: Roosvelt Rodriguez Rengifo"
-    ]
-  },
-  {
-    "numero": "012/21PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE ADOPTA UNA REFORMA POLÍTICA Y ELECTORAL QUE PERMITA LA APERTURA DEMOCRÁTICA PARA LA CONSTRUCCIÓN DE UNA PAZ ESTABLE Y DURADERA",
+    "numero": "023/21PAL",
+    "numeroCamara": "146/21",
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA LAS FUNCIONES DE CONTROL POLÍTICO DEL CONGRESO DE LA REPÚBLICA",
     "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
-    "origen": "SENADO DE LA REPUBLICA",
+    "origen": "CAMARA DE REPRESENTANTES",
     "acumulados": [],
     "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/12-por-medio-del-cual-se-adopta-una-reforma-politica-y-electoral-que-permita-la-apertura-democratica-para-la-construccion-de-una-paz-estable-y-duradera",
-    "fechaDePresentacion": "2021-08-03",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/23-por-medio-del-cual-se-modifica-las-funciones-de-control-politico-del-congreso-de-la-republica",
+    "fechaDePresentacion": "2021-07-28",
     "autores": [
-      "H.S. JULIÁN GALLO CUBILLOS",
-      "GUSTAVO BOLÍVAR MORENO",
-      "PABLO CATATUMBO TORRES VICTORIA",
-      "SANDRA RAMÍREZ LOBO SILVA",
-      "AIDA YOLANDA AVELLA ESQUIVEL",
-      "H.R. CARLOS ALBERTO CARREÑO",
-      "LUIS ALBERTO ALBÁN",
-      "JAIRO REINALDO CALA",
-      "OMAR DE JESÚS RESTREPO",
-      "ABEL DAVID JARAMILLO LARGO",
-      "LEÓN FREDY MUÑOZ LOPERA"
+      "H.R. VÍCTOR MANUEL ORTIZ JOYA",
+      "JOHN JAIRO ROLDAN AVENDAÑO",
+      "KELYN JOHANA GONZÁLEZ DUARTE",
+      "ELIZABETH JAY-PANG DÍAZ",
+      "NUBIA LÓPEZ MORALES",
+      "JOSÉ LUIS CORREA LÓPEZ",
+      "ÁNGEL MARÍA GAITÁN PULIDO",
+      "ALEJANDRO CARLOS CHACÓN CAMARGO",
+      "CARLOS JULIO BONILLA SOTO",
+      "CRISANTO PISSO MAZABUEL",
+      "NILTON CÓRDOBA MANYOMA",
+      "HARRY GIOVANNY GONZÁLEZ GARCÍA"
     ],
     "ponentesPrimerDebate": [
-      "H.S: Julian Gallo Cubillos."
+      "H.S. MIGUEL ÁNGEL PINTO"
     ]
   },
   {
-    "numero": "009/21PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE REFORMA EL FUERO PENAL MILITAR Y SE DAN GARANTIAS DE UN TRIBUNAL INDEPENDIENTE, IMPARCIAL Y COMPETENTE",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
-    "origen": "SENADO DE LA REPUBLICA",
+    "numero": "022/21PAL",
+    "numeroCamara": "024/21",
+    "titulo": "POR EL CUAL SE FORTALECE LA PARTICIPACIÓN POLÍTICA DE LA JUVENTUD Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
+    "origen": "CAMARA DE REPRESENTANTES",
     "acumulados": [],
     "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/9-por-medio-del-cual-se-reforma-el-fuero-penal-militar-y-se-dan-garantias-de-un-tribunal-independiente-imparcial-y-competente",
-    "fechaDePresentacion": "2021-07-20",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/22-por-el-cual-se-fortalece-la-participacion-politica-de-la-juventud-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": null,
     "autores": [
-      "H.S IVAN CEPEDA CASTRO",
-      "ANTONIO ERESMID SANGUINO PAEZ",
-      "JORGE EDUARDO LONDOÑO ULLOA",
-      "WILSON NEBER ARIAS CASTILLO",
-      "FELICIANO VALENCIA MEDINA",
-      "ALEXANDER LOPEZ MAYA",
-      "IVAN MARULANDA GOMEZ",
-      "GUSTAVO BOLIVAR MORENO",
-      "TEMISTOCLES ORTEGA NARVAEZ",
+      "H.S. ANDRÉS GARCÍA ZUCCARDI",
+      "BERNER LEÓN ZAMBRANO ERAZO",
+      "ESPERANZA ANDRADE DE OSSO",
+      "H.R. NORMA HURTADO SANCHEZ",
+      "JEZMI LIZETH BARRAZA ARRAUT",
+      "MARTHA PATRICIA VILLALBA HODWALKER",
+      "JORGE ELIECER TAMAYO MARULANDA",
+      "MONICA LILIANA VALENCIA MONTAÑA",
+      "HARRY GIOVANNY GONZÁLEZ GARCÍA",
+      "JULIAN PEINADO RAMIREZ",
+      "OSCAR TULIO LIZCANO GONZALEZ",
+      "JAIRO GIOVANY CRISTANCHO TARACHE",
+      "JOSE LUIS CORREA LOPEZ",
+      "ALFREDO RAFAEL DELUQUE ZULETA",
+      "MILTON HUGO ANGULO VIVEROS"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. CARLOS EDUARDO GUEVARA VILLABÓN"
+    ]
+  },
+  {
+    "numero": "024/21PAL",
+    "numeroCamara": "320/21",
+    "titulo": "POR MEDIO DEL CUAL SE REFORMA LA JUSTICIA",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
+    "origen": "CAMARA DE REPRESENTANTES",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/24-por-medio-del-cual-se-reforma-la-justicia",
+    "fechaDePresentacion": "2021-09-13",
+    "autores": [
+      "H.S. GERMÁN VARÓN COTRINO",
+      "FABIO RAUL AMIN SALEME",
+      "MIGUEL ANGEL PINTO HERNANDEZ",
       "ARMANDO ALBERTO BENEDETTI VILLANEDA",
-      "GUILLERMO GARCIA REALPE",
-      "ANDRES CRISTO BUSTOS",
-      "ANGELICA LOZANO CORREA",
-      "AIDA YOLANDA AVELLA ESQUIVEL",
-      "JUAN LUIS CASTRO CORDOBA",
-      "JOSE AULO POLO NARVAEZ",
-      "ALBERTO CASTILLA SALAZAR",
-      "GUSTAVO FRANCISCO PETRO URREGO",
-      "ROOSVELT RODRIGUEZ RENGIFO",
-      "H.R. MARIA JOSE PIZARRO RODRIGUEZ",
-      "CESAR PACHON ACHURY",
-      "CARLOS GERMAN NAVAS TALERO",
-      "DAVID RACERO MAYORCA",
-      "INTI RAUL ASPRILLA REYES",
-      "JUAN CARLOS LOZADA VARGAS",
-      "MAURICIO ANDRES TORO ORJUELA",
-      "LEON FREDY MUÑOZ LOPERA",
-      "ALEJANDRO CARLOS CHACON CAMARGO",
-      "WILMER LEAL PEREZ",
-      "ABEL DAVID JARAMILLO LARGO",
-      "KATHERINE MIRANDA PEÑA",
-      "FABIAN DIAZ PLATA",
-      "JOHN JAIRO HOYOS GARCIA."
+      "EDUARDO EMILIO PACHECO CUELLO",
+      "ROY LEONARDO BARRERAS MONTEALEGRE",
+      "MIGUEL ANGEL PINTO HERNANDEZ H.R. JULIO CÉSAR TRIANA QUINTERO",
+      "JENNIFER KRISTIN ARIAS FALLA",
+      "OSCAR HERNÁN SÁNCHEZ LEÓN"
     ],
     "ponentesPrimerDebate": [
-      "H.S: Temistocles Ortega Narvaez."
-    ]
-  },
-  {
-    "numero": "007/21PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE ADICIONA UN PARAGRAFO TRANSITORIO AL ARTÍCULO 187 DE LA CONSTITUCIÓN POLITICA",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/7-por-medio-del-cual-se-adiciona-un-paragrafo-transitorio-al-articulo-187-de-la-constitucion-politica",
-    "fechaDePresentacion": "2021-07-20",
-    "autores": [
-      "H.S. RODRIGO VILLALBA MOSQUERA",
-      "LUIS FERNANDO VELASCO",
-      "GUILLERMO GARCÍA REALPE",
-      "LIDIO ARTURO GARCÍA",
-      "FABIO RAÚL AMÍN",
-      "MAURICIO GÓMEZ AMÍN",
-      "MIGUEL ÁNGEL PINTO",
-      "IVÁN DARÍO AGUDELO",
-      "JAIME ENRIQUE DURÁN",
-      "LAURA FORTICH SÁNCHEZ",
-      "ANDRÉS CRISTO BUSTOS",
-      "JULIÁN BEDOYA PULGARÍN",
-      "MARIO ALBERTO CASTAÑO",
-      "HORACIO JOSÉ SERPA."
-    ],
-    "ponentesPrimerDebate": [
-      "HH.SS. Santiago Valencia Gonzalez",
-      "Angelica Lozano Correa",
-      "Luis Fernando Velasco Chaves (Coordinadores)",
-      "Temistocles Ortega Narvaez",
-      "Roosvelt Rodriguez Rengifo",
-      "Armando",
-      "Benedetti Villaneda",
-      "Esperanza Andrade Serrano",
-      "Carlos Guevara Villabon",
-      "Alexander Lopez Maya",
-      "Julian Gallo Cubillos",
-      "Gustavo Petro Urrego",
-      "Eduardo Pacheco Cuello."
+      "H.S. MIGUEL ÁNGEL PINTO",
+      "ESPERANZA ANDRADE SERRANO",
+      "GERMÁN VARÓN COTRINO",
+      "SANTIAGO VALENCIA GONZÁLEZ",
+      "ROOSVELT RODRÍGUEZ RENGIFO",
+      "IVÁN NAME VASQUEZ",
+      "JULIAN GALLO CUBILLOS",
+      "GUSTAVO PETRO URREGO",
+      "EDUARDO PACHECO CUELLO",
+      "CARLOS GUEVARA VILLABÓN",
+      "ALEXANDER LÓPEZ MAYA",
+      "ROY BARRERAS MONTEALEGRE",
+      "ARMANDO BENEDETTI VILLANEDA"
     ]
   },
   {
@@ -4509,6 +4419,35 @@
     ]
   },
   {
+    "numero": "015/21PAL",
+    "numeroCamara": null,
+    "titulo": "POR EL CUAL SE REGULA AL INSTITUTO NACIONAL DE MEDICINA LEGAL Y CIENCIAS FORENSES COMO ÓRGANO AUTÓNOMO E INDEPENDIENTE",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/15-por-el-cual-se-regula-al-instituto-nacional-de-medicina-legal-y-ciencias-forenses-como-organo-autonomo-e-independiente",
+    "fechaDePresentacion": "2021-08-05",
+    "autores": [
+      "H.S. GUSTAVO BOLÍVAR MORENO",
+      "ALEXANDER LÓPEZ MAYA",
+      "ALBERTO CASTILLA SALAZAR",
+      "GUSTAVO FRANCISCO PETRO URREGO",
+      "AIDA YOLANDA AVELLA ESQUIVEL",
+      "ANTONIO SANGUINO PÀEZ",
+      "JULIÁN GALLO CUBILLOS",
+      "WILSÓN NEBER ARIAS CASTILLO",
+      "IVÁN CEPEDA CASTRO",
+      "H.R. DAVID RACERO",
+      "LEÓN FREDY MUÑOZ",
+      "MARIA JOSÉ PIZARRO",
+      "WILMER LEAL PÉREZ"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Alexander Lopez Maya."
+    ]
+  },
+  {
     "numero": "008/21PAL",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL SE RECONOCE EL CAMPESINADO COMO SUJETO DE DERECHOS, SE RECONOCE EL DERECHO A LA TIERRA Y A LA TERRITORIALIDAD CAMPESINA Y SE ADOPTAN DISPOSICIONES SOBRE LA CONSULTA POPULAR",
@@ -4551,32 +4490,78 @@
     ]
   },
   {
-    "numero": "015/21PAL",
+    "numero": "009/21PAL",
     "numeroCamara": null,
-    "titulo": "POR EL CUAL SE REGULA AL INSTITUTO NACIONAL DE MEDICINA LEGAL Y CIENCIAS FORENSES COMO ÓRGANO AUTÓNOMO E INDEPENDIENTE",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
+    "titulo": "POR MEDIO DEL CUAL SE REFORMA EL FUERO PENAL MILITAR Y SE DAN GARANTIAS DE UN TRIBUNAL INDEPENDIENTE, IMPARCIAL Y COMPETENTE",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
     "origen": "SENADO DE LA REPUBLICA",
     "acumulados": [],
     "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/15-por-el-cual-se-regula-al-instituto-nacional-de-medicina-legal-y-ciencias-forenses-como-organo-autonomo-e-independiente",
-    "fechaDePresentacion": "2021-08-05",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/9-por-medio-del-cual-se-reforma-el-fuero-penal-militar-y-se-dan-garantias-de-un-tribunal-independiente-imparcial-y-competente",
+    "fechaDePresentacion": "2021-07-20",
     "autores": [
-      "H.S. GUSTAVO BOLÍVAR MORENO",
-      "ALEXANDER LÓPEZ MAYA",
+      "H.S IVAN CEPEDA CASTRO",
+      "ANTONIO ERESMID SANGUINO PAEZ",
+      "JORGE EDUARDO LONDOÑO ULLOA",
+      "WILSON NEBER ARIAS CASTILLO",
+      "FELICIANO VALENCIA MEDINA",
+      "ALEXANDER LOPEZ MAYA",
+      "IVAN MARULANDA GOMEZ",
+      "GUSTAVO BOLIVAR MORENO",
+      "TEMISTOCLES ORTEGA NARVAEZ",
+      "ARMANDO ALBERTO BENEDETTI VILLANEDA",
+      "GUILLERMO GARCIA REALPE",
+      "ANDRES CRISTO BUSTOS",
+      "ANGELICA LOZANO CORREA",
+      "AIDA YOLANDA AVELLA ESQUIVEL",
+      "JUAN LUIS CASTRO CORDOBA",
+      "JOSE AULO POLO NARVAEZ",
       "ALBERTO CASTILLA SALAZAR",
       "GUSTAVO FRANCISCO PETRO URREGO",
-      "AIDA YOLANDA AVELLA ESQUIVEL",
-      "ANTONIO SANGUINO PÀEZ",
-      "JULIÁN GALLO CUBILLOS",
-      "WILSÓN NEBER ARIAS CASTILLO",
-      "IVÁN CEPEDA CASTRO",
-      "H.R. DAVID RACERO",
-      "LEÓN FREDY MUÑOZ",
-      "MARIA JOSÉ PIZARRO",
-      "WILMER LEAL PÉREZ"
+      "ROOSVELT RODRIGUEZ RENGIFO",
+      "H.R. MARIA JOSE PIZARRO RODRIGUEZ",
+      "CESAR PACHON ACHURY",
+      "CARLOS GERMAN NAVAS TALERO",
+      "DAVID RACERO MAYORCA",
+      "INTI RAUL ASPRILLA REYES",
+      "JUAN CARLOS LOZADA VARGAS",
+      "MAURICIO ANDRES TORO ORJUELA",
+      "LEON FREDY MUÑOZ LOPERA",
+      "ALEJANDRO CARLOS CHACON CAMARGO",
+      "WILMER LEAL PEREZ",
+      "ABEL DAVID JARAMILLO LARGO",
+      "KATHERINE MIRANDA PEÑA",
+      "FABIAN DIAZ PLATA",
+      "JOHN JAIRO HOYOS GARCIA."
     ],
     "ponentesPrimerDebate": [
-      "H.S: Alexander Lopez Maya."
+      "H.S: Temistocles Ortega Narvaez."
+    ]
+  },
+  {
+    "numero": "011/21PAL",
+    "numeroCamara": "366/21",
+    "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 65 DE LA CONSTITUCION POLÍTICA DE COLOMBIA",
+    "estado": "ARCHIVADO,",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/11-por-el-cual-se-modifica-el-articulo-65-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2021-07-27",
+    "autores": [
+      "H.S. MARITZA MARTINEZ ARISTIZABAL",
+      "ROOSVELT RODRIGUEZ RENGIFO",
+      "ROY LEONARDO BARRERAS MONTEALEGRE",
+      "EMMA CLAUDIA CASTELLANOS",
+      "DAIRA DE JESUS GALVIS MENDEZ",
+      "JUAN FELIPE LEMOS URIBE",
+      "JUAN DIEGO GOMEZ JIMENEZ",
+      "RODRIGO VILLALBA MOSQUERA",
+      "IVAN DARIO AGUDELO ZAPATA",
+      "GUILLERMO GARCIA REALPE"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Roosvelt Rodriguez Rengifo"
     ]
   },
   {
@@ -4634,6 +4619,105 @@
     ],
     "ponentesPrimerDebate": [
       "H.S: Esperanza Andrade Serrano."
+    ]
+  },
+  {
+    "numero": "012/21PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE ADOPTA UNA REFORMA POLÍTICA Y ELECTORAL QUE PERMITA LA APERTURA DEMOCRÁTICA PARA LA CONSTRUCCIÓN DE UNA PAZ ESTABLE Y DURADERA",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/12-por-medio-del-cual-se-adopta-una-reforma-politica-y-electoral-que-permita-la-apertura-democratica-para-la-construccion-de-una-paz-estable-y-duradera",
+    "fechaDePresentacion": "2021-08-03",
+    "autores": [
+      "H.S. JULIÁN GALLO CUBILLOS",
+      "GUSTAVO BOLÍVAR MORENO",
+      "PABLO CATATUMBO TORRES VICTORIA",
+      "SANDRA RAMÍREZ LOBO SILVA",
+      "AIDA YOLANDA AVELLA ESQUIVEL",
+      "H.R. CARLOS ALBERTO CARREÑO",
+      "LUIS ALBERTO ALBÁN",
+      "JAIRO REINALDO CALA",
+      "OMAR DE JESÚS RESTREPO",
+      "ABEL DAVID JARAMILLO LARGO",
+      "LEÓN FREDY MUÑOZ LOPERA"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S: Julian Gallo Cubillos."
+    ]
+  },
+  {
+    "numero": "007/21PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE ADICIONA UN PARAGRAFO TRANSITORIO AL ARTÍCULO 187 DE LA CONSTITUCIÓN POLITICA",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/7-por-medio-del-cual-se-adiciona-un-paragrafo-transitorio-al-articulo-187-de-la-constitucion-politica",
+    "fechaDePresentacion": "2021-07-20",
+    "autores": [
+      "H.S. RODRIGO VILLALBA MOSQUERA",
+      "LUIS FERNANDO VELASCO",
+      "GUILLERMO GARCÍA REALPE",
+      "LIDIO ARTURO GARCÍA",
+      "FABIO RAÚL AMÍN",
+      "MAURICIO GÓMEZ AMÍN",
+      "MIGUEL ÁNGEL PINTO",
+      "IVÁN DARÍO AGUDELO",
+      "JAIME ENRIQUE DURÁN",
+      "LAURA FORTICH SÁNCHEZ",
+      "ANDRÉS CRISTO BUSTOS",
+      "JULIÁN BEDOYA PULGARÍN",
+      "MARIO ALBERTO CASTAÑO",
+      "HORACIO JOSÉ SERPA."
+    ],
+    "ponentesPrimerDebate": [
+      "HH.SS. Santiago Valencia Gonzalez",
+      "Angelica Lozano Correa",
+      "Luis Fernando Velasco Chaves (Coordinadores)",
+      "Temistocles Ortega Narvaez",
+      "Roosvelt Rodriguez Rengifo",
+      "Armando",
+      "Benedetti Villaneda",
+      "Esperanza Andrade Serrano",
+      "Carlos Guevara Villabon",
+      "Alexander Lopez Maya",
+      "Julian Gallo Cubillos",
+      "Gustavo Petro Urrego",
+      "Eduardo Pacheco Cuello."
+    ]
+  },
+  {
+    "numero": "006/21PAL",
+    "numeroCamara": "376/21",
+    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPITULO I DEL TITULO II DE LA CONSTITUCIÓN POLITICA DE COLOMBIA",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/6-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
+    "fechaDePresentacion": "2021-07-20",
+    "autores": [
+      "H.S. ANGÉLICA LOZANO CORREA",
+      "IVÁN LEONIDAS NAME",
+      "ANTONIO SANGUINO PÁEZ",
+      "JORGE EDUARDO LONDOÑO",
+      "IVÁN CEPEDA CASTRO",
+      "SANDRA RAMÍREZ LOBO",
+      "IVÁN MARULANDA",
+      "TEMISTOCLES ORTEGA",
+      "GUILLERMO GARCÍA REALPE",
+      "FELICIANO VALENCIA MEDINA",
+      "AÍDA AVELLA ESQUIVEL",
+      "H.R. MAURICIO TORO",
+      "WILMER LEAL PÉREZ",
+      "CATALINA ORTIZ LALINDE."
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. IVAN NAME VASQUEZ"
     ]
   },
   {
@@ -4710,111 +4794,6 @@
     ]
   },
   {
-    "numero": "002/21PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE REDUCE EL NUMERO DE MIEMBROS DEL CONGRESO DE LA REPÚBLICA DE COLOMBIA",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/2-por-medio-del-cual-se-reduce-el-numero-de-miembros-del-congreso-de-la-republica-de-colombia",
-    "fechaDePresentacion": "2021-07-20",
-    "autores": [
-      "H.S. ERNESTO MACÍAS TOVAR",
-      "FERNANDO NICOLÁS ARAÚJO RUMIÉ",
-      "MARÍA DEL ROSARIO GUERRA",
-      "RUBY CHAGÜI SPATH",
-      "NICOLÁS PÉREZ VÁSQUEZ",
-      "HONORIO HENRÍQUEZ PINEDO",
-      "GABRIEL VELASCO OCAMPO",
-      "H.R. JUAN CELIS",
-      "ENRIQUE CABRALES",
-      "OSCAR VILLAMIZAR MENESES",
-      "EDWIN BALLESTEROS",
-      "EDWARD RODRIGUEZ",
-      "JAIRO CRISTANCHO TARACHE",
-      "JUAN MANUEL DAZA",
-      "JUAN DAVID VÉLEZ",
-      "RUBÉN DARÍO MOLANO",
-      "ESTEBAN QUINTERO CARDONA"
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. PALOMA VALENCIA LASERNA"
-    ]
-  },
-  {
-    "numero": "006/21PAL",
-    "numeroCamara": "376/21",
-    "titulo": "POR EL CUAL SE INCLUYE EL ARTÍCULO 11-A DENTRO DEL CAPITULO I DEL TITULO II DE LA CONSTITUCIÓN POLITICA DE COLOMBIA",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/6-por-el-cual-se-incluye-el-articulo-11-a-dentro-del-capitulo-i-del-titulo-ii-de-la-constitucion-politica-de-colombia",
-    "fechaDePresentacion": "2021-07-20",
-    "autores": [
-      "H.S. ANGÉLICA LOZANO CORREA",
-      "IVÁN LEONIDAS NAME",
-      "ANTONIO SANGUINO PÁEZ",
-      "JORGE EDUARDO LONDOÑO",
-      "IVÁN CEPEDA CASTRO",
-      "SANDRA RAMÍREZ LOBO",
-      "IVÁN MARULANDA",
-      "TEMISTOCLES ORTEGA",
-      "GUILLERMO GARCÍA REALPE",
-      "FELICIANO VALENCIA MEDINA",
-      "AÍDA AVELLA ESQUIVEL",
-      "H.R. MAURICIO TORO",
-      "WILMER LEAL PÉREZ",
-      "CATALINA ORTIZ LALINDE."
-    ],
-    "ponentesPrimerDebate": [
-      "H.S. IVAN NAME VASQUEZ"
-    ]
-  },
-  {
-    "numero": "003/21PAL",
-    "numeroCamara": null,
-    "titulo": "POR MEDIO DEL CUAL SE MODIFICA LA FORMA DE ELECCIÓN DEL FISCAL GENERAL DE LA NACIÓN Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
-    "origen": "SENADO DE LA REPUBLICA",
-    "acumulados": [],
-    "legislatura": "2021-2022",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/3-por-medio-del-cual-se-modifica-la-forma-de-eleccion-del-fiscal-general-de-la-nacion-y-se-dictan-otras-disposiciones",
-    "fechaDePresentacion": "2021-07-20",
-    "autores": [
-      "H.S. ROY LEONARDO BARRERAS MONTEALEGRE",
-      "JOSÉ RITTER LÓPEZ PEÑA",
-      "JHON MILTON RODRÍGUEZ GONZALEZ",
-      "TEMÍSTOCLES ORTEGA NARVAEZ",
-      "MARITZA MARTÍNEZ ARISTIZABAL",
-      "SANDRA RAMÍREZ LOBO",
-      "ROOSVELT RODRÍGUEZ RENGIFO",
-      "ANDRÉS CRISTOBUSTOS",
-      "JUAN FELIPE LEMOS",
-      "H.R. JOSÉ DANIEL LÓPEZ",
-      "HAROLD VALENCIA INFANTE",
-      "JOHN JAIRO HOYOS",
-      "ANATOLIO HERNÁNDEZ"
-    ],
-    "ponentesPrimerDebate": [
-      "HH.SS Miguel Angel Pinto Hernandez",
-      "Roy Barreras Montealegre",
-      "Armando Benedetti Villaneda (Coordinadores)",
-      "Ivan Name Vasquez",
-      "Esperanza Andrade Serrano",
-      "Temistocles Ortega",
-      "Narvaez",
-      "Maria Fernanda Cabal Molina",
-      "Roosvelt Rodriguez Rengifo",
-      "Carlos Guevara Villabon",
-      "Gustavo Petro Urrego",
-      "Julian Gallo Cubillos",
-      "Eduardo Pacheco Cuello",
-      "Alexander Lopez Maya"
-    ]
-  },
-  {
     "numero": "005/21PAL",
     "numeroCamara": null,
     "titulo": "POR EL CUAL SE ESTABLECE UN TOPE PARA EL SALARIO DE LOS CONGRESISTAS",
@@ -4860,6 +4839,81 @@
       "Julian Gallo Cubillos",
       "Gustavo Petro Urrego",
       "Eduardo Pacheco Cuello."
+    ]
+  },
+  {
+    "numero": "002/21PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE REDUCE EL NUMERO DE MIEMBROS DEL CONGRESO DE LA REPÚBLICA DE COLOMBIA",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/2-por-medio-del-cual-se-reduce-el-numero-de-miembros-del-congreso-de-la-republica-de-colombia",
+    "fechaDePresentacion": "2021-07-20",
+    "autores": [
+      "H.S. ERNESTO MACÍAS TOVAR",
+      "FERNANDO NICOLÁS ARAÚJO RUMIÉ",
+      "MARÍA DEL ROSARIO GUERRA",
+      "RUBY CHAGÜI SPATH",
+      "NICOLÁS PÉREZ VÁSQUEZ",
+      "HONORIO HENRÍQUEZ PINEDO",
+      "GABRIEL VELASCO OCAMPO",
+      "H.R. JUAN CELIS",
+      "ENRIQUE CABRALES",
+      "OSCAR VILLAMIZAR MENESES",
+      "EDWIN BALLESTEROS",
+      "EDWARD RODRIGUEZ",
+      "JAIRO CRISTANCHO TARACHE",
+      "JUAN MANUEL DAZA",
+      "JUAN DAVID VÉLEZ",
+      "RUBÉN DARÍO MOLANO",
+      "ESTEBAN QUINTERO CARDONA"
+    ],
+    "ponentesPrimerDebate": [
+      "H.S. PALOMA VALENCIA LASERNA"
+    ]
+  },
+  {
+    "numero": "003/21PAL",
+    "numeroCamara": null,
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICA LA FORMA DE ELECCIÓN DEL FISCAL GENERAL DE LA NACIÓN Y SE DICTAN OTRAS DISPOSICIONES",
+    "estado": "ARCHIVADO,  CONFORME AL ART 375 C.P.",
+    "origen": "SENADO DE LA REPUBLICA",
+    "acumulados": [],
+    "legislatura": "2021-2022",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-de-acto-legislativo/cuatrenio-2018-2022/2021-2022/article/3-por-medio-del-cual-se-modifica-la-forma-de-eleccion-del-fiscal-general-de-la-nacion-y-se-dictan-otras-disposiciones",
+    "fechaDePresentacion": "2021-07-20",
+    "autores": [
+      "H.S. ROY LEONARDO BARRERAS MONTEALEGRE",
+      "JOSÉ RITTER LÓPEZ PEÑA",
+      "JHON MILTON RODRÍGUEZ GONZALEZ",
+      "TEMÍSTOCLES ORTEGA NARVAEZ",
+      "MARITZA MARTÍNEZ ARISTIZABAL",
+      "SANDRA RAMÍREZ LOBO",
+      "ROOSVELT RODRÍGUEZ RENGIFO",
+      "ANDRÉS CRISTOBUSTOS",
+      "JUAN FELIPE LEMOS",
+      "H.R. JOSÉ DANIEL LÓPEZ",
+      "HAROLD VALENCIA INFANTE",
+      "JOHN JAIRO HOYOS",
+      "ANATOLIO HERNÁNDEZ"
+    ],
+    "ponentesPrimerDebate": [
+      "HH.SS Miguel Angel Pinto Hernandez",
+      "Roy Barreras Montealegre",
+      "Armando Benedetti Villaneda (Coordinadores)",
+      "Ivan Name Vasquez",
+      "Esperanza Andrade Serrano",
+      "Temistocles Ortega",
+      "Narvaez",
+      "Maria Fernanda Cabal Molina",
+      "Roosvelt Rodriguez Rengifo",
+      "Carlos Guevara Villabon",
+      "Gustavo Petro Urrego",
+      "Julian Gallo Cubillos",
+      "Eduardo Pacheco Cuello",
+      "Alexander Lopez Maya"
     ]
   }
 ]
