@@ -2074,14 +2074,14 @@
     "tituloCorto": "HIDRÓLISIS ALCALINA",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "H.R.David Alejandro Toro Ramírez",
-      "H.R.Mary Anne Andrea Perdomo",
-      "H.R.Óscar Darío Pérez Pineda",
-      "H.R.John Jairo González Agudelo",
-      "H.R.Pedro José Súarez Vacca",
-      "H.R.Susana Gómez Castaño",
-      "H.R.Gabriel Ernesto Parrado Durán",
-      "H.R.Carmen Felisa Ramírez Boscán"
+      "David Alejandro Toro Ramírez",
+      "Mary Anne Andrea Perdomo",
+      "Óscar Darío Pérez Pineda",
+      "John Jairo González Agudelo",
+      "Pedro José Súarez Vacca",
+      "Susana Gómez Castaño",
+      "Gabriel Ernesto Parrado Durán",
+      "Carmen Felisa Ramírez Boscán"
     ],
     "estado": "Trámite en Plenaria",
     "comision": "Comisión Séptima Constitucional Permanente",
@@ -22160,5 +22160,36 @@
     "url": "https://www.camara.gov.co/energias-no-convencionales",
     "tituloLargo": "POR EL CUAL SE DICTAN NORMAS PARA GARANTIZAR LA CALIDAD, CONFIABILIDAD Y PRECIOS JUSTOS DE LA ENERGÍA ELÉCTRICA Y SE ESTIMULA LA IMPLEMENTACIÓN DE ENERGÍAS NO CONVENCIONALES EN LOS HOGARES COLOMBIANOS",
     "objeto": "Disponer de los mecanismos necesarios para que el usuario final reciba un mejor servicio de energía eléctrica, en términos de calidad, confiabilidad y precio justos, ayudando a financiar las inversiones que se requieren para la generación de energía, como también aliviar los altos costos del servicio de la energía que afectan las finanzas de los hogares colombianos en los estratos 1, 2 y 3 mediante la implementación de energías renovables o no convencionales y de mecanismo que generen mayor eficiencia en el  consumo de energía."
+  },
+  {
+    "numeroCamara": "431/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "RITUAL DE LA LUNA Y EL VIENTO",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Ermes Evelio Pete Vivas",
+      "H.R.Carmen Felisa Ramírez Boscán",
+      "H.R.Agmeth José Escaf Tijerino",
+      "H.R.Norman David Bañol Álvarez",
+      "H.R.Susana Gómez Castaño",
+      "H.R.David Alejandro Toro Ramírez",
+      "H.R.Jorge Andrés Cancimance López",
+      "H.R.Gabriel Becerra Yañez",
+      "H.R.Eduard Giovanny Sarmiento Hidalgo",
+      "H.R.Alirio Uribe Muñoz",
+      "H.R.Erick Adrián Velasco Burbano",
+      "H.R.Jorge Hernán Bastidas Rosero",
+      "H.R.Mary Anne Andrea Perdomo",
+      "H.R.Etna Tamara Argote Calderón",
+      "H.R.Gabriel Ernesto Parrado Durán"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/ritual-de-la-luna-y-el-viento",
+    "tituloLargo": "POR MEDIO DEL CUAL SE DECLARA EL RITUAL DE LA LUNA Y EL VIENTO: MÚSICA DE DIÁLOGO DE FLAUTAS Y TAMBORES DE LOS ANDES DE TUMBICHUCUE Y EL NASA KU ́JU (DANZA O BAMBUCO TRADICIONAL) DEL PUEBLO NASA DEL TERRITORIO ANCESTRAL DE TUMBICHUCUE COMO PATRIMONIO CULTURAL INMATERIAL DE LA NACIÓN Y SE DICTAN OTRAS DISPOSICIONES",
+    "objeto": "Declárese como Patrimonio Cultural e Inmaterial de la Nación el ritual de la Luna y el Viento: Música de diálogo de flautas y tambores de los Andes de Tumbichucue y el NASA KU ́JU (danza o bambuco tradicional) del pueblo Nasa del territorio ancestral de Tumbichucue."
   }
 ]
