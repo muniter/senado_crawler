@@ -1,6 +1,6 @@
 import { Cheerio, CheerioAPI, Element, load } from "cheerio";
 import { assert } from "console";
-import { getNumeroSenado, parseTextualDate, processListOfPersonas } from "../../common/utils";
+import { getNumeroSenado, parseTextualDate, parseListOfNames } from "../../common/utils";
 import { NumeroIdentificador } from "../senado/list-processor";
 import { Axios } from "axios";
 import * as R from 'remeda';
@@ -222,7 +222,7 @@ class ProyectoPalDetailPage {
   private parseAutores() {
     const table = this.getEstadoAutorOrigenFechaTable();
     const data = table.find('tr:nth-child(2)').find('td:nth-child(2)').text().trim();
-    return processListOfPersonas(data);
+    return parseListOfNames(data);
   }
 
   parseOrigen(): string {
@@ -246,6 +246,6 @@ class ProyectoPalDetailPage {
 
   private parsePonentesPrimerDebate() {
     const table = this.getTramiteEnSenadoPriemraVueltaTable();
-    return processListOfPersonas(table.find('tr:nth-child(2)').find('td:nth-child(2)').text().trim());
+    return parseListOfNames(table.find('tr:nth-child(2)').find('td:nth-child(2)').text().trim());
   }
 }

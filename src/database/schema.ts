@@ -129,6 +129,36 @@ export interface ProyectosRelacionados {
   relacionadoNumero: string;
 }
 
+export interface ProyectosSenadoNew {
+  autores: Generated<string>;
+  comision: string;
+  concepto: string | null;
+  conciliacion: string | null;
+  estado: string;
+  estadoAnotacion: string | null;
+  exposicionMotivos: string | null;
+  fechaAprobacionPrimerDebate: string | null;
+  fechaAprobacionSegundoDebate: string | null;
+  fechaConciliacion: string | null;
+  fechaDePresentacion: string;
+  fechaEnvioComision: string | null;
+  fechaRadicado: string;
+  id: Generated<number | null>;
+  legislatura: string;
+  numero: string;
+  numeroCamara: string | null;
+  objeciones: string | null;
+  origen: string;
+  primeraPonencia: string | null;
+  segundaPonencia: string | null;
+  sentenciaCorte: string | null;
+  textoPlenaria: string | null;
+  textoRehecho: string | null;
+  tipoLey: string;
+  titulo: string;
+  url: string;
+}
+
 export interface DB {
   Autor: Autor;
   AutorProyectos: AutorProyectos;
@@ -143,4 +173,5 @@ export interface DB {
   ProyectoSenadoDetalles: ProyectoSenadoDetalles;
   ProyectoSenadoPublicaciones: ProyectoSenadoPublicaciones;
   ProyectosRelacionados: ProyectosRelacionados;
+  ProyectosSenadoNew: ProyectosSenadoNew;
 }

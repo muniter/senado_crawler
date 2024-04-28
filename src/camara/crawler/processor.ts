@@ -1,6 +1,6 @@
 import { load } from 'cheerio';
 import { buildCamaraUrl, DetailData, ListData } from '..';
-import { processListOfPersonas } from '../../common/utils';
+import { parseListOfNames } from '../../common/utils';
 
 const numeroCamaraRegex = /\d+(\/|-)\d+C?/
 const numeroSenadoRegex = /\d+(\/|-)\d+S?/
@@ -37,7 +37,7 @@ function getNumeroSenado(raw: string): string | null {
 
 function getAutores(raw: string): string {
   let data = raw.trim().replace(autorRegex, '')
-  return JSON.stringify(processListOfPersonas(data))
+  return JSON.stringify(parseListOfNames(data))
 }
 
 function getLegislatura(raw: string): string {

@@ -6,6 +6,7 @@ import {
   FileMigrationProvider,
 } from 'kysely'
 import { Command, Option } from 'commander'
+import { spawnSync } from 'child_process'
 const program = new Command()
 
 program.description('Database migrator script');

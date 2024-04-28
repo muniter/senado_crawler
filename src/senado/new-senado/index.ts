@@ -1,10 +1,10 @@
-import { assert } from 'console';
-import { DBTransaction, db } from '../../database';
-import { DetailData, Extractor } from './crawler';
-import { CuatrenioRepository } from '../../common/repositories';
+import { Insertable } from "kysely";
+import { CuatrenioRepository } from "../../common/repositories";
+import { DBTransaction, db } from "../../database";
+import { DetailData, Extractor } from "./crawler";
+import { ProyectosSenadoNew } from "../../database/schema";
 
-export class PalService {
-
+class SenadoService {
   public async refreshCuatrenio(cuatrenio: string) {
     const legislaturas = await (new CuatrenioRepository().getLegisltauras(cuatrenio))
     for (const legislatura of legislaturas) {
@@ -16,25 +16,25 @@ export class PalService {
     console.log(`Refreshing cuatrenio ${cuatrenio} and legislatura ${legislatura}`)
     await db.transaction().execute(async (tx) => {
       const extractor = new Extractor(cuatrenio, legislatura)
-      const repo = new PalRepository(tx)
+      const repo = new SenadoRepository(tx)
       const result = await extractor.process()
       console.log('Extracted', result.length, 'items')
       for (const data of result) {
         await repo.save(data)
       }
     });
+    console.log(`Finished refreshing cuatrenio ${cuatrenio} / legislatura ${legislatura}`)
   }
 }
 
-class PalRepository {
-  private table = 'ProyectosActoLegislativoSenado' as const
+class SenadoRepository {
+  private table = 'ProyectosSenadoNew' as const
   private tx: DBTransaction | undefined
 
   public constructor(tx?: DBTransaction) {
     this.tx = tx
   }
 
-  // Getter for the connection which is a transaction or the connection itself
   private get conn() {
     return this.tx ? this.tx : db
   }
@@ -48,20 +48,34 @@ class PalRepository {
       .executeTakeFirst()) !== undefined
   }
 
-  private prepareData(data: DetailData) {
+  private prepareData(data: DetailData): Insertable<ProyectosSenadoNew> {
     return {
-      id_senado: data.id_senado,
-      estado: data.estado,
       numero: data.numero,
       numeroCamara: data.numeroCamara,
       titulo: data.titulo,
-      origen: data.origen,
-      url: data.url,
       legislatura: data.legislatura,
-      acumulados: JSON.stringify(data.acumulados),
+      url: data.url,
+      estado: data.estado,
+      estadoAnotacion: data.estadoAnotacion,
+      comision: data.comision,
+      fechaRadicado: data.fechaRadicado.toISOString().split('T')[0]!,
+      fechaDePresentacion: data.fechaPresentacion.toISOString().split('T')[0]!,
+      origen: data.origen,
+      tipoLey: data.tipoLey,
+      fechaEnvioComision: data.fechaEnvioComision?.toISOString().split('T')[0],
+      fechaAprobacionPrimerDebate: data.fechaAprobacionPrimerDebate?.toISOString().split('T')[0],
+      fechaAprobacionSegundoDebate: data.fechaAprobacionSegundoDebate?.toISOString().split('T')[0],
+      fechaConciliacion: data.fechaConciliacion?.toISOString().split('T')[0],
       autores: JSON.stringify(data.autores),
-      fechaDePresentacion: data.fechaDePresentacion?.toISOString().split('T')[0],
-      ponentesPrimerDebate: JSON.stringify(data.ponentesPrimerDebate),
+      exposicionMotivos: data.exposicionMotivos,
+      primeraPonencia: data.primeraPonencia,
+      segundaPonencia: data.segundaPonencia,
+      textoPlenaria: data.textoPlenaria,
+      conciliacion: data.conciliacion,
+      objeciones: data.objeciones,
+      concepto: data.concepto,
+      textoRehecho: data.textoRehecho,
+      sentenciaCorte: data.sentenciaCorte,
     }
   }
 
@@ -89,3 +103,5 @@ class PalRepository {
       .execute()
   }
 }
+
+new SenadoService().refreshCuatrenio('2022-2026')

@@ -1,6 +1,6 @@
 import { load, Cheerio, CheerioAPI, Element } from 'cheerio'
 import { Config } from './senado'
-import { getNumeroSenado, parseNumeroIdentificador, parseTextualDate, processListOfPersonas } from '../../common/utils';
+import { getNumeroSenado, parseNumeroIdentificador, parseTextualDate, parseListOfNames } from '../../common/utils';
 
 type CElement = Cheerio<Element>
 type Comision = string
@@ -44,7 +44,7 @@ function getNumeroCamara($: CheerioAPI, cell: CElement): NumeroIdentificador | u
 function getAutores($: CheerioAPI, cell: CElement): string[] {
   // It's found in this format Autores: {autores} |
   const raw = $(cell).find('p > b').first().text().trim()
-  return processListOfPersonas(raw)
+  return parseListOfNames(raw)
 }
 
 function getTitulo($: CheerioAPI, cell: CElement): string {

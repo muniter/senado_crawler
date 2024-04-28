@@ -3,7 +3,7 @@ import { load, CheerioAPI } from 'cheerio'
 import {
   NumeroIdentificador,
 } from './list-processor'
-import { parseNumeroIdentificador, parseTextualDate, processListOfPersonas } from '../../common/utils'
+import { parseNumeroIdentificador, parseTextualDate, parseListOfNames } from '../../common/utils'
 
 export type ProyectoDetailData = {
   numero: NumeroIdentificador
@@ -67,17 +67,17 @@ function getTipoDeLey($: CheerioAPI): string {
 
 function getPonentesPrimerDebate($: CheerioAPI): { debate: 'primer'; ponente: string }[] {
   const raw = $("td:contains('Ponente Primer Debate:')").next('td').text().trim()
-  return processListOfPersonas(raw).map((p) => ({ debate: 'primer', ponente: p }))
+  return parseListOfNames(raw).map((p) => ({ debate: 'primer', ponente: p }))
 }
 
 function getPonentesSegundoDebate($: CheerioAPI): { debate: 'segundo'; ponente: string }[] {
   const raw = $("td:contains('Ponente Segundo Debate:')").next('td').text().trim()
-  return processListOfPersonas(raw).map((p) => ({ debate: 'segundo', ponente: p }))
+  return parseListOfNames(raw).map((p) => ({ debate: 'segundo', ponente: p }))
 }
 
 function getConciliadoresSenado($: CheerioAPI) {
   const raw = $("td:contains('Conciliador senado:')").next('td').text().trim()
-  return processListOfPersonas(raw)
+  return parseListOfNames(raw)
 }
 
 function getNumerosSenadoYCamara($: CheerioAPI): {

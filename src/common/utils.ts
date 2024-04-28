@@ -93,7 +93,7 @@ export function parseTextualDate(raw: string): Date {
   throw new Error('No se pudo encontrar la fecha en el texto: ' + raw)
 }
 
-export function processListOfPersonas(raw: string): string[] {
+export function parseListOfNames(raw: string): string[] {
   let items = raw
     .replaceAll('\t', ' ')
     .replace(/("|')/g, '')

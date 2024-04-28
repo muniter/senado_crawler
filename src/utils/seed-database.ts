@@ -20,36 +20,37 @@ const comisiones = [
   'TERCERA'
 ]
 
-async function seedDatabase() {
-  await db.transaction().execute(async (tx) => {
-    await tx
-      .insertInto('comision')
-      .values(comisiones.map((nombre) => ({ nombre })))
-      .execute()
-
-    await Promise.all(
-      Object.entries(CUATRENIOS).map(async ([_, { inicio, fin, legilsaturas }]) => {
-        const { id: cuatrenioId } = await tx
-          .insertInto('cuatrenio')
-          .values({ inicio, fin })
-          .returningAll()
-          .executeTakeFirstOrThrow()
-
-        legilsaturas.forEach(async (legislatura) => {
-          const [inicio, fin] = legislatura.split('-')
-          await tx
-            .insertInto('legislatura')
-            .values({
-              cuatrenioId,
-              inicio: parseInt(inicio),
-              fin: parseInt(fin)
-            })
-            .executeTakeFirstOrThrow()
-        })
-      })
-    )
-  })
-  process.exit(0)
-}
-
-seedDatabase()
+//async function seedDatabase() {
+//  await db.transaction().execute(async (tx) => {
+//    await tx
+//      .insertInto('Comision')
+//      .values(comisiones.map((nombre) => ({ nombre })))
+//      .execute()
+//
+//    await Promise.all(
+//      Object.entries(CUATRENIOS).map(async ([_, { inicio, fin, legilsaturas }]) => {
+//        const { id: cuatrenioId } = await tx
+//          .insertInto('Cuatrenio')
+//          .values({ inicio, fin, title: `${inicio}-${fin}` })
+//          .returningAll()
+//          .executeTakeFirstOrThrow()
+//
+//        legilsaturas.forEach(async (legislatura) => {
+//          const [inicio, fin] = legislatura.split('-')
+//          await tx
+//            .insertInto('Legislatura')
+//            .values({
+//              cuatrenioId,
+//              inicio: parseInt(inicio!),
+//              fin: parseInt(fin!),
+//              camaraId: 5,
+//            })
+//            .executeTakeFirstOrThrow()
+//        })
+//      })
+//    )
+//  })
+//  process.exit(0)
+//}
+//
+//seedDatabase()
