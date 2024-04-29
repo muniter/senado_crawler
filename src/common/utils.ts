@@ -125,7 +125,7 @@ export function cleanupTitle(title: string) {
 }
 
 // Assume each promise returns a value of type T
-async function runPromisesInBatch<T>(promises: Array<() => Promise<T>>, batchSize: number): Promise<T[]> {
+export async function runPromisesInBatch<T>(promises: Array<() => Promise<T>>, batchSize: number): Promise<T[]> {
     let index = 0;
     const results: T[] = new Array(promises.length);
     const active: Set<Promise<T>> = new Set();
