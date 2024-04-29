@@ -17,4 +17,11 @@ export class CuatrenioRepository {
       .where('cuatrenioId', '=', db.selectFrom('Cuatrenio').select('id').where('title', '=', cuatrenioTitle))
       .execute()
   }
+
+  public async getAll() {
+    return db
+      .selectFrom('Cuatrenio')
+      .selectAll()
+      .execute()
+  }
 }

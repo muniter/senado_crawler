@@ -1,6 +1,7 @@
-import { Cheerio, CheerioAPI, Element } from 'cheerio'
-import { NumeroIdentificador } from '../senado/senado/list-processor'
-import assert from 'assert'
+export interface NumeroIdentificador {
+  numero: number
+  year: number
+}
 
 export const numeroIdentificadorRegex = /(?<numero>\d+)\/(?<year>\d+)?/
 

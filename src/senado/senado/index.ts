@@ -10,11 +10,11 @@ export class SenadoService {
   public async refreshCuatrenio(cuatrenio: string) {
     const legislaturas = await (new CuatrenioRepository().getLegisltauras(cuatrenio))
     for (const legislatura of legislaturas) {
-      await this.refresh(cuatrenio, legislatura.title)
+      await this.refreshLegislatura(cuatrenio, legislatura.title)
     }
   }
 
-  public async refresh(cuatrenio: string, legislatura: string) {
+  public async refreshLegislatura(cuatrenio: string, legislatura: string) {
     logger.info(`Refreshing cuatrenio ${cuatrenio} and legislatura ${legislatura}`)
     await db.transaction().execute(async (tx) => {
       const extractor = new Extractor(cuatrenio, legislatura)

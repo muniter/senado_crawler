@@ -2,14 +2,14 @@ import { z } from 'zod'
 import fs from 'fs'
 import child_process from 'child_process'
 import { Command } from 'commander'
-import { CuatrenioRepository } from '../senado/senado'
+import { CuatrenioRepository } from '../common/repositories';
 import { logger } from './logger'
 const program = new Command()
 program.description('Refreshes the data from the database')
 program.requiredOption('--corporacion <string>', 'Camara | Senado')
 program.option('--tipo <string>', 'json | csv | all')
 program.option('--cuatrenio <string>', 'Cuatrenio to generate report of')
-program.action(main)
+program.action(generateReport)
 
 const queryFiles: Record<string, string> = {
   senado: 'senado_query.sql',
@@ -17,7 +17,15 @@ const queryFiles: Record<string, string> = {
   pal: 'senado_pal_query.sql',
 }
 
-async function main(options: any) {
+const schema = z.object({
+  cuatrenio: z.string().optional(),
+  tipo: z.enum(['json', 'csv', 'all']).default('all'),
+  corporacion: z.enum(['camara', 'senado', 'PAL'])
+})
+
+export type Options = z.infer<typeof schema>
+
+export async function generateReport(options: Options) {
   const { cuatrenio, tipo, corporacion } = z.object({
     corporacion: z.enum(['camara', 'senado', 'PAL']),
     cuatrenio: z.string().optional(),
@@ -25,16 +33,16 @@ async function main(options: any) {
   }).parse(options)
 
   let cuaternios: string[] = []
-  const cuatRep = new CuatrenioRepository()
+  const cuatrenioRepository = new CuatrenioRepository()
   if (cuatrenio) {
-    const exists = await cuatRep.getByTitle(cuatrenio) !== undefined;
+    const exists = await cuatrenioRepository.getByTitle(cuatrenio) !== undefined;
     if (!exists) {
-      console.error(`Cuatrenio ${cuatrenio} does not exist`)
+      logger.error(`Cuatrenio ${cuatrenio} does not exist`)
       process.exit(1)
     }
     cuaternios = [cuatrenio]
   } else {
-    const all = await cuatRep.getAll()
+    const all = await cuatrenioRepository.getAll()
     cuaternios = all.map(c => c.title)
   }
 
@@ -83,8 +91,10 @@ function genJSON(cuatrenio: string, queryFile: string, corporacion: string) {
     json_fields.push('.ponentesPrimerDebate')
   }
   const command = `sqlite3 db/database.db -cmd '.mode json' -cmd '.headers on'  < ${queryFile} | jq 'map((${json_fields.join(', ')}) |= fromjson)' > output/${title}`
-  console.info(`Executing command: ${command}`)
+  logger.info(`Executing command: ${command}`)
   child_process.execSync(command)
 }
 
-program.parse(process.argv)
+if (require.main === module) {
+  program.parse(process.argv)
+}

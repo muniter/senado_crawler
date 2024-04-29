@@ -1,8 +1,6 @@
 import { Cheerio, CheerioAPI, Element, load } from "cheerio";
-import { getNumeroSenado, parseTextualDate, parseListOfNames, cleanupTitle } from "../../common/utils";
-import { NumeroIdentificador } from "../senado/list-processor";
+import { getNumeroSenado, parseTextualDate, parseListOfNames, cleanupTitle, NumeroIdentificador } from "../../common/utils";
 import { Axios } from "axios";
-import * as R from 'remeda';
 import assert from "assert";
 import { logger } from "../../utils/logger";
 import PQueue from "p-queue";
