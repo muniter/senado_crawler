@@ -7,6 +7,7 @@ import {
 } from 'kysely'
 import { Command, Option } from 'commander'
 import { spawnSync } from 'child_process'
+import assert from 'assert'
 const program = new Command()
 
 program.description('Database migrator script');
@@ -18,7 +19,6 @@ program.action(main)
 async function main(options: any) {
   const action = options.action
   const name = options.name
-  console.log(options)
 
   if (action === 'migrate') {
     await migrate(options.migrationDir as 'up' | 'down')
@@ -47,11 +47,18 @@ async function migrate(arg: 'up' | 'down') {
   let error: unknown| null = null
 
   if (arg === 'up') {
-    console.log('migrating database to latest version')
+    // Check if there's migrations to be applied
+    const migrations = await migrator.getMigrations()
+    if (migrations.filter(it => it.executedAt === undefined).length === 0) {
+      console.log('No migrations to apply')
+      return;
+    }
+
     const { error: merror, results } = await migrator.migrateToLatest()
     error = merror
 
-    results?.forEach((it) => {
+    assert(results, 'results should be defined')
+    results.forEach((it) => {
       if (it.status === 'Success') {
         console.log(`migration "${it.migrationName}" was executed successfully`)
       } else if (it.status === 'Error') {
@@ -90,6 +97,7 @@ export async function up(db: Kysely<any>): Promise<void> {
 
 export async function down(db: Kysely<any>): Promise<void> {
   // Write your rollback migration here.
+  throw new Error('Migration cannot be rolled back');
 }`;
 
   let filename = new Date().toISOString()

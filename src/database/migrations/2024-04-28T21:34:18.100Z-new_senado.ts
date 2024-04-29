@@ -6,7 +6,7 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('id', 'integer', (col) => col.primaryKey().autoIncrement())
     .addColumn('id_senado', 'integer', (col) => col.notNull())
     .addColumn('legislatura', 'varchar(100)', (col) => col.notNull())
-    .addColumn('numero', 'varchar(10)', (col) => col.notNull().unique())
+    .addColumn('numero', 'varchar(10)', (col) => col.notNull())
     .addColumn('numeroCamara', 'varchar(100)')
     .addColumn('titulo', 'varchar(1000)', (col) => col.notNull())
     .addColumn('estado', 'varchar(100)', (col) => col.notNull())
@@ -31,6 +31,12 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('textoRehecho', 'varchar(1000)')
     .addColumn('sentenciaCorte', 'varchar(1000)')
     .addColumn('url', 'varchar(1000)', (col) => col.notNull())
+    .execute()
+
+  await db.schema.createIndex('ProyectosSenadoNew_unique_numero_legislatura')
+    .on('ProyectosSenadoNew')
+    .columns(['numero', 'legislatura'])
+    .unique()
     .execute()
 }
 
