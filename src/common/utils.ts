@@ -1,5 +1,6 @@
 import { Cheerio, CheerioAPI, Element } from 'cheerio'
 import { NumeroIdentificador } from '../senado/senado/list-processor'
+import assert from 'assert'
 
 export const numeroIdentificadorRegex = /(?<numero>\d+)\/(?<year>\d+)?/
 
@@ -121,4 +122,40 @@ export function cleanupTitle(title: string) {
     .replace(/['"”“]/, '"') // No weird quotes
     .replace(/^"/, '') // No leading quote
     .replace(/"$/, '') // No trailing quote
+}
+
+// Assume each promise returns a value of type T
+async function runPromisesInBatch<T>(promises: Array<() => Promise<T>>, batchSize: number): Promise<T[]> {
+    let index = 0;
+    const results: T[] = new Array(promises.length);
+    const active: Set<Promise<T>> = new Set();
+
+    const runNext = async (): Promise<void> => {
+        if (index >= promises.length) {
+            return; // No more promises to run
+        }
+
+        const currentIndex = index;
+        const promise = promises[currentIndex]!();
+        index++; // Move the index to the next promise
+
+        active.add(promise);
+
+        try {
+            const result = await promise;
+            results[currentIndex] = result; // Store result in the corresponding index
+        } finally {
+            active.delete(promise);
+            runNext();
+        }
+    };
+
+    // Start the initial batch of promises
+    for (let i = 0; i < Math.min(batchSize, promises.length); i++) {
+        runNext();
+    }
+
+    // Wait for all active promises to complete
+    await Promise.all(active);
+    return results;
 }

@@ -18,7 +18,7 @@ const queryFiles: Record<string, string> = {
 
 async function main(options: any) {
   const { cuatrenio, tipo, corporacion } = z.object({
-    corporacion: z.enum(['Camara', 'Senado', 'PAL']),
+    corporacion: z.enum(['camara', 'senado', 'PAL']),
     cuatrenio: z.string().optional(),
     tipo: z.enum(['json', 'csv', 'all']).default('all')
   }).parse(options)

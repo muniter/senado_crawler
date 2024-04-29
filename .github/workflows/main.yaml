@@ -130,7 +130,7 @@ jobs:
 
       - name: Execute SQLite Query generating artifacts
         run: |
-          npm run gen-reports -- --corporacion Camara
+          npm run gen-reports -- --corporacion camara
 
       - name: Check if there's changes
         id: check-changes-first
@@ -150,7 +150,7 @@ jobs:
 
       - name: Execute SQLite Query generating artifacts
         run: |
-          npm run gen-reports -- --corporacion Camara
+          npm run gen-reports -- --corporacion camara
 
       - name: Check if there's changes again
         id: check-changes-second
