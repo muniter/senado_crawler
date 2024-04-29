@@ -1,5 +1,5 @@
 import { Cheerio, CheerioAPI, Element, load } from "cheerio"
-import { parseListOfNames, parseNumeroIdentificador, parseTextualDate } from "../../common/utils"
+import { cleanupTitle, parseListOfNames, parseNumeroIdentificador, parseTextualDate } from "../../common/utils"
 import { NumeroIdentificador } from "../senado/list-processor"
 import { Axios } from "axios"
 import * as R from 'remeda';
@@ -186,16 +186,7 @@ class ProyectoDetailPage {
   }
 
   #getTitulo() {
-    return this.#getTituloNumeroTable().find('big')
-      .text()
-      .trim()
-      .replace('\n', '')  // No line breaks
-      .replace(/\s\s+/, ' ') // No double spaces
-      .replace(/\.$/, '') // No trailing dot
-      .trimEnd()
-      .replace(/['"”“]/, '"') // No weird quotes
-      .replace(/^"/, '') // No leading quote
-      .replace(/"$/, '') // No trailing quote
+    return cleanupTitle(this.#getTituloNumeroTable().find('big').text());
   }
 
   #getNumero() {

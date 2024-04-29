@@ -1,6 +1,6 @@
 import { Cheerio, CheerioAPI, Element, load } from "cheerio";
 import { assert } from "console";
-import { getNumeroSenado, parseTextualDate, parseListOfNames } from "../../common/utils";
+import { getNumeroSenado, parseTextualDate, parseListOfNames, cleanupTitle } from "../../common/utils";
 import { NumeroIdentificador } from "../senado/list-processor";
 import { Axios } from "axios";
 import * as R from 'remeda';
@@ -206,7 +206,7 @@ class ProyectoPalDetailPage {
   private parseTitulo() {
     const dd = this.getNumeroSenadoCamaraYTituloDD();
     const titulo = dd.find('big').text();
-    return titulo.replace(/^['"”“]/, '').replace(/['"”“]$/, '');
+    return cleanupTitle(titulo);
   }
 
   private getEstadoAutorOrigenFechaTable() {

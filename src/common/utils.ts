@@ -110,3 +110,15 @@ export function parseListOfNames(raw: string): string[] {
 export function getDatePart(date: Date): string {
   return date.toISOString().split('T')[0] as string
 }
+
+export function cleanupTitle(title: string) {
+  return title
+    .trim()
+    .replace('\n', '')  // No line breaks
+    .replace(/\s\s+/, ' ') // No double spaces
+    .replace(/\.$/, '') // No trailing dot
+    .trimEnd()
+    .replace(/['"”“]/, '"') // No weird quotes
+    .replace(/^"/, '') // No leading quote
+    .replace(/"$/, '') // No trailing quote
+}
