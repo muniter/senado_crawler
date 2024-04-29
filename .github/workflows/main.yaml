@@ -43,11 +43,7 @@ jobs:
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          npm run refresh -- --tipo senado --cuatrenio "2022-2026"
-
-      - name: Execute SQLite Query generating artifacts
-        run: |
-          npm run gen-reports -- --corporacion Senado
+          npm run refresh -- --tipo senado --cuatrenio "2022-2026" --report
 
       - name: Check if there's changes
         id: check-changes-first
@@ -63,11 +59,7 @@ jobs:
       - name: Refresh Cuatrenio 2018-2022
         if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
-          npm run refresh -- --tipo senado --cuatrenio "2018-2022"
-
-      - name: Execute SQLite Query generating artifacts
-        run: |
-          npm run gen-reports -- --corporacion Senado
+          npm run refresh -- --tipo senado --cuatrenio "2018-2022" --report
 
       - name: Check if there's changes again
         id: check-changes-second
@@ -126,11 +118,7 @@ jobs:
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          npm run refresh -- --tipo camara --cuatrenio "2022-2026"
-
-      - name: Execute SQLite Query generating artifacts
-        run: |
-          npm run gen-reports -- --corporacion camara
+          npm run refresh -- --tipo camara --cuatrenio "2022-2026" --report
 
       - name: Check if there's changes
         id: check-changes-first
@@ -146,11 +134,7 @@ jobs:
       - name: Refresh Cuatrenio 2018-2022
         if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
-          npm run refresh -- --tipo camara --cuatrenio "2018-2022"
-
-      - name: Execute SQLite Query generating artifacts
-        run: |
-          npm run gen-reports -- --corporacion camara
+          npm run refresh -- --tipo camara --cuatrenio "2018-2022" --report
 
       - name: Check if there's changes again
         id: check-changes-second
@@ -209,11 +193,7 @@ jobs:
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          npm run refresh -- --tipo PAL --cuatrenio "2022-2026"
-
-      - name: Execute SQLite Query generating artifacts
-        run: |
-          npm run gen-reports -- --corporacion PAL
+          npm run refresh -- --tipo PAL --cuatrenio "2022-2026" --report
 
       - name: Check if there's changes
         id: check-changes-first
@@ -229,11 +209,7 @@ jobs:
       - name: Refresh Cuatrenio 2018-2022
         if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
-          npm run refresh -- --tipo PAL --cuatrenio "2018-2022"
-
-      - name: Execute SQLite Query generating artifacts
-        run: |
-          npm run gen-reports -- --corporacion PAL
+          npm run refresh -- --tipo PAL --cuatrenio "2018-2022" --report
 
       - name: Check if there's changes again
         id: check-changes-second
