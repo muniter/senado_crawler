@@ -2,6 +2,8 @@ import { assert } from 'console';
 import { DBTransaction, db } from '../../database';
 import { DetailData, Extractor } from './crawler';
 import { CuatrenioRepository } from '../../common/repositories';
+import { Insertable } from 'kysely';
+import { ProyectosActoLegislativoSenado } from '../../database/schema';
 
 export class PalService {
 
@@ -48,10 +50,11 @@ class PalRepository {
       .executeTakeFirst()) !== undefined
   }
 
-  private prepareData(data: DetailData) {
+  private prepareData(data: DetailData): Insertable<ProyectosActoLegislativoSenado> {
     return {
       id_senado: data.id_senado,
       estado: data.estado,
+      estadoAnotacion: data.estadoAnotacion,
       numero: data.numero,
       numeroCamara: data.numeroCamara,
       titulo: data.titulo,

@@ -71,6 +71,7 @@ export interface ProyectosActoLegislativoSenado {
   autores: string | null;
   created_at: Generated<string | null>;
   estado: string | null;
+  estadoAnotacion: string | null;
   fechaDePresentacion: string | null;
   id: Generated<number | null>;
   id_senado: number;

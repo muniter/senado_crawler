@@ -1,9 +1,9 @@
 import { Cheerio, CheerioAPI, Element, load } from "cheerio";
-import { assert } from "console";
 import { getNumeroSenado, parseTextualDate, parseListOfNames, cleanupTitle } from "../../common/utils";
 import { NumeroIdentificador } from "../senado/list-processor";
 import { Axios } from "axios";
 import * as R from 'remeda';
+import assert from "assert";
 
 type ParsedListItem = {
   id: number,
@@ -17,6 +17,7 @@ type ParsedDetailData = {
   numeroCamara?: string,
   acumulados: string[],
   estado: string,
+  estadoAnotacion: string|null,
   autores: string[],
   origen: string,
   ponentesPrimerDebate: string[],
@@ -153,7 +154,7 @@ class ProyectoPalDetailPage {
       numero: numero.numero,
       numeroCamara: this.parseNumeroCamara(),
       acumulados: numero.acumulados,
-      estado: this.parseEstado(),
+      ...this.parseEstado(),
       autores: this.parseAutores(),
       origen: this.parseOrigen(),
       ponentesPrimerDebate: this.parsePonentesPrimerDebate(),
@@ -216,7 +217,12 @@ class ProyectoPalDetailPage {
   private parseEstado() {
     const table = this.getEstadoAutorOrigenFechaTable();
     const data = table.find('tr:nth-child(1)').find('td:nth-child(2)').text().trim();
-    return data;
+    const [estado, estadoAnotacion] = data.split(',').map(s => s.trim());
+    assert(estado, 'Estado is empty');
+    return {
+      estado,
+      estadoAnotacion: estadoAnotacion ?? null,
+    }
   }
 
   private parseAutores() {
