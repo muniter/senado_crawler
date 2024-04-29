@@ -22134,7 +22134,7 @@
   {
     "numeroCamara": "430/2024C",
     "numeroSenado": null,
-    "tituloCorto": "Energías no convencionales",
+    "tituloCorto": "ENERGÍAS NO CONVENCIONALES",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Sandra Milena Ramírez Caviedes",
@@ -22215,8 +22215,8 @@
     "tituloCorto": "MOVILIDAD ÁGIL Y SEGURA",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "Julián David López Tenorio",
-      "Hernando González"
+      "H.R.Julián David López Tenorio",
+      "H.R.Hernando González"
     ],
     "estado": "Trámite en Comisión",
     "comision": "",
@@ -22224,7 +22224,53 @@
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
     "url": "https://www.camara.gov.co/movilidad-agil-y-segura",
-    "tituloLargo": null,
-    "objeto": null
+    "tituloLargo": "Por medio de la cual se modifica la Ley 769 de 2002 para la implementación de la póliza de seguros RCE para vehículos de uso particular, motocicletas y similares - Ley de Movilidad Ágil y Segura",
+    "objeto": "se sustituye el artículo 42 A de la Ley 769 de 2002, el cual quedará así:"
+  },
+  {
+    "numeroCamara": "427/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "ECOSISTEMA DEL LIBRO",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Clara Eugenia López Obregón",
+      "H.S.Martha Isabel Peralta Epieyu",
+      "H.S.Yuly Esmeralda Hernández Silva",
+      "H.S.Paulino Riascos Riascos",
+      "H.S.Gloria Inés Flórez Schneider",
+      "H.R.Heraclito Landinez Suárez",
+      "H.R.David Alejandro Toro Ramírez",
+      "H.R.Gabriel Becerra Yañez",
+      "H.R.Etna Tamara Argote Calderón",
+      "H.R.María del Mar Pizarro García",
+      "H.R.Pedro José Súarez Vacca",
+      "H.R.Ermes Evelio Pete Vivas",
+      "H.R.Eduard Giovanny Sarmiento Hidalgo",
+      "H.R.Leider Alexandra Vásquez Ochoa",
+      "H.R.Gabriel Ernesto Parrado Durán",
+      "H.R.Jorge Andrés Cancimance López",
+      "H.R.Mary Anne Andrea Perdomo",
+      "H.R.Gildardo Silva Molina",
+      "H.R.Jorge Alejandro Ocampo Giraldo",
+      "H.R.Martha Lisbeth Alfonso Jurado",
+      "H.R.Erick Adrián Velasco Burbano",
+      "H.R.Luis Eduardo Díaz Mateus",
+      "H.R.Carlos Adolfo Ardila Espinosa",
+      "H.R.Orlando Castillo Advincula",
+      "H.R.Juan Sebastián Gómez Gonzáles",
+      "H.R.Karen Astrith Manrique Olarte",
+      "H.R.Leyla Marleny Rincón Trujillo",
+      "H.R.James Hermenegildo Mosquera Torres",
+      "H.R.Héctor Mauricio Cuéllar Pinzón",
+      "H.R.Juan Daniel Peñuela Calvache"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/ecosistema-del-libro",
+    "tituloLargo": "Por medio del cual se fortalece el ecosistema del libro en colombia y se dictan otras disposiciones",
+    "objeto": "La presente ley tiene por objeto propiciar el desarrollo armónico normativo e institucional en los niveles nacional, distrital, departamental y municipal para fortalecer el ecosistema del libro en Colombia, mejorar los hábitos de lectura, escritura oralidad, librerías y bibliotecas, los contextos tecnológicos complementarios de la actividad e incentiva la cultura del libro y sus festivales regionales."
   }
 ]
