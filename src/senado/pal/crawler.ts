@@ -4,6 +4,8 @@ import { NumeroIdentificador } from "../senado/list-processor";
 import { Axios } from "axios";
 import * as R from 'remeda';
 import assert from "assert";
+import { logger } from "../../utils/logger";
+import PQueue from "p-queue";
 
 type ParsedListItem = {
   id: number,
@@ -17,7 +19,7 @@ type ParsedDetailData = {
   numeroCamara?: string,
   acumulados: string[],
   estado: string,
-  estadoAnotacion: string|null,
+  estadoAnotacion: string | null,
   autores: string[],
   origen: string,
   ponentesPrimerDebate: string[],
@@ -49,8 +51,23 @@ export class Extractor {
     });
   }
 
-  async getHtml(url: string) {
-    return this.axios.get(url);
+  async getHtml(url: string, options: { retries: number } = { retries: 3 }) {
+    const retries = options?.retries ?? 2;
+    let attempt = 1;
+    while (attempt <= retries) {
+      try {
+        const { data } = await this.axios.get(url);
+        if (typeof data !== 'string') {
+          throw new Error('Invalid data');
+        }
+        return data;
+      } catch (e) {
+        logger.error(`Error fetching ${url}`);
+        attempt++;
+        await new Promise(resolve => setTimeout(resolve, 1000));
+      }
+    }
+    throw new Error(`Failed to fetch ${url} after ${retries} attempts`);
   }
 
   private listDataUrl() {
@@ -58,41 +75,39 @@ export class Extractor {
   }
 
   public async process(): Promise<DetailData[]> {
-    const { data } = await this.getHtml(this.listDataUrl());
-    if (!data || typeof data !== 'string') {
-      throw new Error('Invalid data');
-    }
+    const data = await this.getHtml(this.listDataUrl());
     const { items } = new ProyectoPaListPage(data);
     const results: DetailData[] = [];
 
-    let counter = 0;
-    const chunks = R.chunk(items, 10);
-    for (const chunk of chunks) {
-      console.debug(`Processing chunk ${counter++}`);
-      await Promise.all(chunk.map(async item => {
-        console.debug(`Processing item ${item.id}`);
-        const { data } = await this.getHtml(item.url);
-        if (!data || typeof data !== 'string') {
-          throw new Error('Invalid data');
-        }
-        const url = `${this.urlConfig.baseURL}${item.url}`
-        try {
-          const detail = new ProyectoPalDetailPage(data).data;
-          results.push({
-            ...detail,
-            id_senado: item.id,
-            legislatura: this.legislatura,
-            url,
-          })
-          console.debug(`Done processing item ${item.id}`);
-        } catch (e) {
-          const message = e instanceof Error ? e.message : 'Unknown error';
-          console.error(`Error processing item ${item.id}: ${message}\n Url: ${url}`);
-        }
-      })
-      )
-    }
+    const queue = new PQueue({ concurrency: 10 });
+    queue.on('completed', () => (results.length % 10 === 0) && logger.info(`Processed ${results.length} items`));
+
+    items.forEach(item => queue.add(async () => {
+      await this.#processOne(item).then(data => data && results.push(data))
+    }))
+    await queue.onIdle();
+    logger.info(`Queue completed with ${results.length} items`);
+
     return results;
+  }
+
+  async #processOne(item: ParsedListItem): Promise<DetailData | undefined> {
+    logger.debug(`Processing item ${item.id}`);
+    const data= await this.getHtml(item.url);
+    const url = `${this.urlConfig.baseURL}${item.url}`
+    try {
+      const detail = new ProyectoPalDetailPage(data).data;
+      logger.debug(`Processed item ${item.id}`);
+      return {
+        ...detail,
+        id_senado: item.id,
+        legislatura: this.legislatura,
+        url,
+      }
+    } catch (e) {
+      const message = e instanceof Error ? e.message : 'Unknown error';
+      logger.error(`Error processing item ${item.id}: ${message}\n Url: ${url}`);
+    }
   }
 
 }
@@ -176,13 +191,7 @@ class ProyectoPalDetailPage {
     assert(senadoP.length);
 
     const text = senadoP.text().replace(/Cámara:.*/, '').trim();
-    let result;
-    try {
-      result = getNumeroSenado(text);
-    } catch {
-      throw new Error(`Could not parse numero senado from: ${text}`);
-    }
-
+    const result = getNumeroSenado(text);
 
     function numeroToString(numero: NumeroIdentificador) {
       return `${String(numero.numero).padStart(3, '0')}/${numero.year}PAL`;

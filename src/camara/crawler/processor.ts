@@ -144,7 +144,7 @@ export function processDetailPage(raw: string): DetailData {
     observaciones,
   }
 
-  // console.log(result)
+  // logger.info(result)
 
   return result
 }

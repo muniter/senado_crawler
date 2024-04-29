@@ -8,6 +8,7 @@ import {
 import { Command, Option } from 'commander'
 import { spawnSync } from 'child_process'
 import assert from 'assert'
+import { logger } from '../utils/logger'
 const program = new Command()
 
 program.description('Database migrator script');
@@ -50,7 +51,7 @@ async function migrate(arg: 'up' | 'down') {
     // Check if there's migrations to be applied
     const migrations = await migrator.getMigrations()
     if (migrations.filter(it => it.executedAt === undefined).length === 0) {
-      console.log('No migrations to apply')
+      logger.info('No migrations to apply')
       return;
     }
 

@@ -26,6 +26,9 @@
     "cheerio": "^1.0.0-rc.12",
     "google-spreadsheet": "^4.1.1",
     "kysely": "^0.27.2",
+    "p-queue": "^8.0.1",
+    "pino": "^9.0.0",
+    "pino-pretty": "^11.0.0",
     "remeda": "^1.36.0",
     "zod": "^3.22.4"
   },

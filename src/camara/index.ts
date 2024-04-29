@@ -2,7 +2,9 @@ import { Axios } from "axios"
 import { processDetailPage, processPage as processRawPage } from "./crawler/processor"
 import { db } from "../database"
 import * as crypto from 'crypto'
-import * as R from 'remeda'
+import PQueue from "p-queue"
+import assert from "assert"
+import { logger } from "../utils/logger"
 
 export type CommonData = {
   numeroCamara: string
@@ -122,17 +124,22 @@ export async function refreshLegislaturaProyectosDetailData(legislatura: string)
       eb('estado', 'not in', ['Archivado', 'Retirado']),
       // Makes sure we at least have scrapped the detail data one time.
       eb('detailDataHash', 'is', null),
+      eb('url', 'is not', null),
     ]))
     .execute()
 
-  const chunks = R.chunk(R.filter(proyectos, (proyecto) => proyecto.url !== null), 10)
-
-  for (const chunk of chunks) {
-    await Promise.all(chunk.map((proyecto) => refreshProyectoDetailData({
-      numeroCamara: proyecto.numeroCamara,
-      url: proyecto.url!!
-    })))
+  const queue = new PQueue({ concurrency: 10 });
+  for (const proyecto of proyectos) {
+    queue.add(async () => {
+      assert(proyecto.url, 'Proyecto url is null')
+      return refreshProyectoDetailData({
+        numeroCamara: proyecto.numeroCamara,
+        url: proyecto.url
+      })
+    })
   }
+  await queue.onIdle();
+  logger.info(`Queue completed with ${proyectos.length} items`);
 }
 
 type RefreshProyectoDetailDataOptions = {

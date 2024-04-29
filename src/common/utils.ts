@@ -14,20 +14,20 @@ function parseNumeroIdentificadorFromRegex(
   defaultYear?: number
 ): NumeroIdentificador {
   if (match === null) {
-    throw new Error('No se pudo encontrar el numero de identificador')
+    throw new ParseError('No se pudo encontrar el numero de identificador')
   }
   if (match.groups) {
     if (!match.groups.numero) {
-      throw new Error('No se encontró el número del número identificador')
+      throw new ParseError('No se encontró el número del número identificador')
     }
     const numero = parseInt(match.groups.numero)
     const year = match.groups.year ? parseInt(match.groups.year) : defaultYear
     if (!year) {
-      throw new Error('No se encontró el año del número identificador, y no se dio uno por defecto')
+      throw new ParseError('No se encontró el año del número identificador, y no se dio uno por defecto')
     }
     return { numero, year }
   }
-  throw new Error('No se encontró el número identificador')
+  throw new ParseError('No se encontró el número identificador')
 }
 
 export function getNumeroSenado(
@@ -58,7 +58,7 @@ export function getNumeroSenado(
         acumulados.push(parseNumeroIdentificadorFromRegex(match, numeroSenado.year))
       } catch (e: any) {
         // Add the fact the error was parsing the acumulados
-        throw new Error(`Error al parsear los acumulados match: (${match.groups}): ` + e.message)
+        throw new ParseError(`Error al parsear los acumulados match: (${match.groups}): ` + e.message)
       }
     }
   }
@@ -87,14 +87,14 @@ export function parseTextualDate(raw: string): Date {
     const day = parseInt(rawDay);
     const year = parseInt(rawYear);
     if (year < 1900) {
-      throw new Error('El año es muy antiguo')
+      throw new ParseError('El año es muy antiguo')
     }
     const monthNumber = meses.get(rawMonth.toLowerCase())
     if (monthNumber && !isNaN(day) && !isNaN(year)) {
       return new Date(year, monthNumber - 1, day)
     }
   }
-  throw new Error('No se pudo encontrar la fecha en el texto: ' + raw)
+  throw new ParseError('No se pudo encontrar la fecha en el texto: ' + raw)
 }
 
 export function parseListOfNames(raw: string): string[] {
@@ -124,38 +124,9 @@ export function cleanupTitle(title: string) {
     .replace(/"$/, '') // No trailing quote
 }
 
-// Assume each promise returns a value of type T
-export async function runPromisesInBatch<T>(promises: Array<() => Promise<T>>, batchSize: number): Promise<T[]> {
-    let index = 0;
-    const results: T[] = new Array(promises.length);
-    const active: Set<Promise<T>> = new Set();
-
-    const runNext = async (): Promise<void> => {
-        if (index >= promises.length) {
-            return; // No more promises to run
-        }
-
-        const currentIndex = index;
-        const promise = promises[currentIndex]!();
-        index++; // Move the index to the next promise
-
-        active.add(promise);
-
-        try {
-            const result = await promise;
-            results[currentIndex] = result; // Store result in the corresponding index
-        } finally {
-            active.delete(promise);
-            runNext();
-        }
-    };
-
-    // Start the initial batch of promises
-    for (let i = 0; i < Math.min(batchSize, promises.length); i++) {
-        runNext();
-    }
-
-    // Wait for all active promises to complete
-    await Promise.all(active);
-    return results;
+class ParseError extends Error {
+  constructor(message: string) {
+    super(message)
+    this.name = 'ParseError'
+  }
 }

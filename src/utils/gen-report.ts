@@ -3,6 +3,7 @@ import fs from 'fs'
 import child_process from 'child_process'
 import { Command } from 'commander'
 import { CuatrenioRepository } from '../senado/senado'
+import { logger } from './logger'
 const program = new Command()
 program.description('Refreshes the data from the database')
 program.requiredOption('--corporacion <string>', 'Camara | Senado')
@@ -44,14 +45,14 @@ async function main(options: any) {
     }
     const queryFile = renderQueryFile(cuatrenio, templateQueryFile)
     if (tipo === 'json' || tipo === 'all') {
-      console.log(`Generating JSON for ${cuatrenio}`)
+      logger.info(`Generating JSON for ${cuatrenio}`)
       genJSON(cuatrenio, queryFile, corporacion)
-      console.log(`Generated JSON for ${cuatrenio}`)
+      logger.info(`Generated JSON for ${cuatrenio}`)
     }
     if (tipo === 'csv' || tipo === 'all') {
-      console.log(`Generating CSV for ${cuatrenio}`)
+      logger.info(`Generating CSV for ${cuatrenio}`)
       genCSV(cuatrenio, queryFile, corporacion)
-      console.log(`Generated CSV for ${cuatrenio}`)
+      logger.info(`Generated CSV for ${cuatrenio}`)
     }
   }
 }
@@ -63,7 +64,7 @@ function renderQueryFile(cuatrenio: string, queryFile: string): string {
   const tmp = fs.mkdtempSync('/tmp/')
   const tmpFile = `${tmp}/report_query.sql`
   fs.writeFileSync(tmpFile, query)
-  console.log(`Query file prepared at ${tmpFile}`)
+  logger.info(`Query file prepared at ${tmpFile}`)
   return tmpFile
 }
 

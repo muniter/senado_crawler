@@ -1,7 +1,7 @@
 import { z } from 'zod'
 import { Command } from 'commander'
 import { PalService } from '../senado/pal'
-import { SenadoService } from '../senado/new-senado'
+import { SenadoService } from '../senado/senado'
 const program = new Command()
 program.description('Refreshes the data from the senado')
 program.requiredOption('--cuatrenio <string>', 'Cuatrenio to refresh')
@@ -34,7 +34,7 @@ async function main(raw_options: any) {
 async function palRefresh(options: Options) {
   const service = new PalService()
   if (options.legislatura) {
-    return service.refresh(options.cuatrenio, options.legislatura)
+    return service.refreshLegislatura(options.cuatrenio, options.legislatura)
   } else {
     return service.refreshCuatrenio(options.cuatrenio)
   }

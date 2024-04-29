@@ -4,27 +4,31 @@ import { DetailData, Extractor } from './crawler';
 import { CuatrenioRepository } from '../../common/repositories';
 import { Insertable } from 'kysely';
 import { ProyectosActoLegislativoSenado } from '../../database/schema';
+import { logger } from '../../utils/logger';
 
 export class PalService {
 
   public async refreshCuatrenio(cuatrenio: string) {
     const legislaturas = await (new CuatrenioRepository().getLegisltauras(cuatrenio))
     for (const legislatura of legislaturas) {
-      await this.refresh(cuatrenio, legislatura.title)
+      await this.refreshLegislatura(cuatrenio, legislatura.title)
     }
   }
 
-  public async refresh(cuatrenio: string, legislatura: string) {
-    console.log(`Refreshing cuatrenio ${cuatrenio} and legislatura ${legislatura}`)
+  public async refreshLegislatura(cuatrenio: string, legislatura: string) {
+    const child_logger = logger.child({ cuatrenio, legislatura })
+    child_logger.info(`Refreshing cuatrenio`)
     await db.transaction().execute(async (tx) => {
       const extractor = new Extractor(cuatrenio, legislatura)
       const repo = new PalRepository(tx)
       const result = await extractor.process()
-      console.log('Extracted', result.length, 'items')
+      logger.info('Extracted', result.length, 'items')
       for (const data of result) {
         await repo.save(data)
       }
+      child_logger.info(`Saved ${result.length} items`)
     });
+    child_logger.info(`Finished refreshing cuatrenio`)
   }
 }
 
@@ -74,6 +78,7 @@ class PalRepository {
     } else {
       await this.insert(data)
     }
+    logger.debug(`Saved item ${data.numero}`)
   }
 
   private async insert(data: DetailData) {
