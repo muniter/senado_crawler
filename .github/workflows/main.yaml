@@ -43,7 +43,7 @@ jobs:
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          npm run refresh-senado -- --cuatrenio "2022-2026"
+          npm run refresh -- --tipo senado --cuatrenio "2022-2026"
 
       - name: Execute SQLite Query generating artifacts
         run: |
@@ -63,7 +63,7 @@ jobs:
       - name: Refresh Cuatrenio 2018-2022
         if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
-          npm run refresh-senado -- --cuatrenio "2018-2022"
+          npm run refresh -- --tipo senado --cuatrenio "2018-2022"
 
       - name: Execute SQLite Query generating artifacts
         run: |
@@ -126,7 +126,7 @@ jobs:
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          npm run refresh-camara -- --cuatrenio "2022-2026"
+          npm run refresh -- --tipo camara --cuatrenio "2022-2026"
 
       - name: Execute SQLite Query generating artifacts
         run: |
@@ -146,7 +146,7 @@ jobs:
       - name: Refresh Cuatrenio 2018-2022
         if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
-          npm run refresh-camara -- --cuatrenio "2018-2022"
+          npm run refresh -- --tipo camara --cuatrenio "2018-2022"
 
       - name: Execute SQLite Query generating artifacts
         run: |
@@ -209,7 +209,7 @@ jobs:
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          npm run refresh-pal -- --cuatrenio "2022-2026"
+          npm run refresh -- --tipo PAL --cuatrenio "2022-2026"
 
       - name: Execute SQLite Query generating artifacts
         run: |
@@ -229,7 +229,7 @@ jobs:
       - name: Refresh Cuatrenio 2018-2022
         if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
-          npm run refresh-pal -- --cuatrenio "2018-2022"
+          npm run refresh -- --tipo PAL --cuatrenio "2018-2022"
 
       - name: Execute SQLite Query generating artifacts
         run: |

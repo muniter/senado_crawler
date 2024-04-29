@@ -12,9 +12,7 @@
     "db:migrate": "npx tsx src/database/migrator.ts --action migrate",
     "db:seed": "npx tsx src/database/seeder.ts",
     "build": "tsc --build",
-    "refresh-senado": "tsx ./src/utils/refresh-senado.ts",
-    "refresh-camara": "tsx ./src/utils/refresh-camara.ts",
-    "refresh-pal": "tsx ./src/utils/refresh-pal.ts",
+    "refresh": "tsx ./src/utils/refresh.ts",
     "gen-reports": "tsx ./src/utils/gen-report.ts",
     "gen-fixtures": "tsx ./src/utils/generate-fixture-results.ts"
   },
