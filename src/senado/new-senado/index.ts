@@ -3,8 +3,9 @@ import { CuatrenioRepository } from "../../common/repositories";
 import { DBTransaction, db } from "../../database";
 import { DetailData, Extractor } from "./crawler";
 import { ProyectosSenadoNew } from "../../database/schema";
+import { getDatePart } from "../../common/utils";
 
-class SenadoService {
+export class SenadoService {
   public async refreshCuatrenio(cuatrenio: string) {
     const legislaturas = await (new CuatrenioRepository().getLegisltauras(cuatrenio))
     for (const legislatura of legislaturas) {
@@ -50,6 +51,7 @@ class SenadoRepository {
 
   private prepareData(data: DetailData): Insertable<ProyectosSenadoNew> {
     return {
+      id_senado: data.id_senado,
       numero: data.numero,
       numeroCamara: data.numeroCamara,
       titulo: data.titulo,
@@ -58,14 +60,14 @@ class SenadoRepository {
       estado: data.estado,
       estadoAnotacion: data.estadoAnotacion,
       comision: data.comision,
-      fechaRadicado: data.fechaRadicado.toISOString().split('T')[0]!,
-      fechaDePresentacion: data.fechaPresentacion.toISOString().split('T')[0]!,
+      fechaRadicado: getDatePart(data.fechaRadicado),
+      fechaDePresentacion: getDatePart(data.fechaPresentacion),
       origen: data.origen,
       tipoLey: data.tipoLey,
-      fechaEnvioComision: data.fechaEnvioComision?.toISOString().split('T')[0],
-      fechaAprobacionPrimerDebate: data.fechaAprobacionPrimerDebate?.toISOString().split('T')[0],
-      fechaAprobacionSegundoDebate: data.fechaAprobacionSegundoDebate?.toISOString().split('T')[0],
-      fechaConciliacion: data.fechaConciliacion?.toISOString().split('T')[0],
+      fechaEnvioComision: data.fechaEnvioComision ? getDatePart(data.fechaEnvioComision) : null,
+      fechaAprobacionPrimerDebate: data.fechaAprobacionPrimerDebate ? getDatePart(data.fechaAprobacionPrimerDebate) : null,
+      fechaAprobacionSegundoDebate: data.fechaAprobacionSegundoDebate ? getDatePart(data.fechaAprobacionSegundoDebate) : null,
+      fechaConciliacion: data.fechaConciliacion ? getDatePart(data.fechaConciliacion) : null,
       autores: JSON.stringify(data.autores),
       exposicionMotivos: data.exposicionMotivos,
       primeraPonencia: data.primeraPonencia,
@@ -103,5 +105,3 @@ class SenadoRepository {
       .execute()
   }
 }
-
-new SenadoService().refreshCuatrenio('2022-2026')

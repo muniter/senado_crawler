@@ -1,4 +1,5 @@
 import { SenadoService } from '../senado/senado/index'
+import { SenadoService as NewSenadoService } from '../senado/new-senado/index'
 import { z } from 'zod'
 import { Command } from 'commander'
 const program = new Command()
@@ -6,6 +7,7 @@ program.description('Refreshes the data from the senado')
 program.requiredOption('--cuatrenio <string>', 'Cuatrenio to refresh')
 program.option('--legislatura <string>', 'Legislatura to refresh')
 program.option('--tipo <string>', 'detalle | lista | full')
+program.option('--new', 'Use the new senado service')
 program.action(main)
 
 async function main(options: any) {
@@ -17,6 +19,9 @@ async function main(options: any) {
         if (legislatura) {
             return await senadoService.refreshLegislatura(cuatrenio, legislatura)
         } else {
+            if (options.new) {
+              return await new NewSenadoService().refreshCuatrenio(cuatrenio)
+            }
             return await senadoService.refreshCuatrenio(cuatrenio)
         }
     } else if (tipo === 'lista') {

@@ -59,7 +59,7 @@ async function main(options: any) {
 function renderQueryFile(cuatrenio: string, queryFile: string): string {
   // Prepare query file
   let query = fs.readFileSync(`db/${queryFile}`, 'utf-8')
-  query = query.replace(':cuatrenio_title', `'${cuatrenio}'`)
+  query = query.replaceAll(':cuatrenio_title', `'${cuatrenio}'`)
   const tmp = fs.mkdtempSync('/tmp/')
   const tmpFile = `${tmp}/report_query.sql`
   fs.writeFileSync(tmpFile, query)

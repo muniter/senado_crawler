@@ -144,6 +144,7 @@ export interface ProyectosSenadoNew {
   fechaEnvioComision: string | null;
   fechaRadicado: string;
   id: Generated<number | null>;
+  id_senado: number;
   legislatura: string;
   numero: string;
   numeroCamara: string | null;

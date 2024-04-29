@@ -85,6 +85,9 @@ export function parseTextualDate(raw: string): Date {
   if (rawDay && rawMonth && rawYear && rawYear !== '0000') {
     const day = parseInt(rawDay);
     const year = parseInt(rawYear);
+    if (year < 1900) {
+      throw new Error('El año es muy antiguo')
+    }
     const monthNumber = meses.get(rawMonth.toLowerCase())
     if (monthNumber && !isNaN(day) && !isNaN(year)) {
       return new Date(year, monthNumber - 1, day)
@@ -102,4 +105,8 @@ export function parseListOfNames(raw: string): string[] {
 
   const unique = new Set(items)
   return [...unique]
+}
+
+export function getDatePart(date: Date): string {
+  return date.toISOString().split('T')[0] as string
 }

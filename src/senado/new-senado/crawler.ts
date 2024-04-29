@@ -6,7 +6,7 @@ import * as R from 'remeda';
 
 export interface ProyectDetailPageData {
   numero: string
-  numeroCamara: string|null
+  numeroCamara: string | null
   titulo: string
   estado: string
   estadoAnotacion: string
@@ -32,6 +32,7 @@ export interface ProyectDetailPageData {
 }
 
 export type DetailData = ProyectDetailPageData & {
+  id_senado: number
   legislatura: string
   url: string
 }
@@ -88,6 +89,7 @@ export class Extractor {
           const detail = new ProyectoDetailPage(data).parse();
           results.push({
             ...detail,
+            id_senado: item.id,
             legislatura: this.legislatura,
             url,
           })
@@ -184,13 +186,22 @@ class ProyectoDetailPage {
   }
 
   #getTitulo() {
-    return this.#getTituloNumeroTable().find('big').text().trim()
+    return this.#getTituloNumeroTable().find('big')
+      .text()
+      .trim()
+      .replace('\n', '')  // No line breaks
+      .replace(/\s\s+/, ' ') // No double spaces
+      .replace(/\.$/, '') // No trailing dot
+      .trimEnd()
+      .replace(/['"”“]/, '"') // No weird quotes
+      .replace(/^"/, '') // No leading quote
+      .replace(/"$/, '') // No trailing quote
   }
 
   #getNumero() {
     const table = this.#getTituloNumeroTable()
     const raw = table.find("p:contains('Senado:')").text().trim().replace(/C[aá]mara:.*/, '')
-    const parsed =  parseNumeroIdentificador(raw)
+    const parsed = parseNumeroIdentificador(raw)
     return `${parsed.numero}/${parsed.year}`
   }
 
@@ -218,7 +229,11 @@ class ProyectoDetailPage {
   }
 
   #getComision() {
-    return this.#getTramiteTable().find("tr:contains('Repartido a Comisión:')").find('td').eq(1).text().trim()
+    let comision =  this.#getTramiteTable().find("tr:contains('Repartido a Comisión:')").find('td').eq(1).text().trim()
+    if (comision === '-') {
+      comision = 'NO ASIGNADA'
+    }
+    return comision
   }
 
   #getFechaPresentacion() {
@@ -319,14 +334,14 @@ class ProyectoDetailPage {
 
 }
 
-async function run() {
-  const response = await fetch('http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2022-2023/article/355');
-  if (!response.ok) {
-    throw new Error('Could not fetch the page')
-  }
-  const html = await response.text()
-  const page = new ProyectoDetailPage(html)
-  console.log(page.parse())
-}
-
+//async function run() {
+//  const response = await fetch('http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2023-2024/article/273');
+//  if (!response.ok) {
+//    throw new Error('Could not fetch the page')
+//  }
+//  const html = await response.text()
+//  const page = new ProyectoDetailPage(html)
+//  console.log(page.parse())
+//}
+//
 //run();
