@@ -39,17 +39,6 @@ const cuatrenios = {
   }
 }
 
-const comisiones = [
-  'ECONOMICAS',
-  'NO ASIGNADA',
-  'PRIMERA',
-  'QUINTA',
-  'SEGUNDA',
-  'SEPTIMA',
-  'SEXTA',
-  'TERCERA'
-]
-
 // Cuatrenios y Legislaturas
 async function createCuatrenios() {
   for (const [cuatrenio, data] of Object.entries(cuatrenios)) {
@@ -80,20 +69,9 @@ async function createLegislaturas() {
   }
 }
 
-async function createComisiones() {
-  for (const comision of comisiones) {
-    await db.insertInto('Comision')
-      .values({
-        nombre: comision
-      })
-      .execute()
-  }
-}
-
 async function main() {
   await createCuatrenios()
   await createLegislaturas()
-  await createComisiones()
 }
 
 main().catch((e) => {

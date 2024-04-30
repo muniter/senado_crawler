@@ -112,12 +112,6 @@ export function processDetailPage(raw: string): DetailData {
 
   const origen = $(indexOrError(rows, 4)).find('div:nth-child(2) span.field__item').text().trim() ?? ''
 
-  const fechaRadicacionCamaraMatcher = $(indexOrError(rows, 5)).find('div:nth-child(1)').text().match(dateRegex)
-  const fechaRadicacionCamara = fechaRadicacionCamaraMatcher ? fechaRadicacionCamaraMatcher[0].trim() : null
-
-  const fechaRadicacionSenadoMatcher = $(indexOrError(rows, 5)).find('div:nth-child(2)').text().match(dateRegex)
-  const fechaRadicacionSenado = fechaRadicacionSenadoMatcher ? fechaRadicacionSenadoMatcher[0].trim() : null
-
   const tipo = $(indexOrError(rows, 6)).find('div:nth-child(1) span.field__item').text().trim()
 
   const objeto = $(indexOrError(rows, 7)).find('div:nth-child(1)').contents().filter(function() {
@@ -137,8 +131,6 @@ export function processDetailPage(raw: string): DetailData {
     origen,
     estado,
     contenido: '',
-    // fechaRadicacionCamara,
-    // fechaRadicacionSenado,
     tipo,
     objeto,
     observaciones,

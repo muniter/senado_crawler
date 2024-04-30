@@ -9,7 +9,10 @@ import { Command, Option } from 'commander'
 import { spawnSync } from 'child_process'
 import assert from 'assert'
 import { logger } from '../utils/logger.js'
+import { fileURLToPath } from 'url'
 const program = new Command()
+
+const file_dirname = path.dirname(fileURLToPath(import.meta.url))
 
 program.description('Database migrator script');
 program.requiredOption('-a --action <string>', 'migrate | generate')
@@ -41,7 +44,7 @@ async function migrate(arg: 'up' | 'down') {
       fs,
       path,
       // This needs to be an absolute path.
-      migrationFolder: path.join(__dirname, '/migrations'),
+      migrationFolder: path.join(file_dirname, '/migrations'),
     }),
   })
 
@@ -105,7 +108,7 @@ export async function down(db: Kysely<any>): Promise<void> {
   if (name) {
     filename = `${filename}-${name.replaceAll(' ', '_')}`
   }
-  const filepath = path.join(__dirname, '/migrations', `${filename}.ts`);
+  const filepath = path.join(file_dirname, '/migrations', `${filename}.ts`);
   console.log(`creating migration file ${filepath}`);
   await fs.writeFile(filepath, string);
 }
