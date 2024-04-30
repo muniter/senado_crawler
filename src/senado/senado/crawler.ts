@@ -1,7 +1,7 @@
-import { Cheerio, CheerioAPI, Element, load } from "cheerio"
-import { cleanupTitle, parseListOfNames, parseNumeroIdentificador, parseTextualDate } from "../../common/utils"
+import { type Cheerio, type CheerioAPI, type Element, load } from "cheerio";
+import { cleanupTitle, parseListOfNames, parseNumeroIdentificador, parseTextualDate } from "../../common/utils.js"
 import { Axios } from "axios"
-import { logger } from "../../utils/logger";
+import { logger } from "../../utils/logger.js";
 import PQueue from "p-queue";
 
 export interface ProyectDetailPageData {

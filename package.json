@@ -2,6 +2,7 @@
   "name": "crawler",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "reset": "rm db/database.db && npm run db:migrate && npm run db:seed && npm run db:gen-ts-schema",

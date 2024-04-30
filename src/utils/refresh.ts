@@ -1,10 +1,11 @@
 import { z } from 'zod'
 import { Command } from 'commander'
-import { PalService } from '../senado/pal'
-import { SenadoService } from '../senado/senado'
-import { spawnSync } from 'child_process'
-import { logger } from './logger'
-import { generateReport } from './gen-report'
+import { SenadoService } from '../senado/senado/index.js'
+import { generateReport } from './gen-report.js'
+import { logger } from './logger.js'
+import { PalService } from '../senado/pal/index.js'
+import { refreshCuatrenio, refreshLegislaturaProyectosListData, refreshLegislaturaProyectosDetailData } from '../camara/index.js';
+
 const program = new Command()
 program.description('Refreshes the data from the senado')
 program.requiredOption('--cuatrenio <string>', 'Cuatrenio to refresh')
@@ -57,7 +58,6 @@ program.parse(process.argv)
 
 
 async function camaraRefresh(options: Options) {
-  const { refreshCuatrenio, refreshLegislaturaProyectosListData, refreshLegislaturaProyectosDetailData } = require('../camara/index');
   if (options.legislatura) {
     await refreshLegislaturaProyectosListData(options.legislatura)
     await refreshLegislaturaProyectosDetailData(options.legislatura)

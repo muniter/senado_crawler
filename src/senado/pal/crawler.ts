@@ -1,8 +1,8 @@
-import { Cheerio, CheerioAPI, Element, load } from "cheerio";
-import { getNumeroSenado, parseTextualDate, parseListOfNames, cleanupTitle, NumeroIdentificador } from "../../common/utils";
+import { type Cheerio, type CheerioAPI, type Element, load } from "cheerio";
+import { getNumeroSenado, parseTextualDate, parseListOfNames, cleanupTitle, type NumeroIdentificador } from "../../common/utils.js";
 import { Axios } from "axios";
 import assert from "assert";
-import { logger } from "../../utils/logger";
+import { logger } from "../../utils/logger.js";
 import PQueue from "p-queue";
 
 type ParsedListItem = {

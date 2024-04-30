@@ -1,6 +1,6 @@
 import { load } from 'cheerio';
-import { buildCamaraUrl, DetailData, ListData } from '..';
-import { parseListOfNames } from '../../common/utils';
+import { buildCamaraUrl, type DetailData, type ListData } from '../index.js';
+import { parseListOfNames } from '../../common/utils.js';
 
 const numeroCamaraRegex = /\d+(\/|-)\d+C?/
 const numeroSenadoRegex = /\d+(\/|-)\d+S?/

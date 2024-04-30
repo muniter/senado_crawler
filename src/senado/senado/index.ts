@@ -1,10 +1,10 @@
-import { Insertable } from "kysely";
-import { CuatrenioRepository } from "../../common/repositories";
-import { DBTransaction, db } from "../../database";
-import { DetailData, Extractor } from "./crawler";
-import { ProyectosSenadoNew } from "../../database/schema";
-import { getDatePart } from "../../common/utils";
-import { logger } from "../../utils/logger";
+import { type Insertable } from "kysely";
+import { CuatrenioRepository } from "../../common/repositories.js";
+import { type DBTransaction, db } from "../../database/index.js";
+import { type DetailData, Extractor } from "./crawler.js";
+import { type ProyectosSenadoNew } from "../../database/schema.js";
+import { getDatePart } from "../../common/utils.js";
+import { logger } from "../../utils/logger.js";
 
 export class SenadoService {
   public async refreshCuatrenio(cuatrenio: string) {

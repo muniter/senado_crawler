@@ -2,8 +2,9 @@ import { z } from 'zod'
 import fs from 'fs'
 import child_process from 'child_process'
 import { Command } from 'commander'
-import { CuatrenioRepository } from '../common/repositories';
-import { logger } from './logger'
+import { CuatrenioRepository } from '../common/repositories.js';
+import { logger } from './logger.js'
+import { fileURLToPath } from 'url';
 const program = new Command()
 program.description('Refreshes the data from the database')
 program.requiredOption('--corporacion <string>', 'Camara | Senado')
@@ -95,6 +96,7 @@ function genJSON(cuatrenio: string, queryFile: string, corporacion: string) {
   child_process.execSync(command)
 }
 
-if (require.main === module) {
+const self = fileURLToPath(import.meta.url);
+if (process.argv[1] === self) {
   program.parse(process.argv)
 }

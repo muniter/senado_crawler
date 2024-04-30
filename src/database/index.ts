@@ -1,6 +1,6 @@
 import { Kysely, ParseJSONResultsPlugin, SqliteDialect, Transaction } from 'kysely'
 import Database from 'better-sqlite3'
-import { DB as DatabaseSchema } from './schema'
+import { type DB as DatabaseSchema } from './schema.js'
 
 export const rawDB = new Database('./db/database.db')
 

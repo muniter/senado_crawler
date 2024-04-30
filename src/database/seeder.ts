@@ -1,4 +1,4 @@
-import { db } from './index'
+import { db } from './index.js'
 
 const cuatrenios = {
   '2018-2022': {

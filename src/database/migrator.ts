@@ -1,5 +1,5 @@
 import * as path from 'path'
-import { db } from './index'
+import { db } from './index.js'
 import { promises as fs } from 'fs'
 import {
   Migrator,
@@ -8,7 +8,7 @@ import {
 import { Command, Option } from 'commander'
 import { spawnSync } from 'child_process'
 import assert from 'assert'
-import { logger } from '../utils/logger'
+import { logger } from '../utils/logger.js'
 const program = new Command()
 
 program.description('Database migrator script');

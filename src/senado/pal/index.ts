@@ -1,10 +1,9 @@
-import { assert } from 'console';
-import { DBTransaction, db } from '../../database';
-import { DetailData, Extractor } from './crawler';
-import { CuatrenioRepository } from '../../common/repositories';
-import { Insertable } from 'kysely';
-import { ProyectosActoLegislativoSenado } from '../../database/schema';
-import { logger } from '../../utils/logger';
+import { type DBTransaction, db } from '../../database/index.js';
+import { type DetailData, Extractor } from './crawler.js';
+import { CuatrenioRepository } from '../../common/repositories.js';
+import { type Insertable } from 'kysely';
+import { type ProyectosActoLegislativoSenado } from '../../database/schema.js';
+import { logger } from '../../utils/logger.js';
 
 export class PalService {
 

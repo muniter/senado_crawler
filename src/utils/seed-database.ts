@@ -1,4 +1,4 @@
-import { db } from '../database'
+//import { db } from '../database'
 
 const CUATRENIOS: Record<string, { inicio: number; fin: number; legilsaturas: string[] }> = {
   '2018-2022': {

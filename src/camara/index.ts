@@ -1,10 +1,10 @@
 import { Axios } from "axios"
-import { processDetailPage, processPage as processRawPage } from "./crawler/processor"
-import { db } from "../database"
+import { processDetailPage, processPage as processRawPage } from "./crawler/processor.js"
+import { db } from "../database/index.js"
 import * as crypto from 'crypto'
 import PQueue from "p-queue"
 import assert from "assert"
-import { logger } from "../utils/logger"
+import { logger } from "../utils/logger.js"
 
 export type CommonData = {
   numeroCamara: string

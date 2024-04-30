@@ -1,5 +1,5 @@
 import { Kysely, sql } from 'kysely'
-import { rawDB } from '../index'
+import { rawDB } from '../index.js'
 
 export async function up(db: Kysely<any>): Promise<void> {
   const expression = `

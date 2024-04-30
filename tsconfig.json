@@ -1,16 +1,22 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "target": "ES2022",
-    "rootDir": "./",
-    "resolveJsonModule": true,
-    "outDir": "./dist",
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
+    /* Base Options: */
     "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2022",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "isolatedModules": true,
+    "verbatimModuleSyntax": true,
+    /* Strictness */
+    "strict": true,
     "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    /* If transpiling with TypeScript: */
+    "module": "NodeNext",
+    "outDir": "dist",
     "sourceMap": true,
-    "skipLibCheck": true
-  },
-  "include": ["../credentials.json", "src/**/*"]
+    "lib": ["es2022"]
+  }
 }
