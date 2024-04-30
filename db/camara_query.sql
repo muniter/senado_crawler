@@ -6,12 +6,12 @@ SELECT numeroCamara,
        estado,
        comision,
        origen,
-       Cuatrenio.title AS cuatrenio,
+       cuatrenio.title AS cuatrenio,
        legislatura,
        url,
        tituloLargo,
        objeto
-FROM CamaraProyectos
-LEFT JOIN Legislatura ON legislatura.title = legislatura
-LEFT JOIN Cuatrenio ON cuatrenio.id = legislatura.cuatrenioId
-WHERE Cuatrenio.title = :cuatrenio_title
+FROM camara
+         LEFT JOIN legislatura ON legislatura.title = legislatura
+         LEFT JOIN cuatrenio ON cuatrenio.id = legislatura.cuatrenioId
+WHERE cuatrenio.title = :cuatrenio_title

@@ -4,7 +4,7 @@ export type Generated<T> = T extends ColumnType<infer S, infer I, infer U>
   ? ColumnType<S, I | undefined, U>
   : ColumnType<T, T | undefined, T>;
 
-export interface CamaraProyectos {
+export interface Camara {
   autores: string | null;
   comision: string | null;
   contenido: string | null;
@@ -39,26 +39,7 @@ export interface Legislatura {
   title: string;
 }
 
-export interface ProyectosActoLegislativoSenado {
-  acumulados: string | null;
-  autores: string | null;
-  created_at: Generated<string | null>;
-  estado: string | null;
-  estadoAnotacion: string | null;
-  fechaDePresentacion: string | null;
-  id: Generated<number | null>;
-  id_senado: number;
-  legislatura: string;
-  numero: string;
-  numeroCamara: string | null;
-  origen: string | null;
-  ponentesPrimerDebate: string | null;
-  titulo: string;
-  updated_at: Generated<string | null>;
-  url: string;
-}
-
-export interface ProyectosSenado {
+export interface Senado {
   autores: Generated<string>;
   comision: string;
   concepto: string | null;
@@ -89,10 +70,29 @@ export interface ProyectosSenado {
   url: string;
 }
 
+export interface SenadoPal {
+  acumulados: string | null;
+  autores: string | null;
+  created_at: Generated<string | null>;
+  estado: string | null;
+  estadoAnotacion: string | null;
+  fechaDePresentacion: string | null;
+  id: Generated<number | null>;
+  id_senado: number;
+  legislatura: string;
+  numero: string;
+  numeroCamara: string | null;
+  origen: string | null;
+  ponentesPrimerDebate: string | null;
+  titulo: string;
+  updated_at: Generated<string | null>;
+  url: string;
+}
+
 export interface DB {
-  CamaraProyectos: CamaraProyectos;
+  camara: Camara;
   Cuatrenio: Cuatrenio;
   Legislatura: Legislatura;
-  ProyectosActoLegislativoSenado: ProyectosActoLegislativoSenado;
-  ProyectosSenado: ProyectosSenado;
+  senado: Senado;
+  senado_pal: SenadoPal;
 }

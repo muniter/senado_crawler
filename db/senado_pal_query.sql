@@ -11,8 +11,8 @@ SELECT numero,
        acumulados,
        autores,
        ponentesPrimerDebate
-FROM ProyectosActoLegislativoSenado
-         LEFT JOIN Legislatura ON Legislatura.title = ProyectosActoLegislativoSenado.legislatura
-         LEFT JOIN Cuatrenio ON Cuatrenio.id = Legislatura.cuatrenioId
-WHERE Cuatrenio.title = :cuatrenio_title
+FROM senado_pal
+         LEFT JOIN legislatura ON legislatura.title = senado_pal.legislatura
+         LEFT JOIN cuatrenio ON cuatrenio.id = legislatura.cuatrenioId
+WHERE cuatrenio.title = :cuatrenio_title
 ORDER BY legislatura, numero;

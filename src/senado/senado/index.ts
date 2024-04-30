@@ -2,7 +2,7 @@ import { type Insertable } from "kysely";
 import { CuatrenioRepository } from "../../common/repositories.js";
 import { type DBTransaction, db } from "../../database/index.js";
 import { type DetailData, Extractor } from "./crawler.js";
-import { type ProyectosSenado } from "../../database/schema.js";
+import { type Senado } from "../../database/schema.js";
 import { getDatePart } from "../../common/utils.js";
 import { logger } from "../../utils/logger.js";
 
@@ -30,7 +30,7 @@ export class SenadoService {
 }
 
 class SenadoRepository {
-  private table = 'ProyectosSenado' as const
+  private table = 'senado' as const
   private tx: DBTransaction | undefined
 
   public constructor(tx?: DBTransaction) {
@@ -50,7 +50,7 @@ class SenadoRepository {
       .executeTakeFirst()) !== undefined
   }
 
-  private prepareData(data: DetailData): Insertable<ProyectosSenado> {
+  private prepareData(data: DetailData): Insertable<Senado> {
     return {
       id_senado: data.id_senado,
       numero: data.numero,

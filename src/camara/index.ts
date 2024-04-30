@@ -117,7 +117,7 @@ export async function refreshLegislaturaProyectosListData(legislatura: string) {
 
 
 export async function refreshLegislaturaProyectosDetailData(legislatura: string) {
-  const proyectos = await db.selectFrom('CamaraProyectos')
+  const proyectos = await db.selectFrom('camara')
     .selectAll()
     .where('legislatura', '=', legislatura)
     .where((eb) => eb.or([
@@ -153,7 +153,7 @@ async function refreshProyectoDetailData(options: RefreshProyectoDetailDataOptio
   if (options.url) {
     fetchUrl = options.url
   } else {
-    const proyecto = await db.selectFrom('CamaraProyectos')
+    const proyecto = await db.selectFrom('camara')
       .selectAll()
       .where('numeroCamara', '=', options.numeroCamara)
       .executeTakeFirstOrThrow()
@@ -205,18 +205,18 @@ async function storeProyectoListData(listData: ListData[]) {
   return db.transaction().execute(async (trx) => {
 
     for (const data of listData) {
-      const exists = await trx.selectFrom('CamaraProyectos')
+      const exists = await trx.selectFrom('camara')
         .select('numeroCamara')
         .where('numeroCamara', '=', data.numeroCamara)
         .executeTakeFirst()
 
       if (!exists) {
         console.info('Inserting data for', data.numeroCamara)
-        await trx.insertInto('CamaraProyectos')
+        await trx.insertInto('camara')
           .values(buildUpdateObjectFromListData(data))
           .execute()
       } else {
-        const shouldUpdate = await trx.selectFrom('CamaraProyectos')
+        const shouldUpdate = await trx.selectFrom('camara')
           .selectAll()
           .where('numeroCamara', '=', data.numeroCamara)
           .where((eb) => eb.or([
@@ -228,7 +228,7 @@ async function storeProyectoListData(listData: ListData[]) {
 
         if (shouldUpdate) {
           console.info('Updating data for', data.numeroCamara)
-          await trx.updateTable('CamaraProyectos')
+          await trx.updateTable('camara')
             .set(buildUpdateObjectFromListData(data))
             .where('numeroCamara', '=', data.numeroCamara)
             .execute()
@@ -242,7 +242,7 @@ async function storeProyectoListData(listData: ListData[]) {
 
 async function storeProyectoDetailData(data: DetailData) {
   const updateHash = hashObject(data)
-  const shouldUpdate = await db.selectFrom('CamaraProyectos')
+  const shouldUpdate = await db.selectFrom('camara')
     .select('numeroCamara')
     .where('numeroCamara', '=', data.numeroCamara)
     .where((eb) => eb.or([
@@ -253,7 +253,7 @@ async function storeProyectoDetailData(data: DetailData) {
 
   if (shouldUpdate) {
     console.info(`Storing detail data for ${data.numeroCamara}`)
-    await db.updateTable('CamaraProyectos')
+    await db.updateTable('camara')
       .set({
         numeroSenado: data.numeroSenado,
         tituloLargo: data.tituloLargo,

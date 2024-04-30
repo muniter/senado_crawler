@@ -2,7 +2,7 @@ import { type DBTransaction, db } from '../../database/index.js';
 import { type DetailData, Extractor } from './crawler.js';
 import { CuatrenioRepository } from '../../common/repositories.js';
 import { type Insertable } from 'kysely';
-import { type ProyectosActoLegislativoSenado } from '../../database/schema.js';
+import { type SenadoPal } from '../../database/schema.js';
 import { logger } from '../../utils/logger.js';
 
 export class PalService {
@@ -32,7 +32,7 @@ export class PalService {
 }
 
 class PalRepository {
-  private table = 'ProyectosActoLegislativoSenado' as const
+  private table = 'senado_pal' as const
   private tx: DBTransaction | undefined
 
   public constructor(tx?: DBTransaction) {
@@ -53,7 +53,7 @@ class PalRepository {
       .executeTakeFirst()) !== undefined
   }
 
-  private prepareData(data: DetailData): Insertable<ProyectosActoLegislativoSenado> {
+  private prepareData(data: DetailData): Insertable<SenadoPal> {
     return {
       id_senado: data.id_senado,
       estado: data.estado,

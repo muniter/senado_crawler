@@ -24,9 +24,9 @@ SELECT 'N ' || proyecto.numero               AS numero,
        proyecto.concepto,
        proyecto.textoRehecho,
        proyecto.sentenciaCorte
-FROM ProyectosSenadoNew AS proyecto
-         LEFT JOIN Legislatura ON Legislatura.title = proyecto.legislatura
-         LEFT JOIN Cuatrenio ON Cuatrenio.id = Legislatura.cuatrenioId
-WHERE Cuatrenio.title = :cuatrenio_title
-ORDER BY CAST(SUBSTR(proyecto.numero, INSTR(proyecto.numero, '/') + 1) AS INT) DESC,
-         CAST(SUBSTR(proyecto.numero, 1, INSTR(proyecto.numero, '/') - 1) AS INT) DESC;
+from senado as proyecto
+         left join legislatura on legislatura.title = proyecto.legislatura
+         left join cuatrenio on cuatrenio.id = legislatura.cuatrenioid
+where cuatrenio.title = :cuatrenio_title
+order by cast(substr(proyecto.numero, instr(proyecto.numero, '/') + 1) as int) desc,
+         cast(substr(proyecto.numero, 1, instr(proyecto.numero, '/') - 1) as int) desc;
