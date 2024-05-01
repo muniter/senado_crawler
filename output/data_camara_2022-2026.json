@@ -3329,7 +3329,7 @@
       "H.R.Catherine Juvinao Clavijo",
       "H.R.Daniel Carvalho Mejía"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -4522,7 +4522,7 @@
     "autores": [
       "H.R.Dorina Hernández Palomino"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5845,7 +5845,7 @@
       "H.R.Marelen Castillo Torres",
       "H.R.Leonor María Palencia Vega"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9085,7 +9085,9 @@
       "H.R.Martha Lisbeth Alfonso Jurado",
       "H.R.Juan Sebastián Gómez Gonzáles",
       "H.R.Wilder Iberson Escobar Ortiz",
-      "H.R.Leyla Marleny Rincón Trujillo"
+      "H.R.Leyla Marleny Rincón Trujillo",
+      "H.R.María del Mar Pizarro García",
+      "H.R.Susana Gómez Castaño"
     ],
     "estado": "Otro",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
@@ -12149,7 +12151,7 @@
       "Ministra de Relaciones Exteriores - Martha Lucia Ramirez Blanco",
       "Ministra de Educación Nacional - Maria Victoria Angulo"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -15012,7 +15014,7 @@
       "H.R.Mónica Karina Bocanegra Pantoja",
       "H.R.Luis David Súarez Chadid"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19702,7 +19704,7 @@
       "H.R.Álvaro Leonel Rueda caballero",
       "H.R.Juan Camilo Londoño Barrera"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20984,7 +20986,7 @@
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.Carlos Adolfo Ardila Espinosa"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21614,7 +21616,7 @@
       "H.R.Silvio José Carrasquilla Torres",
       "H.R.Piedad Correal Rubiano"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22350,7 +22352,7 @@
     "legislatura": "2023-2024",
     "url": "https://www.camara.gov.co/licencia-de-maternidad-para-mujeres-en-politica",
     "tituloLargo": "Por medio de la cual se crea la modalidad de licencia de maternidad para mujeres en política, se promueve la igualdad y la participación política de las mujeres, se modifica la Ley 5 de 1992 y se dictan otras disposiciones",
-    "objeto": ""
+    "objeto": "La presente ley tiene por Objeto crear la modalidad de licencia de maternidad para mujeres en política, promover la igualdad y la participación política de las mujeres en Colombia, modificar la Ley 5 de 1992 y dictar otras disposiciones."
   },
   {
     "numeroCamara": "424/2024C",
