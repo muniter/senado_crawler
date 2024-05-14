@@ -15,4 +15,4 @@ FROM senado_pal
          LEFT JOIN legislatura ON legislatura.title = senado_pal.legislatura
          LEFT JOIN cuatrenio ON cuatrenio.id = legislatura.cuatrenioId
 WHERE cuatrenio.title = :cuatrenio_title
-ORDER BY legislatura, numero;
+ORDER BY legislatura DESC, numero DESC;
