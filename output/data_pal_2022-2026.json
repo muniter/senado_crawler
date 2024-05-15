@@ -3,7 +3,7 @@
     "numero": "022/24PAL",
     "numeroCamara": "402/24",
     "titulo": "POR MEDIO DEL CUAL SE OTORGA LA CALIDAD DE DISTRITO TURÍSTICO, CULTURAL, HISTÓRICO Y DE TECNOLOGÍA AL MUNICIPIO DE PUERTO COLOMBIA EN EL DEPARTAMENTO DEL ATLÁNTICO Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+    "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-03-14",
@@ -23,13 +23,15 @@
       "SILVIO JOSÉ CARRASQUILLA TORRES",
       "PIEDAD CORREAL RUBIANO"
     ],
-    "ponentesPrimerDebate": []
+    "ponentesPrimerDebate": [
+      "H.S. FABIO AMIN SALEME"
+    ]
   },
   {
     "numero": "021/24PAL",
     "numeroCamara": null,
     "titulo": "POR EL CUAL SE MODIFICA EL INCISO 1° DEL ARTÍCULO 217 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA, SE CAMBIA EL NOMBRE DE LA FUERZA AÉREA POR FUERZA AEROESPACIAL Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+    "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN CÁMARA",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-04-02",
