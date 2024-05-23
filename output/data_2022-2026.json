@@ -4422,7 +4422,7 @@
     "textoPlenaria": null,
     "conciliacion": null,
     "objeciones": null,
-    "concepto": null,
+    "concepto": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2024/gaceta_648.pdf",
     "textoRehecho": null,
     "sentenciaCorte": ""
   },
@@ -8738,7 +8738,7 @@
       "H.R.OSCAR TORRES ROMERO"
     ],
     "exposicionMotivos": null,
-    "primeraPonencia": null,
+    "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2024/gaceta_649.pdf",
     "segundaPonencia": null,
     "textoPlenaria": null,
     "conciliacion": null,
