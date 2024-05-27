@@ -1697,7 +1697,7 @@
   },
   {
     "numeroCamara": "362/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "078/2023S",
     "tituloCorto": "PALENQUE MUNICIPIO ESPECIAL Y ETNOCULTURAL",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -1731,7 +1731,7 @@
       "H.R.Andrés Guillermo Montes Celedón",
       "H.R.Juliana Aray Franco"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9735,14 +9735,14 @@
   },
   {
     "numeroCamara": "058/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "339/2023S",
     "tituloCorto": "ESTAMPILLA PRO-HOSPITALES LA GUAJIRA",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.S.Alfredo Rafael Deluque Zuleta",
       "H.R.Jorge Alberto Cerchiaro Figueroa"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -11656,7 +11656,7 @@
     "autores": [
       "H.R.Armando Antonio Zabaraín de Arce"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21039,7 +21039,7 @@
       "H.R.Hernán Darío Cadavid Márquez",
       "H.R.Irma Luz Herrera Rodríguez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21294,7 +21294,7 @@
       "H.S.Manuel Antonio Virgüez Piraquive",
       "H.R.Irma Luz Herrera Rodríguez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Archivado",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22644,7 +22644,7 @@
       "H.R.Dorina Hernández Palomino"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
@@ -22713,7 +22713,7 @@
       "H.R.Daniel Restrepo Carmona"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
@@ -22838,7 +22838,7 @@
       "H.R.Hernando González"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2023-2024",
