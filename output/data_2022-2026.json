@@ -688,7 +688,7 @@
     "numero": "N 286/24",
     "numeroCamara": "354/23",
     "titulo": "POR MEDIO DE LA CUAL EL CONGRESO DE LA REPÚBLICA RINDE HONORES AL MOVIMIENTO SUFRAGISTA EN COLOMBIA Y SE DICTAN OTRAN DISPOSICIONES",
-    "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "SEGUNDA",
     "fechaRadicado": "2023-03-07",
@@ -705,7 +705,7 @@
       "H.S. NICOLÁS ALBEIRO ECHEVERRI ALVARÁN H.R.ANDRÉS FELIPE JIMÉNEZ VARGAS"
     ],
     "exposicionMotivos": null,
-    "primeraPonencia": null,
+    "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2023/gaceta_681pdf",
     "segundaPonencia": null,
     "textoPlenaria": null,
     "conciliacion": null,
@@ -3375,7 +3375,7 @@
     "numero": "N 217/24",
     "numeroCamara": null,
     "titulo": "POR MEDIO DE LA CUAL SE APRUEBA EL «CONVENIO SOBRE LA VIOLENCIA Y EL ACOSO – No. 190» ADOPTADO POR LA 108a REUNIÓN DE LA CONFERENCIA INTERNACIONAL DEL TRABAJO, EN GINEBRA, SUIZA EL 21 DE JUNIO DE 2019",
-    "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "SEGUNDA",
     "fechaRadicado": "2024-02-16",
@@ -3394,7 +3394,7 @@
       "DOCTORA GLORIA INÉS RAMÍREZ RÍOS con el acompañamiento de la H.S JAHEL QUIROGA CARRILLO"
     ],
     "exposicionMotivos": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2024/gaceta_113pdf",
-    "primeraPonencia": null,
+    "primeraPonencia": "http://leyes.senado.gov.co/proyectos/images/documentos/Textos%20Radicados/Ponencias/2024/gaceta_648.pdf",
     "segundaPonencia": null,
     "textoPlenaria": null,
     "conciliacion": null,
@@ -4095,7 +4095,7 @@
     "numero": "N 327/23",
     "numeroCamara": "183/22",
     "titulo": "POR MEDIO DE LA CUAL LA NACIÓN Y EL CONGRESO SE ASOCIAN A LA CELEBRACIÓN DE LOS CINCUENTA Y CINCO AÑOS DE LA FUNDACIÓN DEL MUNICIPIO DE CIMITARRA, DEPARTAMENTO DE SANTANDER, Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+    "estado": "PENDIENTE ENVIAR A SANCIÓN",
     "estadoAnotacion": "",
     "comision": "SEGUNDA",
     "fechaRadicado": "2022-09-06",
@@ -4106,7 +4106,7 @@
     "fechaEnvioComision": null,
     "fechaPresentacion": "2022-09-06",
     "fechaAprobacionPrimerDebate": "2024-03-05",
-    "fechaAprobacionSegundoDebate": null,
+    "fechaAprobacionSegundoDebate": "2024-05-30",
     "fechaConciliacion": null,
     "autores": [
       "H.R.OSCAR LEONARDO VILLAMIZAR MENESES"
