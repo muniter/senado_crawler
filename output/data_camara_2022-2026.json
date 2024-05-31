@@ -3015,7 +3015,7 @@
   },
   {
     "numeroCamara": "311/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "119/2023S",
     "tituloCorto": "CARCELES PRODUCTIVAS",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -3028,7 +3028,7 @@
       "H.S.Griselda Lobo Silva",
       "H.S.Ana Maria Castañeda Gómez"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -7416,7 +7416,7 @@
   },
   {
     "numeroCamara": "145/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "310/2023S",
     "tituloCorto": "SANCIONES MOTOCICLISTAS",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -7426,7 +7426,7 @@
       "H.R.Julián Peinado Ramírez",
       "H.R.Oscar Hernán Sánchez León"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9132,7 +9132,7 @@
   },
   {
     "numeroCamara": "082/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "332/2023S",
     "tituloCorto": "NIVELACIÓN EDUCATIVA POSPANDEMIA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -9149,7 +9149,7 @@
       "H.R.Jaime Raúl Salamanca Torres",
       "H.R.Wilder Iberson Escobar Ortiz"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9383,7 +9383,7 @@
   },
   {
     "numeroCamara": "073/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "118/2023S",
     "tituloCorto": "FORTALECIMIENTO DE LAS PERSONERIAS",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -9394,7 +9394,7 @@
       "H.R.Germán Rogelio Rozo Anís",
       "H.R.Hugo Alfonso Archila Suárez"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -12545,7 +12545,7 @@
       "Ministra de Relaciones Exteriores - Martha Lucia Ramirez Blanco",
       "Ministra de Educación Nacional - Maria Victoria Angulo"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -13065,7 +13065,7 @@
       "H.S.Marcos Daniel Pineda García",
       "H.R.Wadith Alberto Manzur Imbett"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -13428,7 +13428,7 @@
       "H.S.Efraín José Cepeda Sarabia",
       "H.S.María José Pizarro Rodríguez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Archivado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -14796,7 +14796,7 @@
     "autores": [
       "H.S.Andrea Padilla Villarraga"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -20198,7 +20198,7 @@
     "autores": [
       "Ministro de Relaciones Exteriores - Álvaro Leyva Duran"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -20336,7 +20336,7 @@
     "autores": [
       "Defensor del Pueblo - Carlos Camargo Assis"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -21720,7 +21720,7 @@
       "H.R.José Eliécer Salazar López",
       "H.R.Germán Rogelio Rozo Anís"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Retirado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22877,5 +22877,40 @@
     "url": "https://www.camara.gov.co/fuerza-aeroespacial",
     "tituloLargo": "Por el cual se modifica el inciso 1 ° del artículo 217 de la Constitución Política de Colombia, se cambia el nombre de la Fuerza Aérea por Fuerza Aeroespacial y se dictan otras disposiciones",
     "objeto": ""
+  },
+  {
+    "numeroCamara": "448/2024C",
+    "numeroSenado": "062/2023S",
+    "tituloCorto": "VIOLENCIA VICARIA - LEY GABRIEL ESTEBAN",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Nadya Georgette Blel Scaf",
+      "H.S.Germán Alcides Blanco Álvarez",
+      "H.S.Liliana Esther Bitar Castilla",
+      "H.S.Soledad Tamayo Tamayo",
+      "H.S.Nicolás Albeiro Echeverri Alvarán",
+      "H.S.Miguel Angel Barreto Castillo",
+      "H.S.Claudia María Pérez Giraldo",
+      "H.S.Sor Berenice Bedoya Pérez",
+      "H.S.Karina Espinosa Oliver",
+      "H.S.Ana Maria Castañeda Gómez",
+      "H.S.Angélica lisbeth lozano correa",
+      "H.S.Efraín José Cepeda Sarabia",
+      "H.S.Carlos Mario Farelo Daza",
+      "H.S.Didier Lobo Chinchilla",
+      "H.S.Honorio Miguel Henríquez Pinedo",
+      "H.S.José Alfredo Marín Lozano",
+      "H.S.Beatriz Lorena Ríos Cuellar",
+      "H.R.Ruth Amelia Caycedo Rosero",
+      "H.R.Delcy Esperanza Isaza Buenaventura"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Primera Constitucional Permanente",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/violencia-vicaria-ley-gabriel-esteban",
+    "tituloLargo": "Por medio del cual se dictan medidas para reconocer, prevenir y sancionar violencia vicaria como una manifestación de violencia de género y se dictan otras disposiciones. \"Ley Gabriel Esteban\".",
+    "objeto": "La presente ley tiene por objeto garantizar una vida libre de violencia mediante el reconocimiento, prevención y sanción de la violencia vicaria como una manifestación de violencia de género."
   }
 ]
