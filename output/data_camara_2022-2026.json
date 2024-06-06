@@ -63,7 +63,7 @@
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.Adriana Carolina Arbeláez Giraldo"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -88,7 +88,7 @@
       "H.S.Carlos Andres Trujillo Gonzalez",
       "H.R.Julio Roberto Salazar Pérdomo"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -2251,7 +2251,7 @@
       "H.S.Alfredo Rafael Deluque Zuleta",
       "H.R.Jorge Alberto Cerchiaro Figueroa"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -2270,7 +2270,7 @@
       "H.S.Marcos Daniel Pineda García",
       "H.S.Beatriz Lorena Ríos Cuellar"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -9689,7 +9689,7 @@
       "H.R.Diego Fernando Caicedo Navas",
       "H.R.Jorge Alberto Cerchiaro Figueroa"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9743,7 +9743,7 @@
       "H.S.Alfredo Rafael Deluque Zuleta",
       "H.R.Jorge Alberto Cerchiaro Figueroa"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -11133,7 +11133,7 @@
     "autores": [
       "H.S.Josué Alirio Barrera Rodríguez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -12327,7 +12327,7 @@
       "H.R.Carmen Felisa Ramírez Boscán",
       "Ministro de Defensa Nacional - Ivan Velasquez Gomez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -15987,7 +15987,7 @@
       "H.R.Wilder Iberson Escobar Ortiz",
       "H.R.Juan Sebastián Gómez Gonzáles"
     ],
-    "estado": "Sancion Presidencial",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -16397,7 +16397,7 @@
       "H.R.Norman David Bañol Álvarez",
       "H.R.Hugo Alfonso Archila Suárez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -17968,7 +17968,7 @@
       "H.R.Agmeth José Escaf Tijerino",
       "H.R.Eduard Giovanny Sarmiento Hidalgo"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19033,7 +19033,7 @@
     "autores": [
       "H.R.Juan Carlos Wills Ospina"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Archivado",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20262,7 +20262,7 @@
       "H.R.Leonor María Palencia Vega",
       "H.R.Elkin Rodolfo Ospina Ospina"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20298,7 +20298,7 @@
       "H.R.Nestor Leonardo Rico Rico",
       "H.R.Jorge Méndez Hernández"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20406,7 +20406,7 @@
       "H.R.Ingrid Johana Aguirre Juvinao",
       "H.R.Wilmer Yair Castellanos Hernández"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20928,7 +20928,7 @@
       "H.R.Juan Camilo Londoño Barrera",
       "H.R.Hugo Alfonso Archila Suárez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22769,7 +22769,7 @@
       "Ministro de Relaciones Exteriores - Martha Lucia Ramirez Blanco",
       "Ministro de Defensa Nacional - Diego Andres Molano Aponte"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -22911,5 +22911,68 @@
     "url": "https://www.camara.gov.co/violencia-vicaria-ley-gabriel-esteban",
     "tituloLargo": "Por medio del cual se dictan medidas para reconocer, prevenir y sancionar violencia vicaria como una manifestación de violencia de género y se dictan otras disposiciones. \"Ley Gabriel Esteban\".",
     "objeto": "La presente ley tiene por objeto garantizar una vida libre de violencia mediante el reconocimiento, prevención y sanción de la violencia vicaria como una manifestación de violencia de género."
+  },
+  {
+    "numeroCamara": "451/2024C",
+    "numeroSenado": "079/2022S",
+    "tituloCorto": "CONVENIO ENFERMERIA",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "Ministra de Relaciones Exteriores - Martha Lucia Ramirez Blanco",
+      "Ministro del Trabajo - Angel Custodio Cabrera"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Segunda o de Relaciones Internacionales",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/convenio-enfermeria",
+    "tituloLargo": "POR MEDIO DE LA CUAL SE APRUEBA EL « CONVENIO 149 SOBRE EL EMPLEO Y CONDICIONES DE TRABAJO Y DE VIDA PERSONAL DE ENFERMERIA, » , ADOPTADO POR LA SEXTAGESIMA TERCERA (63ª) CONFERENCIA INTERNACIONAL DE LA ORGANIZACION INTERNACIONAL DEL TRABAJO, GINEBRA, SUIZA, CON FECHA 21 DE JUNIO 1977",
+    "objeto": ""
+  },
+  {
+    "numeroCamara": "450/2024C",
+    "numeroSenado": "250/2022S",
+    "tituloCorto": "TRAFICO ILICITO DE MIGRANTES",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "Ministro de Relaciones Exteriores - Álvaro Leyva Duran",
+      "Ministro de Justicia y del Derecho - Nestor Ivan Ozuna Patiño"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Segunda o de Relaciones Internacionales",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/trafico-ilicito-de-migrantes",
+    "tituloLargo": "POR MEDIO DE LA CUAL SE APRUEBA EL «PROTOCOLO CONTRA EL TRÁFICO ILÍCITO DE MIGRANTES POR TIERRA, MAR Y AIRE, QUE COMPLEMENTA LA CONVENCIÓN DE LAS NACIONES UNIDAS CONTRA LA DELINCUENCIA ORGANIZADA TRASNACIONAL», ADOPTADO POR LA ASAMBLEA GENERAL DE LA ORGANIZACIÓN DE LAS NACIONES UNIDAS, EL 15 DE NOVIEMBRE DE 2000",
+    "objeto": ""
+  },
+  {
+    "numeroCamara": "449/2024C",
+    "numeroSenado": "019/2024S",
+    "tituloCorto": "MANIZALES EJE DEL CONOCIMIENTO",
+    "tipo": "Acto Legislativo",
+    "autores": [
+      "H.S.Guido Echeverri Piedrahita",
+      "H.S.Jairo Alberto Castellanos Serrano",
+      "H.S.Alejandro Alberto Vega Pérez",
+      "H.S.Humberto de la calle Lombana",
+      "H.S.Andrés Felipe Guerra Hoyos",
+      "H.S.Enrique Cabrales Baquero",
+      "H.S.Carlos Manuel Meisel Vergara",
+      "H.S.Gustavo Adolfo Moreno Hurtado",
+      "H.S.Paulino Riascos Riascos",
+      "H.S.Sor Berenice Bedoya Pérez",
+      "H.S.Isabel Cristina Zuleta López"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Primera Constitucional Permanente",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/manizales-eje-del-conocimiento",
+    "tituloLargo": "POR EL CUAL SE OTORGA LA CATEGORÍA DE DISTRITO ESPECIAL EJE DEL CONOCIMIENTO AL MUNICIPIO DE MANIZALES EN EL DEPARTAMENTO DE CALDAS",
+    "objeto": ""
   }
 ]
