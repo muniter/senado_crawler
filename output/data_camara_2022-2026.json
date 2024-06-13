@@ -2626,7 +2626,7 @@
       "H.S.Nadya Georgette Blel Scaf",
       "H.R.Juliana Aray Franco"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -8626,7 +8626,7 @@
   },
   {
     "numeroCamara": "100/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "140/2023S",
     "tituloCorto": "INSTITUCIONALIZAR DIA SIN IVA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -8650,7 +8650,7 @@
       "H.R.Eduard Alexis Triana Rincón",
       "H.R.Yulieth Andrea Sánchez Carreño"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9315,7 +9315,7 @@
   },
   {
     "numeroCamara": "076/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "312/2023S",
     "tituloCorto": "NUCLEO FAMILIAR",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -9327,7 +9327,7 @@
       "H.R.Jairo Humberto Cristo Correa",
       "H.R.Germán Rogelio Rozo Anís"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9689,7 +9689,7 @@
       "H.R.Diego Fernando Caicedo Navas",
       "H.R.Jorge Alberto Cerchiaro Figueroa"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -13065,7 +13065,7 @@
       "H.S.Marcos Daniel Pineda García",
       "H.R.Wadith Alberto Manzur Imbett"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -16012,7 +16012,7 @@
       "H.R.Carlos Alberto Carreño Marin",
       "H.R.Pedro Baracutao García Ospina"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Retirado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20649,7 +20649,7 @@
     "tituloCorto": "QUIBDO DISTRITO AMBIENTAL",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "H.R.Jhoany Carlos Alberto Palacios Mosquera"
+      "Jhoany Carlos Alberto Palacios Mosquera"
     ],
     "estado": "Retirado",
     "comision": "Comisión Primera Constitucional Permanente",
