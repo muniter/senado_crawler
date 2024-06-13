@@ -7325,7 +7325,7 @@
   },
   {
     "numeroCamara": "148/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "345/2023S",
     "tituloCorto": "EDUCACIÓN PARA LA PREVENCIÓN",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -7351,7 +7351,7 @@
       "H.R.Kelyn Johana González Duarte",
       "H.R.Luis Carlos Ochoa Tobón"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -13875,7 +13875,7 @@
       "H.R.Dorina Hernández Palomino",
       "Ministro de Cultura - Jorge Ignacio Zorro"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -14676,7 +14676,7 @@
       "H.R.Gloria Liliana Rodríguez Valencia",
       "H.R.Edinson Vladimir Olaya Mancipe"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Archivado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -20651,7 +20651,7 @@
     "autores": [
       "H.R.Jhoany Carlos Alberto Palacios Mosquera"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Retirado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21894,7 +21894,7 @@
       "H.R.Juan Fernando Espinal Ramírez",
       "H.R.Yulieth Andrea Sánchez Carreño"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Retirado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22868,7 +22868,7 @@
       "H.R.José Jaime Uscátegui Pastrana",
       "Ministro de Defensa Nacional - Ivan Velasquez Gomez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
