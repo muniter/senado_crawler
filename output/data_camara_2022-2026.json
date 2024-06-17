@@ -700,7 +700,7 @@
   },
   {
     "numeroCamara": "402/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "135/2023S",
     "tituloCorto": "CONMEMORACIÓN 70 AÑOS DE LA UPTC",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -725,7 +725,7 @@
       "H.R.Jennifer Dalley Pedraza Sandoval",
       "H.R.Gloria Liliana Rodríguez Valencia"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -823,13 +823,13 @@
   },
   {
     "numeroCamara": "398/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "138/2023S",
     "tituloCorto": "HOMENAJE A BALBOA",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Aníbal Gustavo Hoyos Franco"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -2964,7 +2964,7 @@
   },
   {
     "numeroCamara": "313/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "256/2024S",
     "tituloCorto": "EDUCACIÓN SOCIOEMOCIONAL",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -2984,14 +2984,14 @@
       "H.R.Ingrid Marlen Sogamoso Alfonso",
       "H.R.Gerson Lisímaco Montaño Arizala"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2022-2023",
     "url": "https://www.camara.gov.co/educacion-socioemocional",
     "tituloLargo": "Por medio de la cual se promueve la educación socioemocional de los niños, niñas, adolescentes y jóvenes en las instituciones educativas de preescolar, primaria, básica y media en Colombia",
-    "objeto": "DECRETA:\nArtículo 1°. Objeto. La presente ley tiene como fin promover de manera transversal la educación socioemocional de los niños, niñas, adolescentes y jóvenes en los centros e instituciones educativas de los niveles preescolar, primaria, básica y media el país, dentro de un marco de desarrollo integral."
+    "objeto": "La presente ley tiene como fin promover de manera transversal la educación socioemocional de los niños, niñas, adolescentes y jóvenes en los centros e instituciones educativas de los niveles preescolar, primaria, básica y media el país, dentro de un marco de desarrollo integral."
   },
   {
     "numeroCamara": "312/2022C",
@@ -3525,7 +3525,7 @@
   },
   {
     "numeroCamara": "291/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "265/2024S",
     "tituloCorto": "POLITICA MERCADO AGROPECUARIO",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -3541,7 +3541,7 @@
       "H.R.Julio Roberto Salazar Pérdomo",
       "H.R.Karen Astrith Manrique Olarte"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -4050,7 +4050,7 @@
   },
   {
     "numeroCamara": "271/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "278/2024S",
     "tituloCorto": "CONSULTORIOS PSICOLÓGICOS COMUNITARIOS",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -4069,7 +4069,7 @@
       "H.R.Héctor Mauricio Cuéllar Pinzón",
       "H.R.Juan Carlos Wills Ospina"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -4534,13 +4534,13 @@
   },
   {
     "numeroCamara": "255/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "324/2023S",
     "tituloCorto": "CHINAVITA",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Jaime Raúl Salamanca Torres"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5142,14 +5142,14 @@
   },
   {
     "numeroCamara": "231/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "048/2023S",
     "tituloCorto": "ESCENARIOS DEPORTIVOS",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Alfredo Ape Cuello Baute",
       "H.R.Libardo Cruz Casado"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5732,7 +5732,7 @@
   },
   {
     "numeroCamara": "209/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "343/2023S",
     "tituloCorto": "CANASTA BASICA DE CULTURA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -5758,7 +5758,7 @@
       "H.R.Julián Peinado Ramírez",
       "H.R.Hernando González"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5796,7 +5796,7 @@
   },
   {
     "numeroCamara": "207/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "250/2024S",
     "tituloCorto": "ZOOLOGICOS",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -5815,7 +5815,7 @@
       "H.R.José Jaime Uscátegui Pastrana",
       "H.R.Ana Rogelia Monsalve Álvarez"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -8182,7 +8182,7 @@
   },
   {
     "numeroCamara": "116/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "251/2024S",
     "tituloCorto": "SANCIONATORIO AMBIENTAL",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -8204,7 +8204,7 @@
       "H.R.Wilmer Yair Castellanos Hernández",
       "H.R.Olga Lucia Velásquez Nieto"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -18319,14 +18319,14 @@
   },
   {
     "numeroCamara": "054/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "253/2024S",
     "tituloCorto": "SITUACIÓN MILITAR PERSONAS TRANSGÉNERO",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Luvi Katherine Miranda Peña",
       "H.R.Susana Gómez Castaño"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
