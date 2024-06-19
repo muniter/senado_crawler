@@ -11,7 +11,7 @@
       "H.S.Guido Echeverri Piedrahita",
       "H.S.Miguel Uribe Turbay"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -28,7 +28,7 @@
     "autores": [
       "H.S.Norma Hurtado Sánchez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -151,7 +151,7 @@
       "H.R.Irma Luz Herrera Rodríguez",
       "H.R.Silvio José Carrasquilla Torres"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -765,7 +765,7 @@
       "H.R.Gabriel Ernesto Parrado Durán",
       "H.R.William Ferney Aljure Martínez"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -2496,7 +2496,7 @@
       "H.R.Edinson Vladimir Olaya Mancipe",
       "H.R.María del Mar Pizarro García"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -3029,7 +3029,7 @@
       "H.S.Griselda Lobo Silva",
       "H.S.Ana Maria Castañeda Gómez"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -3223,13 +3223,13 @@
   },
   {
     "numeroCamara": "303/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "172/2023S",
     "tituloCorto": "GRATUIDAD ADMISION",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Silvio José Carrasquilla Torres"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -4070,7 +4070,7 @@
       "H.R.Héctor Mauricio Cuéllar Pinzón",
       "H.R.Juan Carlos Wills Ospina"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5150,7 +5150,7 @@
       "H.R.Alfredo Ape Cuello Baute",
       "H.R.Libardo Cruz Casado"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5759,7 +5759,7 @@
       "H.R.Julián Peinado Ramírez",
       "H.R.Hernando González"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5816,7 +5816,7 @@
       "H.R.José Jaime Uscátegui Pastrana",
       "H.R.Ana Rogelia Monsalve Álvarez"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -8034,7 +8034,7 @@
     "autores": [
       "H.R.José Eliécer Salazar López"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -8651,7 +8651,7 @@
       "H.R.Eduard Alexis Triana Rincón",
       "H.R.Yulieth Andrea Sánchez Carreño"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -14024,7 +14024,7 @@
     "autores": [
       "H.R.Olmes de Jesús Echeverría de la Rosa"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -14823,7 +14823,7 @@
       "H.R.Luis Miguel López Aristizábal",
       "H.R.Juan Fernando Espinal Ramírez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -15595,7 +15595,7 @@
       "H.R.Juan Sebastián Gómez Gonzáles",
       "H.R.Cristian Danilo Avendaño Fino"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -15988,7 +15988,7 @@
       "H.R.Wilder Iberson Escobar Ortiz",
       "H.R.Juan Sebastián Gómez Gonzáles"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -16132,7 +16132,7 @@
       "H.R.Susana Gómez Castaño",
       "H.R.Haiver Rincón Gutiérrez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Retirado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -16319,7 +16319,7 @@
       "H.R.Hernán Darío Cadavid Márquez",
       "H.R.Juan Manuel Cortés Dueñas"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -18087,7 +18087,7 @@
       "H.R.Dolcey Oscar Torres Romero",
       "H.R.Haiver Rincón Gutiérrez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19017,7 +19017,7 @@
       "H.R.Elizabeth Jay-Pang Díaz",
       "H.R.Ana Rogelia Monsalve Álvarez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19531,18 +19531,18 @@
     "tituloCorto": "SALUD MENTAL Y BIENESTAR PSICOSOCIAL",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "Olga Lucia Velásquez Nieto",
-      "Gloria Liliana Rodríguez Valencia",
-      "Jaime Raúl Salamanca Torres",
-      "Wilmer Yair Castellanos Hernández",
-      "Juan Diego Muñoz Cabrera",
-      "Hernando Guida Ponce",
-      "Elkin Rodolfo Ospina Ospina",
-      "Jhon Fredy Núñez Ramos",
-      "Jhon Fredi Valencia Caicedo",
-      "Alejandro García Ríos"
+      "H.R.Olga Lucia Velásquez Nieto",
+      "H.R.Gloria Liliana Rodríguez Valencia",
+      "H.R.Jaime Raúl Salamanca Torres",
+      "H.R.Wilmer Yair Castellanos Hernández",
+      "H.R.Juan Diego Muñoz Cabrera",
+      "H.R.Hernando Guida Ponce",
+      "H.R.Elkin Rodolfo Ospina Ospina",
+      "H.R.Jhon Fredy Núñez Ramos",
+      "H.R.Jhon Fredi Valencia Caicedo",
+      "H.R.Alejandro García Ríos"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19705,7 +19705,7 @@
       "H.R.Álvaro Leonel Rueda caballero",
       "H.R.Juan Camilo Londoño Barrera"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20054,7 +20054,7 @@
       "H.R.Jaime Rodríguez Contreras",
       "H.R.Modesto Enrique Aguilera Vides"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -20075,7 +20075,7 @@
       "H.R.Juliana Aray Franco",
       "H.R.Jorge Alexander Quevedo Herrera"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -20182,7 +20182,7 @@
       "H.S.Ciro Alejandro Ramírez Cortes",
       "H.S.José Alfredo Gnecco Zuleta"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -20299,7 +20299,7 @@
       "H.R.Nestor Leonardo Rico Rico",
       "H.R.Jorge Méndez Hernández"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20389,7 +20389,7 @@
       "H.R.David Ricardo Racero Mayorca",
       "H.R.Erick Adrián Velasco Burbano"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Retirado",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20740,7 +20740,7 @@
       "H.R.William Ferney Aljure Martínez",
       "H.R.John Jairo González Agudelo"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Retirado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20988,7 +20988,7 @@
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.Carlos Adolfo Ardila Espinosa"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21042,7 +21042,7 @@
       "H.R.Hernán Darío Cadavid Márquez",
       "H.R.Irma Luz Herrera Rodríguez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22568,7 +22568,7 @@
       "H.S.Alejandro Carlos Chacón Camargo",
       "H.R.Eduard Giovanny Sarmiento Hidalgo"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -22714,7 +22714,7 @@
       "H.R.David Alejandro Toro Ramírez",
       "H.R.Daniel Restrepo Carmona"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Retirado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22770,7 +22770,7 @@
       "Ministro de Relaciones Exteriores - Martha Lucia Ramirez Blanco",
       "Ministro de Defensa Nacional - Diego Andres Molano Aponte"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -22975,5 +22975,59 @@
     "url": "https://www.camara.gov.co/manizales-eje-del-conocimiento",
     "tituloLargo": "POR EL CUAL SE OTORGA LA CATEGORÍA DE DISTRITO ESPECIAL EJE DEL CONOCIMIENTO AL MUNICIPIO DE MANIZALES EN EL DEPARTAMENTO DE CALDAS",
     "objeto": ""
+  },
+  {
+    "numeroCamara": "454/2024C",
+    "numeroSenado": "005/2022S",
+    "tituloCorto": "SEGUNDOS OCUPANTES",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Maria Fernanda Cabal Molina"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Primera Constitucional Permanente",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/segundos-ocupantes",
+    "tituloLargo": "Por la cual se regula en la Ley 1448 de 2011 la situación jurídica de los segundos ocupantes con vulnerabilidad socioeconómica de predios objeto de restitución",
+    "objeto": "La presente ley tiene por objeto regular la situación jurídica de los segundos ocupantes vulnerables de predios objeto de restitución, estableciendo un enfoque de acción sin daño dentro de la Ley 1448 de 2011, para garantizar el tratamiento diferenciado para las personas que habitan en predios objeto de restitución, que presentan vulnerabilidad en acceso a la tierra, o que se encuentran en condición de vulnerabilidad objetiva y que no tuvieron ninguna relación directa ni indirecta con el despojo o el abandono forzado del predio; así como la consideración de su\ncondición dentro del fallo de restitución."
+  },
+  {
+    "numeroCamara": "453/2024C",
+    "numeroSenado": "221/2024S",
+    "tituloCorto": "SECTOR INTERRELIGIOSO",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Manuel Antonio Virgüez Piraquive",
+      "H.S.Ana Paola Agudelo García",
+      "H.S.Carlos Eduardo Guevara villabón",
+      "H.R.Irma Luz Herrera Rodríguez"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/sector-interreligioso",
+    "tituloLargo": "Por la cual se reconoce la incidencia del Sector lnterreligioso en el ámbito educativo y se fortalece su aporte en la formación de valores y principios éticos y morales en Colombia",
+    "objeto": "La presente Ley tiene como objeto reconocer la incidencia del Sector lnterreligioso, sus lideres y organizaciones en el ámbito educativo; y fortalecer su aporte en la formación de valores y principios éticos y morales. Asimismo, busca reconocer el rol del Sector lnterreligioso en la construcción de tejido social y su aporte a una sociedad pacifica a través de la resolución de los conflictos mediante el diálogo social con valores."
+  },
+  {
+    "numeroCamara": "452/2024C",
+    "numeroSenado": "040/2023S",
+    "tituloCorto": "LEY KIARA",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Andrea Padilla Villarraga"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Quinta Constitucional Permanente",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/ley-kiara",
+    "tituloLargo": "Por medio de la cual se regulan los servicios cuidado para animales de compañía, se protegen los derechos de los usuarios y se dictan otras disposiciones: \"LEY KIARA\"",
+    "objeto": "La presente ley tiene por objeto establecer las condiciones que deben cumplir las personas naturales o jurídicas que presten servicios de cuidado para animales domésticos de compañía, como: guarderías, hoteles, centros de educación o adiestramiento, peluquerías, grooming, spa, paseadores de perros y similares, con los fines de subsanar el déficit de regulación en la materia, proteger los derechos de los usuarios en la operación del servicio, garantizar el bienestar de los animales y proteger a las familias multiespecies."
   }
 ]
