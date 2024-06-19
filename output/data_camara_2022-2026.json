@@ -1185,7 +1185,7 @@
   },
   {
     "numeroCamara": "383/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "257/2024S",
     "tituloCorto": "DONACIÓN DE ALIMENTOS EN COLOMBIA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -1198,7 +1198,7 @@
       "H.R.Wilmer Ramiro Carrillo Mendoza",
       "H.R.Jorge Eliécer Tamayo Marulanda"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -2251,7 +2251,7 @@
       "H.S.Alfredo Rafael Deluque Zuleta",
       "H.R.Jorge Alberto Cerchiaro Figueroa"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -4812,7 +4812,7 @@
       "H.S.María José Pizarro Rodríguez",
       "H.R.David Ricardo Racero Mayorca"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5227,7 +5227,7 @@
       "H.R.Gerson Lisímaco Montaño Arizala",
       "H.R.Andrés David Calle Aguas"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Cuarta o Presupuesto",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5913,7 +5913,7 @@
   },
   {
     "numeroCamara": "203/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "326/2023S",
     "tituloCorto": "TREINTA AÑOS GUAVIARE",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -5924,7 +5924,7 @@
       "H.R.Luvi Katherine Miranda Peña",
       "H.R.Juan Felipe Corzo Álvarez"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -7839,14 +7839,14 @@
   },
   {
     "numeroCamara": "130/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "333/2023S",
     "tituloCorto": "USO CINTURON DE SEGURIDAD",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.S.Miguel Uribe Turbay",
       "H.R.Adriana Carolina Arbeláez Giraldo"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -8028,13 +8028,13 @@
   },
   {
     "numeroCamara": "122/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "325/2023S",
     "tituloCorto": "MUDANZA BECERRIL",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.José Eliécer Salazar López"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -8840,7 +8840,7 @@
   },
   {
     "numeroCamara": "093/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "117/2023S",
     "tituloCorto": "SECTOR AGROPECUARIO Y RURAL",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -8856,7 +8856,7 @@
       "H.R.Julio Roberto Salazar Pérdomo",
       "H.R.Juan Carlos Wills Ospina"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9582,13 +9582,13 @@
   },
   {
     "numeroCamara": "065/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "164/2023S",
     "tituloCorto": "HERRAMIENTAS TECNOLOGICAS EN EL CONGRESO",
     "tipo": "Ley Orgánica",
     "autores": [
       "H.R.Armando Antonio Zabaraín de Arce"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9616,13 +9616,13 @@
   },
   {
     "numeroCamara": "063/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "317/2023S",
     "tituloCorto": "GESTANTES Y MATERNIDAD",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Armando Antonio Zabaraín de Arce"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -10578,7 +10578,7 @@
   },
   {
     "numeroCamara": "018/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "313/2023S",
     "tituloCorto": "HIJOS DEPENDIENTES CON DISCAPACIDAD",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -10590,7 +10590,7 @@
       "H.R.Diego Patiño Amariles",
       "H.R.Luis Carlos Ochoa Tobón"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -12655,7 +12655,7 @@
   },
   {
     "numeroCamara": "266/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "285/2024S",
     "tituloCorto": "LEY SARA SOFIA",
     "tipo": "Ley Estatutaria",
     "autores": [
@@ -12670,7 +12670,7 @@
       "H.R.Elizabeth Jay-Pang Díaz",
       "H.R.Olga Beatriz González Correa"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -13087,7 +13087,7 @@
       "H.S.Esteban Quintero Cardona",
       "H.S.Josué Alirio Barrera Rodríguez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -15575,7 +15575,7 @@
   },
   {
     "numeroCamara": "157/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "273/2024S",
     "tituloCorto": "RENDICIÓN DE CUENTAS CONGRESISTAS",
     "tipo": "Ley Estatutaria",
     "autores": [
@@ -15595,7 +15595,7 @@
       "H.R.Juan Sebastián Gómez Gonzáles",
       "H.R.Cristian Danilo Avendaño Fino"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -18512,7 +18512,7 @@
   },
   {
     "numeroCamara": "048/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "252/2024S",
     "tituloCorto": "ENCUENTRO DE TIPLE DE ENVIGADO",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -18522,7 +18522,7 @@
       "H.R.Wilmer Yesid Guerrero Avendaño",
       "H.R.César Cristian Gómez Castro"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19516,7 +19516,7 @@
       "H.R.Betsy Judith Pérez Arango",
       "H.R.Jairo Humberto Cristo Correa"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20263,7 +20263,7 @@
       "H.R.Leonor María Palencia Vega",
       "H.R.Elkin Rodolfo Ospina Ospina"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20864,7 +20864,7 @@
       "H.R.Flora Perdomo Andrade",
       "H.R.Jorge Dilson Murcia Olaya"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -20974,9 +20974,9 @@
   },
   {
     "numeroCamara": "379/2024C",
-    "numeroSenado": null,
+    "numeroSenado": "281/2024S",
     "tituloCorto": "CATEGORIZACIÓN DE LOS DISTRITOS",
-    "tipo": "Ley Ordinaria",
+    "tipo": "Ley Orgánica",
     "autores": [
       "H.R.Carlos Alberto Cuenca Chaux",
       "H.R.Germán Rogelio Rozo Anís",
@@ -20988,7 +20988,7 @@
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.Carlos Adolfo Ardila Espinosa"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21225,7 +21225,7 @@
     "autores": [
       "H.R.Aníbal Gustavo Hoyos Franco"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21361,7 +21361,7 @@
       "H.R.Julia Miranda Londoño",
       "H.R.Gabriel Ernesto Parrado Durán"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21947,7 +21947,7 @@
     "numeroCamara": "415/2024C",
     "numeroSenado": "229/2024S",
     "tituloCorto": "CAEL",
-    "tipo": "Ley Ordinaria",
+    "tipo": "Ley Orgánica",
     "autores": [
       "H.S.Esteban Quintero Cardona",
       "H.S.Carlos Julio González Villa",
@@ -21962,7 +21962,7 @@
       "H.S.Jose Luis Pérez Oyuela",
       "H.S.Carlos Alberto Benavides Mora"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -22628,7 +22628,7 @@
       "H.R.Norman David Bañol Álvarez",
       "H.R.Alexander Guarín Silva"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22732,7 +22732,7 @@
       "Ministro de Relaciones Exteriores - Martha Lucia Ramirez Blanco",
       "Ministro de Defensa Nacional - Diego Andres Molano Aponte"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -22922,7 +22922,7 @@
       "Ministra de Relaciones Exteriores - Martha Lucia Ramirez Blanco",
       "Ministro del Trabajo - Angel Custodio Cabrera"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -22940,7 +22940,7 @@
       "Ministro de Relaciones Exteriores - Álvaro Leyva Duran",
       "Ministro de Justicia y del Derecho - Nestor Ivan Ozuna Patiño"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
