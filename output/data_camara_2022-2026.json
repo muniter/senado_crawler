@@ -43,25 +43,24 @@
     "tituloCorto": "SISTEMA CENAGOSO DE LA ZAPATOSA",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "H.S.Didier Lobo Chinchilla",
-      "H.S.Jorge Enrique Benedetti Martelo",
-      "H.S.Antonio Luis Zabaraín Guevara",
-      "H.S.Arturo Char Chaljub",
-      "H.S.Carlos Abraham Jiménez",
-      "H.S.Carlos Mario Farelo Daza",
-      "H.S.Edgar Díaz Contreras",
-      "H.S.Jose Luis Pérez Oyuela",
-      "H.R.Hernando González",
-      "H.R.John Edgar Pérez Rojas",
-      "H.R.Jorge Méndez Hernández",
-      "H.R.Lina María Garrido Martín",
-      "H.R.Mauricio Parodi Díaz",
-      "H.R.Modesto Enrique Aguilera Vides",
-      "H.R.Nestor Leonardo Rico Rico",
-      "H.R.Víctor Andrés Tovar Trujillo",
-      "H.R.Betsy Judith Pérez Arango",
-      "H.R.Javier Alexander Sánchez Reyes",
-      "H.R.Adriana Carolina Arbeláez Giraldo"
+      "Hernando González",
+      "John Edgar Pérez Rojas",
+      "Jorge Méndez Hernández",
+      "Lina María Garrido Martín",
+      "Mauricio Parodi Díaz",
+      "Modesto Enrique Aguilera Vides",
+      "Nestor Leonardo Rico Rico",
+      "Víctor Andrés Tovar Trujillo",
+      "Betsy Judith Pérez Arango",
+      "Javier Alexander Sánchez Reyes",
+      "Adriana Carolina Arbeláez GiraldoDidier Lobo Chinchilla",
+      "Jorge Enrique Benedetti Martelo",
+      "Antonio Luis Zabaraín Guevara",
+      "Arturo Char Chaljub",
+      "Carlos Abraham Jiménez",
+      "Carlos Mario Farelo Daza",
+      "Edgar Díaz Contreras",
+      "Jose Luis Pérez Oyuela"
     ],
     "estado": "Sancion Presidencial",
     "comision": "Comisión Quinta Constitucional Permanente",
@@ -402,7 +401,7 @@
       "H.R.Julián David López Tenorio",
       "H.R.Piedad Correal Rubiano"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Archivado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -7843,8 +7842,7 @@
     "tituloCorto": "USO CINTURON DE SEGURIDAD",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "H.S.Miguel Uribe Turbay",
-      "H.R.Adriana Carolina Arbeláez Giraldo"
+      "Adriana Carolina Arbeláez GiraldoMiguel Uribe Turbay"
     ],
     "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
@@ -12528,7 +12526,7 @@
       "H.R.James Hermenegildo Mosquera Torres",
       "H.R.Catherine Juvinao Clavijo"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -18198,7 +18196,7 @@
     "autores": [
       "H.R.James Hermenegildo Mosquera Torres"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Archivado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -18724,7 +18722,7 @@
     "autores": [
       "H.R.Hernán Darío Cadavid Márquez"
     ],
-    "estado": "Pendiente ponencia primer debate",
+    "estado": "Archivado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19643,7 +19641,7 @@
       "H.R.Wilmer Yair Castellanos Hernández",
       "H.R.Leyla Marleny Rincón Trujillo"
     ],
-    "estado": "Pendiente ponencia primer debate",
+    "estado": "Archivado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19672,7 +19670,7 @@
       "H.R.Olga Beatriz González Correa",
       "H.R.Álvaro Leonel Rueda caballero"
     ],
-    "estado": "Pendiente ponencia primer debate",
+    "estado": "Revisión corte constitucional",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22542,7 +22540,7 @@
       "H.S.Carlos Abraham Jiménez",
       "H.S.Jairo Alberto Castellanos Serrano"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
