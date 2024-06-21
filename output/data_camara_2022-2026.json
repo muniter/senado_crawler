@@ -11,7 +11,7 @@
       "H.S.Guido Echeverri Piedrahita",
       "H.S.Miguel Uribe Turbay"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -28,7 +28,7 @@
     "autores": [
       "H.S.Norma Hurtado Sánchez"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -43,24 +43,25 @@
     "tituloCorto": "SISTEMA CENAGOSO DE LA ZAPATOSA",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "Hernando González",
-      "John Edgar Pérez Rojas",
-      "Jorge Méndez Hernández",
-      "Lina María Garrido Martín",
-      "Mauricio Parodi Díaz",
-      "Modesto Enrique Aguilera Vides",
-      "Nestor Leonardo Rico Rico",
-      "Víctor Andrés Tovar Trujillo",
-      "Betsy Judith Pérez Arango",
-      "Javier Alexander Sánchez Reyes",
-      "Adriana Carolina Arbeláez GiraldoDidier Lobo Chinchilla",
-      "Jorge Enrique Benedetti Martelo",
-      "Antonio Luis Zabaraín Guevara",
-      "Arturo Char Chaljub",
-      "Carlos Abraham Jiménez",
-      "Carlos Mario Farelo Daza",
-      "Edgar Díaz Contreras",
-      "Jose Luis Pérez Oyuela"
+      "H.S.Didier Lobo Chinchilla",
+      "H.S.Jorge Enrique Benedetti Martelo",
+      "H.S.Antonio Luis Zabaraín Guevara",
+      "H.S.Arturo Char Chaljub",
+      "H.S.Carlos Abraham Jiménez",
+      "H.S.Carlos Mario Farelo Daza",
+      "H.S.Edgar Díaz Contreras",
+      "H.S.Jose Luis Pérez Oyuela",
+      "H.R.Hernando González",
+      "H.R.John Edgar Pérez Rojas",
+      "H.R.Jorge Méndez Hernández",
+      "H.R.Lina María Garrido Martín",
+      "H.R.Mauricio Parodi Díaz",
+      "H.R.Modesto Enrique Aguilera Vides",
+      "H.R.Néstor Leonardo Rico Rico",
+      "H.R.Víctor Andrés Tovar Trujillo",
+      "H.R.Betsy Judith Pérez Arango",
+      "H.R.Javier Alexander Sánchez Reyes",
+      "H.R.Adriana Carolina Arbeláez Giraldo"
     ],
     "estado": "Sancion Presidencial",
     "comision": "Comisión Quinta Constitucional Permanente",
@@ -150,7 +151,7 @@
       "H.R.Irma Luz Herrera Rodríguez",
       "H.R.Silvio José Carrasquilla Torres"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -2250,7 +2251,7 @@
       "H.S.Alfredo Rafael Deluque Zuleta",
       "H.R.Jorge Alberto Cerchiaro Figueroa"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -3228,7 +3229,7 @@
     "autores": [
       "H.R.Silvio José Carrasquilla Torres"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -7035,7 +7036,7 @@
       "H.R.Diego Fernando Caicedo Navas",
       "H.R.Dorina Hernández Palomino",
       "H.R.Yamil Hernando Arana Padaui",
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.Eduard Giovanny Sarmiento Hidalgo",
       "H.R.Ingrid Johana Aguirre Juvinao",
       "H.R.Gloria Elena Arizabaleta Corral",
@@ -7236,7 +7237,7 @@
     "autores": [
       "H.R.Julián David López Tenorio"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -8955,7 +8956,7 @@
       "H.S.Jorge Enrique Benedetti Martelo",
       "H.S.Carlos Mario Farelo Daza",
       "H.S.David Andrés Luna Sánchez",
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.Mauricio Parodi Díaz",
       "H.R.Carlos Alberto Cuenca Chaux",
       "H.R.Lina María Garrido Martín",
@@ -8995,7 +8996,7 @@
     "tituloCorto": "FESTIVAL DE BANDAS DE CUNDINAMARCA",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.John Edgar Pérez Rojas",
       "H.R.Carlos Alberto Cuenca Chaux"
     ],
@@ -9586,7 +9587,7 @@
     "autores": [
       "H.R.Armando Antonio Zabaraín de Arce"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9620,7 +9621,7 @@
     "autores": [
       "H.R.Armando Antonio Zabaraín de Arce"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9948,7 +9949,7 @@
       "H.S.Carlos Mario Farelo Daza",
       "H.S.Didier Lobo Chinchilla",
       "H.S.Antonio Luis Zabaraín Guevara",
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.Modesto Enrique Aguilera Vides",
       "H.R.Bayardo Gilberto Betancourt Pérez",
       "H.R.Jairo Humberto Cristo Correa",
@@ -11302,7 +11303,7 @@
       "H.R.Alirio Uribe Muñoz",
       "H.R.Erick Adrián Velasco Burbano"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -12526,7 +12527,7 @@
       "H.R.James Hermenegildo Mosquera Torres",
       "H.R.Catherine Juvinao Clavijo"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -13085,7 +13086,7 @@
       "H.S.Esteban Quintero Cardona",
       "H.S.Josué Alirio Barrera Rodríguez"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -14821,7 +14822,7 @@
       "H.R.Luis Miguel López Aristizábal",
       "H.R.Juan Fernando Espinal Ramírez"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -14839,7 +14840,7 @@
       "H.S.Pedro Hernando Flórez Porras",
       "H.R.Jennifer Dalley Pedraza Sandoval"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -19333,7 +19334,7 @@
       "H.R.Oscar Rodrigo Campo Hurtado",
       "H.R.Bayardo Gilberto Betancourt Pérez",
       "H.R.Carlos Alberto Cuenca Chaux",
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.John Edgar Pérez Rojas",
       "H.R.Mauricio Parodi Díaz",
@@ -19414,7 +19415,7 @@
       "H.R.Oscar Rodrigo Campo Hurtado",
       "H.R.Bayardo Gilberto Betancourt Pérez",
       "H.R.Carlos Alberto Cuenca Chaux",
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.John Edgar Pérez Rojas",
       "H.R.Mauricio Parodi Díaz",
@@ -19458,7 +19459,7 @@
       "H.R.Oscar Rodrigo Campo Hurtado",
       "H.R.Bayardo Gilberto Betancourt Pérez",
       "H.R.Carlos Alberto Cuenca Chaux",
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.John Edgar Pérez Rojas",
       "H.R.Mauricio Parodi Díaz",
@@ -19502,7 +19503,7 @@
       "H.R.Oscar Rodrigo Campo Hurtado",
       "H.R.Bayardo Gilberto Betancourt Pérez",
       "H.R.Carlos Alberto Cuenca Chaux",
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.John Edgar Pérez Rojas",
       "H.R.Mauricio Parodi Díaz",
@@ -20045,7 +20046,7 @@
       "H.R.Jorge Méndez Hernández",
       "H.R.Lina María Garrido Martín",
       "H.R.Mauricio Parodi Díaz",
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.Oscar Rodrigo Campo Hurtado",
       "H.R.Sandra Milena Ramírez Caviedes",
       "H.R.Víctor Andrés Tovar Trujillo",
@@ -20261,7 +20262,7 @@
       "H.R.Leonor María Palencia Vega",
       "H.R.Elkin Rodolfo Ospina Ospina"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20294,7 +20295,7 @@
       "H.R.Hernando González",
       "H.R.Gersel Luis Pérez Altamiranda",
       "H.R.Carlos Alberto Cuenca Chaux",
-      "H.R.Nestor Leonardo Rico Rico",
+      "H.R.Néstor Leonardo Rico Rico",
       "H.R.Jorge Méndez Hernández"
     ],
     "estado": "Sancion Presidencial",
@@ -21837,7 +21838,7 @@
     "autores": [
       "Ministro de Hacienda y Crédito Público - Ricardo Bonilla González"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22540,7 +22541,7 @@
       "H.S.Carlos Abraham Jiménez",
       "H.S.Jairo Alberto Castellanos Serrano"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Otro",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -22867,7 +22868,7 @@
       "H.R.José Jaime Uscátegui Pastrana",
       "Ministro de Defensa Nacional - Ivan Velasquez Gomez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Otro",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
