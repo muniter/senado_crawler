@@ -6400,13 +6400,13 @@
   },
   {
     "numeroCamara": "183/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "327/2023S",
     "tituloCorto": "CIMITARRA",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Oscar Leonardo Villamizar Meneses"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -7668,13 +7668,13 @@
   },
   {
     "numeroCamara": "138/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "116/2023S",
     "tituloCorto": "FESTIVAL COLOMBO ECUATORIANO",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Carlos Adolfo Ardila Espinosa"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -23028,5 +23028,66 @@
     "url": "https://www.camara.gov.co/ley-kiara",
     "tituloLargo": "Por medio de la cual se regulan los servicios cuidado para animales de compañía, se protegen los derechos de los usuarios y se dictan otras disposiciones: \"LEY KIARA\"",
     "objeto": "La presente ley tiene por objeto establecer las condiciones que deben cumplir las personas naturales o jurídicas que presten servicios de cuidado para animales domésticos de compañía, como: guarderías, hoteles, centros de educación o adiestramiento, peluquerías, grooming, spa, paseadores de perros y similares, con los fines de subsanar el déficit de regulación en la materia, proteger los derechos de los usuarios en la operación del servicio, garantizar el bienestar de los animales y proteger a las familias multiespecies."
+  },
+  {
+    "numeroCamara": "457/2024C",
+    "numeroSenado": "049/2023S",
+    "tituloCorto": "VIGILANCIA PRIVADA",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Andrea Padilla Villarraga"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/vigilancia-privada",
+    "tituloLargo": "Por la cual se promueve el desarrollo de alternativas tecnológicas en materia de seguridad, vigilancia privada e inspección de sustancias u objetos, se mejora el bienestar de los perros usados en estas actividades, y se dictan otras disposiciones",
+    "objeto": "La presente ley tiene por objeto promover el desarrollo y la transición tecnológica en el campo de la seguridad y vigilancia privada, mejorar las condiciones de bienestar de los perros utilizados en estas actividades y reducir progresivamente su uso en especialidades no esenciales."
+  },
+  {
+    "numeroCamara": "456/2024C",
+    "numeroSenado": "081/2023S",
+    "tituloCorto": "ACOMPAÑAMIENTO AL EGRESADO",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Beatriz Lorena Ríos Cuellar",
+      "H.S.Soledad Tamayo Tamayo",
+      "H.S.Karina Espinosa Oliver",
+      "H.S.Esteban Quintero Cardona",
+      "H.R.Hugo Alfonso Archila Suárez",
+      "H.R.Erika Tatiana Sánchez Pinto",
+      "H.R.Mónica Karina Bocanegra Pantoja",
+      "H.R.Edinson Vladimir Olaya Mancipe"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Séptima Constitucional Permanente",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/acompanamiento-al-egresado",
+    "tituloLargo": "Por medio de la cual se crea el Programa Nacional de Acompañamiento Integral al Egresado, se fortalece la oferta estatal, las redes de apoyo y se orientan acciones en procura de su desarrollo integral - Ley hijos del estado",
+    "objeto": "La presente ley tiene como objeto crear el Programa de Acompañamiento Integral al Egresado, fortalecer la oferta estatal, las redes de apoyo y orientar acciones que procuren el desarrollo integral de los jóvenes sin cuidado parental, egresados o próximos a egresar del sistema de protección del Instituto Colombiano de Bienestar Familiar (ICBF), con el fin de garantizar sus derechos,. asegurar su efectiva inclusión social y dotarlos de herramientas y habilidades que les permitan el desarrollo de sus capacidades humanas, de su proyecto de vida y la adecuada transición hacia la vida autónoma e independiente."
+  },
+  {
+    "numeroCamara": "455/2024C",
+    "numeroSenado": "236/2024S",
+    "tituloCorto": "PARQUES SEGUROS",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Manuel Antonio Virgüez Piraquive",
+      "H.S.Ana Paola Agudelo García",
+      "H.S.Carlos Eduardo Guevara villabón",
+      "H.R.Irma Luz Herrera Rodríguez"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Séptima Constitucional Permanente",
+    "origen": "Senado",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/parques-seguros",
+    "tituloLargo": "Por la cual se promueve la cultura de adopción y protección para Parques Sanos y Seguros en beneficio de la infancia y la juventud y se dictan otras disposiciones",
+    "objeto": "La presente ley tiene por objeto establecer disposiciones especiales que promuevan una cultura social e institucional que promueva la adopción y apropiación que garantice Parques Sanos y Seguros para la población en general y para la protección de los derechos de la niñez, la adolescencia, la juventud y el adulto mayor, asi como la protección del ambiente y la protección animal; articulando el fomento a la recreación y el deporte, y la conservación, preservación y buen uso de los principales espacios en los cuales se realizan estas actividades, tales como, parques, zonas verdes y centros deportivos y recreativos."
   }
 ]
