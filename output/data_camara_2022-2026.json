@@ -4804,7 +4804,7 @@
   },
   {
     "numeroCamara": "244/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "341/2023S",
     "tituloCorto": "DEMOCRATIZACION DE LA POLICIA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -7248,7 +7248,7 @@
   },
   {
     "numeroCamara": "151/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "315/2023S",
     "tituloCorto": "CULTURA SOLEDEÑA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -7261,7 +7261,7 @@
       "H.R.César Cristian Gómez Castro",
       "H.R.Agmeth José Escaf Tijerino"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -16734,7 +16734,7 @@
       "H.R.Carolina Giraldo Botero",
       "H.R.Jaime Raúl Salamanca Torres"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
