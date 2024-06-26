@@ -1917,14 +1917,14 @@
   },
   {
     "numeroCamara": "354/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "286/2024S",
     "tituloCorto": "HONORES MOVIMIENTO SUFRAGISTA",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.S.Nicolás Albeiro Echeverri Alvarán",
       "H.R.Andrés Felipe Jiménez Vargas"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -15740,7 +15740,7 @@
   },
   {
     "numeroCamara": "150/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "246/2024S",
     "tituloCorto": "BICENTENARIO INSTITUCIÓN DE SANTA LIBRADA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -15767,7 +15767,7 @@
       "H.R.Orlando Castillo Advincula",
       "H.R.Julián David López Tenorio"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -16632,7 +16632,7 @@
   },
   {
     "numeroCamara": "119/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "295/2024S",
     "tituloCorto": "MADRE CANGURO",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -16660,7 +16660,7 @@
       "H.R.David Ricardo Racero Mayorca",
       "H.R.Jorge Hernán Bastidas Rosero"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Trámite conciliación",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
