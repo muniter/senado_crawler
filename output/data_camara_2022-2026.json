@@ -1345,13 +1345,13 @@
   },
   {
     "numeroCamara": "377/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "136/2023S",
     "tituloCorto": "MOMPOX",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Dorina Hernández Palomino"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -3305,7 +3305,7 @@
   },
   {
     "numeroCamara": "299/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "287/2024S",
     "tituloCorto": "DEZPLAZAMIENTO POR CAUSAS CLIMATICAS",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -3331,7 +3331,7 @@
       "H.R.Catherine Juvinao Clavijo",
       "H.R.Daniel Carvalho Mejía"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -3498,7 +3498,7 @@
   },
   {
     "numeroCamara": "292/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "160/2023S",
     "tituloCorto": "VERIFICACIÓN DE TITULOS",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -3515,7 +3515,7 @@
       "H.R.María del Mar Pizarro García",
       "H.R.Álvaro Leonel Rueda caballero"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -3588,7 +3588,7 @@
   },
   {
     "numeroCamara": "289/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "137/2023S",
     "tituloCorto": "JUEGOS DEPORTIVOS",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -3597,7 +3597,7 @@
       "H.R.José Octavio Cardona León",
       "H.R.John Edgar Pérez Rojas"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Archivado",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -3905,7 +3905,7 @@
   },
   {
     "numeroCamara": "275/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "260/2024S",
     "tituloCorto": "HIDROGENO",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -3920,7 +3920,7 @@
       "H.R.Juan Carlos Wills Ospina",
       "H.R.Julián David López Tenorio"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -4446,7 +4446,7 @@
   },
   {
     "numeroCamara": "258/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "248/2024S",
     "tituloCorto": "PAISAJE CULTURAL CAFETERO",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -4468,7 +4468,7 @@
       "H.R.Jorge Eliécer Tamayo Marulanda",
       "H.R.Aníbal Gustavo Hoyos Franco"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -5329,7 +5329,7 @@
   },
   {
     "numeroCamara": "223/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "065/2023S",
     "tituloCorto": "BANCOS",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -5366,7 +5366,7 @@
       "H.R.Hugo Alfonso Archila Suárez",
       "H.R.Luis Miguel López Aristizábal"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Archivado",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -6238,7 +6238,7 @@
   },
   {
     "numeroCamara": "189/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "283/2024S",
     "tituloCorto": "LEY DE LA MUSICA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -6266,7 +6266,7 @@
       "H.R.Wilmer Yair Castellanos Hernández",
       "H.R.Luis Carlos Ochoa Tobón"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -7499,14 +7499,14 @@
   },
   {
     "numeroCamara": "142/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "142/2023S",
     "tituloCorto": "BARANOA",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.S.Pedro Hernando Flórez Porras",
       "H.R.Dolcey Oscar Torres Romero"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -7812,7 +7812,7 @@
   },
   {
     "numeroCamara": "131/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "290/2024S",
     "tituloCorto": "LEY EDUQUEMOS EN LO ESENCIAL",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -7828,7 +7828,7 @@
       "H.R.Luis Miguel López Aristizábal",
       "H.R.Juan Fernando Espinal Ramírez"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -7856,7 +7856,7 @@
   },
   {
     "numeroCamara": "129/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "247/2024S",
     "tituloCorto": "AMAZONIA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -7898,7 +7898,7 @@
       "H.R.Wilmer Yesid Guerrero Avendaño",
       "H.R.Olga Lucia Velásquez Nieto"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -7909,13 +7909,13 @@
   },
   {
     "numeroCamara": "128/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "342/2023S",
     "tituloCorto": "PROHIBICION TABACO Y CIGARRILLO",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Milene Jarava Díaz"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -9358,7 +9358,7 @@
   },
   {
     "numeroCamara": "074/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "264/2024S",
     "tituloCorto": "PENSIÓN A LA PERSONA MAYOR",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -9372,7 +9372,7 @@
       "H.R.Carlos Felipe Quintero Ovalle",
       "H.R.Hugo Alfonso Archila Suárez"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -10193,13 +10193,13 @@
   },
   {
     "numeroCamara": "038/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "282/2024S",
     "tituloCorto": "SITUACIÓN MILITAR",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Juan Carlos Wills Ospina"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -10497,7 +10497,7 @@
   },
   {
     "numeroCamara": "021/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "334/2023S",
     "tituloCorto": "FLEXIBILIZACION HORARIO LABORAL CABEZAS DE FAMILIA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -10510,7 +10510,7 @@
       "H.R.Jezmi Lizeth Barraza Arraut",
       "H.R.Luis Carlos Ochoa Tobón"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -10749,13 +10749,13 @@
   },
   {
     "numeroCamara": "009/2022C",
-    "numeroSenado": null,
+    "numeroSenado": "143/2023S",
     "tituloCorto": "TRAZABILIDAD DE LA CARNE",
     "tipo": "Ley Ordinaria",
     "autores": [
       "H.R.Juan Carlos Lozada Vargas"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -18879,7 +18879,7 @@
   },
   {
     "numeroCamara": "034/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "243/2024S",
     "tituloCorto": "GLORIOSO RIO CAQUETA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -18911,7 +18911,7 @@
       "H.R.Gerardo Yepes Caro",
       "H.R.Leonor María Palencia Vega"
     ],
-    "estado": "Trámite a Senado",
+    "estado": "Archivado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
