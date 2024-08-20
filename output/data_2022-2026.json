@@ -3478,13 +3478,13 @@
   {
     "numero": "N 133/24",
     "numeroCamara": null,
-    "titulo": "Pendiente",
+    "titulo": "POR LA CUAL SE PROMUEVE LA EQUIDAD LABORAL Y SALARIAL ENTRE HOMBRES Y MUJERES EN COLOMBIA, SE MODIFICA LA LEY 1496 DE 2011 Y SE DICTAN OTRAS DISPOSICIONES",
     "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
     "estadoAnotacion": "",
-    "comision": "NO ASIGNADA",
+    "comision": "SEPTIMA",
     "fechaRadicado": "2024-08-15",
     "legislatura": "2024-2025",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2024-2025/article/133-pendiente",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2024-2025/article/133-por-la-cual-se-promueve-la-equidad-laboral-y-salarial-entre-hombres-y-mujeres-en-colombia-se-modifica-la-ley-1496-de-2011-y-se-dictan-otras-disposiciones",
     "origen": "SENADO DE LA REPUBLICA",
     "tipoLey": "",
     "fechaEnvioComision": null,
@@ -3492,7 +3492,12 @@
     "fechaAprobacionPrimerDebate": null,
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
-    "autores": [],
+    "autores": [
+      "H.S. ANA PAOLA AGUDELO",
+      "MANUEL VIRGUEZ PIRAQUIVE",
+      "CARLOS EDUARDO GUEVARA VILLABÓN",
+      "H.R. IRMA LUZ HERRERA RODRÍGUEZ."
+    ],
     "exposicionMotivos": null,
     "primeraPonencia": null,
     "segundaPonencia": null,
@@ -4182,7 +4187,8 @@
       "JUAN CARLOS GARCÍA GÓMEZ",
       "AIDA QUILCUE VIVAS",
       "CARLOS FERNANDO MOTOA SOLARTE",
-      "ARIEL AVILA MARTÍNEZ y otras firmas."
+      "ARIEL AVILA MARTÍNEZ",
+      "la H.R. OLGA LUCÍA VELÁSQUEZ NIETO y otra firma."
     ],
     "exposicionMotivos": null,
     "primeraPonencia": null,
