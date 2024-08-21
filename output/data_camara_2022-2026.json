@@ -11401,7 +11401,7 @@
     "autores": [
       "H.R.Aníbal Gustavo Hoyos Franco"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -11492,7 +11492,7 @@
     "autores": [
       "H.R.Milene Jarava Díaz"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -12297,7 +12297,7 @@
       "H.R.Karen Juliana López Salazar",
       "H.R.Juan Pablo Salazar Rivera"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -12834,7 +12834,7 @@
     "numeroCamara": "259/2023C",
     "numeroSenado": null,
     "tituloCorto": "SUBSIDIOS AGUA POTABLE",
-    "tipo": "Ley Ordinaria",
+    "tipo": "Ley Orgánica",
     "autores": [
       "H.R.Wilmer Yair Castellanos Hernández"
     ],
@@ -14316,7 +14316,7 @@
       "H.R.Ana Paola García Soto",
       "H.R.Jorge Alberto Cerchiaro Figueroa"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -14779,7 +14779,7 @@
       "H.R.Christian Munir Garcés Aljure",
       "H.R.Etna Tamara Argote Calderón"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -16397,7 +16397,7 @@
       "H.R.Norman David Bañol Álvarez",
       "H.R.Hugo Alfonso Archila Suárez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19560,7 +19560,7 @@
       "H.S.Carlos Eduardo Guevara villabón",
       "H.R.Irma Luz Herrera Rodríguez"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -21221,7 +21221,7 @@
     "tituloCorto": "MISTRATÓ",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "H.R.Aníbal Gustavo Hoyos Franco"
+      "Aníbal Gustavo Hoyos Franco"
     ],
     "estado": "Trámite a Senado",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
@@ -21632,7 +21632,7 @@
     "autores": [
       "H.R.Mary Anne Andrea Perdomo"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -23207,7 +23207,8 @@
       "H.R.Jairo Humberto Cristo Correa",
       "H.R.Javier Alexander Sánchez Reyes",
       "H.R.Modesto Enrique Aguilera Vides",
-      "H.R.Luz Ayda Pastrana Loaiza"
+      "H.R.Luz Ayda Pastrana Loaiza",
+      "H.R.Oscar Rodrigo Campo Hurtado"
     ],
     "estado": "Trámite en Comisión",
     "comision": "",
@@ -24716,7 +24717,7 @@
       "H.R.Juan Daniel Peñuela Calvache"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -24814,7 +24815,7 @@
       "H.R.Juan Daniel Peñuela Calvache"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -25167,7 +25168,7 @@
       "H.R.Erika Tatiana Sánchez Pinto"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -25649,7 +25650,7 @@
       "H.S.Enrique Cabrales Baquero"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -25828,7 +25829,7 @@
       "H.R.Santiago Osorio Marín"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -26104,7 +26105,7 @@
       "H.R.Luis Alberto Albán Urbano"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -26158,7 +26159,7 @@
       "H.R.Jorge Eliécer Tamayo Marulanda"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -26189,7 +26190,7 @@
       "H.R.Ana Paola García Soto"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -26384,7 +26385,7 @@
       "H.R.Alfredo Ape Cuello Baute"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -28384,5 +28385,114 @@
     "url": "https://www.camara.gov.co/distrito-metropolitano-de-bucaramanga",
     "tituloLargo": "Por medio del cual se modifican los artículos 328 y 356 de la Constitución Política de Colombia y se organiza los municipios de Bucaramanga, Floridablanca, Piedecuesta y San Juan de Girón en el Departamento de Santander como Distrito Especial denominado “Distrito Especial Industrial, Turístico, Educativo y de la Salud",
     "objeto": "El presente proyecto de Acto Legislativo tiene por objeto modificar los artículos 328 y 356 de la Constitución Política de Colombia, con el fin de establecer que las ciudades de Bucaramanga, San Juan de Girón, Floridablanca y Piedecuesta del Departamento de Santander se organizarán como un único Distrito Especial denominado “Distrito Especial Industrial, Turístico, Educativo y de la Salud” con un Estatuto Político, Administrativo y Fiscal propio determinado por la Constitución y por las leyes especiales que para el efecto se expidan."
+  },
+  {
+    "numeroCamara": "156/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "UTL",
+    "tipo": "Ley Orgánica",
+    "autores": [
+      "H.S.Julio César Estrada Cordero",
+      "H.S.Yuly Esmeralda Hernández Silva",
+      "H.S.Carlos Alberto Benavides Mora",
+      "H.S.Omar de Jesús Restrepo Correa",
+      "H.S.Pablo Catatumbo Torres Victoria",
+      "H.S.Robert Daza Guevara",
+      "H.S.María José Pizarro Rodríguez",
+      "H.R.Gabriel Becerra Yañez",
+      "H.R.Gildardo Silva Molina",
+      "H.R.Mary Anne Andrea Perdomo",
+      "H.R.Erick Adrián Velasco Burbano",
+      "H.R.Susana Gómez Castaño",
+      "H.R.Eduard Giovanny Sarmiento Hidalgo",
+      "H.R.David Alejandro Toro Ramírez",
+      "H.R.Orlando Castillo Advincula",
+      "H.R.Gabriel Ernesto Parrado Durán",
+      "H.R.Heraclito Landinez Suárez",
+      "H.R.Jorge Alejandro Ocampo Giraldo",
+      "H.R.Carmen Felisa Ramírez Boscán",
+      "H.R.María Eugenia Lopera Monsalve",
+      "H.R.Cristóbal Caicedo Angulo",
+      "H.R.Martha Lisbeth Alfonso Jurado",
+      "H.R.Jennifer Dalley Pedraza Sandoval",
+      "H.R.Ángela María Vergara González",
+      "H.R.Olga Beatriz González Correa",
+      "H.R.Pedro José Súarez Vacca",
+      "H.R.Jaime Raúl Salamanca Torres",
+      "H.R.Leider Alexandra Vásquez Ochoa",
+      "H.R.Luvi Katherine Miranda Peña",
+      "H.R.Jorge Alberto Cerchiaro Figueroa",
+      "H.R.Norman David Bañol Álvarez",
+      "H.R.Carlos Adolfo Ardila Espinosa",
+      "H.R.Santiago Osorio Marín",
+      "H.R.Juliana Aray Franco",
+      "H.R.Julio César Triana Quintero"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2023-2024",
+    "url": "https://www.camara.gov.co/utl",
+    "tituloLargo": "Por medio del cual reconoce la experiencia profesional a los miembros de las Unidades de Trabajo Legislativo",
+    "objeto": "Modificar la nomenclatura de los cargos de las Unidades de Trabajo Legislativo para reconocer la experiencia profesional a los empleados y contratistas pertenecientes a ellas."
+  },
+  {
+    "numeroCamara": "123/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "VEEDURÍAS CIUDADANAS",
+    "tipo": "Ley Estatutaria",
+    "autores": [
+      "H.S.Humberto de la calle Lombana",
+      "H.S.Ariel Fernando Avíla Martínez",
+      "H.S.Paloma Susana Valencia Laserna",
+      "H.S.Germán Alcides Blanco Álvarez",
+      "H.S.Alfredo Rafael Deluque Zuleta",
+      "H.R.Alejandro García Ríos",
+      "H.R.Catherine Juvinao Clavijo",
+      "H.R.Delcy Esperanza Isaza Buenaventura",
+      "H.R.Juan Daniel Peñuela Calvache",
+      "H.R.María del Mar Pizarro García",
+      "H.R.Piedad Correal Rubiano",
+      "H.R.Juan Carlos Lozada Vargas",
+      "H.R.José Octavio Cardona León",
+      "H.R.Juan Fernando Espinal Ramírez",
+      "H.R.Julio César Triana Quintero",
+      "H.R.Jairo Reinaldo Cala Suárez",
+      "H.R.Carolina Giraldo Botero",
+      "H.R.Juan Sebastián Gómez Gonzáles",
+      "H.R.Duvalier Sánchez Arango",
+      "H.R.Jorge Eliécer Tamayo Marulanda",
+      "H.R.Pedro José Súarez Vacca",
+      "H.R.Alirio Uribe Muñoz",
+      "H.R.Jennifer Dalley Pedraza Sandoval",
+      "H.R.Cristian Danilo Avendaño Fino"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Primera Constitucional Permanente",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/veedurias-ciudadanas-3",
+    "tituloLargo": "Por medio de la cual se establecen medidas para el fortalecimiento de las veedurías ciudadanas, promover el control social y se dictan otras disposiciones",
+    "objeto": "Esta ley tiene por objeto fortalecer las veedurías ciudadanas para consolidar su gestión, así como fortalecer las capacidades de control social en el país"
+  },
+  {
+    "numeroCamara": "093/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "POBLACIÓN PESQUERA",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Alexander Guarín Silva",
+      "H.R.David Alejandro Toro Ramírez"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/poblacion-pesquera",
+    "tituloLargo": "Por medio de la cual se modifica la ley 2268 y de dictan otras disposiciones",
+    "objeto": "La presente Ley tiene por finalidad modificar la Ley 2268 de 2022, en el entendido de generar verdaderas garantías para la población pesquera de Colombia."
   }
 ]
