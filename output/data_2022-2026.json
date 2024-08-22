@@ -4443,7 +4443,8 @@
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
     "autores": [
-      "H.S. SANDRA YANETH JAIMES CRUZ."
+      "H.S. SANDRA YANETH JAIMES CRUZ.",
+      "H.R. GABRIEL PARRADO DURÁN"
     ],
     "exposicionMotivos": null,
     "primeraPonencia": null,
@@ -18494,7 +18495,7 @@
     "numero": "N 22/23",
     "numeroCamara": null,
     "titulo": "POR MEDIO DE LA CUAL SE ADOPTAN MEDIDAS PARA PROMOVER EL ACCESO, LA PERMANENCIA Y LA CALIDAD EN EL SERVICIO PÚBLICO EDUCATIVO, EN LOS NIVELES DE EDUCACIÓN PREESCOLAR, BÁSICA, MEDIA Y SUPERIOR",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+    "estado": "PENDIENTE DE ENVIAR A CÁMARA",
     "estadoAnotacion": "",
     "comision": "SEXTA",
     "fechaRadicado": "2023-07-25",
@@ -18505,7 +18506,7 @@
     "fechaEnvioComision": null,
     "fechaPresentacion": "2023-07-25",
     "fechaAprobacionPrimerDebate": "2023-09-13",
-    "fechaAprobacionSegundoDebate": null,
+    "fechaAprobacionSegundoDebate": "2024-08-21",
     "fechaConciliacion": null,
     "autores": [
       "H.S. JULIO ALBERTO ELÍAS VIDAL",
