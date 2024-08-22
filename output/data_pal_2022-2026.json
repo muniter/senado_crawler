@@ -375,7 +375,7 @@
     "numero": "001/24PAL",
     "numeroCamara": null,
     "titulo": "POR LA CUAL SE MODIFICA EL ARTÍCULO 48 DE LA CONSTITUCIÓN POLÍTICA",
-    "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+    "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-07-20",
@@ -401,7 +401,9 @@
       "HUGO ALFONSO ARCHILA SUAREZ",
       "MARELEN CASTILLO TORRES y otras firmas ilegibles."
     ],
-    "ponentesPrimerDebate": []
+    "ponentesPrimerDebate": [
+      "H.S: María Fernanda Cabal Molina"
+    ]
   },
   {
     "numero": "022/24PAL",
@@ -468,7 +470,7 @@
     "numero": "020/24PAL",
     "numeroCamara": "436/24",
     "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 65 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
-    "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "(segunda Vuelta)",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-02-16",
