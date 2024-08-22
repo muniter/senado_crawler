@@ -3296,7 +3296,7 @@
     "numero": "N 220/24",
     "numeroCamara": null,
     "titulo": "POR MEDIO DE LA CUAL SE REGULAN LAS FÓRMULAS TARIFARIAS EN ENERGÍA Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
+    "estado": "PENDIENTE DISCUTIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "SEXTA",
     "fechaRadicado": "2024-02-20",
@@ -3575,13 +3575,13 @@
   {
     "numero": "N 144/24",
     "numeroCamara": null,
-    "titulo": "",
+    "titulo": "POR MEDIO DEL CUAL SE MODIFICAN LOS ARTÍCULOS 164, 250 Y 251 DE LA LEY 1437 DE 2011",
     "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
     "estadoAnotacion": "",
-    "comision": "NO ASIGNADA",
+    "comision": "PRIMERA",
     "fechaRadicado": "2024-08-20",
     "legislatura": "2024-2025",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2024-2025/article/144-",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2024-2025/article/144-por-medio-del-cual-se-modifican-los-articulos-164-250-y-251-de-la-ley-1437-de-2011",
     "origen": "SENADO DE LA REPUBLICA",
     "tipoLey": "",
     "fechaEnvioComision": null,
@@ -3589,7 +3589,14 @@
     "fechaAprobacionPrimerDebate": null,
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
-    "autores": [],
+    "autores": [
+      "H.S. NICOLAS ALBEIRO ECHEVERRY ALVARÁN",
+      "GUIDO ECHEVERRI PIEDRAHITA",
+      "SOLEDAD TAMAYO TAMAYO",
+      "MARCOS DANIEL PINEDA",
+      "JUAN SAMY MERHEG MARÚN",
+      "H.R. ANDRÉS FELIPE JIMÉNEZ VARGAS."
+    ],
     "exposicionMotivos": null,
     "primeraPonencia": null,
     "segundaPonencia": null,
@@ -4760,8 +4767,7 @@
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
     "autores": [
-      "H.S. SANDRA YANETH JAIMES CRUZ.",
-      "H.R. GABRIEL PARRADO DURÁN"
+      "H.S. SANDRA YANETH JAIMES CRUZ."
     ],
     "exposicionMotivos": null,
     "primeraPonencia": null,
