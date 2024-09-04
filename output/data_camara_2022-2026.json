@@ -22691,7 +22691,7 @@
       "H.R.Fernando David Niño Mendoza",
       "Ministro de Tecnologías de la Información y las Comunicaciones  - Mauricio Lizcano"
     ],
-    "estado": "Trámite en Plenaria",
+    "estado": "Trámite a Senado",
     "comision": "Comisión Sexta o de Transportes y Comunicaciones",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -23283,7 +23283,7 @@
       "H.R.Luis Eduardo Díaz Mateus"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -24264,7 +24264,7 @@
       "H.R.Silvio José Carrasquilla Torres"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "Comisión Tercera o de Hacienda y Crédito Público",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -29522,7 +29522,7 @@
     "numeroCamara": "249/2024C",
     "numeroSenado": null,
     "tituloCorto": "ESTATUTO DE CIUDADANÍA JUVENIL",
-    "tipo": "Ley Ordinaria",
+    "tipo": "Ley Estatutaria",
     "autores": [
       "H.S.Ana Maria Castañeda Gómez",
       "H.S.Carlos Julio González Villa",
