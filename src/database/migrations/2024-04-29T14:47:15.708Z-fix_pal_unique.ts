@@ -27,9 +27,13 @@ export async function up(db: Kysely<any>): Promise<void> {
   create unique index main.ProyectosActoLegislativoSenadoNew_unique_numero_legislatura
       on ProyectosActoLegislativoSenadoNew (numero, legislatura);
   `.execute(db)
-  await sql`INSERT INTO ProyectosActoLegislativoSenadoNew SELECT * FROM ProyectosActoLegislativoSenado;`.execute(db)
+  await sql`INSERT INTO ProyectosActoLegislativoSenadoNew SELECT * FROM ProyectosActoLegislativoSenado;`.execute(
+    db
+  )
   await sql`DROP TABLE ProyectosActoLegislativoSenado;`.execute(db)
-  await sql`ALTER TABLE ProyectosActoLegislativoSenadoNew RENAME TO ProyectosActoLegislativoSenado;`.execute(db)
+  await sql`ALTER TABLE ProyectosActoLegislativoSenadoNew RENAME TO ProyectosActoLegislativoSenado;`.execute(
+    db
+  )
 }
 
 export async function down(db: Kysely<any>): Promise<void> {

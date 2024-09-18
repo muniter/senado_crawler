@@ -1,10 +1,10 @@
-import { Axios } from "axios"
-import { processDetailPage, processPage as processRawPage } from "./crawler/processor.js"
-import { db } from "../database/index.js"
+import { Axios } from 'axios'
+import { processDetailPage, processPage as processRawPage } from './crawler/processor.js'
+import { db } from '../database/index.js'
 import * as crypto from 'crypto'
-import PQueue from "p-queue"
-import assert from "assert"
-import { logger } from "../utils/logger.js"
+import PQueue from 'p-queue'
+import assert from 'assert'
+import { logger } from '../utils/logger.js'
 
 export type CommonData = {
   numeroCamara: string
@@ -29,12 +29,12 @@ export type DetailData = CommonData & {
   observaciones?: string
 }
 
-
 export const config = {
   url: {
     base: 'https://www.camara.gov.co',
     head: '/secretaria/proyectos-de-ley',
-    query: '?p=secretaria/proyectos-de-ley&field_periodo_legislativo_target_id={$legislaturaID}&field_estadoley_target_id=All&field_fastrack_value=All&field_tipo_taxonomia_target_id=All&field_origen_target_id=All&field_comision_proyecto_de_ley_target_id=All&limit=100&combine=&page={$page}'
+    query:
+      '?p=secretaria/proyectos-de-ley&field_periodo_legislativo_target_id={$legislaturaID}&field_estadoley_target_id=All&field_fastrack_value=All&field_tipo_taxonomia_target_id=All&field_origen_target_id=All&field_comision_proyecto_de_ley_target_id=All&limit=100&combine=&page={$page}'
   }
 } as const
 
@@ -43,7 +43,12 @@ const Camara = new Axios({
 })
 
 function getPageUrl(legislaturaID: number, page: number) {
-  return config.url.head + config.url.query.replace('{$page}', page.toString()).replace('{$legislaturaID}', legislaturaID.toString())
+  return (
+    config.url.head +
+    config.url.query
+      .replace('{$page}', page.toString())
+      .replace('{$legislaturaID}', legislaturaID.toString())
+  )
 }
 
 async function getPageRawData(url: string, attempts = 1): Promise<string> {
@@ -58,7 +63,9 @@ async function getPageRawData(url: string, attempts = 1): Promise<string> {
     } catch (e: unknown) {
       lastError = e
       currentAttempt++
-      console.error(`Error getting page data for url ${url}, attempt ${currentAttempt} of ${attempts}`)
+      console.error(
+        `Error getting page data for url ${url}, attempt ${currentAttempt} of ${attempts}`
+      )
     }
   }
   console.error(`Error getting page data for url ${url}, attempts limit reached`)
@@ -85,12 +92,13 @@ export async function refreshCuatrenio(cuatrenio: string) {
 }
 
 export async function refreshLegislaturaProyectosListData(legislatura: string) {
-  const legislaturaData = await db.selectFrom('Legislatura')
+  const legislaturaData = await db
+    .selectFrom('Legislatura')
     .select('camaraId')
     .where('title', '=', legislatura)
     .executeTakeFirstOrThrow()
 
-  let page = 0;
+  let page = 0
   let proyectos = 0
   while (true) {
     const url = getPageUrl(legislaturaData.camaraId, page)
@@ -108,27 +116,29 @@ export async function refreshLegislaturaProyectosListData(legislatura: string) {
     proyectos += data.length
     if (data.length === 0) {
       console.info(`No more data for legislatura ${legislatura}, total proyectos: ${proyectos}`)
-      break;
+      break
     }
     await storeProyectoListData(data)
-    page++;
+    page++
   }
 }
 
-
 export async function refreshLegislaturaProyectosDetailData(legislatura: string) {
-  const proyectos = await db.selectFrom('camara')
+  const proyectos = await db
+    .selectFrom('camara')
     .selectAll()
     .where('legislatura', '=', legislatura)
-    .where((eb) => eb.or([
-      eb('estado', 'not in', ['Archivado', 'Retirado']),
-      // Makes sure we at least have scrapped the detail data one time.
-      eb('detailDataHash', 'is', null),
-      eb('url', 'is not', null),
-    ]))
+    .where((eb) =>
+      eb.or([
+        eb('estado', 'not in', ['Archivado', 'Retirado']),
+        // Makes sure we at least have scrapped the detail data one time.
+        eb('detailDataHash', 'is', null),
+        eb('url', 'is not', null)
+      ])
+    )
     .execute()
 
-  const queue = new PQueue({ concurrency: 10 });
+  const queue = new PQueue({ concurrency: 10 })
   for (const proyecto of proyectos) {
     queue.add(async () => {
       assert(proyecto.url, 'Proyecto url is null')
@@ -138,8 +148,8 @@ export async function refreshLegislaturaProyectosDetailData(legislatura: string)
       })
     })
   }
-  await queue.onIdle();
-  logger.info(`Queue completed with ${proyectos.length} items`);
+  await queue.onIdle()
+  logger.info(`Queue completed with ${proyectos.length} items`)
 }
 
 type RefreshProyectoDetailDataOptions = {
@@ -153,7 +163,8 @@ async function refreshProyectoDetailData(options: RefreshProyectoDetailDataOptio
   if (options.url) {
     fetchUrl = options.url
   } else {
-    const proyecto = await db.selectFrom('camara')
+    const proyecto = await db
+      .selectFrom('camara')
       .selectAll()
       .where('numeroCamara', '=', options.numeroCamara)
       .executeTakeFirstOrThrow()
@@ -169,7 +180,10 @@ async function refreshProyectoDetailData(options: RefreshProyectoDetailDataOptio
     const data = processDetailPage(raw)
     await storeProyectoDetailData(data)
   } catch (e) {
-    console.error(`Error processing detail data for proyecto: ${options.numeroCamara}, url: ${fetchUrl}`, e)
+    console.error(
+      `Error processing detail data for proyecto: ${options.numeroCamara}, url: ${fetchUrl}`,
+      e
+    )
     process.exit(1)
   }
 }
@@ -195,40 +209,37 @@ function buildUpdateObjectFromListData(data: ListData) {
     origen: data.origen,
     legislatura: data.legislatura,
     url: data.url,
-    listDataHash: hashObject(data),
+    listDataHash: hashObject(data)
   }
 }
-
 
 async function storeProyectoListData(listData: ListData[]) {
   console.info(`Storing list data for ${listData.length} records`)
   return db.transaction().execute(async (trx) => {
-
     for (const data of listData) {
-      const exists = await trx.selectFrom('camara')
+      const exists = await trx
+        .selectFrom('camara')
         .select('numeroCamara')
         .where('numeroCamara', '=', data.numeroCamara)
         .executeTakeFirst()
 
       if (!exists) {
         console.info('Inserting data for', data.numeroCamara)
-        await trx.insertInto('camara')
-          .values(buildUpdateObjectFromListData(data))
-          .execute()
+        await trx.insertInto('camara').values(buildUpdateObjectFromListData(data)).execute()
       } else {
-        const shouldUpdate = await trx.selectFrom('camara')
+        const shouldUpdate = await trx
+          .selectFrom('camara')
           .selectAll()
           .where('numeroCamara', '=', data.numeroCamara)
-          .where((eb) => eb.or([
-            eb('listDataHash', 'is', null),
-            eb('listDataHash', '!=', hashObject(data))
-          ]))
+          .where((eb) =>
+            eb.or([eb('listDataHash', 'is', null), eb('listDataHash', '!=', hashObject(data))])
+          )
           .executeTakeFirst()
-
 
         if (shouldUpdate) {
           console.info('Updating data for', data.numeroCamara)
-          await trx.updateTable('camara')
+          await trx
+            .updateTable('camara')
             .set(buildUpdateObjectFromListData(data))
             .where('numeroCamara', '=', data.numeroCamara)
             .execute()
@@ -242,18 +253,19 @@ async function storeProyectoListData(listData: ListData[]) {
 
 async function storeProyectoDetailData(data: DetailData) {
   const updateHash = hashObject(data)
-  const shouldUpdate = await db.selectFrom('camara')
+  const shouldUpdate = await db
+    .selectFrom('camara')
     .select('numeroCamara')
     .where('numeroCamara', '=', data.numeroCamara)
-    .where((eb) => eb.or([
-      eb('detailDataHash', 'is', null),
-      eb('detailDataHash', '!=', updateHash)
-    ]))
+    .where((eb) =>
+      eb.or([eb('detailDataHash', 'is', null), eb('detailDataHash', '!=', updateHash)])
+    )
     .executeTakeFirst()
 
   if (shouldUpdate) {
     console.info(`Storing detail data for ${data.numeroCamara}`)
-    await db.updateTable('camara')
+    await db
+      .updateTable('camara')
       .set({
         numeroSenado: data.numeroSenado,
         tituloLargo: data.tituloLargo,
@@ -267,7 +279,7 @@ async function storeProyectoDetailData(data: DetailData) {
         objeto: data.objeto,
         contenido: data.contenido,
         observaciones: data.observaciones,
-        detailDataHash: updateHash,
+        detailDataHash: updateHash
       })
       .where('numeroCamara', '=', data.numeroCamara)
       .execute()

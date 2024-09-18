@@ -24,16 +24,19 @@ function parseNumeroIdentificadorFromRegex(
     const numero = parseInt(match.groups.numero)
     const year = match.groups.year ? parseInt(match.groups.year) : defaultYear
     if (!year) {
-      throw new ParseError('No se encontró el año del número identificador, y no se dio uno por defecto')
+      throw new ParseError(
+        'No se encontró el año del número identificador, y no se dio uno por defecto'
+      )
     }
     return { numero, year }
   }
   throw new ParseError('No se encontró el número identificador')
 }
 
-export function getNumeroSenado(
-  rawData: string,
-): { numero: NumeroIdentificador; acumulados: NumeroIdentificador[] } {
+export function getNumeroSenado(rawData: string): {
+  numero: NumeroIdentificador
+  acumulados: NumeroIdentificador[]
+} {
   // El contenido
   const raw = rawData.trim().toLowerCase()
   // Primero se extrae el número identificador del proyecto
@@ -59,13 +62,14 @@ export function getNumeroSenado(
         acumulados.push(parseNumeroIdentificadorFromRegex(match, numeroSenado.year))
       } catch (e: any) {
         // Add the fact the error was parsing the acumulados
-        throw new ParseError(`Error al parsear los acumulados match: (${match.groups}): ` + e.message)
+        throw new ParseError(
+          `Error al parsear los acumulados match: (${match.groups}): ` + e.message
+        )
       }
     }
   }
   return { numero: numeroSenado, acumulados }
 }
-
 
 const meses = new Map<string, number>([
   ['enero', 1],
@@ -85,8 +89,8 @@ const meses = new Map<string, number>([
 export function parseTextualDate(raw: string): Date {
   let [rawDay, rawMonth, rawYear] = raw.replace(/\s+/, ' ').split(' ')
   if (rawDay && rawMonth && rawYear && rawYear !== '0000') {
-    const day = parseInt(rawDay);
-    const year = parseInt(rawYear);
+    const day = parseInt(rawDay)
+    const year = parseInt(rawYear)
     if (year < 1900) {
       throw new ParseError('El año es muy antiguo')
     }
@@ -116,7 +120,7 @@ export function getDatePart(date: Date): string {
 export function cleanupTitle(title: string) {
   return title
     .trim()
-    .replace('\n', '')  // No line breaks
+    .replace('\n', '') // No line breaks
     .replace(/\s\s+/, ' ') // No double spaces
     .replace(/\.$/, '') // No trailing dot
     .trimEnd()

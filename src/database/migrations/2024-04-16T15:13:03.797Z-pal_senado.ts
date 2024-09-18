@@ -1,7 +1,8 @@
 import { Kysely, sql } from 'kysely'
 
 export async function up(db: Kysely<any>): Promise<void> {
-  db.schema.createTable('ProyectosActoLegislativoSenado')
+  db.schema
+    .createTable('ProyectosActoLegislativoSenado')
     .addColumn('id', 'integer', (col) => col.primaryKey().autoIncrement())
     .addColumn('id_senado', 'integer', (col) => col.notNull())
     .addColumn('numero', 'varchar', (col) => col.notNull().unique())

@@ -1,5 +1,5 @@
 import { Kysely, sql } from 'kysely'
-import { rawDB } from '../index.js';
+import { rawDB } from '../index.js'
 
 export async function up(db: Kysely<any>): Promise<void> {
   // Write your migration here.
@@ -11,10 +11,10 @@ export async function up(db: Kysely<any>): Promise<void> {
     ALTER TABLE Legislatura RENAME TO legislatura_1;
     ALTER TABLE legislatura_1 RENAME TO legislatura;
     ALTER TABLE cuatrenio_1 RENAME TO cuatrenio;
-  `);
+  `)
 }
 
 export async function down(db: Kysely<any>): Promise<void> {
   // Write your rollback migration here.
-  throw new Error('Migration cannot be rolled back');
+  throw new Error('Migration cannot be rolled back')
 }

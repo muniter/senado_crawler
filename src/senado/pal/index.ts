@@ -1,14 +1,13 @@
-import { type DBTransaction, db } from '../../database/index.js';
-import { type DetailData, Extractor } from './crawler.js';
-import { CuatrenioRepository } from '../../common/repositories.js';
-import { type Insertable } from 'kysely';
-import { type SenadoPal } from '../../database/schema.js';
-import { logger } from '../../utils/logger.js';
+import { type DBTransaction, db } from '../../database/index.js'
+import { type DetailData, Extractor } from './crawler.js'
+import { CuatrenioRepository } from '../../common/repositories.js'
+import { type Insertable } from 'kysely'
+import { type SenadoPal } from '../../database/schema.js'
+import { logger } from '../../utils/logger.js'
 
 export class PalService {
-
   public async refreshCuatrenio(cuatrenio: string) {
-    const legislaturas = await (new CuatrenioRepository().getLegisltauras(cuatrenio))
+    const legislaturas = await new CuatrenioRepository().getLegisltauras(cuatrenio)
     for (const legislatura of legislaturas) {
       await this.refreshLegislatura(cuatrenio, legislatura.title)
     }
@@ -26,7 +25,7 @@ export class PalService {
         await repo.save(data)
       }
       child_logger.info(`Saved ${result.length} items`)
-    });
+    })
     child_logger.info(`Finished refreshing cuatrenio`)
   }
 }
@@ -44,13 +43,15 @@ class PalRepository {
     return this.tx ? this.tx : db
   }
 
-  private async exists({ numero, legislatura }: { numero: string, legislatura: string }) {
-    return (await this.conn
-      .selectFrom(this.table)
-      .select('id')
-      .where('numero', '=', numero)
-      .where('legislatura', '=', legislatura)
-      .executeTakeFirst()) !== undefined
+  private async exists({ numero, legislatura }: { numero: string; legislatura: string }) {
+    return (
+      (await this.conn
+        .selectFrom(this.table)
+        .select('id')
+        .where('numero', '=', numero)
+        .where('legislatura', '=', legislatura)
+        .executeTakeFirst()) !== undefined
+    )
   }
 
   private prepareData(data: DetailData): Insertable<SenadoPal> {
@@ -67,7 +68,7 @@ class PalRepository {
       acumulados: JSON.stringify(data.acumulados),
       autores: JSON.stringify(data.autores),
       fechaDePresentacion: data.fechaDePresentacion?.toISOString().split('T')[0],
-      ponentesPrimerDebate: JSON.stringify(data.ponentesPrimerDebate),
+      ponentesPrimerDebate: JSON.stringify(data.ponentesPrimerDebate)
     }
   }
 
@@ -81,10 +82,7 @@ class PalRepository {
   }
 
   private async insert(data: DetailData) {
-    await this.conn
-      .insertInto(this.table)
-      .values(this.prepareData(data))
-      .execute()
+    await this.conn.insertInto(this.table).values(this.prepareData(data)).execute()
   }
 
   private async update(data: DetailData) {

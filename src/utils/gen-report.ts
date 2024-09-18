@@ -2,9 +2,9 @@ import { z } from 'zod'
 import fs from 'fs'
 import child_process from 'child_process'
 import { Command } from 'commander'
-import { CuatrenioRepository } from '../common/repositories.js';
+import { CuatrenioRepository } from '../common/repositories.js'
 import { logger } from './logger.js'
-import { fileURLToPath } from 'url';
+import { fileURLToPath } from 'url'
 const program = new Command()
 program.description('Refreshes the data from the database')
 program.requiredOption('--corporacion <string>', 'Camara | Senado')
@@ -15,7 +15,7 @@ program.action(generateReport)
 const queryFiles: Record<string, string> = {
   senado: 'senado_query.sql',
   camara: 'camara_query.sql',
-  pal: 'senado_pal_query.sql',
+  pal: 'senado_pal_query.sql'
 }
 
 const schema = z.object({
@@ -27,16 +27,18 @@ const schema = z.object({
 export type Options = z.infer<typeof schema>
 
 export async function generateReport(options: Options) {
-  const { cuatrenio, tipo, corporacion } = z.object({
-    corporacion: z.enum(['camara', 'senado', 'PAL']),
-    cuatrenio: z.string().optional(),
-    tipo: z.enum(['json', 'csv', 'all']).default('all')
-  }).parse(options)
+  const { cuatrenio, tipo, corporacion } = z
+    .object({
+      corporacion: z.enum(['camara', 'senado', 'PAL']),
+      cuatrenio: z.string().optional(),
+      tipo: z.enum(['json', 'csv', 'all']).default('all')
+    })
+    .parse(options)
 
   let cuaternios: string[] = []
   const cuatrenioRepository = new CuatrenioRepository()
   if (cuatrenio) {
-    const exists = await cuatrenioRepository.getByTitle(cuatrenio) !== undefined;
+    const exists = (await cuatrenioRepository.getByTitle(cuatrenio)) !== undefined
     if (!exists) {
       logger.error(`Cuatrenio ${cuatrenio} does not exist`)
       process.exit(1)
@@ -44,7 +46,7 @@ export async function generateReport(options: Options) {
     cuaternios = [cuatrenio]
   } else {
     const all = await cuatrenioRepository.getAll()
-    cuaternios = all.map(c => c.title)
+    cuaternios = all.map((c) => c.title)
   }
 
   for (const cuatrenio of cuaternios) {
@@ -77,15 +79,14 @@ function renderQueryFile(cuatrenio: string, queryFile: string): string {
   return tmpFile
 }
 
-
 function genCSV(cuatrenio: string, queryFile: string, corporacion: string) {
-  const title = `data_${corporacion.toLowerCase()}_${cuatrenio}.csv`.replace('senado_', '');
+  const title = `data_${corporacion.toLowerCase()}_${cuatrenio}.csv`.replace('senado_', '')
   const command = `sqlite3 db/database.db -cmd '.mode csv' -cmd '.headers on'  < ${queryFile} > output/${title}`
   child_process.execSync(command)
 }
 
 function genJSON(cuatrenio: string, queryFile: string, corporacion: string) {
-  const title = `data_${corporacion.toLowerCase()}_${cuatrenio}.json`.replace('senado_', '');
+  const title = `data_${corporacion.toLowerCase()}_${cuatrenio}.json`.replace('senado_', '')
   const json_fields = ['.autores']
   if (corporacion === 'PAL') {
     json_fields.push('.acumulados')
@@ -96,7 +97,7 @@ function genJSON(cuatrenio: string, queryFile: string, corporacion: string) {
   child_process.execSync(command)
 }
 
-const self = fileURLToPath(import.meta.url);
+const self = fileURLToPath(import.meta.url)
 if (process.argv[1] === self) {
   program.parse(process.argv)
 }

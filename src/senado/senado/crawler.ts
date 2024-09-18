@@ -1,8 +1,13 @@
-import { type Cheerio, type CheerioAPI, type Element, load } from "cheerio";
-import { cleanupTitle, parseListOfNames, parseNumeroIdentificador, parseTextualDate } from "../../common/utils.js"
-import { Axios } from "axios"
-import { logger } from "../../utils/logger.js";
-import PQueue from "p-queue";
+import { type Cheerio, type CheerioAPI, type Element, load } from 'cheerio'
+import {
+  cleanupTitle,
+  parseListOfNames,
+  parseNumeroIdentificador,
+  parseTextualDate
+} from '../../common/utils.js'
+import { Axios } from 'axios'
+import { logger } from '../../utils/logger.js'
+import PQueue from 'p-queue'
 
 export interface ProyectDetailPageData {
   numero: string
@@ -37,10 +42,8 @@ export type DetailData = ProyectDetailPageData & {
   url: string
 }
 
-
 export class Extractor {
-
-  private axios: Axios;
+  private axios: Axios
   private urlConfig = {
     baseURL: 'http://leyes.senado.gov.co',
     head: '/proyectos/index.php/proyectos-ley',
@@ -50,75 +53,79 @@ export class Extractor {
 
   constructor(
     private cuatrenio: string,
-    private legislatura: string,
+    private legislatura: string
   ) {
     this.axios = new Axios({
       baseURL: this.urlConfig.baseURL,
-      timeout: 10000,
-    });
+      timeout: 10000
+    })
   }
 
   async getHtml(url: string, options: { retries: number } = { retries: 3 }) {
-    const retries = options?.retries ?? 2;
-    let attempt = 1;
+    const retries = options?.retries ?? 2
+    let attempt = 1
     while (attempt <= retries) {
       try {
-        const { data } = await this.axios.get(url);
+        const { data } = await this.axios.get(url)
         if (typeof data !== 'string') {
-          throw new Error('Invalid data');
+          throw new Error('Invalid data')
         }
-        return data;
+        return data
       } catch (e) {
-        logger.error(`Error fetching ${url}`);
-        attempt++;
-        await new Promise(resolve => setTimeout(resolve, 1000));
+        logger.error(`Error fetching ${this.axios.defaults.baseURL}${url}`)
+        attempt++
+        await new Promise((resolve) => setTimeout(resolve, 1000))
       }
     }
-    throw new Error(`Failed to fetch ${url} after ${retries} attempts`);
+    throw new Error(`Failed to fetch ${url} after ${retries} attempts`)
   }
 
   private listDataUrl() {
-    return `${this.urlConfig.head}/cuatrenio-${this.cuatrenio}/${this.legislatura}${this.urlConfig.query}`;
+    return `${this.urlConfig.head}/cuatrenio-${this.cuatrenio}/${this.legislatura}${this.urlConfig.query}`
   }
 
   public async process(): Promise<DetailData[]> {
-    const data = await this.getHtml(this.listDataUrl());
-    const { items } = new ProyectoPaListPage(data);
-    const results: DetailData[] = [];
+    const data = await this.getHtml(this.listDataUrl())
+    const { items } = new ProyectoPaListPage(data)
+    const results: DetailData[] = []
 
-    logger.info(`Processing ${items.length} items`);
+    logger.info(`Processing ${items.length} items`)
 
-    const queue = new PQueue({ concurrency: 10 });
-    queue.on('completed', () => (results.length % 10 === 0) && logger.info(`Processed ${results.length}/${items.length}`));
+    const queue = new PQueue({ concurrency: 10 })
+    queue.on(
+      'completed',
+      () => results.length % 10 === 0 && logger.info(`Processed ${results.length}/${items.length}`)
+    )
 
-    items.forEach(item => queue.add(async () => {
-      await this.#processOne(item).then(data => data && results.push(data))
-    }))
-    await queue.onIdle();
-    logger.info(`Queue completed with ${results.length} items`);
+    items.forEach((item) =>
+      queue.add(async () => {
+        await this.#processOne(item).then((data) => data && results.push(data))
+      })
+    )
+    await queue.onIdle()
+    logger.info(`Queue completed with ${results.length} items`)
 
-    return results;
+    return results
   }
 
   async #processOne(item: ParsedListItem): Promise<DetailData | undefined> {
-    logger.debug(`Processing item ${item.id}`);
-    const data = await this.getHtml(item.url);
+    logger.debug(`Processing item ${item.id}`)
+    const data = await this.getHtml(item.url)
     const url = `${this.urlConfig.baseURL}${item.url}`
     try {
-      const detail = new ProyectoDetailPage(data).parse();
-      logger.debug(`Processed item ${item.id}`);
+      const detail = new ProyectoDetailPage(data).parse()
+      logger.debug(`Processed item ${item.id}`)
       return {
         ...detail,
         id_senado: item.id,
         legislatura: this.legislatura,
-        url,
+        url
       }
     } catch (e) {
-      const message = e instanceof Error ? e.message : 'Unknown error';
-      logger.error(`Error processing item ${item.id}: ${message}\n Url: ${url}`);
+      const message = e instanceof Error ? e.message : 'Unknown error'
+      logger.error(`Error processing item ${item.id}: ${message}\n Url: ${url}`)
     }
   }
-
 }
 
 type ParsedListItem = {
@@ -129,42 +136,42 @@ type ParsedListItem = {
 // Parse, and extract the rows, producing row objects
 class ProyectoPaListPage {
   private $: CheerioAPI
-  public items: ParsedListItem[] = [];
+  public items: ParsedListItem[] = []
 
   constructor(raw: string) {
-    this.$ = load(raw);
-    this.#parseItems();
+    this.$ = load(raw)
+    this.#parseItems()
   }
 
   #parseItems(): Array<ParsedListItem> {
-    const tables = this.$('table');
+    const tables = this.$('table')
     for (let i = 0; i < tables.length; i++) {
-      const item = tables.eq(i);
+      const item = tables.eq(i)
       if (item.find('td').length === 3 && item.find('.even, .odd').length === 1) {
-        let parsed = this.parseItem(item);
+        let parsed = this.parseItem(item)
         if (parsed) {
-          this.items.push(parsed);
+          this.items.push(parsed)
         }
       }
     }
-    return this.items;
+    return this.items
   }
 
   private parseItem(item: Cheerio<Element>): ParsedListItem | null {
-    const url = item.find('a').attr('href');
+    const url = item.find('a').attr('href')
     if (!url) {
-      return null;
+      return null
     }
 
     // Get id from: /something/something/{id}-my-title
-    const id = parseInt(url.split('/').pop()?.split('-').shift() ?? '');
+    const id = parseInt(url.split('/').pop()?.split('-').shift() ?? '')
     if (!id || isNaN(id)) {
-      throw new Error(`Could not parse id from url: ${url}`);
+      throw new Error(`Could not parse id from url: ${url}`)
     }
 
     return {
       id,
-      url,
+      url
     }
   }
 }
@@ -192,7 +199,7 @@ class ProyectoDetailPage {
       fechaAprobacionSegundoDebate: this.#getFechaAprobacionSegundoDebate(),
       fechaConciliacion: this.#getFechaConciliacion(),
       autores: this.#getAutores(),
-      ...this.#parsePublicacionesTable(),
+      ...this.#parsePublicacionesTable()
     }
   }
 
@@ -201,19 +208,27 @@ class ProyectoDetailPage {
   }
 
   #getTitulo() {
-    return cleanupTitle(this.#getTituloNumeroTable().find('big').text());
+    return cleanupTitle(this.#getTituloNumeroTable().find('big').text())
   }
 
   #getNumero() {
     const table = this.#getTituloNumeroTable()
-    const raw = table.find("p:contains('Senado:')").text().trim().replace(/C[aá]mara:.*/, '')
+    const raw = table
+      .find("p:contains('Senado:')")
+      .text()
+      .trim()
+      .replace(/C[aá]mara:.*/, '')
     const parsed = parseNumeroIdentificador(raw)
     return `${parsed.numero}/${parsed.year}`
   }
 
   #getNumeroCamara() {
     const table = this.#getTituloNumeroTable()
-    const raw = table.find("p:contains('Camara:'), p:contains('Cámara')").text().trim().replace(/Senado:.*/, '')
+    const raw = table
+      .find("p:contains('Camara:'), p:contains('Cámara')")
+      .text()
+      .trim()
+      .replace(/Senado:.*/, '')
     try {
       const parsed = parseNumeroIdentificador(raw)
       return `${parsed.numero}/${parsed.year}`
@@ -235,7 +250,12 @@ class ProyectoDetailPage {
   }
 
   #getComision() {
-    let comision = this.#getTramiteTable().find("tr:contains('Repartido a Comisión:')").find('td').eq(1).text().trim()
+    let comision = this.#getTramiteTable()
+      .find("tr:contains('Repartido a Comisión:')")
+      .find('td')
+      .eq(1)
+      .text()
+      .trim()
     if (comision === '-') {
       comision = 'NO ASIGNADA'
     }
@@ -243,7 +263,12 @@ class ProyectoDetailPage {
   }
 
   #getFechaPresentacion() {
-    const raw = this.#getTramiteTable().find("tr:contains('Fecha de Presentación:')").find('td').eq(1).text().trim()
+    const raw = this.#getTramiteTable()
+      .find("tr:contains('Fecha de Presentación:')")
+      .find('td')
+      .eq(1)
+      .text()
+      .trim()
     return parseTextualDate(raw)
   }
 
@@ -252,11 +277,21 @@ class ProyectoDetailPage {
   }
 
   #getTipoLey() {
-    return this.#getTramiteTable().find("tr:contains('Tipo de Ley:')").find('td').eq(1).text().trim()
+    return this.#getTramiteTable()
+      .find("tr:contains('Tipo de Ley:')")
+      .find('td')
+      .eq(1)
+      .text()
+      .trim()
   }
 
   #getFechaEnvioComision() {
-    const raw = this.#getTramiteTable().find("tr:contains('Fecha de Envio a Comisión:')").find('td').eq(1).text().trim()
+    const raw = this.#getTramiteTable()
+      .find("tr:contains('Fecha de Envio a Comisión:')")
+      .find('td')
+      .eq(1)
+      .text()
+      .trim()
     try {
       return parseTextualDate(raw)
     } catch (error) {
@@ -265,7 +300,12 @@ class ProyectoDetailPage {
   }
 
   #getFechaAprobacionPrimerDebate() {
-    const raw = this.#getTramiteTable().find("tr:contains('Fecha de Aprobación Primer Debate:')").find('td').eq(1).text().trim()
+    const raw = this.#getTramiteTable()
+      .find("tr:contains('Fecha de Aprobación Primer Debate:')")
+      .find('td')
+      .eq(1)
+      .text()
+      .trim()
     try {
       return parseTextualDate(raw)
     } catch (error) {
@@ -274,7 +314,12 @@ class ProyectoDetailPage {
   }
 
   #getFechaAprobacionSegundoDebate() {
-    const raw = this.#getTramiteTable().find("tr:contains('Fecha de Aprobación Segundo Debate:')").find('td').eq(1).text().trim()
+    const raw = this.#getTramiteTable()
+      .find("tr:contains('Fecha de Aprobación Segundo Debate:')")
+      .find('td')
+      .eq(1)
+      .text()
+      .trim()
     try {
       return parseTextualDate(raw)
     } catch (error) {
@@ -283,7 +328,12 @@ class ProyectoDetailPage {
   }
 
   #getFechaConciliacion() {
-    const raw = this.#getTramiteTable().find("tr:contains('Fecha de Conciliación:')").find('td').eq(1).text().trim()
+    const raw = this.#getTramiteTable()
+      .find("tr:contains('Fecha de Conciliación:')")
+      .find('td')
+      .eq(1)
+      .text()
+      .trim()
     try {
       return parseTextualDate(raw)
     } catch (error) {
@@ -304,14 +354,19 @@ class ProyectoDetailPage {
     const rows = this.#getPublicacionesTable().find('tr')
 
     function rowExtractor(row: Cheerio<Element>, $: CheerioAPI): Array<string | null> {
-      return row.find('td')
+      return row
+        .find('td')
         .toArray()
         .map((td) => $(td).find('a').first().attr('href') ?? '')
-        .map((href) => href !== '/proyectos/' ? href : null)
+        .map((href) => (href !== '/proyectos/' ? href : null))
     }
 
     const [exposicionMotivos, primeraPonencia, segundaPonencia] = rowExtractor(rows.eq(1), this.$)
-    if (exposicionMotivos === undefined || primeraPonencia === undefined || segundaPonencia === undefined) {
+    if (
+      exposicionMotivos === undefined ||
+      primeraPonencia === undefined ||
+      segundaPonencia === undefined
+    ) {
       throw new Error('No se pudo hacer parse correcto de las publicaciones: ')
     }
 
@@ -334,10 +389,9 @@ class ProyectoDetailPage {
       objeciones,
       concepto,
       textoRehecho,
-      sentenciaCorte,
+      sentenciaCorte
     }
   }
-
 }
 
 //async function run() {

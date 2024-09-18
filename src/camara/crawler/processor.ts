@@ -1,6 +1,6 @@
-import { load } from 'cheerio';
-import { buildCamaraUrl, type DetailData, type ListData } from '../index.js';
-import { parseListOfNames } from '../../common/utils.js';
+import { load } from 'cheerio'
+import { buildCamaraUrl, type DetailData, type ListData } from '../index.js'
+import { parseListOfNames } from '../../common/utils.js'
 
 const numeroCamaraRegex = /\d+(\/|-)\d+C?/
 const numeroSenadoRegex = /\d+(\/|-)\d+S?/
@@ -48,7 +48,6 @@ function getLegislatura(raw: string): string {
     throw new Error('Could not find legislatura in: ' + raw)
   }
 }
-
 
 export function processPage(raw: string): ListData[] {
   const $ = load(raw)
@@ -107,16 +106,23 @@ export function processDetailPage(raw: string): DetailData {
   const numeroCamara = getNumeroCamara($(indexOrError(rows, 3)).find('div:nth-child(1)').text())
   const numeroSenado = getNumeroSenado($(indexOrError(rows, 3)).find('div:nth-child(2)').text())
 
+  const legislatura = getLegislatura(
+    $(indexOrError(rows, 4)).find('div:nth-child(1) span.field__item').text()
+  )
 
-  const legislatura = getLegislatura($(indexOrError(rows, 4)).find('div:nth-child(1) span.field__item').text())
-
-  const origen = $(indexOrError(rows, 4)).find('div:nth-child(2) span.field__item').text().trim() ?? ''
+  const origen =
+    $(indexOrError(rows, 4)).find('div:nth-child(2) span.field__item').text().trim() ?? ''
 
   const tipo = $(indexOrError(rows, 6)).find('div:nth-child(1) span.field__item').text().trim()
 
-  const objeto = $(indexOrError(rows, 7)).find('div:nth-child(1)').contents().filter(function() {
-    return this.nodeType === 3
-  }).text().trim();
+  const objeto = $(indexOrError(rows, 7))
+    .find('div:nth-child(1)')
+    .contents()
+    .filter(function () {
+      return this.nodeType === 3
+    })
+    .text()
+    .trim()
 
   const observaciones = $(indexOrError(rows, 7)).find('div:nth-child(2) > p').text().trim()
 
@@ -133,7 +139,7 @@ export function processDetailPage(raw: string): DetailData {
     contenido: '',
     tipo,
     objeto,
-    observaciones,
+    observaciones
   }
 
   // logger.info(result)

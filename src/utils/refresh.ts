@@ -4,7 +4,11 @@ import { SenadoService } from '../senado/senado/index.js'
 import { generateReport } from './gen-report.js'
 import { logger } from './logger.js'
 import { PalService } from '../senado/pal/index.js'
-import { refreshCuatrenio, refreshLegislaturaProyectosListData, refreshLegislaturaProyectosDetailData } from '../camara/index.js';
+import {
+  refreshCuatrenio,
+  refreshLegislaturaProyectosListData,
+  refreshLegislaturaProyectosDetailData
+} from '../camara/index.js'
 
 const program = new Command()
 program.description('Refreshes the data from the senado')
@@ -18,7 +22,7 @@ const schema = z.object({
   cuatrenio: z.string(),
   legislatura: z.string().optional(),
   tipo: z.enum(['senado', 'camara', 'PAL']),
-  report: z.boolean().default(false),
+  report: z.boolean().default(false)
 })
 
 type Options = z.infer<typeof schema>
@@ -28,13 +32,13 @@ async function main(raw_options: any) {
   switch (options.tipo) {
     case 'PAL':
       await palRefresh(options)
-      break;
+      break
     case 'senado':
       await senadoRefresh(options)
-      break;
+      break
     case 'camara':
       await camaraRefresh(options)
-      break;
+      break
     default:
       throw new Error(`Invalid tipo: ${options.tipo}`)
   }
@@ -56,7 +60,6 @@ async function palRefresh(options: Options) {
 
 program.parse(process.argv)
 
-
 async function camaraRefresh(options: Options) {
   if (options.legislatura) {
     await refreshLegislaturaProyectosListData(options.legislatura)
@@ -74,4 +77,3 @@ async function senadoRefresh(options: Options) {
     return service.refreshCuatrenio(options.cuatrenio)
   }
 }
-

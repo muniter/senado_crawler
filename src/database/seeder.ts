@@ -7,20 +7,20 @@ const cuatrenios = {
     legilsaturas: [
       {
         nombre: '2018-2019',
-        camaraId: 88,
+        camaraId: 88
       },
       {
         nombre: '2019-2020',
-        camaraId: 1097,
+        camaraId: 1097
       },
       {
         nombre: '2020-2021',
-        camaraId: 96,
+        camaraId: 96
       },
       {
         nombre: '2021-2022',
-        camaraId: 97,
-      },
+        camaraId: 97
+      }
     ]
   },
   '2022-2026': {
@@ -29,12 +29,12 @@ const cuatrenios = {
     legilsaturas: [
       {
         nombre: '2022-2023',
-        camaraId: 1240,
+        camaraId: 1240
       },
       {
         nombre: '2023-2024',
-        camaraId: 1474,
-      },
+        camaraId: 1474
+      }
     ]
   }
 }
@@ -42,7 +42,8 @@ const cuatrenios = {
 // Cuatrenios y Legislaturas
 async function createCuatrenios() {
   for (const [cuatrenio, data] of Object.entries(cuatrenios)) {
-    await db.insertInto('Cuatrenio')
+    await db
+      .insertInto('Cuatrenio')
       .values({
         title: cuatrenio,
         inicio: data.start,
@@ -54,15 +55,22 @@ async function createCuatrenios() {
 
 async function createLegislaturas() {
   for (const [cuatrenio, data] of Object.entries(cuatrenios)) {
-    const cuatrenioId = (await db.selectFrom('Cuatrenio').select('id').where('title', '=', cuatrenio).executeTakeFirstOrThrow()).id
+    const cuatrenioId = (
+      await db
+        .selectFrom('Cuatrenio')
+        .select('id')
+        .where('title', '=', cuatrenio)
+        .executeTakeFirstOrThrow()
+    ).id
     for (const legislatura of data.legilsaturas) {
-      await db.insertInto('Legislatura')
+      await db
+        .insertInto('Legislatura')
         .values({
           title: legislatura.nombre,
           inicio: parseInt(legislatura.nombre.split('-')[0]!!),
           fin: parseInt(legislatura.nombre.split('-')[1]!!),
           camaraId: legislatura.camaraId,
-          cuatrenioId,
+          cuatrenioId
         })
         .execute()
     }
@@ -78,4 +86,3 @@ main().catch((e) => {
   console.error('Error seeding database', e)
   process.exit(1)
 })
-

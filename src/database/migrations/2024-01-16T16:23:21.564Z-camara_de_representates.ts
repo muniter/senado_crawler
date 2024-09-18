@@ -2,7 +2,8 @@ import { Kysely, sql } from 'kysely'
 
 export async function up(db: Kysely<any>): Promise<void> {
   // Write your migration here.
-  db.schema.createTable('CamaraProyectos')
+  db.schema
+    .createTable('CamaraProyectos')
     .addColumn('numeroCamara', 'text', (col) => col.primaryKey().notNull())
     .addColumn('numeroSenado', 'text')
     .addColumn('tituloCorto', 'text')

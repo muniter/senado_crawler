@@ -2,7 +2,8 @@ import { Kysely, sql } from 'kysely'
 
 export async function up(db: Kysely<any>): Promise<void> {
   // Write your migration here.
-  await db.schema.createTable('ProyectosSenadoNew')
+  await db.schema
+    .createTable('ProyectosSenadoNew')
     .addColumn('id', 'integer', (col) => col.primaryKey().autoIncrement())
     .addColumn('id_senado', 'integer', (col) => col.notNull())
     .addColumn('legislatura', 'varchar(100)', (col) => col.notNull())
@@ -33,7 +34,8 @@ export async function up(db: Kysely<any>): Promise<void> {
     .addColumn('url', 'varchar(1000)', (col) => col.notNull())
     .execute()
 
-  await db.schema.createIndex('ProyectosSenadoNew_unique_numero_legislatura')
+  await db.schema
+    .createIndex('ProyectosSenadoNew_unique_numero_legislatura')
     .on('ProyectosSenadoNew')
     .columns(['numero', 'legislatura'])
     .unique()

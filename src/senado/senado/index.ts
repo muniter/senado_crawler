@@ -1,14 +1,14 @@
-import { type Insertable } from "kysely";
-import { CuatrenioRepository } from "../../common/repositories.js";
-import { type DBTransaction, db } from "../../database/index.js";
-import { type DetailData, Extractor } from "./crawler.js";
-import { type Senado } from "../../database/schema.js";
-import { getDatePart } from "../../common/utils.js";
-import { logger } from "../../utils/logger.js";
+import { type Insertable } from 'kysely'
+import { CuatrenioRepository } from '../../common/repositories.js'
+import { type DBTransaction, db } from '../../database/index.js'
+import { type DetailData, Extractor } from './crawler.js'
+import { type Senado } from '../../database/schema.js'
+import { getDatePart } from '../../common/utils.js'
+import { logger } from '../../utils/logger.js'
 
 export class SenadoService {
   public async refreshCuatrenio(cuatrenio: string) {
-    const legislaturas = await (new CuatrenioRepository().getLegisltauras(cuatrenio))
+    const legislaturas = await new CuatrenioRepository().getLegisltauras(cuatrenio)
     for (const legislatura of legislaturas) {
       await this.refreshLegislatura(cuatrenio, legislatura.title)
     }
@@ -24,7 +24,7 @@ export class SenadoService {
       for (const data of result) {
         await repo.save(data)
       }
-    });
+    })
     logger.info(`Finished refreshing cuatrenio ${cuatrenio} / legislatura ${legislatura}`)
   }
 }
@@ -41,13 +41,15 @@ class SenadoRepository {
     return this.tx ? this.tx : db
   }
 
-  private async exists({ numero, legislatura }: { numero: string, legislatura: string }) {
-    return (await this.conn
-      .selectFrom(this.table)
-      .select('id')
-      .where('numero', '=', numero)
-      .where('legislatura', '=', legislatura)
-      .executeTakeFirst()) !== undefined
+  private async exists({ numero, legislatura }: { numero: string; legislatura: string }) {
+    return (
+      (await this.conn
+        .selectFrom(this.table)
+        .select('id')
+        .where('numero', '=', numero)
+        .where('legislatura', '=', legislatura)
+        .executeTakeFirst()) !== undefined
+    )
   }
 
   private prepareData(data: DetailData): Insertable<Senado> {
@@ -66,8 +68,12 @@ class SenadoRepository {
       origen: data.origen,
       tipoLey: data.tipoLey,
       fechaEnvioComision: data.fechaEnvioComision ? getDatePart(data.fechaEnvioComision) : null,
-      fechaAprobacionPrimerDebate: data.fechaAprobacionPrimerDebate ? getDatePart(data.fechaAprobacionPrimerDebate) : null,
-      fechaAprobacionSegundoDebate: data.fechaAprobacionSegundoDebate ? getDatePart(data.fechaAprobacionSegundoDebate) : null,
+      fechaAprobacionPrimerDebate: data.fechaAprobacionPrimerDebate
+        ? getDatePart(data.fechaAprobacionPrimerDebate)
+        : null,
+      fechaAprobacionSegundoDebate: data.fechaAprobacionSegundoDebate
+        ? getDatePart(data.fechaAprobacionSegundoDebate)
+        : null,
       fechaConciliacion: data.fechaConciliacion ? getDatePart(data.fechaConciliacion) : null,
       autores: JSON.stringify(data.autores),
       exposicionMotivos: data.exposicionMotivos,
@@ -78,7 +84,7 @@ class SenadoRepository {
       objeciones: data.objeciones,
       concepto: data.concepto,
       textoRehecho: data.textoRehecho,
-      sentenciaCorte: data.sentenciaCorte,
+      sentenciaCorte: data.sentenciaCorte
     }
   }
 
@@ -91,10 +97,7 @@ class SenadoRepository {
   }
 
   private async insert(data: DetailData) {
-    await this.conn
-      .insertInto(this.table)
-      .values(this.prepareData(data))
-      .execute()
+    await this.conn.insertInto(this.table).values(this.prepareData(data)).execute()
   }
 
   private async update(data: DetailData) {
