@@ -79,3 +79,12 @@ npm run reset
     - Crawl details for each
     - Put in a database table `proyectos_detail`
 - Sync periodically from db to google sheets, db is source of truth for scraped data.
+
+
+## TODO
+
+- [ ] Move to a long lived database, like Postgres.
+- [ ] Move the repo to PartidoMIRA org
+- [ ] Publish the output to s3 in a public folder
+- [ ] Make the scrapping less "transactional" and just update what you can.
+- [ ] Maybe restructure things to be more event driven (queue.)

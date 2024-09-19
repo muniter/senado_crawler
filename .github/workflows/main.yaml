@@ -19,6 +19,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           ref: main
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
@@ -30,7 +36,7 @@ jobs:
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          npm run refresh -- --tipo senado --cuatrenio "2022-2026" --report
+          node --run refresh -- --tipo senado --cuatrenio "2022-2026" --report
 
       - name: Check if there's changes
         id: check-changes-first
@@ -46,7 +52,7 @@ jobs:
       - name: Refresh Cuatrenio 2018-2022
         if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
-          npm run refresh -- --tipo senado --cuatrenio "2018-2022" --report
+          node --run refresh -- --tipo senado --cuatrenio "2018-2022" --report
 
       - name: Check if there's changes again
         id: check-changes-second
@@ -81,31 +87,24 @@ jobs:
         uses: actions/checkout@v3
         with:
           ref: main
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
 
-      - name: Cache node modules
-        id: cache-npm
-        uses: actions/cache@v3
-        env:
-          cache-name: cache-node-modules
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
         with:
-          # npm cache files are stored in `~/.npm` on Linux/macOS
-          path: ~/.npm
-          key: ${{ runner.os }}-build-${{ env.cache-name }}-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.os }}-build-${{ env.cache-name }}-
-            ${{ runner.os }}-build-
-            ${{ runner.os }}-
+          version: 9
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: npm ci
+        run: pnpm install
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          npm run refresh -- --tipo camara --cuatrenio "2022-2026" --report
+          node -- run refresh -- --tipo camara --cuatrenio "2022-2026" --report
 
       - name: Check if there's changes
         id: check-changes-first
@@ -121,7 +120,7 @@ jobs:
       - name: Refresh Cuatrenio 2018-2022
         if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
-          npm run refresh -- --tipo camara --cuatrenio "2018-2022" --report
+          node --run refresh -- --tipo camara --cuatrenio "2018-2022" --report
 
       - name: Check if there's changes again
         id: check-changes-second
@@ -180,7 +179,7 @@ jobs:
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          npm run refresh -- --tipo PAL --cuatrenio "2022-2026" --report
+          node --run refresh -- --tipo PAL --cuatrenio "2022-2026" --report
 
       - name: Check if there's changes
         id: check-changes-first
@@ -196,7 +195,7 @@ jobs:
       - name: Refresh Cuatrenio 2018-2022
         if: steps.check-changes-first.outputs.CHANGES == 'true'
         run: |
-          npm run refresh -- --tipo PAL --cuatrenio "2018-2022" --report
+          node --run refresh -- --tipo PAL --cuatrenio "2018-2022" --report
 
       - name: Check if there's changes again
         id: check-changes-second
