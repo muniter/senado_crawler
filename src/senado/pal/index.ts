@@ -8,6 +8,10 @@ import { logger } from '../../utils/logger.js'
 export class PalService {
   public async refreshCuatrenio(cuatrenio: string) {
     const legislaturas = await new CuatrenioRepository().getLegisltauras(cuatrenio)
+    if (legislaturas.length === 0) {
+      logger.error(`No legislaturas found for cuatrenio ${cuatrenio}`)
+      return
+    }
     for (const legislatura of legislaturas) {
       await this.refreshLegislatura(cuatrenio, legislatura.title)
     }
