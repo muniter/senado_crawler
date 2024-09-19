@@ -12,29 +12,29 @@ import type { Element } from '../../common/types.js'
 
 export interface ProyectDetailPageData {
   numero: string
-  numeroCamara: string | null
+  numero_camara: string | null
   titulo: string
   estado: string
-  estadoAnotacion: string
+  estado_anotacion: string
   comision: string
-  fechaRadicado: Date
+  fecha_radicado: Date
   origen: string
-  tipoLey: string
-  fechaEnvioComision: Date | null
+  tipo_ley: string
+  fecha_envio_comision: Date | null
   fechaPresentacion: Date
-  fechaAprobacionPrimerDebate: Date | null
-  fechaAprobacionSegundoDebate: Date | null
-  fechaConciliacion: Date | null
+  fecha_aprobacion_primer_debate: Date | null
+  fecha_aprobacion_segundo_debate: Date | null
+  fecha_conciliacion: Date | null
   autores: string[]
-  exposicionMotivos: string | null
-  primeraPonencia: string | null
-  segundaPonencia: string | null
-  textoPlenaria: string | null
+  exposicion_motivos: string | null
+  primera_ponencia: string | null
+  segunda_ponencia: string | null
+  texto_plenaria: string | null
   conciliacion: string | null
   objeciones: string | null
   concepto: string | null
-  textoRehecho: string | null
-  sentenciaCorte: string | null
+  texto_rehecho: string | null
+  sentencia_corte: string | null
 }
 
 export type DetailData = ProyectDetailPageData & {
@@ -186,19 +186,19 @@ class ProyectoDetailPage {
   public parse(): ProyectDetailPageData {
     return {
       numero: this.#getNumero(),
-      numeroCamara: this.#getNumeroCamara(),
+      numero_camara: this.#getNumeroCamara(),
       titulo: this.#getTitulo(),
       estado: this.#getEstado(),
-      estadoAnotacion: this.#getEstadoAnotacion(),
+      estado_anotacion: this.#getEstadoAnotacion(),
       comision: this.#getComision(),
-      fechaRadicado: this.#getFechaPresentacion(),
+      fecha_radicado: this.#getFechaPresentacion(),
       origen: this.#getOrigen(),
-      tipoLey: this.#getTipoLey(),
-      fechaEnvioComision: this.#getFechaEnvioComision(),
+      tipo_ley: this.#getTipoLey(),
+      fecha_envio_comision: this.#getFechaEnvioComision(),
       fechaPresentacion: this.#getFechaPresentacion(),
-      fechaAprobacionPrimerDebate: this.#getFechaAprobacionPrimerDebate(),
-      fechaAprobacionSegundoDebate: this.#getFechaAprobacionSegundoDebate(),
-      fechaConciliacion: this.#getFechaConciliacion(),
+      fecha_aprobacion_primer_debate: this.#getFechaAprobacionPrimerDebate(),
+      fecha_aprobacion_segundo_debate: this.#getFechaAprobacionSegundoDebate(),
+      fecha_conciliacion: this.#getFechaConciliacion(),
       autores: this.#getAutores(),
       ...this.#parsePublicacionesTable()
     }
@@ -362,35 +362,35 @@ class ProyectoDetailPage {
         .map((href) => (href !== '/proyectos/' ? href : null))
     }
 
-    const [exposicionMotivos, primeraPonencia, segundaPonencia] = rowExtractor(rows.eq(1), this.$)
+    const [exposicion_motivos, primera_ponencia, segunda_ponencia] = rowExtractor(rows.eq(1), this.$)
     if (
-      exposicionMotivos === undefined ||
-      primeraPonencia === undefined ||
-      segundaPonencia === undefined
+      exposicion_motivos === undefined ||
+      primera_ponencia === undefined ||
+      segunda_ponencia === undefined
     ) {
       throw new Error('No se pudo hacer parse correcto de las publicaciones: ')
     }
 
-    const [textoPlenaria, conciliacion, objeciones] = rowExtractor(rows.eq(3), this.$)
-    if (textoPlenaria === undefined || conciliacion === undefined || objeciones === undefined) {
+    const [texto_plenaria, conciliacion, objeciones] = rowExtractor(rows.eq(3), this.$)
+    if (texto_plenaria === undefined || conciliacion === undefined || objeciones === undefined) {
       throw new Error('No se pudo hacer parse correcto de las publicaciones: ')
     }
 
-    const [concepto, textoRehecho, sentenciaCorte] = rowExtractor(rows.eq(5), this.$)
-    if (concepto === undefined || textoRehecho === undefined || sentenciaCorte === undefined) {
+    const [concepto, texto_rehecho, sentencia_corte] = rowExtractor(rows.eq(5), this.$)
+    if (concepto === undefined || texto_rehecho === undefined || sentencia_corte === undefined) {
       throw new Error('No se pudo hacer parse correcto de las publicaciones: ')
     }
 
     return {
-      exposicionMotivos,
-      primeraPonencia,
-      segundaPonencia,
-      textoPlenaria,
+      exposicion_motivos,
+      primera_ponencia,
+      segunda_ponencia,
+      texto_plenaria,
       conciliacion,
       objeciones,
       concepto,
-      textoRehecho,
-      sentenciaCorte
+      texto_rehecho,
+      sentencia_corte
     }
   }
 }

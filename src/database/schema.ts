@@ -9,18 +9,18 @@ export interface Camara {
   autores: string | null
   comision: string | null
   contenido: string | null
-  detailDataHash: string | null
+  detail_data_hash: string | null
   estado: string | null
   legislatura: string | null
-  listDataHash: string | null
-  numeroCamara: string
-  numeroSenado: string | null
+  list_data_hash: string | null
+  numero_camara: string
+  numero_senado: string | null
   objeto: string | null
   observaciones: string | null
   origen: string | null
   tipo: string | null
-  tituloCorto: string | null
-  tituloLargo: string | null
+  titulo_corto: string | null
+  titulo_largo: string | null
   url: string | null
 }
 
@@ -32,8 +32,8 @@ export interface Cuatrenio {
 }
 
 export interface Legislatura {
-  camaraId: number
-  cuatrenioId: number
+  camara_id: number
+  cuatrenio_id: number
   fin: number
   id: Generated<number>
   inicio: number
@@ -46,27 +46,27 @@ export interface Senado {
   concepto: string | null
   conciliacion: string | null
   estado: string
-  estadoAnotacion: string | null
-  exposicionMotivos: string | null
-  fechaAprobacionPrimerDebate: string | null
-  fechaAprobacionSegundoDebate: string | null
-  fechaConciliacion: string | null
-  fechaDePresentacion: string
-  fechaEnvioComision: string | null
-  fechaRadicado: string
+  estado_anotacion: string | null
+  exposicion_motivos: string | null
+  fecha_aprobacion_primer_debate: string | null
+  fecha_aprobacion_segundo_debate: string | null
+  fecha_conciliacion: string | null
+  fecha_de_presentacion: string
+  fecha_envio_comision: string | null
+  fecha_radicado: string
   id: Generated<number | null>
   id_senado: number
   legislatura: string
   numero: string
-  numeroCamara: string | null
+  numero_camara: string | null
   objeciones: string | null
   origen: string
-  primeraPonencia: string | null
-  segundaPonencia: string | null
-  sentenciaCorte: string | null
-  textoPlenaria: string | null
-  textoRehecho: string | null
-  tipoLey: string
+  primera_ponencia: string | null
+  segunda_ponencia: string | null
+  sentencia_corte: string | null
+  texto_plenaria: string | null
+  texto_rehecho: string | null
+  tipo_ley: string
   titulo: string
   url: string
 }
@@ -76,15 +76,15 @@ export interface SenadoPal {
   autores: string | null
   created_at: Generated<string | null>
   estado: string | null
-  estadoAnotacion: string | null
-  fechaDePresentacion: string | null
+  estado_anotacion: string | null
+  fecha_de_presentacion: string | null
   id: Generated<number | null>
   id_senado: number
   legislatura: string
   numero: string
-  numeroCamara: string | null
+  numero_camara: string | null
   origen: string | null
-  ponentesPrimerDebate: string | null
+  ponentes_primer_debate: string | null
   titulo: string
   updated_at: Generated<string | null>
   url: string

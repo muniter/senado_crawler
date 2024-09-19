@@ -56,35 +56,35 @@ class SenadoRepository {
     return {
       id_senado: data.id_senado,
       numero: data.numero,
-      numeroCamara: data.numeroCamara,
+      numero_camara: data.numero_camara,
       titulo: data.titulo,
       legislatura: data.legislatura,
       url: data.url,
       estado: data.estado,
-      estadoAnotacion: data.estadoAnotacion,
+      estado_anotacion: data.estado_anotacion,
       comision: data.comision,
-      fechaRadicado: getDatePart(data.fechaRadicado),
-      fechaDePresentacion: getDatePart(data.fechaPresentacion),
+      fecha_radicado: getDatePart(data.fecha_radicado),
+      fecha_de_presentacion: getDatePart(data.fechaPresentacion),
       origen: data.origen,
-      tipoLey: data.tipoLey,
-      fechaEnvioComision: data.fechaEnvioComision ? getDatePart(data.fechaEnvioComision) : null,
-      fechaAprobacionPrimerDebate: data.fechaAprobacionPrimerDebate
-        ? getDatePart(data.fechaAprobacionPrimerDebate)
+      tipo_ley: data.tipo_ley,
+      fecha_envio_comision: data.fecha_envio_comision ? getDatePart(data.fecha_envio_comision) : null,
+      fecha_aprobacion_primer_debate: data.fecha_aprobacion_primer_debate
+        ? getDatePart(data.fecha_aprobacion_primer_debate)
         : null,
-      fechaAprobacionSegundoDebate: data.fechaAprobacionSegundoDebate
-        ? getDatePart(data.fechaAprobacionSegundoDebate)
+      fecha_aprobacion_segundo_debate: data.fecha_aprobacion_segundo_debate
+        ? getDatePart(data.fecha_aprobacion_segundo_debate)
         : null,
-      fechaConciliacion: data.fechaConciliacion ? getDatePart(data.fechaConciliacion) : null,
+      fecha_conciliacion: data.fecha_conciliacion ? getDatePart(data.fecha_conciliacion) : null,
       autores: JSON.stringify(data.autores),
-      exposicionMotivos: data.exposicionMotivos,
-      primeraPonencia: data.primeraPonencia,
-      segundaPonencia: data.segundaPonencia,
-      textoPlenaria: data.textoPlenaria,
+      exposicion_motivos: data.exposicion_motivos,
+      primera_ponencia: data.primera_ponencia,
+      segunda_ponencia: data.segunda_ponencia,
+      texto_plenaria: data.texto_plenaria,
       conciliacion: data.conciliacion,
       objeciones: data.objeciones,
       concepto: data.concepto,
-      textoRehecho: data.textoRehecho,
-      sentenciaCorte: data.sentenciaCorte
+      texto_rehecho: data.texto_rehecho,
+      sentencia_corte: data.sentencia_corte
     }
   }
 

@@ -29,7 +29,7 @@ const comisiones = [
 //
 //    await Promise.all(
 //      Object.entries(CUATRENIOS).map(async ([_, { inicio, fin, legilsaturas }]) => {
-//        const { id: cuatrenioId } = await tx
+//        const { id: cuatrenio_id } = await tx
 //          .insertInto('Cuatrenio')
 //          .values({ inicio, fin, title: `${inicio}-${fin}` })
 //          .returningAll()
@@ -40,10 +40,10 @@ const comisiones = [
 //          await tx
 //            .insertInto('Legislatura')
 //            .values({
-//              cuatrenioId,
+//              cuatrenio_id,
 //              inicio: parseInt(inicio!),
 //              fin: parseInt(fin!),
-//              camaraId: 5,
+//              camara_id: 5,
 //            })
 //            .executeTakeFirstOrThrow()
 //        })

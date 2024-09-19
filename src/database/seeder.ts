@@ -7,19 +7,19 @@ const cuatrenios = {
     legilsaturas: [
       {
         nombre: '2018-2019',
-        camaraId: 88
+        camara_id: 88
       },
       {
         nombre: '2019-2020',
-        camaraId: 1097
+        camara_id: 1097
       },
       {
         nombre: '2020-2021',
-        camaraId: 96
+        camara_id: 96
       },
       {
         nombre: '2021-2022',
-        camaraId: 97
+        camara_id: 97
       }
     ]
   },
@@ -29,11 +29,11 @@ const cuatrenios = {
     legilsaturas: [
       {
         nombre: '2022-2023',
-        camaraId: 1240
+        camara_id: 1240
       },
       {
         nombre: '2023-2024',
-        camaraId: 1474
+        camara_id: 1474
       }
     ]
   }
@@ -55,7 +55,7 @@ async function createCuatrenios() {
 
 async function createLegislaturas() {
   for (const [cuatrenio, data] of Object.entries(cuatrenios)) {
-    const cuatrenioId = (
+    const cuatrenio_id = (
       await db
         .selectFrom('cuatrenio')
         .select('id')
@@ -69,8 +69,8 @@ async function createLegislaturas() {
           title: legislatura.nombre,
           inicio: parseInt(legislatura.nombre.split('-')[0]!!),
           fin: parseInt(legislatura.nombre.split('-')[1]!!),
-          camaraId: legislatura.camaraId,
-          cuatrenioId
+          camara_id: legislatura.camara_id,
+          cuatrenio_id
         })
         .execute()
     }

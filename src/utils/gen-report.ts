@@ -90,7 +90,7 @@ function genJSON(cuatrenio: string, queryFile: string, corporacion: string) {
   const json_fields = ['.autores']
   if (corporacion === 'PAL') {
     json_fields.push('.acumulados')
-    json_fields.push('.ponentesPrimerDebate')
+    json_fields.push('.ponentes_primer_debate')
   }
   const command = `sqlite3 db/database.db -cmd '.mode json' -cmd '.headers on'  < ${queryFile} | jq 'map((${json_fields.join(', ')}) |= fromjson)' > output/${title}`
   logger.info(`Executing command: ${command}`)

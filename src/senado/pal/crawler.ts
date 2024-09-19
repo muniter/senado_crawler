@@ -19,15 +19,15 @@ type ParsedListItem = {
 
 type ParsedDetailData = {
   titulo: string
-  fechaDePresentacion: Date | undefined
+  fecha_de_presentacion: Date | undefined
   numero: string
-  numeroCamara?: string
+  numero_camara?: string
   acumulados: string[]
   estado: string
-  estadoAnotacion: string | null
+  estado_anotacion: string | null
   autores: string[]
   origen: string
-  ponentesPrimerDebate: string[]
+  ponentes_primer_debate: string[]
 }
 
 export type DetailData = ParsedDetailData & {
@@ -172,14 +172,14 @@ class ProyectoPalDetailPage {
 
     const result = {
       titulo: this.parseTitulo(),
-      fechaDePresentacion: this.parseFechaPresentacion(),
+      fecha_de_presentacion: this.parseFechaPresentacion(),
       numero: numero.numero,
-      numeroCamara: this.parseNumeroCamara(),
+      numero_camara: this.parseNumeroCamara(),
       acumulados: numero.acumulados,
       ...this.parseEstado(),
       autores: this.parseAutores(),
       origen: this.parseOrigen(),
-      ponentesPrimerDebate: this.parsePonentesPrimerDebate()
+      ponentes_primer_debate: this.parsePonentesPrimerDebate()
     }
 
     return result
@@ -236,11 +236,11 @@ class ProyectoPalDetailPage {
   private parseEstado() {
     const table = this.getEstadoAutorOrigenFechaTable()
     const data = table.find('tr:nth-child(1)').find('td:nth-child(2)').text().trim()
-    const [estado, estadoAnotacion] = data.split(',').map((s) => s.trim())
+    const [estado, estado_anotacion] = data.split(',').map((s) => s.trim())
     assert(estado, 'Estado is empty')
     return {
       estado,
-      estadoAnotacion: estadoAnotacion ?? null
+      estado_anotacion: estado_anotacion ?? null
     }
   }
 

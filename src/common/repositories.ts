@@ -10,7 +10,7 @@ export class CuatrenioRepository {
       .selectFrom('legislatura')
       .selectAll()
       .where(
-        'cuatrenioId',
+        'cuatrenio_id',
         '=',
         db.selectFrom('cuatrenio').select('id').where('title', '=', cuatrenioTitle)
       )

@@ -43,7 +43,7 @@ export function getNumeroSenado(rawData: string): {
   const raw = rawData.trim().toLowerCase()
   // Primero se extrae el número identificador del proyecto
   const numeroMatch = raw.match(numeroIdentificadorRegex)
-  const numeroSenado = parseNumeroIdentificadorFromRegex(numeroMatch)
+  const numero_senado = parseNumeroIdentificadorFromRegex(numeroMatch)
 
   // TODO; La lógica de la acumulación de los proyectos no es clara.
   // Es decir el proyecto acumula, o es acumulado.
@@ -61,7 +61,7 @@ export function getNumeroSenado(rawData: string): {
     const rest = substring.matchAll(new RegExp(numeroIdentificadorRegex, 'g'))
     for (const match of rest) {
       try {
-        acumulados.push(parseNumeroIdentificadorFromRegex(match, numeroSenado.year))
+        acumulados.push(parseNumeroIdentificadorFromRegex(match, numero_senado.year))
       } catch (e: any) {
         // Add the fact the error was parsing the acumulados
         throw new ParseError(
@@ -70,7 +70,7 @@ export function getNumeroSenado(rawData: string): {
       }
     }
   }
-  return { numero: numeroSenado, acumulados }
+  return { numero: numero_senado, acumulados }
 }
 
 const meses = new Map<string, number>([

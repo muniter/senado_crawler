@@ -7,9 +7,9 @@ import assert from 'assert'
 import { logger } from '../utils/logger.js'
 
 export type CommonData = {
-  numeroCamara: string
-  numeroSenado: string | null
-  tituloCorto: string
+  numero_camara: string
+  numero_senado: string | null
+  titulo_corto: string
   tipo: string
   autores: string
   estado: string
@@ -23,7 +23,7 @@ export type ListData = CommonData & {
 }
 
 export type DetailData = CommonData & {
-  tituloLargo: string
+  titulo_largo: string
   objeto: string
   contenido?: string
   observaciones?: string
@@ -76,7 +76,7 @@ export async function refreshCuatrenio(cuatrenio: string) {
   const legislaturas = await db
     .selectFrom('legislatura')
     .select('legislatura.title')
-    .leftJoin('cuatrenio', 'cuatrenio.id', 'legislatura.cuatrenioId')
+    .leftJoin('cuatrenio', 'cuatrenio.id', 'legislatura.cuatrenio_id')
     .where('cuatrenio.title', '=', cuatrenio)
     .execute()
 
@@ -94,14 +94,14 @@ export async function refreshCuatrenio(cuatrenio: string) {
 export async function refreshLegislaturaProyectosListData(legislatura: string) {
   const legislaturaData = await db
     .selectFrom('legislatura')
-    .select('camaraId')
+    .select('camara_id')
     .where('title', '=', legislatura)
     .executeTakeFirstOrThrow()
 
   let page = 0
   let proyectos = 0
   while (true) {
-    const url = getPageUrl(legislaturaData.camaraId, page)
+    const url = getPageUrl(legislaturaData.camara_id, page)
     console.info(`Getting page ${page} for legislatura ${legislatura}`)
 
     let data = null
@@ -132,7 +132,7 @@ export async function refreshLegislaturaProyectosDetailData(legislatura: string)
       eb.or([
         eb('estado', 'not in', ['Archivado', 'Retirado']),
         // Makes sure we at least have scrapped the detail data one time.
-        eb('detailDataHash', 'is', null),
+        eb('detail_data_hash', 'is', null),
         eb('url', 'is not', null)
       ])
     )
@@ -143,7 +143,7 @@ export async function refreshLegislaturaProyectosDetailData(legislatura: string)
     queue.add(async () => {
       assert(proyecto.url, 'Proyecto url is null')
       return refreshProyectoDetailData({
-        numeroCamara: proyecto.numeroCamara,
+        numero_camara: proyecto.numero_camara,
         url: proyecto.url
       })
     })
@@ -153,7 +153,7 @@ export async function refreshLegislaturaProyectosDetailData(legislatura: string)
 }
 
 type RefreshProyectoDetailDataOptions = {
-  numeroCamara: string
+  numero_camara: string
   url?: string
 }
 
@@ -166,22 +166,22 @@ async function refreshProyectoDetailData(options: RefreshProyectoDetailDataOptio
     const proyecto = await db
       .selectFrom('camara')
       .selectAll()
-      .where('numeroCamara', '=', options.numeroCamara)
+      .where('numero_camara', '=', options.numero_camara)
       .executeTakeFirstOrThrow()
     if (!proyecto.url) {
-      throw new Error('No url for proyecto ' + options.numeroCamara)
+      throw new Error('No url for proyecto ' + options.numero_camara)
     }
     fetchUrl = proyecto.url
   }
 
-  console.info(`Refreshing detail data for proyecto: ${options.numeroCamara}`)
+  console.info(`Refreshing detail data for proyecto: ${options.numero_camara}`)
   try {
     const raw = await getPageRawData(fetchUrl, 2)
     const data = processDetailPage(raw)
     await storeProyectoDetailData(data)
   } catch (e) {
     console.error(
-      `Error processing detail data for proyecto: ${options.numeroCamara}, url: ${fetchUrl}`,
+      `Error processing detail data for proyecto: ${options.numero_camara}, url: ${fetchUrl}`,
       e
     )
     process.exit(1)
@@ -199,9 +199,9 @@ function hashObject(data: ListData | DetailData) {
 
 function buildUpdateObjectFromListData(data: ListData) {
   return {
-    numeroCamara: data.numeroCamara,
-    numeroSenado: data.numeroSenado,
-    tituloCorto: data.tituloCorto,
+    numero_camara: data.numero_camara,
+    numero_senado: data.numero_senado,
+    titulo_corto: data.titulo_corto,
     tipo: data.tipo,
     autores: data.autores,
     estado: data.estado,
@@ -209,7 +209,7 @@ function buildUpdateObjectFromListData(data: ListData) {
     origen: data.origen,
     legislatura: data.legislatura,
     url: data.url,
-    listDataHash: hashObject(data)
+    list_data_hash: hashObject(data)
   }
 }
 
@@ -219,32 +219,32 @@ async function storeProyectoListData(listData: ListData[]) {
     for (const data of listData) {
       const exists = await trx
         .selectFrom('camara')
-        .select('numeroCamara')
-        .where('numeroCamara', '=', data.numeroCamara)
+        .select('numero_camara')
+        .where('numero_camara', '=', data.numero_camara)
         .executeTakeFirst()
 
       if (!exists) {
-        console.info('Inserting data for', data.numeroCamara)
+        console.info('Inserting data for', data.numero_camara)
         await trx.insertInto('camara').values(buildUpdateObjectFromListData(data)).execute()
       } else {
         const shouldUpdate = await trx
           .selectFrom('camara')
           .selectAll()
-          .where('numeroCamara', '=', data.numeroCamara)
+          .where('numero_camara', '=', data.numero_camara)
           .where((eb) =>
-            eb.or([eb('listDataHash', 'is', null), eb('listDataHash', '!=', hashObject(data))])
+            eb.or([eb('list_data_hash', 'is', null), eb('list_data_hash', '!=', hashObject(data))])
           )
           .executeTakeFirst()
 
         if (shouldUpdate) {
-          console.info('Updating data for', data.numeroCamara)
+          console.info('Updating data for', data.numero_camara)
           await trx
             .updateTable('camara')
             .set(buildUpdateObjectFromListData(data))
-            .where('numeroCamara', '=', data.numeroCamara)
+            .where('numero_camara', '=', data.numero_camara)
             .execute()
         } else {
-          console.info('Skipping data for', data.numeroCamara)
+          console.info('Skipping data for', data.numero_camara)
         }
       }
     }
@@ -255,21 +255,21 @@ async function storeProyectoDetailData(data: DetailData) {
   const updateHash = hashObject(data)
   const shouldUpdate = await db
     .selectFrom('camara')
-    .select('numeroCamara')
-    .where('numeroCamara', '=', data.numeroCamara)
+    .select('numero_camara')
+    .where('numero_camara', '=', data.numero_camara)
     .where((eb) =>
-      eb.or([eb('detailDataHash', 'is', null), eb('detailDataHash', '!=', updateHash)])
+      eb.or([eb('detail_data_hash', 'is', null), eb('detail_data_hash', '!=', updateHash)])
     )
     .executeTakeFirst()
 
   if (shouldUpdate) {
-    console.info(`Storing detail data for ${data.numeroCamara}`)
+    console.info(`Storing detail data for ${data.numero_camara}`)
     await db
       .updateTable('camara')
       .set({
-        numeroSenado: data.numeroSenado,
-        tituloLargo: data.tituloLargo,
-        tituloCorto: data.tituloCorto,
+        numero_senado: data.numero_senado,
+        titulo_largo: data.titulo_largo,
+        titulo_corto: data.titulo_corto,
         tipo: data.tipo,
         autores: data.autores,
         estado: data.estado,
@@ -279,16 +279,16 @@ async function storeProyectoDetailData(data: DetailData) {
         objeto: data.objeto,
         contenido: data.contenido,
         observaciones: data.observaciones,
-        detailDataHash: updateHash
+        detail_data_hash: updateHash
       })
-      .where('numeroCamara', '=', data.numeroCamara)
+      .where('numero_camara', '=', data.numero_camara)
       .execute()
   } else {
-    console.info(`Skipping detail data for ${data.numeroCamara}`)
+    console.info(`Skipping detail data for ${data.numero_camara}`)
   }
 }
 
 // refreshProyectosListData('2020-2021')
 // refreshLegislaturaProyectosDetailData('2020-2021')
-// refreshProyectoDetailData({ numeroCamara: '397/2019C' })
+// refreshProyectoDetailData({ numero_camara: '397/2019C' })
 // getProyectosDetail();

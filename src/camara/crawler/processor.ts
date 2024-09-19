@@ -2,13 +2,13 @@ import { load } from 'cheerio'
 import { buildCamaraUrl, type DetailData, type ListData } from '../index.js'
 import { parseListOfNames } from '../../common/utils.js'
 
-const numeroCamaraRegex = /\d+(\/|-)\d+C?/
-const numeroSenadoRegex = /\d+(\/|-)\d+S?/
+const numero_camaraRegex = /\d+(\/|-)\d+C?/
+const numero_senadoRegex = /\d+(\/|-)\d+S?/
 const autorRegex = /Autor.?.?:?\s/
 const dateRegex = /\d{4}-\d{2}-\d{2}/
 
 function getNumeroCamara(raw: string): string {
-  const matcher = raw.match(numeroCamaraRegex)
+  const matcher = raw.match(numero_camaraRegex)
   if (matcher) {
     let result = matcher[0].trim()
     result = result.replace('-', '/')
@@ -17,12 +17,12 @@ function getNumeroCamara(raw: string): string {
     }
     return result
   } else {
-    throw new Error(`Could not find numeroCamara in: ${raw}`)
+    throw new Error(`Could not find numero_camara in: ${raw}`)
   }
 }
 
 function getNumeroSenado(raw: string): string | null {
-  const matcher = raw.match(numeroSenadoRegex)
+  const matcher = raw.match(numero_senadoRegex)
   if (matcher) {
     let result = matcher[0].trim()
     result = result.replace('-', '/')
@@ -54,9 +54,9 @@ export function processPage(raw: string): ListData[] {
   const rows = $('tbody tr').toArray()
   const data = rows.map((row) => {
     const columns = $(row).find('td').toArray()
-    const numeroCamara = getNumeroCamara($(columns[0]).text().trim())
-    const numeroSenado = getNumeroSenado($(columns[1]).text().trim())
-    const tituloCorto = $(columns[2]).text().trim()
+    const numero_camara = getNumeroCamara($(columns[0]).text().trim())
+    const numero_senado = getNumeroSenado($(columns[1]).text().trim())
+    const titulo_corto = $(columns[2]).text().trim()
     const url = buildCamaraUrl($(columns[2]).find('a').attr('href') ?? '')
     const tipo = $(columns[3]).text().trim()
     const autores = getAutores($(columns[4]).text().trim())
@@ -66,9 +66,9 @@ export function processPage(raw: string): ListData[] {
     const legislatura = getLegislatura($(columns[8]).text())
 
     return {
-      numeroCamara,
-      numeroSenado,
-      tituloCorto,
+      numero_camara,
+      numero_senado,
+      titulo_corto,
       url,
       tipo,
       autores,
@@ -97,14 +97,14 @@ export function processDetailPage(raw: string): DetailData {
     throw new Error('Unexpected number of rows: ' + rows.length)
   }
 
-  const tituloCorto = $('div.titulocomision').text().trim()
+  const titulo_corto = $('div.titulocomision').text().trim()
   const estado = $('div.field--name-field-estadoley').text().trim()
-  const tituloLargo = $(indexOrError(rows, 0)).find('div .title-pr-ley').text().trim()
+  const titulo_largo = $(indexOrError(rows, 0)).find('div .title-pr-ley').text().trim()
   const autores = getAutores($(indexOrError(rows, 1)).text().trim())
   const comision = $(indexOrError(rows, 2)).find('a').text().trim()
 
-  const numeroCamara = getNumeroCamara($(indexOrError(rows, 3)).find('div:nth-child(1)').text())
-  const numeroSenado = getNumeroSenado($(indexOrError(rows, 3)).find('div:nth-child(2)').text())
+  const numero_camara = getNumeroCamara($(indexOrError(rows, 3)).find('div:nth-child(1)').text())
+  const numero_senado = getNumeroSenado($(indexOrError(rows, 3)).find('div:nth-child(2)').text())
 
   const legislatura = getLegislatura(
     $(indexOrError(rows, 4)).find('div:nth-child(1) span.field__item').text()
@@ -127,12 +127,12 @@ export function processDetailPage(raw: string): DetailData {
   const observaciones = $(indexOrError(rows, 7)).find('div:nth-child(2) > p').text().trim()
 
   const result: DetailData = {
-    tituloCorto,
-    tituloLargo,
+    titulo_corto,
+    titulo_largo,
     autores,
     comision,
-    numeroCamara,
-    numeroSenado,
+    numero_camara,
+    numero_senado,
     legislatura,
     origen,
     estado,

@@ -58,17 +58,17 @@ class PalRepository {
     return {
       id_senado: data.id_senado,
       estado: data.estado,
-      estadoAnotacion: data.estadoAnotacion,
+      estado_anotacion: data.estado_anotacion,
       numero: data.numero,
-      numeroCamara: data.numeroCamara,
+      numero_camara: data.numero_camara,
       titulo: data.titulo,
       origen: data.origen,
       url: data.url,
       legislatura: data.legislatura,
       acumulados: JSON.stringify(data.acumulados),
       autores: JSON.stringify(data.autores),
-      fechaDePresentacion: data.fechaDePresentacion?.toISOString().split('T')[0],
-      ponentesPrimerDebate: JSON.stringify(data.ponentesPrimerDebate)
+      fecha_de_presentacion: data.fecha_de_presentacion?.toISOString().split('T')[0],
+      ponentes_primer_debate: JSON.stringify(data.ponentes_primer_debate)
     }
   }
 
