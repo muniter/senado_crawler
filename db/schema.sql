@@ -15,8 +15,8 @@ CREATE TABLE IF NOT EXISTS "Legislatura" (
     "inicio" INTEGER NOT NULL,
     "fin" INTEGER NOT NULL,
     "nombre" TEXT GENERATED ALWAYS AS (FORMAT('%s-%s', inicio, fin)) STORED,
-    "cuatrenioId" INTEGER NOT NULL,
-    CONSTRAINT "Legislatura_cuatrenioId_fkey" FOREIGN KEY ("cuatrenioId") REFERENCES "Cuatrenio" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
+    "cuatrenio_id" INTEGER NOT NULL,
+    CONSTRAINT "Legislatura_cuatrenio_id_fkey" FOREIGN KEY ("cuatrenio_id") REFERENCES "Cuatrenio" ("id") ON DELETE RESTRICT ON UPDATE CASCADE
 );
 CREATE INDEX "Legislatura_inicio_fin_idx" ON "Legislatura"("inicio", "fin");
 CREATE INDEX "Legislatura_title_idx" ON "Legislatura"("title");
@@ -28,8 +28,8 @@ CREATE TABLE IF NOT EXISTS "ProyectoSenado" (
     "titulo" TEXT NOT NULL,
     "comisionId" INTEGER NOT NULL,
     "estado" TEXT,
-    "estadoAnotacion" TEXT,
-    "fechaRadicado" DATETIME NOT NULL,
+    "estado_anotacion" TEXT,
+    "fecha_radicado" DATETIME NOT NULL,
     "legislaturaId" INTEGER NOT NULL,
     "url" TEXT NOT NULL,
     "lastCrawled" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -45,8 +45,8 @@ CREATE TABLE IF NOT EXISTS "ProyectoSenadoDetalles" (
     "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     "proyectoId" INTEGER NOT NULL,
     "origen" TEXT,
-    "tipoLey" TEXT,
-    "fechaEnvioComision" TEXT,
+    "tipo_ley" TEXT,
+    "fecha_envio_comision" TEXT,
     "aprobacionPrimerDebate" DATETIME,
     "aprobacionSegundoDebate" DATETIME,
     "conciliacion" DATETIME,
