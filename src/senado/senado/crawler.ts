@@ -1,4 +1,4 @@
-import { type Cheerio, type CheerioAPI, type Element, load } from 'cheerio'
+import { type Cheerio, type CheerioAPI, load } from 'cheerio'
 import {
   cleanupTitle,
   parseListOfNames,
@@ -8,6 +8,7 @@ import {
 import { Axios } from 'axios'
 import { logger } from '../../utils/logger.js'
 import PQueue from 'p-queue'
+import type { Element } from '../../common/types.js'
 
 export interface ProyectDetailPageData {
   numero: string
@@ -148,7 +149,7 @@ class ProyectoPaListPage {
     for (let i = 0; i < tables.length; i++) {
       const item = tables.eq(i)
       if (item.find('td').length === 3 && item.find('.even, .odd').length === 1) {
-        let parsed = this.parseItem(item)
+        const parsed = this.parseItem(item)
         if (parsed) {
           this.items.push(parsed)
         }

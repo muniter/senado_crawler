@@ -43,7 +43,7 @@ const cuatrenios = {
 async function createCuatrenios() {
   for (const [cuatrenio, data] of Object.entries(cuatrenios)) {
     await db
-      .insertInto('Cuatrenio')
+      .insertInto('cuatrenio')
       .values({
         title: cuatrenio,
         inicio: data.start,
@@ -57,14 +57,14 @@ async function createLegislaturas() {
   for (const [cuatrenio, data] of Object.entries(cuatrenios)) {
     const cuatrenioId = (
       await db
-        .selectFrom('Cuatrenio')
+        .selectFrom('cuatrenio')
         .select('id')
         .where('title', '=', cuatrenio)
         .executeTakeFirstOrThrow()
     ).id
     for (const legislatura of data.legilsaturas) {
       await db
-        .insertInto('Legislatura')
+        .insertInto('legislatura')
         .values({
           title: legislatura.nombre,
           inicio: parseInt(legislatura.nombre.split('-')[0]!!),

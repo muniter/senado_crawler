@@ -1,3 +1,5 @@
+import { load } from 'cheerio'
+
 export interface NumeroIdentificador {
   numero: number
   year: number

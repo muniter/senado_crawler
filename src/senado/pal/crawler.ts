@@ -1,4 +1,4 @@
-import { type Cheerio, type CheerioAPI, type Element, load } from 'cheerio'
+import { type Cheerio, type CheerioAPI, load } from 'cheerio'
 import {
   getNumeroSenado,
   parseTextualDate,
@@ -10,6 +10,7 @@ import { Axios } from 'axios'
 import assert from 'assert'
 import { logger } from '../../utils/logger.js'
 import PQueue from 'p-queue'
+import type { Element } from '../../common/types.js'
 
 type ParsedListItem = {
   id: number

@@ -74,10 +74,10 @@ async function getPageRawData(url: string, attempts = 1): Promise<string> {
 
 export async function refreshCuatrenio(cuatrenio: string) {
   const legislaturas = await db
-    .selectFrom('Legislatura')
-    .select('Legislatura.title')
-    .leftJoin('Cuatrenio', 'Cuatrenio.id', 'Legislatura.cuatrenioId')
-    .where('Cuatrenio.title', '=', cuatrenio)
+    .selectFrom('legislatura')
+    .select('legislatura.title')
+    .leftJoin('cuatrenio', 'cuatrenio.id', 'legislatura.cuatrenioId')
+    .where('cuatrenio.title', '=', cuatrenio)
     .execute()
 
   if (legislaturas.length === 0) {
@@ -93,7 +93,7 @@ export async function refreshCuatrenio(cuatrenio: string) {
 
 export async function refreshLegislaturaProyectosListData(legislatura: string) {
   const legislaturaData = await db
-    .selectFrom('Legislatura')
+    .selectFrom('legislatura')
     .select('camaraId')
     .where('title', '=', legislatura)
     .executeTakeFirstOrThrow()

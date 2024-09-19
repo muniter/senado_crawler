@@ -92,8 +92,8 @@ export interface SenadoPal {
 
 export interface DB {
   camara: Camara
-  Cuatrenio: Cuatrenio
-  Legislatura: Legislatura
+  cuatrenio: Cuatrenio
+  legislatura: Legislatura
   senado: Senado
   senado_pal: SenadoPal
 }

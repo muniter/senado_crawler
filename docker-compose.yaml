@@ -1,0 +1,12 @@
+services:
+  db:
+    image: postgres
+    container_name: utl_pg
+    restart: always
+    volumes:
+      - ${HOME}/data/extra/mira/pg:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: utl
+      POSTGRES_PASSWORD: casa86admin123pg
+    ports:
+      - "15432:5432"
