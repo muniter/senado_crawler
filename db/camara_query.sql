@@ -1,4 +1,4 @@
-SELECT numero_camara AS numeroCamara,
+SELECT numero_camara AS "numeroCamara",
        numero_senado AS "numeroSenado",
        titulo_corto AS "tituloCorto",
        tipo,

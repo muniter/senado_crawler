@@ -2,7 +2,6 @@ import { db } from '../database/index.js'
 import { z } from 'zod'
 import fs from 'fs'
 import * as csv from 'csv'
-import child_process from 'child_process'
 import { Command } from 'commander'
 import { CuatrenioRepository } from '../common/repositories.js'
 import { logger } from './logger.js'
@@ -72,6 +71,19 @@ export async function generateReport(options: Options) {
   process.exit(0)
 }
 
+function formatRow(row: Record<string, any>): Record<string, any> {
+  return Object.fromEntries(
+    Object.entries(row).map(([key, value]) => [
+      key,
+      value instanceof Date ? formatDate(value) : value
+    ])
+  )
+}
+
+function formatDate(date: Date): string {
+  return date.toISOString().split('T')[0]
+}
+
 function renderQueryFile(cuatrenio: string, queryFile: string): string {
   // Prepare query file
   let query = fs.readFileSync(`db/${queryFile}`, 'utf-8')
@@ -91,7 +103,7 @@ async function genCSV(cuatrenio: string, queryFile: string, corporacion: string)
   const stringifier = csv.stringify({ header: true, columns, quoted: true })
   const writeStream = fs.createWriteStream(`output/${title}`)
   result.rows.forEach((row) => {
-    stringifier.write(row)
+    stringifier.write(formatRow(row as any))
   })
   stringifier.pipe(writeStream)
   stringifier.end()
@@ -101,6 +113,7 @@ async function genJSON(cuatrenio: string, queryFile: string, corporacion: string
   const title = `data_${corporacion.toLowerCase()}_${cuatrenio}.json`.replace('senado_', '')
   const query = fs.readFileSync(queryFile, 'utf-8')
   const result = await sql`${sql.raw(query)}`.execute(db)
+  result.rows = result.rows.map((row) => formatRow(row as any))
   fs.writeFileSync(`output/${title}`, JSON.stringify(result.rows, null, 2))
 }
 
