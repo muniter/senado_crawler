@@ -104,7 +104,7 @@ jobs:
 
       - name: Refresh Cuatrenio 2022-2026
         run: |
-          node -- run refresh -- --tipo camara --cuatrenio "2022-2026" --report
+          node --run refresh -- --tipo camara --cuatrenio "2022-2026" --report
 
       - name: Check if there's changes
         id: check-changes-first
