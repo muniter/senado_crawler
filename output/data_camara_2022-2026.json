@@ -19767,7 +19767,7 @@
       "H.R.Olga Beatriz González Correa",
       "H.R.Álvaro Leonel Rueda caballero"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -23407,7 +23407,7 @@
       "H.R.Jhon Fredy Núñez Ramos",
       "H.R.David Alejandro Toro Ramírez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -23426,7 +23426,7 @@
       "H.R.Jhon Fredy Núñez Ramos",
       "H.R.David Alejandro Toro Ramírez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -26632,10 +26632,10 @@
     "tituloCorto": "RESIDENTES",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "H.R.Álvaro Leonel Rueda caballero",
-      "H.R.Héctor David Chaparro Chaparro",
-      "H.R.Julia Miranda Londoño",
-      "H.R.Santiago Osorio Marín"
+      "Álvaro Leonel Rueda caballero",
+      "Héctor David Chaparro Chaparro",
+      "Julia Miranda Londoño",
+      "Santiago Osorio Marín"
     ],
     "estado": "Trámite en Comisión",
     "comision": "Comisión Séptima Constitucional Permanente",
@@ -27695,7 +27695,7 @@
       "H.R.Luis Carlos Ochoa Tobón"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Tercera o de Hacienda y Crédito Público",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -28163,7 +28163,7 @@
       "H.R.Heraclito Landinez Suárez"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -28224,7 +28224,7 @@
       "H.R.Wilmer Yesid Guerrero Avendaño"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -30063,7 +30063,7 @@
       "H.R.Dolcey Oscar Torres Romero"
     ],
     "estado": "Trámite en Comisión",
-    "comision": "",
+    "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
     "legislatura": "2024-2025",
@@ -30383,7 +30383,6 @@
       "H.S.Efraín José Cepeda Sarabia",
       "H.S.Oscar Barreto Quiroga",
       "H.S.Beatriz Lorena Ríos Cuellar",
-      "H.S.Marcos Daniel Pineda García",
       "H.R.Luis Miguel López Aristizábal",
       "H.R.Yenica Sugein Acosta Infante",
       "H.R.Ángela María Vergara González",
@@ -32189,5 +32188,35 @@
     "url": "https://www.camara.gov.co/acceso-a-transporte-fuerza-publica",
     "tituloLargo": "Por medio de la cual se permite el libre acceso del personal uniformado de la Fuerza Pública a todos los sistemas de transporte masivo del país",
     "objeto": "La presente ley tiene por objeto permitir el libre acceso del personal uniformado de la fuerza pública (fuerzas militares y de policía), a todos los sistemas de transporte masivo del país."
+  },
+  {
+    "numeroCamara": "318/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "ESAL",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Edwing Fabián Díaz Plata",
+      "H.R.María del Mar Pizarro García",
+      "H.R.Gloria Liliana Rodríguez Valencia",
+      "H.R.Cristóbal Caicedo Angulo",
+      "H.R.Gabriel Ernesto Parrado Durán",
+      "H.R.Juan Pablo Salazar Rivera",
+      "H.R.María Fernanda Carrascal Rojas",
+      "H.R.Elizabeth Jay-Pang Díaz",
+      "H.R.Flora Perdomo Andrade",
+      "H.R.Karyme Adrana Cotes Martínez",
+      "H.R.Susana Gómez Castaño",
+      "H.R.Ingrid Johana Aguirre Juvinao",
+      "H.R.Pedro José Súarez Vacca",
+      "H.R.Mary Anne Andrea Perdomo"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/esal",
+    "tituloLargo": "Por la cual se reglamenta la constitución, el funcionamiento y la supervisión de las asociaciones o corporaciones y fundaciones o instituciones de utilidad común (Entidades Sin Ánimo de Lucro “ESAL”) en Colombia",
+    "objeto": "La presente Ley tiene por objeto brindar una normatividad especial, clara y unificada para las entidades sin ánimo de lucro en la modalidad de asociaciones o corporaciones y fundaciones o instituciones de utilidad común (Entidades Sin Ánimo de Lucro “ESAL”) que hacen parte del régimen general, con el fin de generar seguridad jurídica y transparencia."
   }
 ]
