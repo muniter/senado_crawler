@@ -26634,7 +26634,8 @@
     "autores": [
       "H.R.Álvaro Leonel Rueda caballero",
       "H.R.Héctor David Chaparro Chaparro",
-      "H.R.Julia Miranda Londoño"
+      "H.R.Julia Miranda Londoño",
+      "H.R.Santiago Osorio Marín"
     ],
     "estado": "Trámite en Comisión",
     "comision": "Comisión Séptima Constitucional Permanente",
@@ -32082,5 +32083,111 @@
     "url": "https://www.camara.gov.co/eliminacion-contralorias-territoriales-0",
     "tituloLargo": "Por medio del cual se eliminan las contralorías territoriales",
     "objeto": ""
+  },
+  {
+    "numeroCamara": "323/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "CERO ARANCELES",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Ingrid Johana Aguirre Juvinao"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/cero-aranceles",
+    "tituloLargo": "Por medio de la cual se adiciona dos parágrafos al artículo 147 de la Ley 142 de 1994",
+    "objeto": "La presente Ley tiene por objeto adicionar dos parágrafos al artículo 147 de la Ley 142 de 1994 y eliminar las posibilidad de cobrar tasas, impuestos o cualquier otra contribución en la factura del servicio de energía como hecho generador del tributo."
+  },
+  {
+    "numeroCamara": "317/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "ALIMENTACIÓN SALUDABLE",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Álvaro Leonel Rueda caballero"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/alimentacion-saludable",
+    "tituloLargo": "Por medio del cual se dictan disposiciones en materia de contratación estatal para la alimentación saludable en las Instituciones Educativas Oficiales y Centro Educativos Oficiales, y se dictan otras disposiciones",
+    "objeto": "La presente Ley tiene por objeto establecer normas y procedimientos claros para la contratación estatal para la alimentación saludable en las Instituciones Educativas Oficiales -IEO- y Centros Educativos Oficiales -CEO-, en desarrollo de la Ley 2120 de 2021, con el fin de garantizar la materialización del principio de responsabilidad previsto en el numeral 1 del artículo 26 de la Ley 80 de 1993, en concordancia con los dispuesto en el artículo 44 de la Constitución Política."
+  },
+  {
+    "numeroCamara": "316/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "BICENTENARIO DE PALMIRA",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Julián David López Tenorio",
+      "H.R.Duvalier Sánchez Arango",
+      "H.R.Hernando González",
+      "H.R.Gildardo Silva Molina",
+      "H.R.Cristóbal Caicedo Angulo"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/bicentenario-de-palmira",
+    "tituloLargo": "Por medio del cual la Nación y el Congreso de la República se asocian para conmemorar y rendir homenaje a los 200 años de reconocimiento de Palmira como municipio de Colombia y se dictan otras disposiciones – Ley Bicentenario de Palmira",
+    "objeto": "La presente ley tiene por objeto asociar a la Nación y al Congreso de la República para conmemorar los 200 años de reconocimiento de Palmira como municipio de Colombia, y que se rinda homenaje público a la “Capital agrícola de Colombia” por medio de distintos reconocimientos de carácter histórico, material, cultural, social y ambiental; como contribución a sus habitantes y a su valioso legado para el fortalecimiento económico, social y democrático del departamento del Valle del Cauca y del Estado colombiano."
+  },
+  {
+    "numeroCamara": "315/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "FESTIVAL DE LUCES DE GUATEQUE",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Héctor David Chaparro Chaparro"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/festival-de-luces-de-guateque",
+    "tituloLargo": "Por la cual se declara como patrimonio cultural de la nación el “festival pirotecnico, artístico y cultural” o “festival de luces” de guateque en el departamento de boyacá",
+    "objeto": "Declárese como Patrimonio Cultural de la Nación el “Festival Pirotécnico, Artístico y Cultural” también conocido como “Festival de Luces”, que se celebra anualmente en el municipio de Guateque en el Departamento de Boyacá."
+  },
+  {
+    "numeroCamara": "314/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "ACOSO SEXUAL DIGITAL",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Miguel Uribe Turbay"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/acoso-sexual-digital",
+    "tituloLargo": "Por medio de la cual se adoptan medidas de prevención, protección y sanción del acoso sexual digital y se dictan otras disposiciones",
+    "objeto": "La presente ley tiene por objeto prevenir, proteger y sancionar el acoso sexual digital."
+  },
+  {
+    "numeroCamara": "313/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "ACCESO A TRANSPORTE FUERZA PÚBLICA",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.S.Miguel Uribe Turbay"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/acceso-a-transporte-fuerza-publica",
+    "tituloLargo": "Por medio de la cual se permite el libre acceso del personal uniformado de la Fuerza Pública a todos los sistemas de transporte masivo del país",
+    "objeto": "La presente ley tiene por objeto permitir el libre acceso del personal uniformado de la fuerza pública (fuerzas militares y de policía), a todos los sistemas de transporte masivo del país."
   }
 ]
