@@ -3,7 +3,7 @@
     "numero": "017/24PAL",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 107, 108 Y 262 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
-    "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+    "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-09-18",
@@ -59,7 +59,7 @@
     "numero": "016/24PAL",
     "numeroCamara": null,
     "titulo": "POR EL CUAL SE MODIFICA EL ARTÍCULO 112 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA",
-    "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+    "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-09-18",
@@ -203,7 +203,7 @@
     "numero": "012/24PAL",
     "numeroCamara": null,
     "titulo": "POR MEDIO DE LA CUAL SE OTORGA LA CALIDAD DE DISTRITO ESPECIAL DE CONSERVACIÓN AMBIENTAL, TURISMO DE NATURALEZA Y PAZ A FLORENCIA, CAQUETÁ, Y SE DICTAN OTRAS DISPOSICIONES",
-    "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+    "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-08-27",
@@ -247,13 +247,15 @@
       "VICTOR SALCEDO GUERRERO",
       "LILIANA RODRÍGUEZ y otras firmas ilegibles."
     ],
-    "ponentesPrimerDebate": []
+    "ponentesPrimerDebate": [
+      "S. Ariel Avila Martínez"
+    ]
   },
   {
     "numero": "011/24PAL",
     "numeroCamara": null,
     "titulo": "POR MEDIO DEL CUAL SE MODIFICA EL ARTÍCULO 11 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA Y SE DICTAN OTRAS DISPOSICIONES –ESTOY VIVO DESDE LA CONCEPCIÓN",
-    "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
+    "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-08-21",
@@ -290,7 +292,7 @@
     "numero": "010/24PAL",
     "numeroCamara": null,
     "titulo": "POR MEDIO DE LA CUAL SE MODIFICA EL ARTÍCULO 171 DE LA CONSTITUCIÓN POLÍTICA DE COLOMBIA CON EL FIN DE CREAR LA CIRCUNSCRIPCIÓN NACIONAL ESPECIAL PARA COMUNIDADES Y PUEBLOS AFROCOLOMBIANOS EN EL SENADO DE LA REPÚBLICA",
-    "estado": "PENDIENTE DESIGNAR PONENTES EN SENADO",
+    "estado": "PENDIENTE RENDIR PONENCIA PARA PRIMER DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-08-21",
@@ -333,13 +335,15 @@
       "JOHN JAIRO GONZÁLEZ",
       "DAVID ALEJANDRO TORO y otras firmas ilegibles."
     ],
-    "ponentesPrimerDebate": []
+    "ponentesPrimerDebate": [
+      "S. Carlos Alberto Benavides Mora"
+    ]
   },
   {
     "numero": "009/24PAL",
     "numeroCamara": null,
     "titulo": "POR EL CUAL SE PROMUEVE LA PARTICIPACIÓN POLÍTICA DE PERSONAS CON DISCAPACIDAD A TRAVÉS DE LA CREACIÓN DE LA CIRCUNSCRIPCIÓN ESPECIAL DE PERSONAS CON DISCAPACIDAD EN LA CÁMARA DE REPRESENTANTES",
-    "estado": "PENDIENTE DISCUTIR PONENCIA PARA PRIMER DEBATE EN SENADO",
+    "estado": "PENDIENTE RENDIR PONENCIA PARA SEGUNDO DEBATE EN SENADO",
     "estadoAnotacion": "",
     "comision": "PRIMERA",
     "fechaDePresentacion": "2024-08-14",
