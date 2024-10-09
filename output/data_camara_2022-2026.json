@@ -4770,7 +4770,7 @@
       "H.R.Haiver Rincón Gutiérrez",
       "H.R.Gabriel Becerra Yañez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Archivado",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -12400,7 +12400,7 @@
       "H.R.Luis David Súarez Chadid",
       "H.R.Juan Loreto Gómez Soto"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -15875,7 +15875,7 @@
       "H.R.Jorge Eliécer Tamayo Marulanda",
       "H.R.Luis Eduardo Díaz Mateus"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -16557,7 +16557,7 @@
       "H.R.Juan Fernando Espinal Ramírez",
       "H.R.Yulieth Andrea Sánchez Carreño"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -19737,7 +19737,7 @@
       "H.R.Daniel Carvalho Mejía",
       "H.R.Álvaro Leonel Rueda caballero"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -20295,49 +20295,42 @@
   },
   {
     "numeroCamara": "364/2024C",
-    "numeroSenado": "276/2023S",
-    "tituloCorto": "PROTOCOLO CONTRA LA TORTURA",
+    "numeroSenado": null,
+    "tituloCorto": "PDET Y ZOMAC CAUCA",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "Ministro de Relaciones Exteriores - Álvaro Leyva Duran"
+      "H.S.Ferney Siva Idrobo",
+      "H.S.Paulino Riascos Riascos",
+      "H.S.Aída Marina Quilcué Vivas",
+      "H.R.Oscar Rodrigo Campo Hurtado",
+      "H.R.Orlando Castillo Advincula",
+      "H.R.Ermes Evelio Pete Vivas"
     ],
-    "estado": "Sancion Presidencial",
-    "comision": "Comisión Segunda o de Relaciones Internacionales",
-    "origen": "Senado",
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
     "cuatrenio": "2022-2026",
-    "legislatura": "2023-2024",
-    "url": "https://www.camara.gov.co/protocolo-contra-la-tortura",
-    "tituloLargo": "POR MEDIO DEL CUAL SE APRUEBA EL «PROTOCOLO FACULTATIVO DE LA CONVENCION CONTRA LA TORTURA Y OTROS TRATOS O PENAS CRUELES, INHUMANOS O DEGRADANTES», ADOPTADO EN NUEVA YORK, EL 18 DE DICIEMBRE DE 2002, MEDIANTE RESOLUCION A/RES/57/199 DE LA ASAMBLEA GENERAL DE LAS NACIONES UNIDAS.",
-    "objeto": "Establecer un sistema de visitas periódicas a cargo de órganos internacionales y naciones independientes a los lugares en que se encuentren personas privadas de su libertad, con el fin de prevenir la tortura y otros tratos o penas crueles, inhumanos o degradantes."
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/pdet-y-zomac-cauca",
+    "tituloLargo": "Por medio de la cual se incluye a los Municipios PDET y ZOMAC del departamento del Cauca, en el régimen de tributación especial de la zona económica y social especial (ZESE), se promueve el encadenamiento y la infraestructura productiva y se dictan otras disposiciones",
+    "objeto": "El proyecto tiene por objeto extender el ámbito de aplicación de la figura contemplada en el artículo 268 de la Ley 1955 de 2019 (Zona Económica y Social Especial -ZESE) a Municipios PEDET y ZOMAC departamento del Cauca, promueve la contratación del empleo nuevo, la implementación de infraestructura productiva, el desarrollo productivo en alianza con sectores campesinos y populares y faculta al Gobierno para la respectiva reglamentación."
   },
   {
     "numeroCamara": "363/2024C",
-    "numeroSenado": "294/2023S",
-    "tituloCorto": "ONE HEALTH",
+    "numeroSenado": null,
+    "tituloCorto": "CAUCHO NATURAL",
     "tipo": "Ley Ordinaria",
     "autores": [
-      "H.S.Marcos Daniel Pineda García",
-      "H.S.Germán Alcides Blanco Álvarez",
-      "H.S.Nicolás Albeiro Echeverri Alvarán",
-      "H.S.Nadya Georgette Blel Scaf",
-      "H.S.Liliana Esther Bitar Castilla",
-      "H.S.Diela Liliana Solarte Benavides",
-      "H.S.José Alfredo Marín Lozano",
-      "H.S.Juan Samy Merheg Marun",
-      "H.S.Oscar Barreto Quiroga",
-      "H.R.Wadith Alberto Manzur Imbett",
-      "H.R.Julio Roberto Salazar Pérdomo",
-      "H.R.Nicolás Antonio Barguil Cubillos",
       "H.R.Héctor Mauricio Cuéllar Pinzón"
     ],
-    "estado": "Archivado",
-    "comision": "Comisión Quinta Constitucional Permanente",
-    "origen": "Senado",
+    "estado": "Trámite en Comisión",
+    "comision": "",
+    "origen": "Cámara",
     "cuatrenio": "2022-2026",
-    "legislatura": "2023-2024",
-    "url": "https://www.camara.gov.co/one-health",
-    "tituloLargo": "POR MEDIO DE LA CUAL SE INCORPORA EL ENFOQUE UNA SOLA SALUD (ONE HEALTH), EN LAS POLÍTICAS PÚBLICAS Y DEMAS INSTRUMENTOS NORMATIVOS RELACIONADOS CON LA PROTECCIÓN DEL AMBIENTE, EL BIENESTAR ANIMAL Y LA SALUD",
-    "objeto": "Incorporar el concepto de una sola salud (One Health) al bienestar animal, protección del medio ambiente y salud pública y establecer los lineamientos para la formulación de la política pública de Una Sola Salud (One Health)"
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/caucho-natural",
+    "tituloLargo": "Por medio de la cual se exalta el cultivo, producción y procesamiento del caucho natural, se reconoce al municipio de El Doncello Caquetá como \ncuna del caucho natural en Colombia y se promueve el festival de la danza de la labor cauchera",
+    "objeto": "Exaltar y proteger el legado y las prácticas asociadas con la industria del caucho natural en Colombia, asegurando que estas tradiciones perduren y sean valoradas por las generaciones futuras. Al declarar esta industria como patrimonio cultural, no solo se busca preservar su rica historia y las técnicas heredadas a lo largo de los años, sino también fomentar un mayor aprecio y respeto por los trabajadores y comunidades que dependen de esta actividad para su sustento."
   },
   {
     "numeroCamara": "362/2024C",
@@ -21867,7 +21860,7 @@
       "H.R.Mary Anne Andrea Perdomo",
       "H.R.Ermes Evelio Pete Vivas"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Quinta Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -22411,7 +22404,7 @@
       "H.S.Carlos Eduardo Guevara villabón",
       "H.R.Irma Luz Herrera Rodríguez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Séptima Constitucional Permanente",
     "origen": "Senado",
     "cuatrenio": "2022-2026",
@@ -23229,7 +23222,7 @@
       "H.R.Erika Tatiana Sánchez Pinto",
       "H.R.Luz Ayda Pastrana Loaiza"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -23417,7 +23410,7 @@
     "autores": [
       "H.R.Carolina Giraldo Botero"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -23876,7 +23869,7 @@
       "H.R.Erick Adrián Velasco Burbano",
       "H.R.Jhon Fredi Valencia Caicedo"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -24258,7 +24251,7 @@
       "H.R.Modesto Enrique Aguilera Vides",
       "H.R.Gilma Díaz Arias"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -24728,7 +24721,7 @@
       "H.R.Kelyn Johana González Duarte",
       "H.R.Gilma Díaz Arias"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -26402,7 +26395,7 @@
     "autores": [
       "H.R.Wilmer Yair Castellanos Hernández"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -26440,7 +26433,7 @@
       "H.R.José Eliécer Salazar López",
       "H.R.David Alejandro Toro Ramírez"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -26484,7 +26477,7 @@
       "H.R.Luis David Súarez Chadid",
       "H.R.Juan Loreto Gómez Soto"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -26529,7 +26522,7 @@
       "H.R.Héctor David Chaparro Chaparro",
       "H.R.Gersel Luis Pérez Altamiranda"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -27393,7 +27386,7 @@
       "H.R.Leider Alexandra Vásquez Ochoa",
       "H.R.Gabriel Ernesto Parrado Durán"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -28354,7 +28347,7 @@
       "H.R.Luis Alberto Albán Urbano",
       "H.R.Gerson Lisímaco Montaño Arizala"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Primera Constitucional Permanente",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -29440,7 +29433,7 @@
       "H.R.David Alejandro Toro Ramírez",
       "H.R.John Jairo González Agudelo"
     ],
-    "estado": "Trámite en Comisión",
+    "estado": "Trámite en Plenaria",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
