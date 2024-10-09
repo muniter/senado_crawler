@@ -17438,7 +17438,7 @@
   },
   {
     "numeroCamara": "089/2023C",
-    "numeroSenado": null,
+    "numeroSenado": "230/2024S",
     "tituloCorto": "32 AÑOS DEL DEPARTAMENTO DEL GUAINIA",
     "tipo": "Ley Ordinaria",
     "autores": [
@@ -17448,7 +17448,7 @@
       "H.R.Hernando Guida Ponce",
       "H.R.Jorge Eliécer Tamayo Marulanda"
     ],
-    "estado": "Trámite conciliación",
+    "estado": "Sancion Presidencial",
     "comision": "Comisión Segunda o de Relaciones Internacionales",
     "origen": "Cámara",
     "cuatrenio": "2022-2026",
@@ -32689,5 +32689,22 @@
     "url": "https://www.camara.gov.co/guardaparques",
     "tituloLargo": "Por medio de la cual se crea un sistema específico de carrera administrativa para el cuerpo de guardaparques de Parques Nacionales Naturales de Colombia, fortaleciendo la conservación efectiva de las áreas protegidas a cargo de la entidad y se dictan otras disposiciones",
     "objeto": "La presente ley tiene por objeto establecer el sistema específico de carrera administrativa para el personal de guardaparques en áreas protegidas al servicio de la Unidad Administrativa Especial denominada Parques Nacionales Naturales de Colombia -en adelante, PNNC-."
+  },
+  {
+    "numeroCamara": "287/2024C",
+    "numeroSenado": null,
+    "tituloCorto": "ESCUELAS DE PADRES",
+    "tipo": "Ley Ordinaria",
+    "autores": [
+      "H.R.Jorge Alexander Quevedo Herrera"
+    ],
+    "estado": "Trámite en Comisión",
+    "comision": "Comisión Sexta o de Transportes y Comunicaciones",
+    "origen": "Cámara",
+    "cuatrenio": "2022-2026",
+    "legislatura": "2024-2025",
+    "url": "https://www.camara.gov.co/escuelas-de-padres",
+    "tituloLargo": "Por medio del cual se modifica la Ley 1620 del año 2013, se incluye la educación en valores cívicos y ciudadanos, se establecen medidas para el seguimiento de la implementación de las escuelas de padres y se dictan otras disposiciones",
+    "objeto": "La presente iniciativa legislativa, tiene por objeto modificar la Ley 1620 del año 2013 sobre Sistema Nacional de Convivencia Escolar, lo anterior en aras de incluir dentro de sus disposiciones normativas lo relativo a la implementación de las Escuelas de Padres en las Instituciones Educativas oficiales y privadas del país, así como la educación en valores cívicos y ciudadanos; de igual forma busca establecer mecanismos para realizar un adecuado seguimiento a la puesta en marcha de las escuelas de padres. Lo anterior nos permitiría armonizar este instrumento legal de gran relevancia en el campo educativo colombiano, con lo establecido por la Ley 2025 del año 2020 sobre Escuela de Padres."
   }
 ]
