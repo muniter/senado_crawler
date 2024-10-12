@@ -3425,13 +3425,13 @@
   {
     "numero": "N 252/24",
     "numeroCamara": null,
-    "titulo": "",
+    "titulo": "POR MEDIO DE LA CUAL SE REGLAMENTA LA PROFESIÓN DE INGENIERÍA AGROPECUARIA Y SE DICTAN OTRAS DISPOSICIONES",
     "estado": "PENDIENTE DE ENVIAR A COMISIÓN EN SENADO",
     "estadoAnotacion": "",
-    "comision": "NO ASIGNADA",
+    "comision": "SEXTA",
     "fechaRadicado": "2024-09-24",
     "legislatura": "2024-2025",
-    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2024-2025/article/253-",
+    "url": "http://leyes.senado.gov.co/proyectos/index.php/proyectos-ley/cuatrenio-2022-2026/2024-2025/article/253-por-medio-de-la-cual-se-reglamenta-la-profesion-de-ingenieria-agropecuaria-y-se-dictan-otras-disposiciones",
     "origen": "SENADO DE LA REPUBLICA",
     "tipoLey": "",
     "fechaEnvioComision": null,
@@ -3439,7 +3439,10 @@
     "fechaAprobacionPrimerDebate": null,
     "fechaAprobacionSegundoDebate": null,
     "fechaConciliacion": null,
-    "autores": [],
+    "autores": [
+      "H.S. NICOLAS ALBEIRO ECHEVERRY ALVARÁN",
+      "H.R. ANDRÉS FELIPE JIMÉNEZ VARGAS."
+    ],
     "exposicionMotivos": null,
     "primeraPonencia": null,
     "segundaPonencia": null,
